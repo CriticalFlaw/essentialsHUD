@@ -29,16 +29,16 @@ Scheme
 			"font"	"resource/TF2Build.ttf"
 			"name"	"TF2 Build"
 		}
-		"7" "resource/ocra.ttf"
+		"7"
+		{
+			"font"	"resource/fonts/Roboto-BoldCondensed.ttf"
+			"name"	"Roboto Bold Condensed"
+		}
 		"8"
 		{
-			"font"	"resource/fonts/robotoBold.ttf"
-			"name"	"robotoBold"
+			"font"	"resource/fonts/Roboto-Condensed.ttf"
+			"name"	"Roboto Condensed"
 		}
-		"9"
-		{
-			"font"	"resource/fonts/robotoReg.ttf"
-			"name"	"robotoReg"
-		}
+		"9" "resource/ocra.ttf"
 	}
 }
