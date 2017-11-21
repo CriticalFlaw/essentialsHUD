@@ -460,7 +460,6 @@ Scheme
 			{
 				"name"		"Roboto Condensed"
 				"tall"		"24"
-				"tall_lodef"	"80"
 				"weight"	"500"
 				"additive"	"0"
 				"antialias" "1"
@@ -470,7 +469,6 @@ Scheme
 			{
 				"name"		"Roboto Condensed"
 				"tall"		"32"
-				"tall_hidef"	"120"
 				"weight"	"500"
 				"additive"	"0"
 				"antialias" "1"
@@ -510,7 +508,6 @@ Scheme
 			{
 				"name"		"Roboto Bold Condensed"
 				"tall"		"44"
-				"tall_lodef"	"52"
 				"weight"	"500"
 				"additive"	"0"
 				"antialias" "1"
@@ -523,7 +520,6 @@ Scheme
 			{
 				"name"		"Roboto Bold Condensed"
 				"tall"		"35"
-				"tall_lodef"	"40"
 				"weight"	"500"
 				"additive"	"0"
 				"antialias" "1"
@@ -536,7 +532,6 @@ Scheme
 			{
 				"name"		"Roboto Condensed"
 				"tall"		"36"
-				"tall_hidef"	"48"
 				"weight"	"500"
 				"additive"	"0"
 				"antialias" "1"
@@ -570,7 +565,6 @@ Scheme
 			{
 				"name"		"Roboto Condensed"
 				"tall"		"24"
-				"tall_lodef"		"28"
 				"weight"	"500"
 				"additive"	"0"
 				"antialias" "1"
@@ -615,8 +609,6 @@ Scheme
 			{
 				"name"		"Roboto Condensed"
 				"tall"		"18"
-				"tall_hidef"	"24"
-				"tall_lodef"	"18"
 				"weight"	"500"
 				"additive"	"0"
 				"antialias" "1"
@@ -628,8 +620,6 @@ Scheme
 			{
 				"name"		"Roboto Condensed"
 				"tall"		"18"
-				"tall_hidef"	"24"
-				"tall_lodef"	"20"
 				"weight"	"500"
 				"additive"	"0"
 				"antialias" "1"
@@ -641,7 +631,6 @@ Scheme
 			{
 				"name"		"Roboto Condensed"
 				"tall"		"14"
-				"tall_lodef"	"16"
 				"weight"	"500"
 				"additive"	"0"
 				"antialias" 	"1"
@@ -787,8 +776,6 @@ Scheme
 			{
 				"name"		"Roboto Condensed"
 				"tall"		"12"
-				"tall_hidef"	"14"
-				"tall_lodef"	"16"
 				"weight"	"400"
 				"additive"	"0"
 				"antialias" "1"
@@ -812,9 +799,7 @@ Scheme
 				"bitmap"	"1"
 				"name"		"Buttons"
 				"scalex"	"0.5"
-				"scalex_lodef"		"0.75"
 				"scaley"	"0.5"
-				"scaley_lodef"		"0.75"
 			}
 		}
 		GameUIButtonsSmall
@@ -844,9 +829,7 @@ Scheme
 				"bitmap"	"1"
 				"name"		"ButtonsSC"
 				"scalex"	"0.5"
-				"scalex_lodef"		"0.75"
 				"scaley"	"0.5"
-				"scaley_lodef"		"0.75"
 			}
 		}
 		GameUIButtonsSteamControllerSmall
@@ -875,8 +858,6 @@ Scheme
 			{
 				"name"		"Roboto Condensed"
 				"tall"		"18"
-				"tall_hidef"	"24"
-				"tall_lodef"	"18"
 				"weight"	"500"
 				"additive"	"0"
 				"antialias" "1"
@@ -888,8 +869,6 @@ Scheme
 			{
 				"name"		"Roboto Condensed"
 				"tall"		"16"
-				"tall_hidef"	"22"
-				"tall_lodef"	"22"
 				"weight"	"500"
 				"additive"	"0"
 				"antialias" "1"
@@ -923,8 +902,6 @@ Scheme
 			{
 				"name"		"Roboto Condensed"
 				"tall"		"8"
-				"tall_hidef"	"9"
-				"tall_lodef"	"10"
 				"weight"	"500"
 				"additive"	"0"
 				"antialias" "1"
@@ -936,7 +913,6 @@ Scheme
 			{
 				"name"		"Roboto Condensed"
 				"tall"		"8"
-				"tall_hidef"	"7"
 				"weight"	"500"
 				"additive"	"0"
 				"antialias" "1"
@@ -1072,7 +1048,6 @@ Scheme
 			{
 				"name"		"Roboto Condensed"
 				"tall"		"24"
-				"tall_hidef"	"32"
 				"antialias" "1"
 				"weight"	"500"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
@@ -1084,7 +1059,6 @@ Scheme
 			{
 				"name"		"Roboto Condensed"
 				"tall"		"24"
-				"tall_hidef"	"32"
 				"antialias" "1"
 				"weight"	"500"
 				"italic"	"1"
@@ -1097,7 +1071,6 @@ Scheme
 			{
 				"name"		"Roboto Condensed"
 				"tall"		"24"
-				"tall_hidef"	"32"
 				"antialias" "1"
 				"weight"	"900"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
@@ -1109,7 +1082,6 @@ Scheme
 			{
 				"name"		"Roboto Condensed"
 				"tall"		"24"
-				"tall_hidef"	"32"
 				"antialias" "1"
 				"weight"	"900"
 				"italic"	"1"
@@ -1122,7 +1094,6 @@ Scheme
 			{
 				"name"		"Roboto Condensed"
 				"tall"		"16"
-				"tall_hidef"	"24"
 				"antialias" "1"
 				"weight"	"900"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
@@ -1168,7 +1139,6 @@ Scheme
 			{
 				"name"		"Roboto Condensed"
 				"tall"		"11"
-				"tall_lodef"	"14"
 				"antialias" "1"
 				"weight"	"500"
 			}
@@ -1190,8 +1160,6 @@ Scheme
 			{
 				"name"		"Verdana"
 				"tall"		"13"
-				"tall_hidef"	"14"
-				"tall_lodef"	"17"
 				"weight"	"800"
 				"additive"	"0"
 				"antialias" 	"1"
@@ -1204,13 +1172,9 @@ Scheme
 			{
 				"name"			"TF2 Professor"
 				"tall"			"28"
-				"tall_lodef"	"48"
-				"tall_hidef"	"48"
 				"antialias"		"1" 
 				"custom"		"1" [$OSX]
 				"weight"		"500"
-				"weight_lodef"	"800"
-				"weight_hidef"	"1000"
 			}
 		}
 		"ChalkboardTitleBig"
@@ -1219,13 +1183,9 @@ Scheme
 			{
 				"name"			"TF2 Professor"
 				"tall"			"40"
-				"tall_lodef"	"48"
-				"tall_hidef"	"48"
 				"antialias"		"1"
 				"custom"		"1" [$OSX]
 				"weight"		"500"
-				"weight_lodef"	"800"
-				"weight_hidef"	"1000"
 			}
 		}
 		"ChalkboardTitleMedium"
@@ -1234,8 +1194,6 @@ Scheme
 			{
 				"name"		"TF2 Professor"
 				"tall"		"24"
-				"tall_lodef"	"36"
-				"tall_hidef"	"36"
 				"antialias" "1"
 				"custom"		"1" [$OSX]
 				"weight"	"500"
@@ -1248,8 +1206,6 @@ Scheme
 				"name"			"TF2 Professor"
 				"tall"			"14" [!$OSX]
 				"tall"			"15" [$OSX]
-				"tall_lodef"	"32"
-				"tall_hidef"	"32"
 				"antialias"		"1"
 				"custom"		"1" [$OSX]
 				"weight"		"500"
@@ -1272,8 +1228,6 @@ Scheme
 			{
 				"name"		"Roboto Condensed"
 				"tall"		"8"
-				"tall_hidef"	"10"
-				"tall_lodef"	"14"
 				"weight"	"400"
 				"additive"	"0"
 				"antialias" "1"
@@ -1285,8 +1239,6 @@ Scheme
 			{
 				"name"		"Roboto Condensed"
 				"tall"		"10"
-				"tall_hidef"	"12"
-				"tall_lodef"	"14"
 				"weight"	"400"
 				"additive"	"0"
 				"antialias" "1"
@@ -1322,8 +1274,6 @@ Scheme
 			{
 				"name"		"Roboto Condensed"
 				"tall"		"20"
-				"tall_hidef"	"24"
-				"tall_lodef"	"24"
 				"weight"	"500"
 				"range"		"0x0000 0x007F"	//	Basic Latin
 				"antialias" "1"
@@ -1360,8 +1310,6 @@ Scheme
 			{
 				"name"		"Roboto Condensed"
 				"tall"		"34"
-				"tall_hidef"	"38"
-				"tall_lodef"	"38"
 				"weight"	"500"
 				"range"		"0x0000 0x007F"	//	Basic Latin
 				"antialias" "1"
@@ -1375,7 +1323,6 @@ Scheme
 			{
 				"name"		"Roboto Condensed"
 				"tall"		"36"
-				"tall_hidef"	"48"
 				"weight"	"500"
 				"additive"	"0"
 				"antialias" "1"
@@ -1387,7 +1334,6 @@ Scheme
 			{
 				"name"		"Roboto Condensed"
 				"tall"		"52"
-				"tall_lodef"		"80"
 				"range" 	"0x0000 0x00FF"
 				"weight"	"400"
 				"yres"		"1 599"
@@ -1397,7 +1343,6 @@ Scheme
 			{
 				"name"		"Roboto Condensed"
 				"tall"		"72"
-				"tall_hidef"	"120"
 				"range" 	"0x0000 0x00FF"
 				"weight"	"400"
 				"yres"		"600 767"
@@ -1505,8 +1450,6 @@ Scheme
 			{
 				"name"		"Roboto Condensed"
 				"tall"		"10"
-				"tall_hidef"	"12"
-				"tall_lodef"	"14"
 				"weight"	"400"
 				"additive"	"0"
 				"antialias" "1"
@@ -1649,7 +1592,6 @@ Scheme
 			{
 				"name"			"Arial Black"
 				"tall"			"8"
-				"tall_lodef"	"12"
 				"range" 		"0x0000 0x00FF"
 				"weight"		"300"
 				"antialias"		"1"
@@ -1662,10 +1604,8 @@ Scheme
 			{
 				"name"		"Roboto Condensed"
 				"tall"		"14"
-				"tall_lodef"	"18"
 				"range" 		"0x0000 0x00FF"
 				"weight"		"300"
-				"weight_lodef"	"600"
 				"antialias"		"1"
 			}
 		}			
@@ -1700,8 +1640,6 @@ Scheme
 			{
 				"name"		"Roboto Condensed"
 				"tall"		"8"
-				"tall_hidef"	"10"
-				"tall_lodef"	"12"
 				"weight"	"0"
 				"additive"	"1"
 				"antialias" 	"1"
@@ -1713,8 +1651,6 @@ Scheme
 			{
 				"name"		"Roboto Condensed"
 				"tall"		"9"
-				"tall_hidef"	"10"
-				"tall_lodef"	"16"
 				"weight"	"400"
 				"additive"	"0"
 				"antialias" 	"1"
@@ -1740,7 +1676,6 @@ Scheme
 			{
 				"name"		"Roboto Bold Condensed"
 				"tall"		"36"
-				"tall_lodef"		"28"
 				"weight"	"500"
 			}
 		}
@@ -1750,7 +1685,6 @@ Scheme
 			{
 				"name"		"Roboto Bold Condensed"
 				"tall"		"30"
-				"tall_lodef"		"22"
 				"weight"	"500"
 			}
 		}
@@ -1760,7 +1694,6 @@ Scheme
 			{
 				"name"		"Roboto Condensed"
 				"tall"		"28"
-				"tall_lodef"	"24"
 				"weight"	"500"
 			}
 		}
@@ -1806,7 +1739,6 @@ Scheme
 			{
 				"name"		"Roboto Condensed"
 				"tall"		"22"
-				"tall_lodef"		"18"
 				"weight"	"900"
 			}
 		}
@@ -1816,7 +1748,6 @@ Scheme
 			{
 				"name"		"Roboto Condensed"
 				"tall"		"18"
-				"tall_lodef"		"18"
 				"weight"	"900"
 			}
 		}
@@ -2521,8 +2452,6 @@ Scheme
 			{
 				"name"		"Roboto Condensed"
 				"tall"		"18"
-				"tall_hidef"	"24"
-				"tall_lodef"	"18"
 				"weight"	"500"
 				"additive"	"0"
 				"antialias" "1"
@@ -2545,8 +2474,6 @@ Scheme
 			{
 				"name"		"Roboto Condensed"
 				"tall"		"18"
-				"tall_hidef"	"24"
-				"tall_lodef"	"20"
 				"weight"	"500"
 				"additive"	"0"
 				"antialias" "1"

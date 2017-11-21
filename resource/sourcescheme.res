@@ -252,8 +252,6 @@ Scheme
                 "name"         "Georgia" [$POSIX] // Apple Mac OS "Verdana" (default) Best small font = "Georgia" Mac Installation location: /Library/Fonts and is default on Mac OS
                 "tall"         "11" [$POSIX]  // "11"
                 "tall"         "10" //good positioning is ... "net_graphpos 183" and "net_graphheight 30" and ensure you select "antialias"  "1" with all others off with "Georgia" font.
-                "tall_lodef" "15" //"15"
-                "tall_hidef" "20" //"20" 
                 "weight"     "0"  //"0" // This is the thickness, like a bold setting max is about 700. Small fonts will look better as "0".
                 "range"         "0x0000 0x017F" //    Basic Latin, Latin-1 Supplement, Latin Extended-A
                 "yres"         "480 599"            
@@ -268,8 +266,6 @@ Scheme
                 "name"         "Georgia" [$POSIX] // Apple Mac OS "Verdana" (default) Best small font = "Georgia" Mac Installation location: /Library/Fonts and is default on Mac OS
                 "tall"         "12" [$POSIX]  // "11"                
                 "tall"         "12" //good positioning is ... "net_graphpos 190" and "net_graphheight 45" and ensure you select "antialias"  "1" with all others off with "Georgia" font.
-                "tall_lodef" "15" //"15"
-                "tall_hidef" "20" //"20"                
                 "weight"     "0"
                 "range"         "0x0000 0x017F" //    Basic Latin, Latin-1 Supplement, Latin Extended-A
                 "yres"         "600 767"
@@ -283,9 +279,7 @@ Scheme
                 "name"         "Lucida Console" [$X360]    //"Lucida Console"
                 "name"         "Verdana" [$POSIX] // Apple Mac OS "Verdana" (default) Best small font = "Georgia" Mac Installation location: /Library/Fonts and is default on Mac OS
                 "tall"         "13" [$POSIX]  // "11"                
-                "tall"         "13"  //good positioning is ... "net_graphpos 203" and "net_graphheight 85" and ensure you select "outline" "1" with all others off with "Microsoft Sans Serif" font.
-                "tall_lodef" "15" //"15"
-                "tall_hidef" "20" //"20"                
+                "tall"         "13"  //good positioning is ... "net_graphpos 203" and "net_graphheight 85" and ensure you select "outline" "1" with all others off with "Microsoft Sans Serif" font.  
                 "weight"     "0"
                 "range"         "0x0000 0x017F" //    Basic Latin, Latin-1 Supplement, Latin Extended-A
                 "yres"         "768 1023"
@@ -299,9 +293,7 @@ Scheme
                 "name"         "Lucida Console" [$X360]    //"Lucida Console"
                 "name"         "Arial" [$POSIX] // Apple Mac OS "Verdana" (default) Best small font = "Georgia" Mac Installation location: /Library/Fonts and is default on Mac OS
                 "tall"         "19" [$POSIX]  // "11"                
-                "tall"         "19"  // good positioning is ... net_graphheight 87 and net_graphpos 210 and ensure you select "outline" "1" with all others off with Ariel font.
-                "tall_lodef" "15" //"15"
-                "tall_hidef" "20" //"20"                
+                "tall"         "19"  // good positioning is ... net_graphheight 87 and net_graphpos 210 and ensure you select "outline" "1" with all others off with Ariel font.            
                 "weight"     "0"
                 "range"         "0x0000 0x017F" //    Basic Latin, Latin-1 Supplement, Latin Extended-A
                 "yres"         "1024 1199"
@@ -315,9 +307,7 @@ Scheme
                 "name"         "Lucida Console" [$X360]    //"Lucida Console"
                 "name"         "Arial" [$POSIX] // Apple Mac OS "Verdana" (default) Best small font = "Georgia" and "Arial" Mac Installation location: /Library/Fonts and is default on Mac OS
                 "tall"         "19" [$POSIX]  // "11"                
-                "tall"         "19" // good positioning is ... net_graphheight 95 and net_graphpos 225 and ensure you select "outline" "1" with all others off with Ariel font.
-                "tall_lodef" "15" //"15"
-                "tall_hidef" "20" //"20"                
+                "tall"         "19" // good positioning is ... net_graphheight 95 and net_graphpos 225 and ensure you select "outline" "1" with all others off with Ariel font.      
                 "weight"     "0"
                 "range"         "0x0000 0x017F" //    Basic Latin, Latin-1 Supplement, Latin Extended-A
                 "yres"         "1200 6000"
@@ -804,12 +794,12 @@ Scheme
 		}
 		"2"
 		{
-			"font"	"resource/fonts/Roboto Bold CondensedCondensed.ttf"
+			"font"	"resource/fonts/robotoBold.ttf"
 			"name"	"Roboto Bold Condensed"
 		}
 		"3"
 		{
-			"font"	"resource/fonts/Roboto-Condensed.ttf"
+			"font"	"resource/fonts/robotoReg.ttf"
 			"name"	"Roboto Condensed"
 		}
 	}
