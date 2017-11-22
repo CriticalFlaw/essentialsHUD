@@ -17,9 +17,7 @@
 		"scaleImage"		"1"
 		"teambg_1"		"../hud/color_panel_brown"
 		"teambg_2"		"../hud/color_panel_red"
-		"teambg_2_lodef"	"../hud/color_panel_red"
 		"teambg_3"		"../hud/color_panel_blu"
-		"teambg_3_lodef"	"../hud/color_panel_blu"
 		
 		"src_corner_height"		"23"				// pixels inside the image
 		"src_corner_width"		"23"
@@ -29,46 +27,42 @@
 	}
 	"TargetIDBG_Spec_Blue"
 	{
-		"ControlName"		"ScalableImagePanel"
+		"ControlName"	"ImagePanel"
 		"fieldName"		"TargetIDBG_Spec_Blue"
 		"xpos"			"0"
 		"ypos"			"0"
 		"zpos"			"-1"
-		"wide"			"252"
-		"tall"	 		"30"
+		"wide"			"640"
+		"tall"	 		"35"
 		"autoResize"		"0"
 		"pinCorner"		"0"
 		"visible"		"0"
 		"enabled"		"1"
-		"image"			"../hud/color_panel_blu"
-		"image_lodef"	"../hud/color_panel_blu"
+		"fillcolor"		"60 85 100 200"
 		
-		"src_corner_height"		"23"				// pixels inside the image
+		"src_corner_height"		"23"
 		"src_corner_width"		"23"
-			
-		"draw_corner_width"		"5"				// screen size of the corners ( and sides ), proportional
+		"draw_corner_width"		"5"
 		"draw_corner_height" 	"5"
 	}
 	"TargetIDBG_Spec_Red"
 	{
-		"ControlName"		"ScalableImagePanel"
+		"ControlName"	"ImagePanel"
 		"fieldName"		"TargetIDBG_Spec_Red"
 		"xpos"			"0"
 		"ypos"			"0"
 		"zpos"			"-1"
-		"wide"			"252"
-		"tall"	 		"30"
+		"wide"			"640"
+		"tall"	 		"36"
 		"autoResize"		"0"
 		"pinCorner"		"0"
 		"visible"		"0"
 		"enabled"		"1"
-		"image"			"../hud/color_panel_red"
-		"image_lodef"	"../hud/color_panel_red"
+		"fillcolor"		"157 49 47 200"
 		
-		"src_corner_height"		"23"				// pixels inside the image
+		"src_corner_height"		"23"
 		"src_corner_width"		"23"
-			
-		"draw_corner_width"		"5"				// screen size of the corners ( and sides ), proportional
+		"draw_corner_width"		"5"
 		"draw_corner_height" 	"5"
 	}
 	
@@ -76,12 +70,9 @@
 	{	
 		"ControlName"		"Label"
 		"fieldName"		"TargetNameLabel"
-		"font"			"HudFontSmall"
-		"font_minmode"	"TFFontLarge"
+		"font"			"Roboto Bold Condensed18"
 		"xpos"			"8"
-		"xpos_minmode"	"30"
 		"ypos"			"5"
-		"ypos_minmode"	"5"
 		"zpos"			"1"
 		"wide"			"640"
 		"tall"			"24"
@@ -99,13 +90,9 @@
 		"ControlName"		"Label"
 		"fieldName"		"TargetDataLabel"
 		"font"			"FontStoreOriginalPrice"
-		"font_minmode"	"DefaultVerySmall"
 		"xpos"			"8"
-		"xpos_minmode"	"30"
 		"ypos"			"17"	[$WIN32]
-		"ypos_minmode"	"12"	[$WIN32]
 		"ypos"			"22"	[$X360]
-		"ypos_hidef"		"25"	[$X360]
 		"zpos"			"1"
 		"wide"			"280"
 		"tall"			"15"
@@ -123,9 +110,7 @@
 		"ControlName"		"EditablePanel"
 		"fieldName"		"SpectatorGUIHealth"
 		"xpos"			"3"
-		"xpos_minmode"	"0"
 		"ypos"			"2"
-		"ypos_minmode"	"0"
 		"wide"			"32"
 		"tall"			"32"
 		"visible"		"0"
@@ -142,9 +127,7 @@
 		"ControlName"	"ImagePanel"
 		"fieldName"		"AmmoIcon"
 		"xpos"			"40"
-		"xpos_minmode"	"38"
 		"ypos"			"20"
-		"ypos_minmode"	"16"
 		"zpos"			"12"
 		"wide"			"8"
 		"tall"			"8"
@@ -159,9 +142,7 @@
 		"ControlName"	"ImagePanel"
 		"fieldName"		"KillStreakIcon"
 		"xpos"			"10"
-		"xpos_minmode"	"30"
 		"ypos"			"20"
-		"ypos_minmode"	"16"
 		"zpos"			"12"
 		"wide"			"8"
 		"tall"			"8"
@@ -235,7 +216,6 @@
 			"ControlName"		"Label"
 			"fieldName"		"MoveableKeyLabel"
 			"font"			"TFFontMedium"
-			"font_minmode"	"DefaultVerySmall"
 			"xpos"			"0"
 			"ypos"			"22"
 			"zpos"			"1"
@@ -251,6 +231,7 @@
 			"brighttext"		"0"
 		}	
 	}
+
 	"AvatarImage"
 	{
 		"ControlName"	"CAvatarImagePanel"

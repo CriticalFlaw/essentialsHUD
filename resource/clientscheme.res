@@ -31,12 +31,12 @@ Scheme
 		}
 		"7"
 		{
-			"font"	"resource/fonts/Roboto-BoldCondensed.ttf"
+			"font"	"resource/fonts/robotoBold.ttf"
 			"name"	"Roboto Bold Condensed"
 		}
 		"8"
 		{
-			"font"	"resource/fonts/Roboto-Condensed.ttf"
+			"font"	"resource/fonts/robotoReg.ttf"
 			"name"	"Roboto Condensed"
 		}
 		"9" "resource/ocra.ttf"
