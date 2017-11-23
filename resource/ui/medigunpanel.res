@@ -4,7 +4,7 @@
 	{
 		"ControlName"	"Frame"
 		"fieldName"		"MedigunPanel"
-		"wide"			"129"
+		"wide"			"136"
 		"tall"			"18"
 		"autoResize"	"0"
 		"pinCorner"		"0"
@@ -150,7 +150,7 @@
     {
         "ControlName"	"VariableLabel"
         "fieldName"		"MedigunPanelChargeLabel"
-        "xpos"			"98"
+        "xpos"			"104"
         "ypos"			"3"
         "zpos"			"2"
         "wide"			"28"
@@ -163,7 +163,7 @@
         "textAlignment"	"east"
         "dulltext"		"0"
         "brighttext"	"0"
-        "font"			"robotoBold14"
+        "font"			"Roboto Bold Condensed12"
         "fgcolor"		"White"
 
         "medigun-vaccinator" {
@@ -191,7 +191,7 @@
         "textAlignment"	"east"
         "dulltext"		"0"
         "brighttext"	"0"
-        "font"			"robotoBold14"
+        "font"			"Roboto Bold Condensed12"
 		"fgcolor_override"	"Black"
 
 		"pin_to_sibling" 		"MedigunPanelChargeLabel"
@@ -211,7 +211,7 @@
         "xpos"				"20"
         "ypos"				"2"
         "zpos"				"2"
-        "wide"				"107"
+        "wide"				"113"
         "tall"				"15"
         "autoResize"		"0"
         "pinCorner"			"0"
@@ -221,7 +221,7 @@
         "dulltext"			"0"
         "brighttext"		"0"
         "bgcolor_override"	"ProgressBackground"
-        "fgcolor_override" 	"Brown"	//"ProgressOffWhite"
+        "fgcolor_override" 	"28 193 25 200"
         "direction"			"east"
         "variable"			"charge"
 
@@ -251,8 +251,8 @@
 		"textAlignment"	"west"
 		"dulltext"		"0"
 		"brighttext"	"0"
-		"font"			"robotoBold14"
-		"fgcolor_override"		"White"
+		"font"			"Roboto Bold Condensed12"
+        "fgcolor"		"White"
 		"proportionaltoparent"	"1"
 
 		"medigun-medigun" {
@@ -293,7 +293,7 @@
 		"textAlignment"	"west"
 		"dulltext"		"0"
 		"brighttext"	"0"
-		"font"			"robotoBold14"
+		"font"			"Roboto Bold Condensed12"
 		"fgcolor_override"		"Black"
 		"proportionaltoparent"	"1"
 		

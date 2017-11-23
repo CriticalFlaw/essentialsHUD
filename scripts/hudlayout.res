@@ -1096,13 +1096,13 @@
 
 	HudStopWatch
 	{
-		"fieldName"				"HudStopWatch"
-		"visible"				"1"
-		"enabled"				"1"
-		"xpos"					"c-160"
-		"ypos"					"5"
-		"wide"					"125"
-		"tall"					"70"
+		"fieldName"		"HudStopWatch"
+		"visible"		"1"
+		"enabled"		"1"
+		"xpos"			"0"
+		"ypos"			"0"
+		"wide"			"f0"
+		"tall"			"70"
 	}
 	
 	NotificationPanel

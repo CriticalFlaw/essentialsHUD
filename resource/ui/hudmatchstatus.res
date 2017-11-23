@@ -265,27 +265,17 @@
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"		"TimePanelValue"
-			"font"			"HudFontMediumSmall"
-			"fgcolor"		"TanLight"
+			"font"			"Roboto Bold Condensed16"
+			"fgcolor"		"White"
 			"xpos"			"23"
-			"ypos"			"11"
+			"ypos"			"2"
 			"zpos"			"3"
 			"wide"			"45"
-			"tall"			"31"
+			"tall"			"15"
 			"visible"		"1"
 			"enabled"		"1"
-			"textAlignment"		"center"
+			"textAlignment"	"center"
 			"labelText"		"0:00"
-
-			if_match
-			{
-				"proportionaltoparent"	"1"
-
-				"xpos"			"cs-0.5"
-				"ypos"			"12"
-				"tall"			"10"
-				"font"			"HudFontSmall"
-			}
 		}	
 	}
 	"TeamStatus"

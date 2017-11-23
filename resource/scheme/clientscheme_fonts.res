@@ -2,6 +2,26 @@ Scheme
 {
 	Fonts
 	{
+		"Roboto Bold Condensed10"
+		{
+			"1"
+			{
+				"name"		"Roboto Bold Condensed"
+				"tall"		"10"
+				"additive"	"0"
+				"antialias" "1"
+			}
+		}
+		"Roboto Bold Condensed12"
+		{
+			"1"
+			{
+				"name"		"Roboto Bold Condensed"
+				"tall"		"12"
+				"additive"	"0"
+				"antialias" "1"
+			}
+		}
 		"Roboto Bold Condensed14"
 		{
 			"1"
