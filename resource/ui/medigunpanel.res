@@ -163,7 +163,7 @@
         "textAlignment"	"east"
         "dulltext"		"0"
         "brighttext"	"0"
-        "font"			"Roboto Bold Condensed12"
+        "font"			"RobotoBold12"
         "fgcolor"		"White"
 
         "medigun-vaccinator" {
@@ -191,7 +191,7 @@
         "textAlignment"	"east"
         "dulltext"		"0"
         "brighttext"	"0"
-        "font"			"Roboto Bold Condensed12"
+        "font"			"RobotoBold12"
 		"fgcolor_override"	"Black"
 
 		"pin_to_sibling" 		"MedigunPanelChargeLabel"
@@ -251,8 +251,8 @@
 		"textAlignment"	"west"
 		"dulltext"		"0"
 		"brighttext"	"0"
-		"font"			"Roboto Bold Condensed12"
-        "fgcolor"		"White"
+		"font"			"RobotoBold12"
+		"fgcolor_override"		"White"
 		"proportionaltoparent"	"1"
 
 		"medigun-medigun" {
@@ -293,7 +293,7 @@
 		"textAlignment"	"west"
 		"dulltext"		"0"
 		"brighttext"	"0"
-		"font"			"Roboto Bold Condensed12"
+		"font"			"RobotoBold12"
 		"fgcolor_override"		"Black"
 		"proportionaltoparent"	"1"
 		

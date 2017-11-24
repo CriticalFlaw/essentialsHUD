@@ -16,8 +16,8 @@
 		"fillcolor"		"HudBlack"
 		if_comp
 		{
-			"xpos"	"c-54"
-			"ypos"	"31"
+			"xpos"		"c-54"
+			"ypos"		"31"
 			"visible"	"0"
 		}
 	}
@@ -26,10 +26,10 @@
 	{
 		"ControlName"		"ImagePanel"
 		"fieldName"			"StopWatchImageCaptureTime"
-		"xpos"				"c65"
-		"ypos"				"1"
+		"xpos"				"9999"
+		"ypos"				"9999"
 		"zpos"				"0"
-		"wide"				"15"
+		"wide"				"15"`
 		"tall"				"15"
 		"visible"			"1"
 		"enabled"			"1"
@@ -59,7 +59,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"TimePanelValue"
-			"font"			"Roboto Bold Condensed16"
+			"font"			"RobotoBold16"
 			"fgcolor"		"White"
 			"xpos"			"45"
 			"ypos"			"0"
@@ -76,7 +76,7 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"			"StopWatchScoreToBeat"
-		"font"				"Roboto Bold Condensed18"
+		"font"				"RobotoBold18"
 		"labelText"			"%scoretobeat%"
 		"textAlignment"		"west"
 		"xpos"				"c28"
@@ -92,15 +92,15 @@
 		
 		if_comp
 		{
-			"xpos"	"c-3"
-			"ypos"	"31"
+			"xpos"			"c-3"
+			"ypos"			"31"
 		}
 	}
 	"StopWatchPointsLabel"
 	{
-		"ControlName"		"CExLabel"
-		"fieldName"			"StopWatchPointsLabel"
-		"font"				"Roboto Condensed12"
+		"ControlName"	"CExLabel"
+		"fieldName"		"StopWatchPointsLabel"
+		"font"			"Roboto12"
 		"labelText"		"%pointslabel%"
 		"textAlignment"	"west"
 		"xpos"			"c38"
@@ -124,9 +124,9 @@
 
 	"StopWatchLabel"
 	{
-		"ControlName"		"CExLabel"
-		"fieldName"			"StopWatchLabel"
-		"font"				"Roboto Condensed10"
+		"ControlName"	"CExLabel"
+		"fieldName"		"StopWatchLabel"
+		"font"			"Roboto10"
 		"labelText"		"%stopwatchlabel%"
 		"textAlignment"	"center"
 		"xpos"			"c5"

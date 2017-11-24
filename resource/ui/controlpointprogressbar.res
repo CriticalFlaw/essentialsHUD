@@ -34,8 +34,8 @@
 	{
 		"ControlName"	"CIconPanel"
 		"fieldName"		"Teardrop"
-		"xpos"			"24"
-		"ypos"			"0"
+		"xpos"			"9999"
+		"ypos"			"9999"
 		"zpos"			"21"
 		"wide"			"54"
 		"tall"			"65"
@@ -50,8 +50,8 @@
 	{
 		"ControlName"	"CIconPanel"
 		"fieldName"		"TeardropSide"
-		"xpos"			"24"
-		"ypos"			"0"
+		"xpos"			"9999"
+		"ypos"			"9999"
 		"zpos"			"21"
 		"wide"			"54"
 		"tall"			"54"

@@ -7,12 +7,12 @@
 		"xpos"			"0"
 		"ypos"			"0"
 		"zpos"			"2"
-		"wide"			"33"
-		"tall"			"33"
+		"wide"			"30"
+		"tall"			"30"
 		"visible"		"1"
 		"enabled"		"1"
 	}
-	
+
 	"Countdown"
 	{
 		"ControlName"	"CControlPointCountdown"
@@ -28,7 +28,7 @@
 
 	"CapPlayerImage"
 	{
-		"ControlName"	"ImagePanel"		
+		"ControlName"	"ImagePanel"
 		"fieldName"		"CapPlayerImage"
 		"xpos"			"0"
 		"ypos"			"0"
@@ -63,7 +63,7 @@
 
 	"OverlayImage"
 	{
-		"ControlName"	"ImagePanel"		
+		"ControlName"	"ImagePanel"
 		"fieldName"		"OverlayImage"
 		"xpos"			"19"
 		"ypos"			"0"
@@ -75,7 +75,7 @@
 		"image"			"capture_icon"
 		"scaleImage"	"1"
 	}
-	
+
 	"CPTimerLabel"
 	{
 		"ControlName"	"CExLabel"

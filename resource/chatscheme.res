@@ -6,7 +6,7 @@ Scheme
 		"OffWhite"			"216 216 216 255"
 		"DullWhite"			"142 142 142 255"
 		"Orange"			"255 155 0 255"
-		"TransparentBlack"		"0 0 0 128"
+		"TransparentBlack"	"0 0 0 128"
 		"Black"				"0 0 0 255"
 		"Green"				"63 185 73 255"
 
@@ -15,18 +15,18 @@ Scheme
 
 	BaseSettings
 	{
-		Border.Bright									"200 200 200 196"
-		Border.Dark										"40 40 40 196"
-		Border.Selection								"0 0 0 196"
+		Border.Bright					"200 200 200 196"
+		Border.Dark						"40 40 40 196"
+		Border.Selection				"0 0 0 196"
 
-		Button.TextColor								"White"
-		Button.BgColor									"Blank"
-		Button.ArmedTextColor							"White"
-		Button.ArmedBgColor								"Blank"				[$WIN32]
-		Button.ArmedBgColor								"190 115 0 255"		[$X360]
-		Button.DepressedTextColor						"White"
-		Button.DepressedBgColor							"Blank"
-		Button.FocusBorderColor							"Black"
+		Button.TextColor				"White"
+		Button.BgColor					"Blank"
+		Button.ArmedTextColor			"White"
+		Button.ArmedBgColor				"Blank"				[$WIN32]
+		Button.ArmedBgColor				"190 115 0 255"		[$X360]
+		Button.DepressedTextColor		"White"
+		Button.DepressedBgColor			"Blank"
+		Button.FocusBorderColor			"Black"
 
 		CheckButton.TextColor			"OffWhite"
 		CheckButton.SelectedTextColor	"White"
@@ -40,7 +40,7 @@ Scheme
 		ComboBoxButton.BgColor			"Blank"
 		ComboBoxButton.DisabledBgColor	"Blank"
 
-		"Chat.TypingText"		"White"
+		"Chat.TypingText"				"White"
 
 		Frame.TitleTextInsetX			16
 		Frame.ClientInsetX				8
@@ -74,8 +74,8 @@ Scheme
 
 		Label.TextDullColor				"DullWhite"
 		Label.TextColor					"OffWhite"
-		Label.TextBrightColor				"White"
-		Label.SelectedTextColor				"White"
+		Label.TextBrightColor			"White"
+		Label.SelectedTextColor			"White"
 		Label.BgColor					"TransparentBlack"
 		Label.DisabledFgColor1			"117 117 117 255"
 		Label.DisabledFgColor2			"30 30 30 255"
@@ -135,52 +135,52 @@ Scheme
 		SectionedListPanel.OutOfFocusSelectedTextColor	"Black"
 		SectionedListPanel.OutOfFocusSelectedBgColor	"255 155 0 128"
 
-		Slider.NobColor									"108 108 108 255"
-		Slider.TextColor								"180 180 180 255"
-		Slider.TrackColor								"31 31 31 255"
-		Slider.DisabledTextColor1						"117 117 117 255"
-		Slider.DisabledTextColor2						"30 30 30 255"
+		Slider.NobColor						"108 108 108 255"
+		Slider.TextColor					"180 180 180 255"
+		Slider.TrackColor					"31 31 31 255"
+		Slider.DisabledTextColor1			"117 117 117 255"
+		Slider.DisabledTextColor2			"30 30 30 255"
 
-		TextEntry.TextColor								"OffWhite"
-		TextEntry.BgColor								"TransparentBlack"
-		TextEntry.CursorColor							"OffWhite"
-		TextEntry.DisabledTextColor						"DullWhite"
-		TextEntry.DisabledBgColor						"Blank"
-		TextEntry.SelectedTextColor						"Black"
-		TextEntry.SelectedBgColor						"Orange"
-		TextEntry.OutOfFocusSelectedBgColor				"255 155 0 128"
-		TextEntry.FocusEdgeColor						"0 0 0 196"
+		TextEntry.TextColor					"OffWhite"
+		TextEntry.BgColor					"TransparentBlack"
+		TextEntry.CursorColor				"OffWhite"
+		TextEntry.DisabledTextColor			"DullWhite"
+		TextEntry.DisabledBgColor			"Blank"
+		TextEntry.SelectedTextColor			"Black"
+		TextEntry.SelectedBgColor			"Orange"
+		TextEntry.OutOfFocusSelectedBgColor	"255 155 0 128"
+		TextEntry.FocusEdgeColor			"0 0 0 196"
 
-		ToggleButton.SelectedTextColor					"White"
-		Tooltip.TextColor								"0 0 0 196"
-		Tooltip.BgColor									"Orange"
+		ToggleButton.SelectedTextColor		"White"
+		Tooltip.TextColor					"0 0 0 196"
+		Tooltip.BgColor						"Orange"
 
-		TreeView.BgColor								"TransparentBlack"
+		TreeView.BgColor					"TransparentBlack"
 
-		WizardSubPanel.BgColor							"Blank"
+		WizardSubPanel.BgColor				"Blank"
 
-		MainMenu.TextColor								"White"				[$WIN32]
-		MainMenu.TextColor								"200 200 200 255"	[$X360]
-		MainMenu.ArmedTextColor							"200 200 200 255"	[$WIN32]
-		MainMenu.ArmedTextColor							"White"				[$X360]
-		MainMenu.DepressedTextColor						"192 186 80 255"
-		MainMenu.MenuItemHeight							"16"	[$WIN32]
-		MainMenu.MenuItemHeight							"32"	[$X360]
-		MainMenu.Inset									"32"
-		MainMenu.Backdrop								"0 0 0 156"
+		MainMenu.TextColor					"White"				[$WIN32]
+		MainMenu.TextColor					"200 200 200 255"	[$X360]
+		MainMenu.ArmedTextColor				"200 200 200 255"	[$WIN32]
+		MainMenu.ArmedTextColor				"White"				[$X360]
+		MainMenu.DepressedTextColor			"192 186 80 255"
+		MainMenu.MenuItemHeight				"16"	[$WIN32]
+		MainMenu.MenuItemHeight				"32"	[$X360]
+		MainMenu.Inset						"32"
+		MainMenu.Backdrop					"0 0 0 156"
 
-		Console.TextColor								"OffWhite"
-		Console.DevTextColor							"White"
+		Console.TextColor					"OffWhite"
+		Console.DevTextColor				"White"
 
-		NewGame.TextColor								"White"
-		NewGame.FillColor								"0 0 0 255"
-		NewGame.SelectionColor							"Orange"	[$WIN32]
-		NewGame.SelectionColor							"0 0 0 255"	[$X360]
-		NewGame.DisabledColor							"128 128 128 196"
+		NewGame.TextColor					"White"
+		NewGame.FillColor					"0 0 0 255"
+		NewGame.SelectionColor				"Orange"	[$WIN32]
+		NewGame.SelectionColor				"0 0 0 255"	[$X360]
+		NewGame.DisabledColor				"128 128 128 196"
 
-		TFColors.ChatTextYellow							"251 235 202 255"
-		TFColors.ChatTextTeamBlue						"153 204 255 255"
-		TFColors.ChatTextTeamRed						"255 63 53 255"
+		TFColors.ChatTextYellow				"251 235 202 255"
+		TFColors.ChatTextTeamBlue			"153 204 255 255"
+		TFColors.ChatTextTeamRed			"255 63 53 255"
 	}
 
 	BitmapFontFiles
@@ -190,7 +190,6 @@ Scheme
 
 	Fonts
 	{
-
 		"Default"
 		{
 			"1"
@@ -201,7 +200,6 @@ Scheme
 				"range"			"0x0000 0x017F"
 				"yres"			"480 599"
 			}
-
 			"2"
 			{
 				"name"			"Verdana"
@@ -210,7 +208,6 @@ Scheme
 				"range"			"0x0000 0x017F"
 				"yres"			"600 767"
 			}
-
 			"3"
 			{
 				"name"			"Verdana"
@@ -220,7 +217,6 @@ Scheme
 				"yres"			"768 1023"
 				"antialias"		"1"
 			}
-
 			"4"
 			{
 				"name"			"Verdana"
@@ -230,7 +226,6 @@ Scheme
 				"yres"			"1024 1199"
 				"antialias"		"1"
 			}
-
 			"5"
 			{
 				"name"			"Verdana"
@@ -253,7 +248,6 @@ Scheme
 				"yres"			"480 599"
 				"symbol"		"1"
 			}
-
 			"2"
 			{
 				"name"			"Marlett"
@@ -262,7 +256,6 @@ Scheme
 				"yres"			"600 767"
 				"symbol"		"1"
 			}
-
 			"3"
 			{
 				"name"			"Marlett"
@@ -271,7 +264,6 @@ Scheme
 				"yres"			"768 1023"
 				"symbol"		"1"
 			}
-
 			"4"
 			{
 				"name"			"Marlett"
@@ -280,7 +272,6 @@ Scheme
 				"yres"			"1024 1199"
 				"symbol"		"1"
 			}
-
 			"5"
 			{
 				"name"			"Marlett"
@@ -383,8 +374,6 @@ Scheme
 				"dropshadow"	"1"
 			}
 		}
-
-
 	}
 
 	Borders
@@ -413,7 +402,6 @@ Scheme
 					"offset"	"0 1"
 				}
 			}
-
 			Right
 			{
 				"1"
@@ -422,7 +410,6 @@ Scheme
 					"offset"	"1 0"
 				}
 			}
-
 			Top
 			{
 				"1"
@@ -431,7 +418,6 @@ Scheme
 					"offset" 	"0 0"
 				}
 			}
-
 			Bottom
 			{
 				"1"
@@ -454,7 +440,6 @@ Scheme
 					"offset"	"0 1"
 				}
 			}
-
 			Right
 			{
 				"1"
@@ -463,7 +448,6 @@ Scheme
 					"offset" 	"0 0"
 				}
 			}
-
 			Top
 			{
 				"1"
@@ -472,7 +456,6 @@ Scheme
 					"offset" 	"0 1"
 				}
 			}
-
 			Bottom
 			{
 				"1"
@@ -509,7 +492,6 @@ Scheme
 					"offset" "0 1"
 				}
 			}
-
 			Right
 			{
 				"1"
@@ -518,7 +500,6 @@ Scheme
 					"offset" "1 0"
 				}
 			}
-
 			Top
 			{
 				"1"
@@ -527,7 +508,6 @@ Scheme
 					"offset" "0 0"
 				}
 			}
-
 			Bottom
 			{
 				"1"
@@ -550,7 +530,6 @@ Scheme
 					"offset" "0 1"
 				}
 			}
-
 			Right
 			{
 				"1"
@@ -559,7 +538,6 @@ Scheme
 					"offset" "1 0"
 				}
 			}
-
 			Top
 			{
 				"1"
@@ -568,7 +546,6 @@ Scheme
 					"offset" "0 0"
 				}
 			}
-
 			Bottom
 			{
 				"1"
@@ -591,7 +568,6 @@ Scheme
 					"offset" 	"0 1"
 				}
 			}
-
 			Right
 			{
 				"1"
@@ -600,7 +576,6 @@ Scheme
 					"offset" 	"1 0"
 				}
 			}
-
 			Top
 			{
 				"1"
@@ -624,7 +599,6 @@ Scheme
 					"offset" 	"0 0"
 				}
 			}
-
 			Right
 			{
 				"1"
@@ -633,7 +607,6 @@ Scheme
 					"offset" 	"1 0"
 				}
 			}
-
 			Top
 			{
 				"1"
@@ -644,7 +617,6 @@ Scheme
 			}
 
 		}
-
 
 		ToolTipBorder
 		{
@@ -658,7 +630,6 @@ Scheme
 					"offset" 	"0 0"
 				}
 			}
-
 			Right
 			{
 				"1"
@@ -667,7 +638,6 @@ Scheme
 					"offset" 	"1 0"
 				}
 			}
-
 			Top
 			{
 				"1"
@@ -676,7 +646,6 @@ Scheme
 					"offset" 	"0 0"
 				}
 			}
-
 			Bottom
 			{
 				"1"
@@ -704,7 +673,6 @@ Scheme
 					"offset" 	"0 1"
 				}
 			}
-
 			Top
 			{
 				"1"
@@ -718,7 +686,6 @@ Scheme
 					"offset" 	"1 0"
 				}
 			}
-
 			Right
 			{
 				"1"
@@ -732,7 +699,6 @@ Scheme
 					"offset"	"1 0"
 				}
 			}
-
 			Bottom
 			{
 				"1"
@@ -760,7 +726,6 @@ Scheme
 					"offset" 	"0 1"
 				}
 			}
-
 			Right
 			{
 				"1"
@@ -769,7 +734,6 @@ Scheme
 					"offset" 	"1 0"
 				}
 			}
-
 			Top
 			{
 				"1"
@@ -778,7 +742,6 @@ Scheme
 					"offset" 	"0 0"
 				}
 			}
-
 			Bottom
 			{
 				"1"

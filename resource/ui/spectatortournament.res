@@ -13,26 +13,26 @@
 		"team1_player_base_offset_x"	"0"
 		"team1_player_base_y"			"250"
 		"team1_player_delta_x"			"0"
-		"team1_player_delta_y"			"19"
+		"team1_player_delta_y"			"23"
 
 		"team2_player_base_offset_x"	"291"
 		"team2_player_base_y"			"250"
 		"team2_player_delta_x"			"0"
-		"team2_player_delta_y"			"19"
+		"team2_player_delta_y"			"23"
 
 		"playerpanels_kv"
 		{
-			"visible"		"0"
-			"wide"			"136"
-			"tall"			"18"
-			"zpos"			"1"
+			"visible"			"0"
+			"wide"				"136"
+			"tall"				"22"
+			"zpos"				"1"
 
 			"PanelBottom"
 			{
 				"ControlName"	"ImagePanel"
 				"fieldName"		"PanelBottom"
 				"xpos"			"9"
-				"ypos"			"16"
+				"ypos"			"9"
 				"zpos"			"-1"
 				"wide"			"150"
 				"tall"			"2"
@@ -46,9 +46,9 @@
 			{
 				"ControlName"	"CExLabel"
 				"fieldName"		"playername"
-				"font"			"Roboto Bold Condensed12"
-				"xpos"			"22"
-				"ypos"			"2"
+				"font"			"RobotoBold10"
+				"xpos"			"24"
+				"ypos"			"1"
 				"zpos"			"5"
 				"wide"			"92"
 				"tall"			"15"
@@ -63,9 +63,9 @@
             {
                 "ControlName"   "CExLabel"
                 "fieldName"     "playernameshadow"
-				"font"			"Roboto Bold Condensed12"
-				"xpos"			"23"
-				"ypos"			"3"
+				"font"			"RobotoBold10"
+				"xpos"			"25"
+				"ypos"			"2"
 				"zpos"			"5"
 				"wide"			"80"
 				"tall"			"10"
@@ -83,9 +83,9 @@
 				"fieldName"		"classimage"
 				"xpos"			"0"
 				"ypos"			"0"
-				"zpos"			"2"
-				"wide"			"18"
-				"tall"			"18"
+				"zpos"			"5"
+				"wide"			"22"
+				"tall"			"22"
 				"visible"		"1"
 				"enabled"		"1"
 				"image"			"../hud/class_scoutred"
@@ -98,13 +98,27 @@
 				"fieldName"		"classimagebg"
 				"xpos"			"0"
 				"ypos"			"0"
-				"zpos"			"2"
-				"wide"			"18"
-				"tall"			"18"
+				"zpos"			"4"
+				"wide"			"22"
+				"tall"			"22"
 				"visible"		"1"
 				"enabled"		"1"
 				"bgcolor_override"		"Black"
 				"PaintBackgroundType"	"0"
+			}
+			
+			PanelBG
+			{
+				"ControlName"	"ImagePanel"
+				"fieldName"	"PanelBG"
+				"xpos"		"0"
+				"ypos"		"11"
+				"zpos"		"4"
+				"wide"		"f0"
+				"tall"		"12"
+				//"visible_minmode"	"0"
+				"fillcolor"	"Black"
+				"proportionaltoparent"	"1"
 			}
 			"ReadyBG"
 			{
@@ -121,10 +135,10 @@
 				"enabled"		"1"
 				"image"			"../HUD/tournament_panel_brown"
 
-				"src_corner_height"	"22"				// pixels inside the image
-				"src_corner_width"	"22"
+				"src_corner_height"		"22"	// pixels inside the image
+				"src_corner_width"		"22"
 			
-				"draw_corner_width"	"3"				// screen size of the corners ( and sides ), proportional
+				"draw_corner_width"		"3"		// screen size of the corners ( and sides ), proportional
 				"draw_corner_height"	"3"	
 			}
 			
@@ -146,7 +160,7 @@
 			{
                 "xpos"			"36"
                 "ypos"			"0"
-                "zpos"			"3"
+                "zpos"			"2"
                 "wide"			"100"
                 "tall"			"24"
                 "visible"		"1"
@@ -161,17 +175,17 @@
 			{
 				"ControlName"	"CExLabel"
 				"fieldName"		"respawntime"
-				"font"			"Roboto Bold Condensed10"
-				"xpos"			"3"
-				"ypos"			"0"
+				"font"			"RobotoBold12"
+				"xpos"			"0"
+				"ypos"			"2"
 				"zpos"			"6"
-				"wide"			"24"
+				"wide"			"20"
 				"tall"			"16"
 				"autoResize"	"0"
 				"pinCorner"		"0"
 				"visible"		"1"
 				"labelText"		"%respawntime%"
-				"textAlignment"	"west"
+				"textAlignment"	"east"
 				//"fgcolor"		"235 226 202 255"
 			}
 			
@@ -179,7 +193,7 @@
 			{
 				"ControlName"	"CExLabel"
 				"fieldName"		"chargeamount"
-				"font"			"Roboto Condensed8"
+				"font"			"Roboto8"
 				"xpos"			"15"
 				"ypos"			"11"
 				"zpos"			"6"
@@ -322,10 +336,10 @@
 		"model_wide"		"90"
 		"model_tall"		"60"
 		
-		"text_xpos"		"10"
-		"text_ypos"		"10"
-		"text_wide"		"170"
-		"text_center"	"1"
+		"text_xpos"			"10"
+		"text_ypos"			"10"
+		"text_wide"			"170"
+		"text_center"		"1"
 		
 		"max_text_height"	"100"
 		"padding_height"	"10"
@@ -336,7 +350,7 @@
 		{
 			"fieldName"		"itemmodelpanel"
 			"use_item_rendertarget" "0"
-			"useparentbg"		"1"
+			"useparentbg"	"1"
 		}
 		
 		"ItemLabel"
@@ -382,15 +396,15 @@
 
 	"spectator_extras"
 	{
-		"ControlName"	"EditablePanel"
-		"fieldName"		"spectator_extras"
-		"xpos"			"0"
-		"ypos"			"0"
-		"wide"			"f0"
-		"tall"			"480"
-		"autoResize"	"0"
-		"pinCorner"		"0"
-		"visible"		"1"
-		"enabled"		"1"
+		"ControlName"		"EditablePanel"
+		"fieldName"			"spectator_extras"
+		"xpos"				"0"
+		"ypos"				"0"
+		"wide"				"f0"
+		"tall"				"480"
+		"autoResize"		"0"
+		"pinCorner"			"0"
+		"visible"			"1"
+		"enabled"			"1"
 	}		
 }

@@ -2,7 +2,7 @@ Scheme
 {
 	Fonts
 	{
-		"Roboto Bold Condensed10"
+		"RobotoBold10"
 		{
 			"1"
 			{
@@ -12,7 +12,7 @@ Scheme
 				"antialias" "1"
 			}
 		}
-		"Roboto Bold Condensed12"
+		"RobotoBold12"
 		{
 			"1"
 			{
@@ -22,7 +22,7 @@ Scheme
 				"antialias" "1"
 			}
 		}
-		"Roboto Bold Condensed14"
+		"RobotoBold14"
 		{
 			"1"
 			{
@@ -32,7 +32,7 @@ Scheme
 				"antialias" "1"
 			}
 		}
-		"Roboto Bold Condensed16"
+		"RobotoBold16"
 		{
 			"1"
 			{
@@ -42,7 +42,7 @@ Scheme
 				"antialias" "1"
 			}
 		}
-		"Roboto Bold Condensed18"
+		"RobotoBold18"
 		{
 			"1"
 			{
@@ -52,7 +52,7 @@ Scheme
 				"antialias" "1"
 			}
 		}
-		"Roboto Bold Condensed20"
+		"RobotoBold20"
 		{
 			"1"
 			{
@@ -62,7 +62,7 @@ Scheme
 				"antialias" "1"
 			}
 		}
-		"Roboto Bold Condensed24"
+		"RobotoBold24"
 		{
 			"1"
 			{
@@ -72,7 +72,7 @@ Scheme
 				"antialias" "1"
 			}
 		}
-		"Roboto Bold Condensed34"
+		"RobotoBold34"
 		{
 			"1"
 			{
@@ -82,7 +82,7 @@ Scheme
 				"antialias" "1"
 			}
 		}
-		"Roboto Condensed8"
+		"Roboto8"
 		{
 			"1"
 			{
@@ -92,7 +92,7 @@ Scheme
 				"antialias" "1"
 			}
 		}
-		"Roboto Condensed9"
+		"Roboto9"
 		{
 			"1"
 			{
@@ -102,7 +102,7 @@ Scheme
 				"antialias" "1"
 			}
 		}
-		"Roboto Condensed10"
+		"Roboto10"
 		{
 			"1"
 			{
@@ -112,7 +112,7 @@ Scheme
 				"antialias" "1"
 			}
 		}
-		"Roboto Condensed12"
+		"Roboto12"
 		{
 			"1"
 			{
@@ -122,7 +122,7 @@ Scheme
 				"antialias" "1"
 			}
 		}
-		"Roboto Condensed14"
+		"Roboto14"
 		{
 			"1"
 			{
@@ -132,7 +132,7 @@ Scheme
 				"antialias" "1"
 			}
 		}
-		"Roboto Condensed16"
+		"Roboto16"
 		{
 			"1"
 			{
@@ -142,7 +142,7 @@ Scheme
 				"antialias" "1"
 			}
 		}
-		"Roboto Condensed18"
+		"Roboto18"
 		{
 			"1"
 			{
@@ -152,7 +152,7 @@ Scheme
 				"antialias" "1"
 			}
 		}
-		"Roboto Condensed20"
+		"Roboto20"
 		{
 			"1"
 			{
@@ -162,7 +162,7 @@ Scheme
 				"antialias" "1"
 			}
 		}
-		"Roboto Condensed20Outline"
+		"Roboto20Outline"
 		{
 			"1"
 			{
@@ -173,7 +173,7 @@ Scheme
 				"outline"	"1"
 			}
 		}
-		"Roboto Condensed26"
+		"Roboto26"
 		{
 			"1"
 			{
@@ -183,7 +183,7 @@ Scheme
 				"antialias" "1"
 			}
 		}
-		"Roboto Condensed34"
+		"Roboto34"
 		{
 			"1"
 			{
@@ -193,7 +193,7 @@ Scheme
 				"antialias" "1"
 			}
 		}
-		"Roboto Condensed55"
+		"Roboto55"
 		{
 			"1"
 			{
@@ -203,6 +203,7 @@ Scheme
 				"antialias" "1"
 			}
 		}
+		
 		"Default"
 		{
 			"1"
@@ -245,8 +246,8 @@ Scheme
 			{
 				"name"		"Roboto Condensed"
 				"tall"		"11"
-				"range" 		"0x0000 0x00FF"
-				"weight"		"800"
+				"range" 	"0x0000 0x00FF"
+				"weight"	"800"
 			}
 		}
 		"DefaultSmall"
@@ -257,7 +258,7 @@ Scheme
 				"tall"		"12"
 				"weight"	"0"
 				"range"		"0x0000 0x017F"
-				"yres"	"480 599"
+				"yres"		"480 599"
 			}
 			"2"
 			{
@@ -265,7 +266,7 @@ Scheme
 				"tall"		"13"
 				"weight"	"0"
 				"range"		"0x0000 0x017F"
-				"yres"	"600 767"
+				"yres"		"600 767"
 			}
 			"3"
 			{
@@ -273,7 +274,7 @@ Scheme
 				"tall"		"14"
 				"weight"	"0"
 				"range"		"0x0000 0x017F"
-				"yres"	"768 1023"
+				"yres"		"768 1023"
 				"antialias"	"1"
 			}
 			"4"
@@ -282,7 +283,7 @@ Scheme
 				"tall"		"20"
 				"weight"	"0"
 				"range"		"0x0000 0x017F"
-				"yres"	"1024 1199"
+				"yres"		"1024 1199"
 				"antialias"	"1"
 			}
 			"5"
@@ -291,19 +292,17 @@ Scheme
 				"tall"		"22"
 				"weight"	"0"
 				"range"		"0x0000 0x017F"
-				"yres"	"1200 6000"
+				"yres"		"1200 6000"
 				"antialias"	"1"
 			}
 			"6"
 			{
 				"name"		"Roboto Condensed"
 				"tall"		"12"
-				"range" 		"0x0000 0x00FF"
-				"weight"		"0"
+				"range" 	"0x0000 0x00FF"
+				"weight"	"0"
 			}
 		}
-
-
 		"DefaultVerySmall"
 		{
 			"1"
@@ -312,7 +311,7 @@ Scheme
 				"tall"		"12"
 				"weight"	"0"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
-				"yres"	"480 599"
+				"yres"		"480 599"
 			}
 			"2"
 			{
@@ -320,7 +319,7 @@ Scheme
 				"tall"		"12"
 				"weight"	"0"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
-				"yres"	"600 767"
+				"yres"		"600 767"
 			}
 			"3"
 			{
@@ -328,7 +327,7 @@ Scheme
 				"tall"		"12"
 				"weight"	"0"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
-				"yres"	"768 1023"
+				"yres"		"768 1023"
 				"antialias"	"1"
 			}
 			"4"
@@ -337,7 +336,7 @@ Scheme
 				"tall"		"14"
 				"weight"	"0"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
-				"yres"	"1024 1199"
+				"yres"		"1024 1199"
 				"antialias"	"1"
 			}
 			"5"
@@ -346,7 +345,7 @@ Scheme
 				"tall"		"16"
 				"weight"	"0"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
-				"yres"	"1200 6000"
+				"yres"		"1200 6000"
 				"antialias"	"1"
 			}
 		}
@@ -392,24 +391,25 @@ Scheme
 				"tall"		"30"
 				"weight"	"900"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
-				"yres"	"1200 6000"
+				"yres"		"1200 6000"
 				"antialias"	"1"
 			}
 			"6"
 			{
 				"name"		"Roboto Condensed"
 				"tall"		"20"
-				"range" 		"0x0000 0x00FF"
-				"weight"		"900"
+				"range" 	"0x0000 0x00FF"
+				"weight"	"900"
 			}
 			"7"
 			{
 				"name"		"Roboto Condensed"
 				"tall"		"20"
-				"range" 		"0x0000 0x00FF"
-				"weight"		"800"
+				"range" 	"0x0000 0x00FF"
+				"weight"	"800"
 			}
 		}
+		
 		CenterPrintText
 		{
 			// note that this scales with the screen resolution
@@ -435,6 +435,7 @@ Scheme
 				"antialias" "1"
 			}
 		}
+		
 		HudHintText
 		{
 			"1"
@@ -442,7 +443,7 @@ Scheme
 				"name"		"Roboto Condensed"
 				"tall"		"12"
 				"weight"	"700"
-				"yres"	"480 599"
+				"yres"		"480 599"
 			}
 			"2"
 			{
@@ -450,30 +451,31 @@ Scheme
 				"tall"		"13"	[$WIN32]
 				"tall"		"23"	[$X360]
 				"weight"	"700"
-				"yres"	"600 767"
+				"yres"		"600 767"
 			}
 			"3"
 			{
 				"name"		"Roboto Condensed"
 				"tall"		"14"
 				"weight"	"700"
-				"yres"	"768 1023"
+				"yres"		"768 1023"
 			}
 			"4"
 			{
 				"name"		"Roboto Condensed"
 				"tall"		"20"
 				"weight"	"700"
-				"yres"	"1024 1199"
+				"yres"		"1024 1199"
 			}
 			"5"
 			{
 				"name"		"Roboto Condensed"
 				"tall"		"24"
 				"weight"	"700"
-				"yres"	"1200 10000"
+				"yres"		"1200 10000"
 			}
 		}
+		
 		"HudFontGiant"
 		{
 			"1"
@@ -533,7 +535,6 @@ Scheme
 				"antialias" "1"
 			}
 		}
-
 		"HudFontBiggerBold"
 		{
 			"1"
@@ -545,7 +546,6 @@ Scheme
 				"antialias" "1"
 			}
 		}
-
 		"HudFontBig"
 		{
 			"1"
@@ -653,7 +653,7 @@ Scheme
 				"tall"		"14"
 				"weight"	"500"
 				"additive"	"0"
-				"antialias" 	"1"
+				"antialias" "1"
 			}
 		}	
 		"HudFontSmallishBold"
@@ -687,7 +687,7 @@ Scheme
 				"weight"	"500"
 				"additive"	"0"
 				"antialias" "1"
-				"dropshadow"	"1"
+				"dropshadow""1"
 			}
 		}
 		"HudFontSmallest"
@@ -698,7 +698,7 @@ Scheme
 				"tall"		"11"
 				"weight"	"500"
 				"additive"	"0"
-				"antialias" 	"1"
+				"antialias" "1"
 			}
 		}
 		"HudFontSmallestShadow"
@@ -709,8 +709,8 @@ Scheme
 				"tall"		"11"
 				"weight"	"500"
 				"additive"	"0"
-				"antialias" 	"1"
-				"dropshadow"	"1"
+				"antialias" "1"
+				"dropshadow""1"
 			}
 		}
 		"HudFontSmallestBold"
@@ -724,6 +724,7 @@ Scheme
 				"antialias" "1"
 			}
 		}
+		
 		"PerformanceModeSmall"
 		{
 			"1"
@@ -735,6 +736,7 @@ Scheme
 				"antialias" "1"
 			}
 		}
+		
 		"StorePromotionsTitle"
 		{
 			"1"
@@ -746,6 +748,7 @@ Scheme
 				"antialias" "1"
 			}
 		}
+		
 		"FontCartPrice"
 		{
 			"1"
@@ -801,6 +804,7 @@ Scheme
 				"antialias" "1"
 			}
 		}
+		
 		"TextTooltipFont"
 		{
 			"1"
@@ -812,6 +816,7 @@ Scheme
 				"antialias" "1"
 			}
 		}
+		
 		GameUIButtons
 		{
 			"1"	//[$X360]
@@ -883,6 +888,7 @@ Scheme
 				"antialias" "1"
 			}
 		}
+		
 		"HudClassHealth"
 		{
 			"1"
@@ -894,6 +900,7 @@ Scheme
 				"antialias" "1"
 			}
 		}
+		
 		"SpectatorKeyHints"
 		{
 			"1"
@@ -905,6 +912,7 @@ Scheme
 				"antialias" "1"
 			}
 		}
+		
 		"ClockSubText"
 		{
 			"1"
@@ -938,6 +946,7 @@ Scheme
 				"antialias" "1"
 			}
 		}
+		
 		"HudSelectionText"
 		{
 			"1"
@@ -945,7 +954,7 @@ Scheme
 				"name"		"Roboto Condensed"
 				"tall"		"15"
 				"weight"	"700"
-				"antialias" 	"1"
+				"antialias" "1"
 				"yres"		"1 599"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
 				"additive"	"1"
@@ -956,7 +965,7 @@ Scheme
 				"tall"		"15"	[$WIN32]
 				"tall"		"21"	[$X360]
 				"weight"	"700"
-				"antialias" 	"1"
+				"antialias" "1"
 				"yres"		"600 767"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
 				"additive"	"1"
@@ -966,7 +975,7 @@ Scheme
 				"name"		"Roboto Condensed"
 				"tall"		"18"
 				"weight"	"900"
-				"antialias" 	"1"
+				"antialias" "1"
 				"yres"		"768 1023"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
 			}
@@ -975,7 +984,7 @@ Scheme
 				"name"		"Roboto Condensed"
 				"tall"		"21"
 				"weight"	"900"
-				"antialias" 	"1"
+				"antialias" "1"
 				"yres"		"1024 1199"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
 			}
@@ -984,11 +993,12 @@ Scheme
 				"name"		"Roboto Condensed"
 				"tall"		"24"
 				"weight"	"1000"
-				"antialias" 	"1"
+				"antialias" "1"
 				"yres"		"1200 10000"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
 			}
 		}
+		
 		DebugOverlay
 		{
 			"1"	[$WIN32]
@@ -1006,7 +1016,8 @@ Scheme
 				"weight"	"200"
 				"outline"	"1"
 			}
-		}		
+		}
+		
 		TFTypeDeath
 		{
 			"1"
@@ -1015,7 +1026,7 @@ Scheme
 				"tall"  	"28"
 				"weight" 	"0"
 				"additive" 	"0"
-				"antialias" 	"1"
+				"antialias" "1"
 			}
 		}
 		
@@ -1027,9 +1038,10 @@ Scheme
 				"tall"  	"28"
 				"weight" 	"0"
 				"additive" 	"1"
-				"antialias" 	"1"
+				"antialias" "1"
 			}
 		}
+		
 		"BetaFont"
 		{
 			"1"
@@ -1047,21 +1059,22 @@ Scheme
 		{
 			"1"
 			{
-				"name"  "Team Fortress" // tf.ttf
-				"tall"  "28"
-				"weight" "0"
-				"additive" "1"
-				"antialias" "1"
+				"name"		"Team Fortress" // tf.ttf
+				"tall"		"28"
+				"weight"	"0"
+				"additive"	"1"
+				"antialias"	"1"
 			}
 			"2"
 			{
-				"name"  "Verdana"
-				"tall"  "28"
-				"weight" "0"
-				"additive" "1"
-				"antialias" "1"
+				"name"		"Verdana"
+				"tall"		"28"
+				"weight"	"0"
+				"additive"	"1"
+				"antialias"	"1"
 			}
 		}
+		
 		"CloseCaption_Normal"
 		{
 			"1"
@@ -1143,6 +1156,7 @@ Scheme
 				"range"		"0x0000 0x007F"	//	Basic Latin
 			}
 		}
+		
 		"MenuMainTitle"
 		{
 			"1"
@@ -1153,6 +1167,7 @@ Scheme
 				"weight"	"500"
 			}
 		}
+		
 		"MenuClassBuckets"
 		{
 			"1"
@@ -1163,6 +1178,7 @@ Scheme
 				"weight"	"500"
 			}
 		}
+		
 		"MenuKeys"
 		{
 			"1"
@@ -1182,7 +1198,7 @@ Scheme
 				"tall"		"13"
 				"weight"	"800"
 				"additive"	"0"
-				"antialias" 	"1"
+				"antialias" "1"
 			}
 		}		
 		
@@ -1190,22 +1206,22 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"TF2 Professor"
-				"tall"			"28"
-				"antialias"		"1" 
-				"custom"		"1" [$OSX]
-				"weight"		"500"
+				"name"		"TF2 Professor"
+				"tall"		"28"
+				"antialias"	"1" 
+				"custom"	"1" [$OSX]
+				"weight"	"500"
 			}
 		}
 		"ChalkboardTitleBig"
 		{
 			"1"
 			{
-				"name"			"TF2 Professor"
-				"tall"			"40"
-				"antialias"		"1"
-				"custom"		"1" [$OSX]
-				"weight"		"500"
+				"name"		"TF2 Professor"
+				"tall"		"40"
+				"antialias"	"1"
+				"custom"	"1" [$OSX]
+				"weight"	"500"
 			}
 		}
 		"ChalkboardTitleMedium"
@@ -1215,7 +1231,7 @@ Scheme
 				"name"		"TF2 Professor"
 				"tall"		"24"
 				"antialias" "1"
-				"custom"		"1" [$OSX]
+				"custom"	"1" [$OSX]
 				"weight"	"500"
 			}
 		}
@@ -1223,14 +1239,15 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"TF2 Professor"
-				"tall"			"14" [!$OSX]
-				"tall"			"15" [$OSX]
-				"antialias"		"1"
-				"custom"		"1" [$OSX]
-				"weight"		"500"
+				"name"		"TF2 Professor"
+				"tall"		"14" [!$OSX]
+				"tall"		"15" [$OSX]
+				"antialias"	"1"
+				"custom"	"1" [$OSX]
+				"weight"	"500"
 			}
 		}
+		
 		"ScoreboardSmallest"
 		{
 			"1"
@@ -1336,7 +1353,6 @@ Scheme
 				"additive"	"0"
 			}
 		}
-
 		"ScoreboardTeamScoreNew"
  		{
 			"1"
@@ -1396,6 +1412,7 @@ Scheme
 				"antialias" "1"
 			}
 		}
+		
 		"MatchSummaryTeamScores"
 		{
 			"1"
@@ -1430,6 +1447,7 @@ Scheme
 				"antialias" "1"
 			}
 		}
+		
 		"CompMatchStartTeamNames"
 		{
 			"1"
@@ -1441,6 +1459,7 @@ Scheme
 				"antialias" "1"
 			}
 		}
+		
 		"ControlPointTimer"
 		{
 			"1"
@@ -1484,7 +1503,7 @@ Scheme
 				"tall"		"12"
 				"weight"	"700"
 				"yres"		"480 599"
-				"dropshadow"	"0"
+				"dropshadow""0"
 			}
 			"2"
 			{
@@ -1492,7 +1511,7 @@ Scheme
 				"tall"		"13"
 				"weight"	"700"
 				"yres"		"600 767"
-				"dropshadow"	"0"
+				"dropshadow""0"
 			}
 			"3"
 			{
@@ -1500,7 +1519,7 @@ Scheme
 				"tall"		"14"
 				"weight"	"700"
 				"yres"		"768 1023"
-				"dropshadow"	"0"
+				"dropshadow""0"
 			}
 			"4"
 			{
@@ -1508,7 +1527,7 @@ Scheme
 				"tall"		"20"
 				"weight"	"700"
 				"yres"		"1024 1199"
-				"dropshadow"	"0"
+				"dropshadow""0"
 			}
 			"5"
 			{
@@ -1516,9 +1535,10 @@ Scheme
 				"tall"		"24"
 				"weight"	"700"
 				"yres"		"1200 10000"
-				"dropshadow"	"0"
+				"dropshadow""0"
 			}
 		}
+		
 		"ChatFont"
 		{
 			"1"
@@ -1527,7 +1547,7 @@ Scheme
 				"tall"		"12"
 				"weight"	"700"
 				"yres"		"480 599"
-				"dropshadow"	"1"
+				"dropshadow""1"
 			}
 			"2"
 			{
@@ -1535,7 +1555,7 @@ Scheme
 				"tall"		"13"
 				"weight"	"700"
 				"yres"		"600 767"
-				"dropshadow"	"1"
+				"dropshadow""1"
 			}
 			"3"
 			{
@@ -1543,7 +1563,7 @@ Scheme
 				"tall"		"14"
 				"weight"	"700"
 				"yres"		"768 1023"
-				"dropshadow"	"1"
+				"dropshadow""1"
 			}
 			"4"
 			{
@@ -1551,7 +1571,7 @@ Scheme
 				"tall"		"20"
 				"weight"	"700"
 				"yres"		"1024 1199"
-				"dropshadow"	"1"
+				"dropshadow""1"
 			}
 			"5"
 			{
@@ -1559,7 +1579,7 @@ Scheme
 				"tall"		"24"
 				"weight"	"700"
 				"yres"		"1200 10000"
-				"dropshadow"	"1"
+				"dropshadow""1"
 			}
 		}
 		"ChatMiniFont"
@@ -1570,7 +1590,7 @@ Scheme
 				"tall"		"10"
 				"weight"	"700"
 				"yres"		"480 599"
-				"dropshadow"	"1"
+				"dropshadow""1"
 			}
 			"2"
 			{
@@ -1578,7 +1598,7 @@ Scheme
 				"tall"		"10"
 				"weight"	"700"
 				"yres"		"600 767"
-				"dropshadow"	"1"
+				"dropshadow""1"
 			}
 			"3"
 			{
@@ -1586,7 +1606,7 @@ Scheme
 				"tall"		"13"
 				"weight"	"700"
 				"yres"		"768 1023"
-				"dropshadow"	"1"
+				"dropshadow""1"
 			}
 			"4"
 			{
@@ -1594,7 +1614,7 @@ Scheme
 				"tall"		"14"
 				"weight"	"700"
 				"yres"		"1024 1199"
-				"dropshadow"	"1"
+				"dropshadow""1"
 			}
 			"5"
 			{
@@ -1602,7 +1622,7 @@ Scheme
 				"tall"		"15"
 				"weight"	"700"
 				"yres"		"1200 10000"
-				"dropshadow"	"1"
+				"dropshadow""1"
 			}
 		}
 
@@ -1610,25 +1630,25 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"Arial Black"
-				"tall"			"8"
-				"range" 		"0x0000 0x00FF"
-				"weight"		"300"
-				"antialias"		"1"
+				"name"		"Arial Black"
+				"tall"		"8"
+				"range" 	"0x0000 0x00FF"
+				"weight"	"300"
+				"antialias"	"1"
 			}
-		}	
-		
+		}
 		MenuSmallFont
 		{
 			"1"
 			{
 				"name"		"Roboto Condensed"
 				"tall"		"14"
-				"range" 		"0x0000 0x00FF"
-				"weight"		"300"
-				"antialias"		"1"
+				"range" 	"0x0000 0x00FF"
+				"weight"	"300"
+				"antialias"	"1"
 			}
-		}			
+		}
+		
 		CapPlayerFont
 		{
 			"1"
@@ -1638,7 +1658,7 @@ Scheme
 				"weight"	"500"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
 				"TextColor"	"Black"
-				"antialias" 	"1"
+				"antialias" "1"
 			}
 		}
 		CapPlayerFontSmall
@@ -1650,7 +1670,7 @@ Scheme
 				"weight"	"500"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
 				"TextColor"	"Black"
-				"antialias" 	"1"
+				"antialias" "1"
 			}
 		}
 
@@ -1662,7 +1682,7 @@ Scheme
 				"tall"		"8"
 				"weight"	"0"
 				"additive"	"1"
-				"antialias" 	"1"
+				"antialias" "1"
 			}
 		}		
 		TFFontMedium
@@ -1673,7 +1693,7 @@ Scheme
 				"tall"		"9"
 				"weight"	"400"
 				"additive"	"0"
-				"antialias" 	"1"
+				"antialias" "1"
 			}
 		}		
 		
@@ -1686,7 +1706,7 @@ Scheme
 				"tall"		"9"  [$OSX]
 				"weight"	"800"
 				"additive"	"0"
-				"antialias" 	"1"
+				"antialias" "1"
 			}
 		}		
 		
@@ -1771,6 +1791,7 @@ Scheme
 				"weight"	"900"
 			}
 		}
+		
 		RankingDialogHeaders
 		{
 			"1"
@@ -1800,9 +1821,10 @@ Scheme
 				"tall"		"11"
 				"weight"	"600"
 				"additive"	"0"
-				"antialias" 	"1"
+				"antialias" "1"
 			}
-		}		
+		}
+		
 		"IntroMenuCaption"
 		{
 			"1"
@@ -1811,9 +1833,10 @@ Scheme
 				"tall"		"18"
 				"weight"	"400"
 				"additive"	"0"
-				"antialias" 	"1"
+				"antialias" "1"
 			}
-		}			
+		}
+		
 		"AchievementNotification"
 		{
 			"1"
@@ -1824,6 +1847,7 @@ Scheme
 				"antialias" "1"
 			}
 		}
+		
 		"ImportToolSmallestBold"
 		{
 			"1"
@@ -1832,7 +1856,7 @@ Scheme
 				"tall"		"10"
 				"weight"	"600"
 				"additive"	"0"
-				"antialias" 	"1"
+				"antialias" "1"
 			}
 		}
 		"ImportToolSmallest"
@@ -1843,9 +1867,10 @@ Scheme
 				"tall"		"10"
 				"weight"	"500"
 				"additive"	"0"
-				"antialias" 	"1"
+				"antialias" "1"
 			}
 		}
+		
 		"SpectatorVerySmall"
 		{
 			"1"
@@ -1857,6 +1882,7 @@ Scheme
 				"antialias" "1"
 			}
 		}
+		
 		// Used by scoreboard and spectator UI for names which don't map in the normal fashion
 		"DefaultVerySmallFallBack"
 		{
@@ -1941,7 +1967,7 @@ Scheme
 				"tall"		"7"
 				"weight"	"500"
 				"additive"	"0"
-				"antialias" 	"1"
+				"antialias" "1"
 			}
 		}
 		ItemFontAttribSmallv2
@@ -1962,7 +1988,7 @@ Scheme
 				"tall"		"8"
 				"weight"	"500"
 				"additive"	"0"
-				"antialias" 	"1"
+				"antialias" "1"
 			}
 		}
 		"ItemFontAttribLarge"
@@ -1973,7 +1999,7 @@ Scheme
 				"tall"		"11"
 				"weight"	"500"
 				"additive"	"0"
-				"antialias" 	"1"
+				"antialias" "1"
 			}
 		}	
 		"ItemFontAttribLarger"
@@ -1984,7 +2010,7 @@ Scheme
 				"tall"		"14"
 				"weight"	"500"
 				"additive"	"0"
-				"antialias" 	"1"
+				"antialias" "1"
 			}
 		}
 		
@@ -1996,7 +2022,7 @@ Scheme
 				"tall"		"9"
 				"weight"	"500"
 				"additive"	"0"
-				"antialias" 	"1"
+				"antialias" "1"
 			}
 		}
 		"AchievementTracker_NameGlow"
@@ -2008,7 +2034,7 @@ Scheme
 				"weight"	"500"
 				"blur"		"3"
 				"additive"	"1"
-				"antialias" 	"1"
+				"antialias" "1"
 			}
 		}
 		"AchievementTracker_Desc"
@@ -2019,9 +2045,10 @@ Scheme
 				"tall"		"7"
 				"weight"	"0"
 				"additive"	"1"
-				"antialias" 	"1"
+				"antialias" "1"
 			}
 		}
+		
 		"QuestObjectiveTracker_Desc"
 		{
 			"1"
@@ -2030,7 +2057,7 @@ Scheme
 				"tall"		"7"
 				"weight"	"0"
 				"additive"	"1"
-				"antialias" 	"1"
+				"antialias" "1"
 			}
 		}
 		"QuestObjectiveTracker_DescGlow"
@@ -2040,7 +2067,7 @@ Scheme
 				"name"		"Verdana"
 				"tall"		"7"
 				"weight"	"0"
-				"antialias" 	"1"
+				"antialias" "1"
 			}
 		}
 		"QuestObjectiveTracker_DescBlur"
@@ -2052,9 +2079,10 @@ Scheme
 				"weight"	"0"
 				"blur"		"3"
 				"additive"	"1"
-				"antialias" 	"1"
+				"antialias" "1"
 			}
 		}
+		
 		"ItemTrackerScore_InGame"
 		{
 			"1"
@@ -2062,7 +2090,7 @@ Scheme
 				"name"		"Verdana"
 				"tall"		"7"
 				"weight"	"0"
-				"antialias" 	"1"
+				"antialias" "1"
 			}
 		}
 
@@ -2096,7 +2124,6 @@ Scheme
 				"antialias"	"1"
 			}
 		}
-
 		"QuestObjectiveText"
 		{
 			"1"
@@ -2127,7 +2154,6 @@ Scheme
 				"antialias"	"1"
 			}
 		}
-		
 		"QuestLargeText"
 		{
 			"1"
@@ -2139,7 +2165,6 @@ Scheme
 				"antialias" "1"
 			}
 		}
-
 		"QuestStickyText"
 		{
 			"1"
@@ -2147,11 +2172,10 @@ Scheme
 				"name"		"TF2 Professor"
 				"tall"		"20"
 				"antialias" "1"
-				"custom"		"1" [$OSX]
+				"custom"	"1" [$OSX]
 				"weight"	"500"
 			}
 		}
-
 		"QuestInstructionText_Merasmus"
 		{
 			"1"
@@ -2182,7 +2206,6 @@ Scheme
 				"antialias"	"1"
 			}
 		}
-
 		"QuestFlavorText_Merasmus"
 		{
 			"1"
@@ -2216,7 +2239,6 @@ Scheme
 				"italic"	"1"
 			}
 		}
-
 		"QuestObjectiveText_Merasmus"
 		{
 			"1"
@@ -2247,7 +2269,6 @@ Scheme
 				"antialias"	"1"
 			}
 		}
-
 		"QuestMediumText_Merasmus"
 		{
 			"1"
@@ -2259,7 +2280,6 @@ Scheme
 				"antialias" "1"
 			}
 		}
-		
 		"QuestLargeText_Merasmus"
 		{
 			"1"
@@ -2283,7 +2303,6 @@ Scheme
 				"antialias" "1"
 			}
 		}
-		
 		"AdFont_AdText"
 		{
 			"1"
@@ -2302,7 +2321,7 @@ Scheme
 				"name"		"Verdana"
 				"tall"		"8"
 				"weight"	"0"
-				"antialias" 	"1"
+				"antialias" "1"
 			}
 		}
 
@@ -2317,7 +2336,6 @@ Scheme
 				"additive"	"0"
 			}
 		}
-
 		"TradeUp_Quote"
 		{
 			"1"
@@ -2331,9 +2349,7 @@ Scheme
 			}
 		}
 		
-		//
 		//////////////////// REPLAY FONTS //////////////////////////////
-		//
 		"ReplayVerySmall"
 		{
 			"1"
@@ -2342,7 +2358,7 @@ Scheme
 				"tall"		"12"
 				"weight"	"0"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
-				"yres"	"480 599"
+				"yres"		"480 599"
 			}
 			"2"
 			{
@@ -2350,7 +2366,7 @@ Scheme
 				"tall"		"12"
 				"weight"	"0"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
-				"yres"	"600 767"
+				"yres"		"600 767"
 			}
 			"3"
 			{
@@ -2358,7 +2374,7 @@ Scheme
 				"tall"		"12"
 				"weight"	"0"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
-				"yres"	"768 1023"
+				"yres"		"768 1023"
 				"antialias"	"1"
 			}
 			"4"
@@ -2367,7 +2383,7 @@ Scheme
 				"tall"		"14"
 				"weight"	"0"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
-				"yres"	"1024 1199"
+				"yres"		"1024 1199"
 				"antialias"	"1"
 			}
 			"5"
@@ -2376,7 +2392,7 @@ Scheme
 				"tall"		"16"
 				"weight"	"0"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
-				"yres"	"1200 6000"
+				"yres"		"1200 6000"
 				"antialias"	"1"
 			}
 		}
@@ -2388,7 +2404,7 @@ Scheme
 				"tall"		"11"
 				"weight"	"500"
 				"additive"	"0"
-				"antialias" 	"1"
+				"antialias" "1"
 			}
 		}
 		"ReplaySmaller"
@@ -2399,7 +2415,7 @@ Scheme
 				"tall"		"12"
 				"weight"	"0"
 				"range"		"0x0000 0x017F"
-				"yres"	"480 599"
+				"yres"		"480 599"
 			}
 			"2"
 			{
@@ -2407,7 +2423,7 @@ Scheme
 				"tall"		"13"
 				"weight"	"0"
 				"range"		"0x0000 0x017F"
-				"yres"	"600 767"
+				"yres"		"600 767"
 			}
 			"3"
 			{
@@ -2415,7 +2431,7 @@ Scheme
 				"tall"		"14"
 				"weight"	"0"
 				"range"		"0x0000 0x017F"
-				"yres"	"768 1023"
+				"yres"		"768 1023"
 				"antialias"	"1"
 			}
 			"4"
@@ -2424,7 +2440,7 @@ Scheme
 				"tall"		"20"
 				"weight"	"0"
 				"range"		"0x0000 0x017F"
-				"yres"	"1024 1199"
+				"yres"		"1024 1199"
 				"antialias"	"1"
 			}
 			"5"
@@ -2433,15 +2449,15 @@ Scheme
 				"tall"		"22"
 				"weight"	"0"
 				"range"		"0x0000 0x017F"
-				"yres"	"1200 6000"
+				"yres"		"1200 6000"
 				"antialias"	"1"
 			}
 			"6"
 			{
 				"name"		"Arial"
 				"tall"		"12"
-				"range" 		"0x0000 0x00FF"
-				"weight"		"0"
+				"range" 	"0x0000 0x00FF"
+				"weight"	"0"
 			}
 		}
 		"ReplayMediumSmall"
@@ -2500,9 +2516,7 @@ Scheme
 			}
 		}
 		
-		//
 		//////////////////// ECON FONTS //////////////////////////////
-		//
 		"EconFontSmall"
 		{
 			"1"
@@ -2547,7 +2561,7 @@ Scheme
 				"tall"		"9"
 				"weight"	"400"
 				"additive"	"0"
-				"antialias" 	"1"
+				"antialias" "1"
 			}
 		}
 
@@ -2562,7 +2576,6 @@ Scheme
 				"custom"	"1"
 			}
 		}
-
 		"XPSource_Glow"
 		{
 			"1"
@@ -2572,7 +2585,7 @@ Scheme
 				"weight"	"500"
 				"blur"		"3"
 				"additive"	"1"
-				"antialias" 	"1"
+				"antialias" "1"
 			}
 		}
 
@@ -2585,7 +2598,7 @@ Scheme
 				"weight"	"500"
 				"additive"	"0"
 				"antialias" "1"
-				"dropshadow"	"1"
+				"dropshadow""1"
 			}
 		}
 
@@ -2598,10 +2611,9 @@ Scheme
 				"weight"	"0"
 				"blur"		"3"
 				"additive"	"1"
-				"antialias" 	"1"
+				"antialias" "1"
 			}
 		}
-
 		"QuestMap_Small"
 		{
 			"1"
@@ -2613,7 +2625,6 @@ Scheme
 				"antialias" "1"
 			}
 		}
-
 		"QuestMap_Medium"
 		{
 			"1"
@@ -2625,7 +2636,6 @@ Scheme
 				"antialias" "1"
 			}
 		}
-
 		"QuestMap_Large"
 		{
 			"1"
@@ -2637,7 +2647,6 @@ Scheme
 				"antialias" "1"
 			}
 		}
-
 		"QuestMap_Huge"
 		{
 			"1"

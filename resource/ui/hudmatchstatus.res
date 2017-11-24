@@ -15,7 +15,7 @@
 		"fieldName"		"RoundSignModel"
 		"xpos"			"0"
 		"ypos"			"0"
-		"zpos"			"3"		
+		"zpos"			"3"
 		"wide"			"f0"
 		"tall"			"f0"
 		"autoResize"	"0"
@@ -24,7 +24,7 @@
 		"enabled"		"1"
 		"fov"			"70"
 		"proportionaltoparent"	"1"
-		
+
 		"model"
 		{
 			"modelname"	"models/props_ui/banner.mdl"
@@ -57,9 +57,9 @@
 			}
 		}
 	}
-	
+
 	"CountdownLabel"
-	{	
+	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"CountdownLabel"
 		"font"			"HudFontGiant"
@@ -84,7 +84,7 @@
 			"ypos"			"130"
 		}
 	}
-	
+
 	"CountdownLabelShadow"
 	{	
 		"ControlName"	"CExLabel"
@@ -129,12 +129,12 @@
 		{
 			"0"
 			{
-				"particle_xpos" "c0"
-				"particle_ypos" "c0"
+				"particle_xpos"		"c0"
+				"particle_ypos" 	"c0"
 				"particle_scale"	"2"
-				"particleName"	"versus_door_slam"
-				"start_activated" "0"
-				"loop"	"0"
+				"particleName"		"versus_door_slam"
+				"start_activated" 	"0"
+				"loop"				"0"
 			}
 		}
 
@@ -265,8 +265,8 @@
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"		"TimePanelValue"
-			"font"			"Roboto Bold Condensed16"
-			"fgcolor"		"White"
+			"font"			"RobotoBold16"
+			"fgcolor"		"TanLight"
 			"xpos"			"23"
 			"ypos"			"2"
 			"zpos"			"3"
@@ -274,8 +274,17 @@
 			"tall"			"15"
 			"visible"		"1"
 			"enabled"		"1"
-			"textAlignment"	"center"
+			"textAlignment"		"center"
 			"labelText"		"0:00"
+
+			if_match
+			{
+				"proportionaltoparent"	"1"
+				"xpos"			"23"
+				"ypos"			"2"
+				"tall"			"15"
+				"font"			"RobotoBold16"
+			}
 		}	
 	}
 	"TeamStatus"
@@ -289,7 +298,6 @@
 		"tall"			"75"
 		"visible"		"1"
 		"enabled"		"1"
-
 
 		"max_size"	"19"
 
@@ -370,12 +378,12 @@
 			{	
 				"ControlName"			"ContinuousProgressBar"
 				"fieldName"				"healthbar"
-				"font"					"Default"																		
+				"font"					"Default"
 				"xpos"					"0"
 				"ypos"					"19"
 				"zpos"					"5"
 				"wide"					"f0"
-				"tall"					"2"				
+				"tall"					"2"
 				"autoResize"			"0"
 				"pinCorner"				"0"
 				"visible"				"1"
@@ -390,12 +398,12 @@
 			{	
 				"ControlName"			"ContinuousProgressBar"
 				"fieldName"				"overhealbar"
-				"font"					"Default"																		
+				"font"					"Default"
 				"xpos"					"0"
 				"ypos"					"19"
 				"zpos"					"6"
 				"wide"					"f0"
-				"tall"					"2"				
+				"tall"					"2"
 				"autoResize"			"0"
 				"pinCorner"				"0"
 				"visible"				"1"
@@ -535,7 +543,7 @@
 				"tall"			"p0.15"
 				"visible"		"0"
 				"enabled"		"1"
-				"image"			"../HUD/comp_player_status_skull"	
+				"image"			"../HUD/comp_player_status_skull"
 				"scaleImage"	"1"
 				"proportionaltoparent"	"1"	
 			}

@@ -2,27 +2,26 @@
 {
 	"TargetIDBG"
 	{
-		"ControlName"		"CTFImagePanel"
+		"ControlName"	"CTFImagePanel"
 		"fieldName"		"TargetIDBG"
 		"xpos"			"0"
 		"ypos"			"0"
 		"zpos"			"-1"
 		"wide"			"252"
 		"tall"	 		"50"
-		"autoResize"		"0"
+		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
 		"image"			"../hud/color_panel_brown"
-		"scaleImage"		"1"
+		"scaleImage"	"1"
 		"teambg_1"		"../hud/color_panel_brown"
 		"teambg_2"		"../hud/color_panel_red"
 		"teambg_3"		"../hud/color_panel_blu"
 		
-		"src_corner_height"		"23"				// pixels inside the image
+		"src_corner_height"		"23"
 		"src_corner_width"		"23"
-			
-		"draw_corner_width"		"5"				// screen size of the corners ( and sides ), proportional
+		"draw_corner_width"		"5"
 		"draw_corner_height" 	"5"	
 	}
 	"TargetIDBG_Spec_Blue"
@@ -34,7 +33,7 @@
 		"zpos"			"-1"
 		"wide"			"640"
 		"tall"	 		"35"
-		"autoResize"		"0"
+		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"0"
 		"enabled"		"1"
@@ -54,7 +53,7 @@
 		"zpos"			"-1"
 		"wide"			"640"
 		"tall"	 		"36"
-		"autoResize"		"0"
+		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"0"
 		"enabled"		"1"
@@ -68,26 +67,26 @@
 	
 	"TargetNameLabel"
 	{	
-		"ControlName"		"Label"
+		"ControlName"	"Label"
 		"fieldName"		"TargetNameLabel"
-		"font"			"Roboto Bold Condensed18"
+		"font"			"RobotoBold18"
 		"xpos"			"8"
 		"ypos"			"5"
 		"zpos"			"1"
 		"wide"			"640"
 		"tall"			"24"
-		"autoResize"		"0"
+		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
 		"labelText"		"%targetname%"
-		"textAlignment"		"North-West"
+		"textAlignment"	"North-West"
 		"dulltext"		"0"
-		"brighttext"		"0"
+		"brighttext"	"0"
 	}
 	"TargetDataLabel"
 	{	
-		"ControlName"		"Label"
+		"ControlName"	"Label"
 		"fieldName"		"TargetDataLabel"
 		"font"			"FontStoreOriginalPrice"
 		"xpos"			"8"
@@ -96,30 +95,30 @@
 		"zpos"			"1"
 		"wide"			"280"
 		"tall"			"15"
-		"autoResize"		"0"
+		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
 		"labelText"		"%targetdata%"
-		"textAlignment"		"Left"
+		"textAlignment"	"Left"
 		"dulltext"		"0"
-		"brighttext"		"0"
+		"brighttext"	"0"
 	}
 	"SpectatorGUIHealth"
 	{
-		"ControlName"		"EditablePanel"
+		"ControlName"	"EditablePanel"
 		"fieldName"		"SpectatorGUIHealth"
 		"xpos"			"3"
 		"ypos"			"2"
 		"wide"			"32"
 		"tall"			"32"
 		"visible"		"0"
-		"enabled"		"0"	
-		"HealthBonusPosAdj"	"10"
-		"HealthDeathWarning"	"0.49"
-		"TFFont"		"HudFontSmall"
+		"enabled"		"0"
+		"HealthBonusPosAdj"			"10"
+		"HealthDeathWarning"		"0.49"
+		"TFFont"					"HudFontSmall"
 		"HealthDeathWarningColor"	"HUDDeathWarning"
-		"TextColor"		"HudOffWhite"
+		"TextColor"					"HudOffWhite"
 	}	
 	
 	"AmmoIcon"
@@ -154,7 +153,7 @@
 	
 	"MoveableSubPanel"
 	{
-		"ControlName"		"EditablePanel"
+		"ControlName"	"EditablePanel"
 		"fieldName"		"MoveableSubPanel"
 		"xpos"			"0"
 		"ypos"			"0"
@@ -179,7 +178,6 @@
 			"iconColor"		"HudBlack"
 			"scaleImage"	"1"
 		}
-		
 		"MoveableIcon"
 		{
 			"ControlName"	"CIconPanel"
@@ -210,10 +208,9 @@
 			"drawcolor"		"ProgressOffWhite"
 			"scaleImage"	"1"
 		}
-
 		"MoveableKeyLabel"
 		{	
-			"ControlName"		"Label"
+			"ControlName"	"Label"
 			"fieldName"		"MoveableKeyLabel"
 			"font"			"TFFontMedium"
 			"xpos"			"0"
@@ -221,15 +218,15 @@
 			"zpos"			"1"
 			"wide"			"640"
 			"tall"			"24"
-			"autoResize"		"0"
+			"autoResize"	"0"
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
 			"labelText"		"%movekey%"
-			"textAlignment"		"North"
+			"textAlignment"	"North"
 			"dulltext"		"0"
-			"brighttext"		"0"
-		}	
+			"brighttext"	"0"
+		}
 	}
 
 	"AvatarImage"
@@ -244,7 +241,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"image"			""
-		"scaleImage"		"1"
-		"color_outline"		"52 48 45 255"
+		"scaleImage"	"1"
+		"color_outline"	"52 48 45 255"
 	}
 }

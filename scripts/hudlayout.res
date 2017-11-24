@@ -2,51 +2,51 @@
 {
 	HudPlayerStatus
 	{
-		"fieldName" "HudPlayerStatus"
-		"visible" "1"
-		"enabled" "1"
-		"xpos"	"0"
-		"ypos"	"0"
-		"wide"	"f0"
-		"tall"	"480"
+		"fieldName"		"HudPlayerStatus"
+		"visible"		"1"
+		"enabled"		"1"
+		"xpos"			"0"
+		"ypos"			"0"
+		"wide"			"f0"
+		"tall"			"480"
 	}
 
 	HudWeaponAmmo
 	{
-		"fieldName" "HudWeaponAmmo"
-		"visible" "1"
-		"enabled" "1"
-		"xpos"	"r95"	[$WIN32]
-		"ypos"	"r55"	[$WIN32]
-		"xpos"	"r131"	[$X360]
-		"ypos"	"r77"	[$X360]
-		"wide"	"94"
-		"tall"	"45"
+		"fieldName"		"HudWeaponAmmo"
+		"visible"		"1"
+		"enabled"		"1"
+		"xpos"			"r95"	[$WIN32]
+		"ypos"			"r55"	[$WIN32]
+		"xpos"			"r131"	[$X360]
+		"ypos"			"r77"	[$X360]
+		"wide"			"94"
+		"tall"			"45"
 	}
 	
 	HudObjectiveStatus
 	{
-		"fieldName" "HudObjectiveStatus"
-		"visible" "1"
-		"enabled" "1"
-		"xpos"	"0"
-		"ypos"	"0"
-		"wide"	"f0"
-		"tall"	"480"
+		"fieldName"		"HudObjectiveStatus"
+		"visible"		"1"
+		"enabled"		"1"
+		"xpos"			"0"
+		"ypos"			"0"
+		"wide"			"f0"
+		"tall"			"480"
 	}	
 	
 	HudKothTimeStatus
 	{
-		"fieldName" "HudKothTimeStatus"
-		"visible" "1"
-		"enabled" "1"
-		"xpos"	"c-100"
-		"ypos"	"0"
-		"wide"	"200"
-		"tall"	"160"
+		"fieldName"		"HudKothTimeStatus"
+		"visible"		"1"
+		"enabled"		"1"
+		"xpos"			"c-100"
+		"ypos"			"0"
+		"wide"			"200"
+		"tall"			"160"
 		
-		"blue_active_xpos"			"16"
-		"red_active_xpos"			"106"
+		"blue_active_xpos"		"16"
+		"red_active_xpos"		"106"
 	}	
 
 	HudItemEffectMeter
@@ -141,23 +141,23 @@
 
 	HudWeaponSelection
 	{
-		"fieldName" "HudWeaponSelection"
-		"xpos"	"0"
-		"wide"	"f0"
-		"ypos" 	"0"
-		"tall"	"480"
-		"RightMargin" "0"
-		"visible" "1"
-		"enabled" "1"
-		"SmallBoxWide" "72"
-		"SmallBoxTall" "54"
-		"PlusStyleBoxWide" "90"
-		"PlusStyleBoxTall" "63"
+		"fieldName"		"HudWeaponSelection"
+		"xpos"			"0"
+		"wide"			"f0"
+		"ypos"			"0"
+		"tall"			"480"
+		"RightMargin"	"0"
+		"visible"		"1"
+		"enabled"		"1"
+		"SmallBoxWide"	"72"
+		"SmallBoxTall"	"54"
+		"PlusStyleBoxWide"			"90"
+		"PlusStyleBoxTall"			"63"
 		"PlusStyleExpandSelected"	"0.3"
-		"LargeBoxWide" "110"
-		"LargeBoxTall" "77"
-		"BoxGap" "4"	[$WIN32]
-		"BoxGap" "4"	[$X360]
+		"LargeBoxWide"	"110"
+		"LargeBoxTall"	"77"
+		"BoxGap"			"4"	[$WIN32]
+		"BoxGap"			"4"	[$X360]
 		"SelectionNumberXPos" "12"
 		"SelectionNumberYPos" "4"
 		"IconXPos" "8"
@@ -238,12 +238,6 @@
 		"wide"	 	"252"
 		"tall"	 	"35"
 		"priority"	"40"
-
-		if_vr
-		{
-			"ypos"		"370"
-			"x_offset"	"20"
-		}
 	}
 	
 	CSpectatorTargetID
@@ -271,13 +265,6 @@
 		"wide"	 	"252"
 		"tall"	 	"35"
 		"priority"	"35"
-
-		if_vr
-		{
-			"ypos"		"330"
-			"x_offset"	"20"
-		}
-
 	}
 	
 	BuildingStatus_Spy
@@ -304,7 +291,7 @@
 		"ypos"		"0"
 		"wide"		"640"
 		"tall"		"480"
-		
+
 		"PaintBackgroundType"	"2"
 	}
 	
@@ -333,7 +320,6 @@
 		"enabled" "1"
 
 		"BorderThickness" "1"
-
 		"PaintBackgroundType"	"2"
 	}
 
@@ -348,7 +334,6 @@
 		"enabled" "1"
 		
 		"PaintBackgroundType"	"2"
-
 		"FlashColor" "HudIcon_Red"		
 
 		"icon_xpos"		"0"
@@ -368,7 +353,6 @@
 		"enabled" "1"
 
 		"PaintBackgroundType"	"2"
-
 		"IconColor"				"Hostage_Yellow"	
 	}
 	
@@ -794,7 +778,7 @@
 		"tall"					"200"
 		"visible"				"1"
 		"enabled"				"1"
-		"separator_width"		"9"	// distance between the icons (including their backgrounds)
+		"separator_width"		"-3"	// distance between the icons (including their backgrounds)
 		"separator_height"		"7"
 		"height_offset"			"0"	[$WIN32] // distance from the bottom of the panel
 		"height_offset"			"26"	[$X360]

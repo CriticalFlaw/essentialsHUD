@@ -1,33 +1,32 @@
 event HudHealthBonusPulse
 {
-	Animate PlayerStatusHealthValueTournament2 	FgColor		"28 193 25 255"		Linear 0.0 0.075
-    Animate PlayerStatusHealthBonusImage        xpos        "100"          		Linear 9.9 0.0
-
+	Animate PlayerStatusHealthValueTournament2	FgColor		"28 193 25 255"		Linear 0.0 0.075
+	Animate PlayerStatusHealthBonusImage		xpos		"100"				Linear 9.9 0.0
 	RunEvent HudHealthBonusPulseLoop			0.4
 }
 
 event HudHealthBonusPulseStop
 {
-	StopEvent HudHealthBonusPulse 				0.0
+	StopEvent HudHealthBonusPulse				0.0
 	StopEvent HudHealthBonusPulseLoop			0.0
 	
-	Animate PlayerStatusHealthValueTournament2 	FgColor		"255 255 255 255"	Linear 0.0 0.0
-    Animate PlayerStatusHealthBonusImage        xpos        "100"          		Linear 0.0 0.0
+	Animate PlayerStatusHealthValueTournament2	FgColor		"255 255 255 255"	Linear 0.0 0.0
+	Animate PlayerStatusHealthBonusImage		xpos		"100"				Linear 0.0 0.0
 }
 
 event HudHealthDyingPulse
 {
-	Animate PlayerStatusHealthValueTournament2 	FgColor		"223 142 0 255" 	Linear 0.0 0.075
-    Animate PlayerStatusHealthBonusImage        xpos        "100"          		Linear 0.0 0.0
-    
-    RunEvent HudHealthDyingPulseLoop    		0.0
+	Animate PlayerStatusHealthValueTournament2	FgColor		"223 142 0 255" 	Linear 0.0 0.075
+	Animate PlayerStatusHealthBonusImage		xpos		"100"				Linear 0.0 0.0
+	
+	RunEvent HudHealthDyingPulseLoop			0.0
 }
+
 event HudHealthDyingPulseStop
 {
-    StopEvent HudHealthDyingPulse 				0.0
-    StopEvent HudHealthDyingPulseLoop 			0.0
+	StopEvent HudHealthDyingPulse				0.0
+	StopEvent HudHealthDyingPulseLoop			0.0
 	
-	Animate PlayerStatusHealthValueTournament2 	FgColor		"255 255 255 255" 	Linear 0.0 0.0
-    Animate PlayerStatusHealthBonusImage        xpos        "100"     			Linear 0.0 0.0
-    
-}   
+	Animate PlayerStatusHealthValueTournament2	FgColor		"255 255 255 255"	Linear 0.0 0.0
+	Animate PlayerStatusHealthBonusImage		xpos		"100"				Linear 0.0 0.0
+}

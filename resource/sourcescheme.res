@@ -2,37 +2,29 @@
 
 Scheme
 {
-    //////////////////////// COLORS ///////////////////////////
-	// color details
-	// this is a list of all the colors used by the scheme
 	Colors
 	{
 		//---------------------------------------------
 		// HUD COLORS
 		//---------------------------------------------
 		
-		"HudBlack"				"0 0 0 200"
-		
+		"HudBlack"			"0 0 0 200"
 		"Blue"				"72 112 125 255"
 		"DarkBlue"			"46 73 82 255"
 		"Red"				"158 64 61 255"
 		"DarkRed"			"102 48 46 255"
-		
 		"Green"				"92 122 90 255"
 		"DarkGreen"			"38 53 36 255"
 		"Yellow"			"169 123 53 255"
 		"BrightYellow"		"218 165 32 255"
-		
 		"White"				"242 242 242 255"
 		"DullWhite"			"132 132 132 255"
-		
 		"Grey"				"51 47 46 255"
 		"DarkGrey"			"27 27 27 255"
 		"DarkerGrey"		"22 22 22 255"
-		
 		"Black"				"17 17 17 255"
 		
-		// ----------------------------------
+		// ----------------------------------------
 		
 	    "TFDarkBrown"               "60 56 53 255"
 	    "TFDarkBrownTransparent"    "60 56 53 190"
@@ -126,16 +118,16 @@ Scheme
 		ListPanel.SelectedBgColor			"White"
 		ListPanel.SelectedOutOfFocusBgColor	"DullWhite"
 		
-		MainMenu.TextColor			"DullWhite"
-		MainMenu.ArmedTextColor		"White"
-		MainMenu.Inset				"32"
+		MainMenu.TextColor					"DullWhite"
+		MainMenu.ArmedTextColor				"White"
+		MainMenu.Inset						"32"
 		
-		Menu.TextInset					"6"
-		Menu.FgColor			"White"
-		Menu.BgColor			"HudBlack"
-		Menu.ArmedFgColor		"Black"
-		Menu.ArmedBgColor		"White"
-		Menu.DividerColor		"Border.Dark"
+		Menu.TextInset						"6"
+		Menu.FgColor						"White"
+		Menu.BgColor						"HudBlack"
+		Menu.ArmedFgColor					"Black"
+		Menu.ArmedBgColor					"White"
+		Menu.DividerColor					"Border.Dark"
 		
 		ScrollBarButton.FgColor				"White"
 		ScrollBarButton.BgColor				"Black"
@@ -147,11 +139,11 @@ Scheme
 		ScrollBarSlider.BgColor				"Black"		// this isn't really used
 		ScrollBarSlider.FgColor				"White"		// handle with which the slider is grabbed
 		
-		Slider.NobColor				"TFTanLight"		
-		Slider.TextColor			"White"
-		Slider.TrackColor			"HudBlack"
-		Slider.DisabledTextColor1	"TFTextMediumDark"
-        Slider.DisabledTextColor2	"Blank"
+		Slider.NobColor						"TFTanLight"		
+		Slider.TextColor					"White"
+		Slider.TrackColor					"HudBlack"
+		Slider.DisabledTextColor1			"TFTextMediumDark"
+        Slider.DisabledTextColor2			"Blank"
 		
 		TextEntry.TextColor			        "White"
 		TextEntry.DisabledTextColor	        "DullWhite"
@@ -174,71 +166,71 @@ Scheme
 		FrameTitleBar.BgColor				"Blank"
 		FrameTitleBar.DisabledBgColor		"Blank"
 		
-		GraphPanel.FgColor			"White"
-		GraphPanel.BgColor			"HudBlack"
+		GraphPanel.FgColor					"White"
+		GraphPanel.BgColor					"HudBlack"
 		
 		ListPanel.TextBgColor				"Blank"
 		ListPanel.SelectedTextColor			"Black"
 		ListPanel.EmptyListInfoTextColor	"DullWhite"
 		
-		Menu.TextColor				"White"
-		Menu.ArmedTextColor			"Black"
+		Menu.TextColor						"White"
+		Menu.ArmedTextColor					"Black"
 		
-		Panel.FgColor				"DullWhite"
-		Panel.BgColor				"Blank"
+		Panel.FgColor						"DullWhite"
+		Panel.BgColor						"Blank"
 		
-		ProgressBar.FgColor			"White"
-		ProgressBar.BgColor			"HudBlack"
+		ProgressBar.FgColor					"White"
+		ProgressBar.BgColor					"HudBlack"
 		
 		PropertySheet.TextColor				"DullWhite"
 		PropertySheet.SelectedTextColor		"White"
 		PropertySheet.TransitionEffectTime	"0.25"
 		
-		RichText.TextColor				"DullWhite"
-		RichText.BgColor				"HudBlack"
-		RichText.SelectedTextColor		"Black"
-		RichText.SelectedBgColor		"White"
+		RichText.TextColor					"DullWhite"
+		RichText.BgColor					"HudBlack"
+		RichText.SelectedTextColor			"Black"
+		RichText.SelectedBgColor			"White"
 		
-		ScrollBar.Wide					18
+		ScrollBar.Wide						18
 		
-		SectionedListPanel.HeaderTextColor		"White"
-		SectionedListPanel.HeaderBgColor		"Blank"
-		SectionedListPanel.DividerColor			"Black"
-		SectionedListPanel.TextColor			"DullWhite"
-		SectionedListPanel.BrightTextColor		"White"
-		SectionedListPanel.BgColor				"HudBlack"
+		SectionedListPanel.HeaderTextColor	"White"
+		SectionedListPanel.HeaderBgColor	"Blank"
+		SectionedListPanel.DividerColor		"Black"
+		SectionedListPanel.TextColor		"DullWhite"
+		SectionedListPanel.BrightTextColor	"White"
+		SectionedListPanel.BgColor			"HudBlack"
 		SectionedListPanel.SelectedTextColor			"Black"
 		SectionedListPanel.SelectedBgColor				"White"
 		SectionedListPanel.OutOfFocusSelectedTextColor	"Black"
 		SectionedListPanel.OutOfFocusSelectedBgColor	"100 100 100 128"
 		
-		TextEntry.BgColor						"HudBlack"
-		TextEntry.CursorColor					"DullWhite"
-		TextEntry.DisabledBgColor				"Blank"
-		TextEntry.SelectedTextColor				"Black"
-		TextEntry.OutOfFocusSelectedBgColor		"100 100 100 128"
-		TextEntry.FocusEdgeColor				"0 0 0 196"
+		TextEntry.BgColor					"HudBlack"
+		TextEntry.CursorColor				"DullWhite"
+		TextEntry.DisabledBgColor			"Blank"
+		TextEntry.SelectedTextColor			"Black"
+		TextEntry.OutOfFocusSelectedBgColor	"100 100 100 128"
+		TextEntry.FocusEdgeColor			"0 0 0 196"
 		
 		ToggleButton.SelectedTextColor		"White"
 		
-		Tooltip.TextColor		"Black"
-		Tooltip.BgColor			"White"
+		Tooltip.TextColor					"Black"
+		Tooltip.BgColor						"White"
 		
-		TreeView.BgColor		"HudBlack"
+		TreeView.BgColor					"HudBlack"
 		
-		WizardSubPanel.BgColor		"Blank"
+		WizardSubPanel.BgColor				"Blank"
 		
-		MainMenu.DepressedTextColor		"150 150 150 128"
-		MainMenu.MenuItemHeight			"25"
-		MainMenu.Backdrop				"0 0 0 200"
+		MainMenu.DepressedTextColor			"150 150 150 128"
+		MainMenu.MenuItemHeight				"25"
+		MainMenu.Backdrop					"0 0 0 200"
 		
-		Console.TextColor			"100 255 100 255"
-		Console.DevTextColor		"White"
+		Console.TextColor					"100 255 100 255"
+		Console.DevTextColor				"White"
 		
-		NewGame.TextColor			"White"
-		NewGame.FillColor			"0 0 0 255"
-		NewGame.SelectionColor		"White"
-		NewGame.DisabledColor		"128 128 128 196"				
+		NewGame.TextColor					"White"
+		NewGame.FillColor					"0 0 0 255"
+		NewGame.SelectionColor				"White"
+		NewGame.DisabledColor				"128 128 128 196"				
 	}
 	
 	Fonts
@@ -316,6 +308,7 @@ Scheme
                 "antialias"  "0"  //not default added //smoothing the edges.
             }
 		}
+		
 		"robotoBold35"
 		{
 			"1"
@@ -326,7 +319,7 @@ Scheme
 				"antialias" "1"
 			}
 		}
-		"robotoReg16"
+		"roboto16"
 		{
 			"1"
 			{
@@ -336,7 +329,7 @@ Scheme
 				"antialias" "1"
 			}
 		}
-		"robotoReg17"
+		"roboto17"
 		{
 			"1"
 			{
@@ -346,7 +339,7 @@ Scheme
 				"antialias" "1"
 			}
 		}
-		"robotoReg18"
+		"roboto18"
 		{
 			"1"
 			{
@@ -356,7 +349,7 @@ Scheme
 				"antialias" "1"
 			}
 		}
-		"robotoReg19"
+		"roboto19"
 		{
 			"1"
 			{
@@ -366,7 +359,7 @@ Scheme
 				"antialias" "1"
 			}
 		}
-		"robotoReg20"
+		"roboto20"
 		{
 			"1"
 			{
@@ -376,6 +369,7 @@ Scheme
 				"antialias" "1"
 			}
 		}
+		
 		"MainMenuFont"
 		{
 			"1"	[$WIN32]
@@ -387,6 +381,7 @@ Scheme
 				"antialias" "1"
 			}
 		}
+		
 		"MenuLarge"
 		{
 			"1"
@@ -426,7 +421,7 @@ Scheme
 				"tall"		"16"
 				"weight"	"0"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
-				"yres"	"480 599"
+				"yres"		"480 599"
 			}
 			"2"
 			{
@@ -434,7 +429,7 @@ Scheme
 				"tall"		"16"
 				"weight"	"0"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
-				"yres"	"600 767"
+				"yres"		"600 767"
 			}
 			"3"
 			{
@@ -442,7 +437,7 @@ Scheme
 				"tall"		"16"
 				"weight"	"0"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
-				"yres"	"768 1023"
+				"yres"		"768 1023"
 				"antialias"	"1"
 			}
 			"4"
@@ -451,7 +446,7 @@ Scheme
 				"tall"		"19"
 				"weight"	"0"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
-				"yres"	"1024 1199"
+				"yres"		"1024 1199"
 				"antialias"	"1"
 			}
 			"5"
@@ -460,22 +455,21 @@ Scheme
 				"tall"		"19"
 				"weight"	"0"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
-				"yres"	"1200 6000"
+				"yres"		"1200 6000"
 				"antialias"	"1"
 			}
 		}
 		
-				
 		AchievementItemTitle	[$WIN32]
 		{
 			"1"
 			{
 				"name"		"Arial" [!$OSX]
 				"name"		"Verdana Bold" [$OSX]
-				"weight"		"1500"
-				"tall"			"16" [!$OSX]
-				"tall"			"18" [$OSX]
-				"antialias"		"1"
+				"weight"	"1500"
+				"tall"		"16" [!$OSX]
+				"tall"		"18" [$OSX]
+				"antialias"	"1"
 			}
 		}
 		
@@ -485,10 +479,10 @@ Scheme
 			{
 				"name"		"Arial" [!$OSX]
 				"name"		"Verdana Bold" [$OSX]
-				"weight"		"1500"
-				"tall"			"18" [!$OSX]
-				"tall"			"19" [$OSX]
-				"antialias"		"1"
+				"weight"	"1500"
+				"tall"		"18" [!$OSX]
+				"tall"		"19" [$OSX]
+				"antialias"	"1"
 			}
 		}
 		
@@ -498,13 +492,12 @@ Scheme
 			{
 				"name"		"Arial" [!$OSX]
 				"name"		"Verdana" [$OSX]
-				"weight"		"1000"
-				"tall"			"14" [!$OSX]
-				"tall"			"12" [$OSX]
-				"antialias"		"1" [!$OSX]
+				"weight"	"1000"
+				"tall"		"14" [!$OSX]
+				"tall"		"12" [$OSX]
+				"antialias"	"1" [!$OSX]
 			}
 		}
-
 	}
 	
 	Borders
@@ -520,7 +513,6 @@ Scheme
 		{
 			// rounded corners for frames
 			//"backgroundtype" "2"
-
 			Left
 			{
 				"1"
@@ -529,7 +521,6 @@ Scheme
 					"offset" "0 0"
 				}
 			}
-
 			Right
 			{
 				"1"
@@ -538,7 +529,6 @@ Scheme
 					"offset" "0 0"
 				}
 			}
-
 			Top
 			{
 				"1"
@@ -547,7 +537,6 @@ Scheme
 					"offset" "0 0"
 				}
 			}
-
 			Bottom
 			{
 				"1"
@@ -569,7 +558,6 @@ Scheme
 					"offset" "0 0"
 				}
 			}
-
 			Right
 			{
 				"1"
@@ -578,7 +566,6 @@ Scheme
 					"offset" "0 0"
 				}
 			}
-
 			Top
 			{
 				"1"
@@ -587,7 +574,6 @@ Scheme
 					"offset" "0 0"
 				}
 			}
-
 			Bottom
 			{
 				"1"
@@ -625,7 +611,6 @@ Scheme
 					"offset" "0 0"
 				}
 			}
-
 			Right
 			{
 				"1"
@@ -634,7 +619,6 @@ Scheme
 					"offset" "0 0"
 				}
 			}
-
 			Top
 			{
 				"1"
@@ -643,7 +627,6 @@ Scheme
 					"offset" "0 0"
 				}
 			}
-
 			Bottom
 			{
 				"1"
@@ -666,7 +649,6 @@ Scheme
 					"offset" "0 0"
 				}
 			}
-
 			Right
 			{
 				"1"
@@ -675,7 +657,6 @@ Scheme
 					"offset" "0 0"
 				}
 			}
-
 			Top
 			{
 				"1"
@@ -684,7 +665,6 @@ Scheme
 					"offset" "0 0"
 				}
 			}
-
 			Bottom
 			{
 				"1"
@@ -698,17 +678,14 @@ Scheme
 		TabBorder
 		{
 			"inset" "1 1 1 1"
-
 			render 
 			{
 				"0" "fill( x0, y0, x1, y1, Black )"
 			}
-
 			render_bg 
 			{
 				"0" "fill( x0, y0, x1, y1, Orange )"
 			}
-
 		}
 
 		TabActiveBorder
@@ -722,7 +699,6 @@ Scheme
 					"offset" "0 0"
 				}
 			}
-
 			Top
 			{
 				"1"
@@ -731,7 +707,6 @@ Scheme
 					"offset" "0 0"
 				}
 			}
-
 			Right
 			{
 				"1"
@@ -742,7 +717,6 @@ Scheme
 			}
 
 		}
-
 
 		ToolTipBorder
 		{
@@ -755,7 +729,6 @@ Scheme
 					"offset" "0 0"
 				}
 			}
-
 			Right
 			{
 				"1"
@@ -764,7 +737,6 @@ Scheme
 					"offset" "0 0"
 				}
 			}
-
 			Top
 			{
 				"1"
@@ -773,7 +745,6 @@ Scheme
 					"offset" "0 0"
 				}
 			}
-
 			Bottom
 			{
 				"1"
