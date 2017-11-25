@@ -3,12 +3,12 @@
 	"specgui"
 	{
 		"team1_player_base_offset_x"	"0"
-		"team1_player_base_y"			"250"
+		"team1_player_base_y"			"235"
 		"team1_player_delta_x"			"0"
 		"team1_player_delta_y"			"23"
 
 		"team2_player_base_offset_x"	"291"
-		"team2_player_base_y"			"250"
+		"team2_player_base_y"			"235"
 		"team2_player_delta_x"			"0"
 		"team2_player_delta_y"			"23"
 
