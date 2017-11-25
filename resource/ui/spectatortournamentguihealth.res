@@ -55,7 +55,7 @@
 		"tall"			"100"
 		"visible"		"0"
 		"enabled"		"1"
-		"image"			"replay/thumbnails/bg_blu"	//"../hud/health_over_bg"
+		"image"			"replay/thumbnails/bg_green"	//"../hud/health_over_bg"
         "alpha"			"225"
 		"scaleImage"	"1"
 	}

@@ -2,14 +2,6 @@
 {
 	"specgui"
 	{
-		"ControlName"	"Frame"
-		"fieldName"		"specgui"
-		"wide"			"f0"
-		"tall"			"480"
-		"autoResize"	"0"
-		"pinCorner"		"0"
-		"enabled"		"1"
-
 		"team1_player_base_offset_x"	"0"
 		"team1_player_base_y"			"250"
 		"team1_player_delta_x"			"0"
@@ -40,7 +32,7 @@
 				"pinCorner"		"0"
 				"visible"		"0"
 				"enabled"		"0"
-				"fillcolor"		"0 0 0 90"
+				"fillcolor"		"0 0 0 255"
 			}
 			"playername"
 			{
@@ -165,7 +157,7 @@
                 "tall"			"24"
                 "visible"		"1"
                 "enabled"		"1" 
-                "zpos"          "1"
+                "zpos"          "2"
                 "HealthBonusPosAdj"		"225" //250 for 16:10, 225 for 16:9, 178 for 1920x850 
                 "HealthDeathWarning"	"1.0"
                 "TextColor"				"0 0 0 0"

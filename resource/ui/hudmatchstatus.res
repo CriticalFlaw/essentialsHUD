@@ -104,7 +104,6 @@
 		"textAlignment"	"center"
 		"fgcolor"		"Black"
 		"proportionaltoparent"	"1"
-
 	
 		if_readymode
 		{
@@ -220,23 +219,18 @@
 
 		"proportionaltoaparent"	"1"
 		"border"			"TFFatLineBorder"
-
-		if_match
-		{
-			"visible"		"1"
-		}
 	}
 
 	"ObjectiveStatusTimePanel"
 	{
 		"ControlName"		"EditablePanel"
 		"fieldName"			"ObjectiveStatusTimePanel"
-		"xpos"				"c-55"
-		"ypos"				"0"	[$WIN32]
+		"xpos"				"c-27"
+		"ypos"				"14"	[$WIN32]
 		"ypos"				"24"	[$X360]
 		"zpos"				"2"
-		"wide"				"110"
-		"tall"				"150"
+		"wide"				"50"
+		"tall"				"50"
 		"visible"			"0"
 		"enabled"			"1"
 		"delta_item_x"			"22"	[$WIN32]
@@ -247,44 +241,22 @@
 		"NegativeColor"			"255 0 0 255"
 		"delta_lifetime"		"1.5"
 		"delta_item_font"		"HudFontMedium"
-
-		if_match
-		{
-			"xpos"					"cs-0.5"
-			"wide"					"130"
-			"delta_item_x"			"35"
-			"delta_item_start_y"	"12"
-			"delta_item_end_y"		"50"
-			"PositiveColor"			"0 255 0 255"
-			"NegativeColor"			"255 0 0 255"
-			"delta_lifetime"		"1.5"
-			"delta_item_font"		"HudFontMediumSmall"
-		}
 		
 		"TimePanelValue"
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"		"TimePanelValue"
 			"font"			"RobotoBold16"
-			"fgcolor"		"TanLight"
-			"xpos"			"23"
-			"ypos"			"2"
+			"fgcolor"		"White"
+			"xpos"			"0"
+			"ypos"			"0"
 			"zpos"			"3"
 			"wide"			"45"
 			"tall"			"15"
 			"visible"		"1"
 			"enabled"		"1"
-			"textAlignment"		"center"
+			"textAlignment"	"center"
 			"labelText"		"0:00"
-
-			if_match
-			{
-				"proportionaltoparent"	"1"
-				"xpos"			"23"
-				"ypos"			"2"
-				"tall"			"15"
-				"font"			"RobotoBold16"
-			}
 		}	
 	}
 	"TeamStatus"
