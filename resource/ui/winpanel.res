@@ -2,13 +2,13 @@
 {
 	"TeamScoresPanel"
 	{
-		"ControlName"				"EditablePanel"
-		"fieldName"					"TeamScoresPanel"
-		"xpos"						"0"
-		"ypos"						"0"
-		"wide"						"f0"
-		"tall"						"f0"
-		"visible"					"1"
+		"ControlName"			"EditablePanel"
+		"fieldName"				"TeamScoresPanel"
+		"xpos"					"0"
+		"ypos"					"0"
+		"wide"					"f0"
+		"tall"					"f0"
+		"visible"				"1"
 
 		TeamNameAnchor
 		{
@@ -602,93 +602,93 @@
 	}
 	"ShadedBar"
 	{
-		"ControlName"		"ImagePanel"
-		"fieldName"			"ShadedBar"
-		"visible"			"0"
-		"enabled"			"1"
+		"ControlName"			"ImagePanel"
+		"fieldName"				"ShadedBar"
+		"visible"				"0"
+		"enabled"				"1"
 	}
 	"TopPlayersLabel"
 	{
-		"ControlName"		"CExLabel"
-		"fieldName"			"TopPlayerLabel"
-		"visible"			"0"
-		"enabled"			"1"
+		"ControlName"			"CExLabel"
+		"fieldName"				"TopPlayerLabel"
+		"visible"				"0"
+		"enabled"				"1"
 	}
 	"PointsThisRoundLabel"
 	{
-		"ControlName"		"CExLabel"
-		"fieldName"			"PointsThisRoundLabel"
-		"visible"			"0"
-		"enabled"			"1"
+		"ControlName"			"CExLabel"
+		"fieldName"				"PointsThisRoundLabel"
+		"visible"				"0"
+		"enabled"				"1"
 	}
 	"HorizontalLine"
 	{
-		"ControlName"		"ImagePanel"
-		"fieldName"			"HorizontalLine"
-		"visible"			"0"
-		"enabled"			"1"
+		"ControlName"			"ImagePanel"
+		"fieldName"				"HorizontalLine"
+		"visible"				"0"
+		"enabled"				"1"
 	}
 	"Player1Name"
 	{
-		"ControlName"		"CExLabel"
-		"fieldName"			"Player1Name"
-		"tall"				"0"
-		"enabled"			"1"
+		"ControlName"			"CExLabel"
+		"fieldName"				"Player1Name"
+		"tall"					"0"
+		"enabled"				"1"
 	}
 	"Player1Class"
 	{
-		"ControlName"		"CExLabel"
-		"fieldName"			"Player1Class"
-		"tall"				"0"
-		"enabled"			"1"
+		"ControlName"			"CExLabel"
+		"fieldName"				"Player1Class"
+		"tall"					"0"
+		"enabled"				"1"
 	}
 	"Player1Score"
 	{
-		"ControlName"		"CExLabel"
-		"fieldName"			"Player1Score"
-		"tall"				"0"
-		"enabled"			"1"
+		"ControlName"			"CExLabel"
+		"fieldName"				"Player1Score"
+		"tall"					"0"
+		"enabled"				"1"
 	}
 	"Player2Name"
 	{
-		"ControlName"		"CExLabel"
-		"fieldName"			"Player2Name"
-		"tall"				"0"
-		"enabled"			"1"
+		"ControlName"			"CExLabel"
+		"fieldName"				"Player2Name"
+		"tall"					"0"
+		"enabled"				"1"
 	}
 	"Player2Class"
 	{
-		"ControlName"		"CExLabel"
-		"fieldName"			"Player2Class"
-		"tall"				"0"
-		"enabled"			"1"
+		"ControlName"			"CExLabel"
+		"fieldName"				"Player2Class"
+		"tall"					"0"
+		"enabled"				"1"
 	}
 	"Player2Score"
 	{
-		"ControlName"		"CExLabel"
-		"fieldName"			"Player2Score"
-		"tall"				"0"
-		"enabled"			"1"
+		"ControlName"			"CExLabel"
+		"fieldName"				"Player2Score"
+		"tall"					"0"
+		"enabled"				"1"
 	}
 	"Player3Name"
 	{
-		"ControlName"		"CExLabel"
-		"fieldName"			"Player3Name"
-		"tall"				"0"
-		"enabled"			"1"
+		"ControlName"			"CExLabel"
+		"fieldName"				"Player3Name"
+		"tall"					"0"
+		"enabled"				"1"
 	}
 	"Player3Class"
 	{
-		"ControlName"		"CExLabel"
-		"fieldName"			"Player3Class"
-		"tall"				"0"
-		"enabled"			"1"
+		"ControlName"			"CExLabel"
+		"fieldName"				"Player3Class"
+		"tall"					"0"
+		"enabled"				"1"
 	}
 	"Player3Score"
 	{
-		"ControlName"		"CExLabel"
-		"fieldName"			"Player3Score"
-		"tall"				"0"
-		"enabled"			"1"
+		"ControlName"			"CExLabel"
+		"fieldName"				"Player3Score"
+		"tall"					"0"
+		"enabled"				"1"
 	}
 }

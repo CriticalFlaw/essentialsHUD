@@ -27,33 +27,33 @@
 
 		"model"
 		{
-			"modelname"	"models/props_ui/banner.mdl"
-			"skin"		"0"
-			"angles_x"	"30"
-			"angles_y"	"180"
-			"angles_z"	"0"
-			"origin_x"	"150"
-			"origin_y"	"0"
-			"origin_z"	"62"
-			"spotlight"	"1"
+			"modelname"		"models/props_ui/banner.mdl"
+			"skin"			"0"
+			"angles_x"		"30"
+			"angles_y"		"180"
+			"angles_z"		"0"
+			"origin_x"		"150"
+			"origin_y"		"0"
+			"origin_z"		"62"
+			"spotlight"		"1"
 
 			"animation"
 			{
-				"name"			"ref"
-				"sequence"		"ref"
-				"default"		"1"
+				"name"		"ref"
+				"sequence"	"ref"
+				"default"	"1"
 			}
 
 			"animation"
 			{
-				"name"			"intro"
-				"sequence"		"intro"
+				"name"		"intro"
+				"sequence"	"intro"
 			}
 
 			"animation"
 			{
-				"name"			"outro"
-				"sequence"		"outro"
+				"name"		"outro"
+				"sequence"	"outro"
 			}
 		}
 	}
@@ -75,13 +75,13 @@
 		"wrap"			"0"
 		"labelText"		"%countdown%"
 		"textAlignment"	"center"
-		"proportionaltoparent"	"1"
 		"fgcolor"		"TanLight"
+		"proportionaltoparent"	"1"
 
 		if_readymode
 		{
-			"xpos"			"300"
-			"ypos"			"130"
+			"xpos"		"300"
+			"ypos"		"130"
 		}
 	}
 
@@ -107,8 +107,8 @@
 	
 		if_readymode
 		{
-			"xpos"			"300"
-			"ypos"			"130"
+			"xpos"		"300"
+			"ypos"		"130"
 		}
 	}	
 
@@ -158,38 +158,38 @@
 		
 		"model"
 		{
-			"modelname"	"models/vgui/versus_doors.mdl"
-			"skin"		"0"
-			"angles_x"	"0"
-			"angles_y"	"0"
-			"angles_z"	"0"
-			"origin_x"	"120"
-			"origin_y"	"0"
-			"origin_z"	"-77"
+			"modelname"		"models/vgui/versus_doors.mdl"
+			"skin"			"0"
+			"angles_x"		"0"
+			"angles_y"		"0"
+			"angles_z"		"0"
+			"origin_x"		"120"
+			"origin_y"		"0"
+			"origin_z"		"-77"
 
 			"animation"
 			{
-				"name"			"ref"
-				"sequence"		"ref"
-				"default"		"1"
+				"name"		"ref"
+				"sequence"	"ref"
+				"default"	"1"
 			}
 
 			"animation"
 			{
-				"name"			"open"
-				"sequence"		"open"
+				"name"		"open"
+				"sequence"	"open"
 			}
 			
 			"animation"
 			{
-				"name"			"close"
-				"sequence"		"close"
+				"name"		"close"
+				"sequence"	"close"
 			}
 
 			"animation"
 			{
-				"name"			"idle_closed"
-				"sequence"		"idle_closed"
+				"name"		"idle_closed"
+				"sequence"	"idle_closed"
 			}
 		}
 	}	
@@ -208,36 +208,35 @@
 
 	"BGFrame"
 	{
-		"ControlName"		"EditablePanel"
-		"fieldName"			"BGFrame"
-		"xpos"				"cs-0.5"
-		"ypos"				"-5"
-		"zpos"				"0"
-		"wide"				"365"
-		"tall"				"28"
-		"visible"			"0"
-
+		"ControlName"	"EditablePanel"
+		"fieldName"		"BGFrame"
+		"xpos"			"cs-0.5"
+		"ypos"			"-5"
+		"zpos"			"0"
+		"wide"			"365"
+		"tall"			"28"
+		"visible"		"0"
+		"border"		"TFFatLineBorder"
 		"proportionaltoaparent"	"1"
-		"border"			"TFFatLineBorder"
 	}
 
 	"ObjectiveStatusTimePanel"
 	{
-		"ControlName"		"EditablePanel"
-		"fieldName"			"ObjectiveStatusTimePanel"
-		"xpos"				"cs-0.5"
-		"ypos"				"-15"
-		"zpos"				"1"
-		"wide"				"640"
-		"tall"				"f0"
-		"visible"			"0"
-		"enabled"			"1"
-		"delta_item_x"		"280"
+		"ControlName"			"EditablePanel"
+		"fieldName"				"ObjectiveStatusTimePanel"
+		"xpos"					"cs-0.5"
+		"ypos"					"-15"
+		"zpos"					"1"
+		"wide"					"640"
+		"tall"					"f0"
+		"visible"				"0"
+		"enabled"				"1"
+		"delta_item_x"			"280"
 		"delta_item_start_y"	"26"
-		"delta_item_end_y"	"21"
-		"PositiveColor"		"0 255 0 255"
-		"NegativeColor"		"255 0 0 255"
-		"delta_lifetime"	"0"
+		"delta_item_end_y"		"21"
+		"PositiveColor"			"0 255 0 255"
+		"NegativeColor"			"255 0 0 255"
+		"delta_lifetime"		"0"
 		"delta_item_font"		"RobotoBold24"
 		
 		"TimePanelValue"
@@ -245,7 +244,7 @@
 			"ControlName"	"CExLabel"
 			"fieldName"		"TimePanelValue"
 			"xpos"			"cs-0.52"
-			"ypos"			"5"
+			"ypos"			"6"
 			"xpos_minmode"	"cs-0.55"
 			"ypos_minmode"	"17"
 			"zpos"			"4"
@@ -273,10 +272,10 @@
 		"visible"		"1"
 		"enabled"		"1"
 
-		"max_size"	"19"
+		"max_size"		"19"
 
-		"6v6_gap"	"4"
-		"12v12_gap"	"1"
+		"6v6_gap"		"4"
+		"12v12_gap"		"1"
 
 		"team1_grow_dir" 	"west"
 		"team1_base_x"		"c-45"
@@ -310,31 +309,31 @@
 			
 			"playername"
 			{
-				"ControlName"	"CExLabel"
-				"fieldName"		"playername"
-				"font"			"DefaultVerySmall"
-				"xpos"			"5"
-				"ypos"			"24"
-				"zpos"			"5"
-				"wide"			"50"
-				"tall"			"8"
-				"autoResize"	"0"
-				"pinCorner"		"0"
-				"visible"		"0"
+				"ControlName"			"CExLabel"
+				"fieldName"				"playername"
+				"font"					"DefaultVerySmall"
+				"xpos"					"5"
+				"ypos"					"24"
+				"zpos"					"5"
+				"wide"					"50"
+				"tall"					"8"
+				"autoResize"			"0"
+				"pinCorner"				"0"
+				"visible"				"0"
 			}
 			"classimage"
 			{
-				"ControlName"	"CTFClassImage"
-				"fieldName"		"classimage"
-				"xpos"			"cs-0.5"
-				"ypos"			"0"
-				"zpos"			"3"
-				"wide"			"19"
-				"tall"			"19"
-				"visible"		"1"
-				"enabled"		"1"
-				"image"			"../hud/class_scoutred"
-				"scaleImage"	"1"	
+				"ControlName"			"CTFClassImage"
+				"fieldName"				"classimage"
+				"xpos"					"cs-0.5"
+				"ypos"					"0"
+				"zpos"					"3"
+				"wide"					"19"
+				"tall"					"19"
+				"visible"				"1"
+				"enabled"				"1"
+				"image"					"../hud/class_scoutred"
+				"scaleImage"			"1"	
 				"proportionaltoparent"	"1"
 			}
 			"classimagebg"
@@ -368,7 +367,7 @@
 				"textAlignment"			"Left"
 				"dulltext"				"0"
 				"brighttext"			"0"
-				"bgcolor_override"	   "80 80 80 255"
+				"bgcolor_override"		"80 80 80 255"
 				"proportionaltoparent"	"1"
 			}
 			"overhealbar"
@@ -388,8 +387,8 @@
 				"textAlignment"			"Left"
 				"dulltext"				"0"
 				"brighttext"			"0"
-				"bgcolor_override"	   "0 0 0 0"
-				"fgcolor_override"	   "255 255 255 160"
+				"bgcolor_override"		"0 0 0 0"
+				"fgcolor_override"		"255 255 255 160"
 				"proportionaltoparent"	"1"
 			}
 			"HealthIcon"
@@ -406,8 +405,8 @@
 				"HealthBonusPosAdj"		"10"
 				"HealthDeathWarning"	"0.49"
 				"TFFont"				"HudFontSmallest"
-				"HealthDeathWarningColor"	"HUDDeathWarning"
 				"TextColor"				"HudOffWhite"
+				"HealthDeathWarningColor"	"HUDDeathWarning"
 			}
 			"ReadyBG"
 			{
@@ -423,7 +422,7 @@
 				"visible"				"0"
 				"enabled"				"1"
 				"image"					"../HUD/tournament_panel_brown"
-				"src_corner_height"		"22"				// pixels inside the image
+				"src_corner_height"		"22"			// pixels inside the image
 				"src_corner_width"		"22"
 				"draw_corner_width"		"3"				// screen size of the corners ( and sides ), proportional
 				"draw_corner_height" 	"3"
@@ -463,65 +462,65 @@
 			}
 			"chargeamount"
 			{
-				"ControlName"	"CExLabel"
-				"fieldName"		"chargeamount"
-				"font"			"DefaultSmall"
-				"xpos"			"25"
-				"ypos"			"17"
-				"zpos"			"6"
-				"wide"			"25"
-				"tall"			"15"
-				"autoResize"	"0"
-				"pinCorner"		"0"
-				"visible"		"0"
-				"labelText"		"%chargeamount%"
-				"textAlignment"	"north"
-				"fgcolor"		"0 255 0 255"
+				"ControlName"			"CExLabel"
+				"fieldName"				"chargeamount"
+				"font"					"DefaultSmall"
+				"xpos"					"25"
+				"ypos"					"17"
+				"zpos"					"6"
+				"wide"					"25"
+				"tall"					"15"
+				"autoResize"			"0"
+				"pinCorner"				"0"
+				"visible"				"0"
+				"labelText"				"%chargeamount%"
+				"textAlignment"			"north"
+				"fgcolor"				"0 255 0 255"
 			}
 			"specindex"
 			{
-				"ControlName"	"CExLabel"
-				"fieldName"		"specindex"
-				"font"			"DefaultVerySmall"
-				"xpos"			"4"
-				"ypos"			"2"
-				"zpos"			"5"
-				"wide"			"50"
-				"tall"			"8"
-				"autoResize"	"0"
-				"pinCorner"		"0"
-				"visible"		"0"
-				"labelText"		"%specindex%"
-				"textAlignment"	"north-west"
-				//"fgcolor"		"235 226 202 255"
+				"ControlName"			"CExLabel"
+				"fieldName"				"specindex"
+				"font"					"DefaultVerySmall"
+				"xpos"					"4"
+				"ypos"					"2"
+				"zpos"					"5"
+				"wide"					"50"
+				"tall"					"8"
+				"autoResize"			"0"
+				"pinCorner"				"0"
+				"visible"				"0"
+				"labelText"				"%specindex%"
+				"textAlignment"			"north-west"
+				//"fgcolor"				"235 226 202 255"
 			}
 			"DeathPanel"
 			{
-				"ControlName"	"ImagePanel"
-				"fieldName"		"DeathPanel"
-				"xpos"			"cs-0.5"
-				"ypos"			"0"
-				"zpos"			"0"
-				"wide"			"f0"
-				"tall"			"24"
-				"visible"		"0"
-				"enabled"		"1"
-				"image"			"../HUD/comp_player_status"	
-				"scaleImage"	"1"
+				"ControlName"			"ImagePanel"
+				"fieldName"				"DeathPanel"
+				"xpos"					"cs-0.5"
+				"ypos"					"0"
+				"zpos"					"0"
+				"wide"					"f0"
+				"tall"					"24"
+				"visible"				"0"
+				"enabled"				"1"
+				"image"					"../HUD/comp_player_status"	
+				"scaleImage"			"1"
 				"proportionaltoparent"	"1"	
 			}
 			"SkullPanel"
 			{
-				"ControlName"	"ImagePanel"
-				"fieldName"		"SkullPanel"
-				"xpos"			"cs-0.5"
-				"zpos"			"1"
-				"wide"			"o1.2"
-				"tall"			"p0.15"
-				"visible"		"0"
-				"enabled"		"1"
-				"image"			"../HUD/comp_player_status_skull"
-				"scaleImage"	"1"
+				"ControlName"			"ImagePanel"
+				"fieldName"				"SkullPanel"
+				"xpos"					"cs-0.5"
+				"zpos"					"1"
+				"wide"					"o1.2"
+				"tall"					"p0.15"
+				"visible"				"0"
+				"enabled"				"1"
+				"image"					"../HUD/comp_player_status_skull"
+				"scaleImage"			"1"
 				"proportionaltoparent"	"1"	
 			}
 		}
@@ -618,7 +617,7 @@
 			"tall"			"39"
 			"visible"		"1"
 			"PaintBackgroundType"	"2"
-			"bgcolor_override"	"117 107 94 255"
+			"bgcolor_override"		"117 107 94 255"
 		}
 		"BluePlayerList"
 		{

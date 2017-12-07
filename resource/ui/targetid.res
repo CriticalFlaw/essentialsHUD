@@ -53,7 +53,6 @@
 		"visible"			"1"
 		"enabled"			"1"
 		"fillcolor"			"30 30 30 100"
-
 		"pin_to_sibling" 		"SpectatorGUIHealth"
 		"pin_corner_to_sibling" "PIN_TOPLEFT"
 		"pin_to_sibling_corner" "PIN_TOPRIGHT"
@@ -96,8 +95,8 @@
 		"pinCorner"			"0"
 		"visible"			"0"
 		"enabled"			"1"
+		"image"				"../hud/color_panel_blu"
 		"proportionaltoparent"	"1"
-		"image"					"../hud/color_panel_blu"
 		"src_corner_height"		"23"	// pixels inside the image
 		"src_corner_width"		"23"
 		"draw_corner_width"		"0"		// screen size of the corners ( and sides ), proportional
@@ -116,8 +115,8 @@
 		"pinCorner"			"0"
 		"visible"			"0"
 		"enabled"			"1"
+		"image"				"../hud/color_panel_red"
 		"proportionaltoparent"	"1"
-		"image"					"../hud/color_panel_red"
 		"src_corner_height"		"23"	// pixels inside the image
 		"src_corner_width"		"23"
 		"draw_corner_width"		"0"		// screen size of the corners ( and sides ), proportional

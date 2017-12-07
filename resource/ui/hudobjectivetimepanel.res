@@ -10,7 +10,7 @@
 		"ypos_minmode"		"-10"
 		"zpos"				"2"
 		"wide"				"60"
-		"tall"				"20"
+		"tall"				"24"
 		"wide_minmode"		"50"
 		"tall_minmode"		"25"
 		"visible"			"1"
@@ -24,6 +24,7 @@
 		"draw_corner_height"	"0"
 		"draw_corner_width"	"0"
 	}
+
 	"TimePanelProgressBar"
 	{
 		"ControlName"		"CTFProgressBar"
@@ -81,12 +82,13 @@
 		"pin_corner_to_sibling" "PIN_TOPLEFT"
 		"pin_to_sibling_corner" "PIN_TOPLEFT"
 	}
+
 	"OvertimeLabel"
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"			"OvertimeLabel"
 		"xpos"				"0"
-		"ypos"				"-30"
+		"ypos"				"-33"
 		"zpos"				"6"
 		"wide"				"34"
 		"tall"				"14"
@@ -120,6 +122,7 @@
 		"pin_corner_to_sibling" "PIN_TOPLEFT"
 		"pin_to_sibling_corner" "PIN_TOPLEFT"
 	}
+
 	"SuddenDeathLabel"
 	{
 		"ControlName"		"CExLabel"
@@ -165,7 +168,7 @@
 		"ControlName"		"CExLabel"
 		"fieldName"			"SetupLabel"
 		"xpos"				"0"
-		"ypos"				"-30"
+		"ypos"				"-33"
 		"ypos_minmode"		"-28"
 		"zpos"				"6"
 		"wide"				"34"
@@ -200,12 +203,13 @@
 		"pin_corner_to_sibling" "PIN_TOPLEFT"
 		"pin_to_sibling_corner" "PIN_TOPLEFT"
 	}
+
 	"ServerTimeLimitLabel"
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"			"ServerTimeLimitLabel"
 		"xpos"				"0"
-		"ypos"				"-30"
+		"ypos"				"-33"
 		"xpos_minmode"		"9999"
 		"ypos_minmode"		"9999"
 		"zpos"				"6"

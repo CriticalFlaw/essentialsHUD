@@ -146,7 +146,7 @@
     {
         "ControlName"			"VariableLabel"
         "fieldName"				"MedigunPanelChargeLabel"
-        "xpos"					"104"
+        "xpos"					"55"
         "ypos"					"1"
         "zpos"					"2"
         "wide"					"28"
@@ -161,6 +161,13 @@
         "brighttext"			"0"
         "font"					"Roboto8"
         "fgcolor"				"White"
+
+		"team-red"
+		{
+			"xpos"		"10"
+			"textAlignment"	"east"
+			"textAlignment_minmode"	"west"
+		}
 
         "medigun-vaccinator" {
             "labelText"	"%charges%"
@@ -205,7 +212,7 @@
         "xpos"					"25"
         "ypos"					"2"
         "zpos"					"2"
-        "wide"					"110"
+        "wide"					"60"
         "tall"					"8"
         "autoResize"			"0"
         "pinCorner"				"0"
@@ -234,7 +241,7 @@
 		"xpos"					"27"
 		"ypos"					"1"
 		"zpos"					"3"
-		"wide"					"200"
+		"wide"					"100"
 		"tall"					"10"
 		"autoResize"			"1"
 		"labelText"				"Medi Gun"
@@ -247,6 +254,12 @@
 		"font"					"Roboto8"
 		"fgcolor_override"		"White"
 		"proportionaltoparent"	"1"
+
+		"team-red"
+		{
+			"xpos"		"-18"
+			"textAlignment"	"east"
+		}
 
 		"medigun-medigun" {
 			"labelText"	"Medi Gun"
@@ -272,7 +285,7 @@
 		"xpos"					"-1"
 		"ypos"					"-1"
 		"zpos"					"3"
-		"wide"					"200"
+		"wide"					"100"
 		"tall"					"10"
 		"autoResize"			"1"
 		"labelText"				"Medi Gun"
@@ -288,6 +301,12 @@
 		"pin_to_sibling" 		"MedigunPanelNameLabel"
 		"pin_corner_to_sibling" "PIN_TOPLEFT"
 		"pin_to_sibling_corner" "PIN_TOPLEFT"
+
+		"team-red"
+		{
+			"textAlignment"	"east"
+			"textAlignment_minmode"	"west"
+		}
 
 		"medigun-medigun" {
 			"labelText"	"Medi Gun"

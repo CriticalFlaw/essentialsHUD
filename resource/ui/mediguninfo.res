@@ -10,14 +10,14 @@
 		"pinCorner"		"0"
 		"enabled"		"1"
 
-		"red_base_x"	"c+291"
-		"red_base_y"	"381"
+		"red_base_x"	"r109"
+		"red_base_y"	"359"
 		"red_offset_x"	"0"
 		"red_offset_y"	"21"
 		
-		"blu_base_x"	"0"
-		"blu_base_y"	"381"
+		"blu_base_x"	"-2"
+		"blu_base_y"	"359"
 		"blu_offset_x"	"0"
-		"blu_offset_y"	"21"
+		"blu_offset_y"	"22"
 	}
 }
