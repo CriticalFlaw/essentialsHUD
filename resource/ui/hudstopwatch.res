@@ -106,7 +106,7 @@
 		"labelText"			"%stopwatchlabel%"
 		"textAlignment"		"center"
 		"xpos"				"c-55"
-		"ypos"				"2"
+		"ypos"				"3"
 		"zpos"				"5"
 		"wide"				"100"
 		"tall"				"10"
