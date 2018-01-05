@@ -12,6 +12,16 @@ Scheme
 				"antialias" "1"
 			}
 		}
+		"RobotoBold11"
+		{
+			"1"
+			{
+				"name"		"Roboto Bold Condensed"
+				"tall"		"11"
+				"additive"	"0"
+				"antialias" "1"
+			}
+		}
 		"RobotoBold12"
 		{
 			"1"
