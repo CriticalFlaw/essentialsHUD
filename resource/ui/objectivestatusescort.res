@@ -268,9 +268,9 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"CapNumPlayers"
-			"font"			"Roboto12"
+			"font"			"Roboto10"
 			"fgcolor"		"TanLight"
-			"xpos"			"-3"
+			"xpos"			"-2"
 			"ypos"			"0"
 			"zpos"			"4"
 			"wide"			"20"
