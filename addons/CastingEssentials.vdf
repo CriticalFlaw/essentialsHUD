@@ -1,4 +1,4 @@
-"Plugin"
+Plugin
 {
-	"file"	"addons/CastingEssentials"
+	file		"addons/CastingEssentials.dll"
 }

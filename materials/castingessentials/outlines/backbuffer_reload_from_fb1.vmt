@@ -1,0 +1,5 @@
+UnlitGeneric
+{
+	$basetexture    _rt_FullFrameFB1
+	$ignorez        1
+}
