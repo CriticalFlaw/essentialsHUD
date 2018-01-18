@@ -1,8 +1,0 @@
-UnlitGeneric
-{
-	$basetexture "_rt_FullFrameFB1"
-	"%noToolTexture" 1
-
-	//"$linearread_basetexture" 1
-	//"$linearwrite" 1
-}
