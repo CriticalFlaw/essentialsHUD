@@ -29,7 +29,7 @@
 		"xpos"		"cs-0.5"
 		"ypos"		"cs-0.5"
 		"zpos"		"2"
-		"wide"		"234"
+		"wide"		"224"
 		"tall"		"234"
 		"visible"	"0"
 		"enabled"	"1"
@@ -57,7 +57,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"	"RedPlayerHealth"
-		"xpos"		"2"
+		"xpos"		"-30"
 		"ypos"		"5"
 		"zpos"		"7"
 		"wide"		"28"
@@ -107,8 +107,8 @@
 		"tall"		"f0"
 		"visible"	"1"
 		"enabled"	"1"
-		"fillcolor"	"30 30 30 180"
-		"alpha"		"200"
+		"fillcolor"	"0 0 0 180"
+		"alpha"		"255"
 		"proportionaltoparent"	"1"
 
 		"pin_to_sibling"	"PlayerStatusHealthBonusImage"
@@ -120,7 +120,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"	"BluePlayerHealth"
-		"xpos"		"2"
+		"xpos"		"-30"
 		"ypos"		"5"
 		"zpos"		"7"
 		"wide"		"28"
