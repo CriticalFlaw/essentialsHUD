@@ -29,7 +29,7 @@
 		"xpos"		"cs-0.5"
 		"ypos"		"cs-0.5"
 		"zpos"		"2"
-		"wide"		"134"
+		"wide"		"234"
 		"tall"		"234"
 		"visible"	"0"
 		"enabled"	"1"

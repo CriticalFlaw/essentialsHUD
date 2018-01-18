@@ -60,40 +60,35 @@
 				"PaintBackgroundType"	"0"
 				"proportionaltoparent"	"1"
 			}
+
 			"LoadoutIconsActiveItemRed"
 			{
 				"ControlName"	"ImagePanel"
 				"fieldName"		"LoadoutIconsActiveItemRed"
-
 				"xpos"			"1"
 				"ypos"			"11"
 				"zpos"			"200"
 				"wide"			"23"
 				"tall"			"11"
-
 				"visible"		"1"
 				"enabled"		"1"
 				"scaleImage"	"1"
 				"proportionalToParent" "1"
-
 				//fillcolor_override "255 0 0 32"
 			}
 			"LoadoutIconsActiveItemBlue"
 			{
 				"ControlName"	"ImagePanel"
 				"fieldName"		"LoadoutIconsActiveItemBlue"
-
 				"xpos"			"210"
 				"ypos"			"11"
 				"zpos"			"200"
 				"wide"			"24"
 				"tall"			"12"
-
 				"visible"		"1"
 				"enabled"		"1"
 				"scaleImage"	"1"
 				"proportionalToParent" "1"
-
 				//fillcolor_override "255 0 0 32"
 			}
 
@@ -184,7 +179,7 @@
 				"ypos"		"-1"
 				"zpos"		"10"
 				"wide"		"82"
-				"tall"		"f0" //"p.6"
+				"tall"		"f0"
 				"visible"	"1"
 				"font"		"RobotoBold10"
 				"fgcolor"	"TransparentBlack"
@@ -207,12 +202,11 @@
 				"zpos"			"-1"
 				"wide"			"f0"
 				"tall"			"f0"
-                "visible"		"1"
-                "enabled"		"1"
+				"bgcolor_override"	"0 0 0 0"
 				"proportionaltoparent"	"1"
-                "HealthBonusPosAdj"		"225"
-				"HealthDeathWarning"	"0.35"
-                "TextColor"				"HealthLow"
+				"HealthBonusPosAdj"		"-240"
+				"HealthDeathWarning"		"1.001"
+				"HealthDeathWarningColor"	"255 255 255 0"
 			}
 
 			PanelBG
@@ -293,22 +287,11 @@
 			}
 
 			"chargeamount"
-			{
-				"ControlName"		"CExLabel"
+			{				
 				"fieldName"			"chargeamount"
-				"font"				"Roboto8"
-				"xpos"				"15"
-				"ypos"				"11"
-				"zpos"				"6"
-				"wide"				"30"
-				"tall"				"15"
-				"autoResize"		"0"
-				"pinCorner"			"0"
-				"visible"			"0"
-				"labelText"			"%chargeamount%"
-				"textAlignment"		"north"
-				"fgcolor"			"255 255 255 255"
+				//"visible"			"0"
 			}
+
 			"MedigunIconRed"
 			{
 				"ControlName"	"ImagePanel"
@@ -326,7 +309,6 @@
 				"pin_corner_to_sibling"	"PIN_TOPLEFT"
 				"pin_to_sibling_corner"	"PIN_TOPLEFT"
 			}
-
 			"MedigunChargeRed"
 			{	
 				"ControlName"	"ContinuousProgressBar"
