@@ -331,6 +331,22 @@
 				"bgcolor"		"30 30 30 180"
 				"fgcolor"		"153 145 125 255"
 			}
+			"MedigunPercentRed"
+			{
+				"ControlName"	"CExLabel"
+				"fieldname"		"MedigunPercentRed"
+				"labelText"		"%chargeamount%"
+				"xpos"			"30"
+				"ypos"			"1"
+				"zpos"			"6"
+				"font"			"RobotoBold10"
+				"fgcolor"		"255 255 255 255"
+				"textAlignment"	"east"
+
+				"pin_to_sibling"		"MedigunChargeRed"
+				"pin_corner_to_sibling"	"PIN_TOPLEFT"
+				"pin_to_sibling_corner"	"PIN_TOPLEFT"
+			}
 			"MedigunTypeRed"
 			{
 				"ControlName"	"CExLabel"
@@ -385,6 +401,22 @@
 				variable 		"chargeamount"
 				"bgcolor"		"30 30 30 180"
 				"fgcolor" 		"153 145 125 255"
+			}
+			"MedigunPercentBlue"
+			{
+				"ControlName"		"CExLabel"
+				"fieldname"			"MedigunPercentBlue"
+				"labelText"			"%chargeamount%"
+				"xpos"				"30"
+				"ypos"				"1"
+				"zpos"				"6"
+				"font"				"RobotoBold10"
+				"fgcolor"			"255 255 255 255"
+				"textAlignment"		"west"
+
+				"pin_to_sibling"		"MedigunChargeBlue"
+				"pin_corner_to_sibling"	"PIN_TOPRIGHT"
+				"pin_to_sibling_corner"	"PIN_TOPRIGHT"
 			}
 			"MedigunTypeBlue"
 			{
