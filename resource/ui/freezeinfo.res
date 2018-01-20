@@ -6,6 +6,7 @@
 		"fieldName"			"FreezeInfo"
 		"xpos"				"c-80"
 		"ypos"				"c-16"
+		"zpos"				"20"
 		"wide"				"160"
 		"tall"				"32"
 		"autoResize"		"0"
@@ -15,19 +16,15 @@
 		"tabPosition"		"0"
 	}
 	
-	"FreezeInfoBackground"
+	"FreezeInfoBG"
 	{
 		"ControlName" 		"ImagePanel"
-		"fieldName" 		"FreezeInfoBackground"
+		"fieldName" 		"FreezeInfoBG"
 		"xpos" 				"0"
 		"ypos"				"0"
 		"zpos" 				"0"
 		"wide"				"160"
 		"tall"				"32"
-		"autoResize" 		"0"
-		"pinCorner"			"0"
-		"visible" 			"1"
-		"enabled" 			"1"
 		"fillcolor" 		"HudBlack"
 	}
 	
@@ -56,12 +53,12 @@
 		"autoResize"		"1"
 		"visible"			"1"
 		"enabled"			"1"
-		"labelText"			"FROZEN FOR %time%"
+		"labelText"			"MATCH HAS BEEN PAUSED FOR %time%"
 		"tabPosition"		"0"
 		"textAlignment"		"center"
 		"dulltext"			"0"
 		"brighttext"		"0"
-		"font"				"HudFontMediumSmallSecondary"
+		"font"				"RobotoBold12"
 		"fgcolor"			"HudWhite"
 	}
 }

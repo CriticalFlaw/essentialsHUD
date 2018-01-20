@@ -121,7 +121,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"RecedeTime"
-			"font"			"Roboto12"
+			"font"			"Roboto10"
 			"xpos"			"0"
 			"ypos"			"0"
 			"zpos"			"2"

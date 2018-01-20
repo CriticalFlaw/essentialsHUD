@@ -136,7 +136,7 @@
 				"xpos"		"-1"
 				"ypos"		"-1"
 				"zpos"		"10"
-				"wide"		"87"
+				"wide"		"85"
 				"tall"		"f0"
 				"visible"	"1"
 				"font"		"RobotoBold10"
@@ -218,7 +218,6 @@
 				"zpos"				"4"
 				"wide"				"225"
 				"tall"				"12"
-				//"visible_minmode"	"0"
 				"fillcolor"			"Black"
 				"proportionaltoparent"	"1"
 			}
@@ -232,7 +231,7 @@
 				"zpos"			"24"
 				"wide"			"28"
 				"tall"			"f0"
-				"font"			"RobotoBold12"
+				"font"			"RobotoBold11"
 				"fgcolor"		"White"
 				"labelText"		"%respawntime%"
 				"textAlignment"	"east"
@@ -253,7 +252,7 @@
 				"zpos"			"24"
 				"wide"			"28"
 				"tall"			"f0"
-				"font"			"RobotoBold12"
+				"font"			"RobotoBold11"
 				"fgcolor"		"White"
 				"labelText"		"%respawntime%"
 				"textAlignment"	"east"
@@ -328,8 +327,8 @@
 				"brighttext"	"0"
 				"variable" 		"chargeamount"
 				"direction" 	"west"
-				"bgcolor"		"30 30 30 180"
-				"fgcolor"		"153 145 125 255"
+				"bgcolor"		"15 105 25 180"
+				"fgcolor"		"25 195 25 255"
 			}
 			"MedigunPercentRed"
 			{
@@ -399,8 +398,9 @@
 				"brighttext"	"0"
 				//progress 		"0.5"
 				variable 		"chargeamount"
-				"bgcolor"		"30 30 30 180"
-				"fgcolor" 		"153 145 125 255"
+				//"direction" 	"east"
+				"bgcolor"		"15 105 25 180"
+				"fgcolor"		"25 195 25 255"
 			}
 			"MedigunPercentBlue"
 			{

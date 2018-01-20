@@ -4,11 +4,15 @@
 	{
 		"ControlName"	"Frame"
 		"fieldName"		"MedigunInfo"
+		"xpos"			"0"
+		"ypos"			"0"
 		"wide"			"f0"
 		"tall"			"480"
 		"autoResize"	"0"
 		"pinCorner"		"0"
+		"visible"		"1"
 		"enabled"		"1"
+		"tabPosition"	"0"
 
 		"red_base_x"	"c+291"
 		"red_base_y"	"216"

@@ -1,10 +1,5 @@
 "Resource/UI/HudObjectiveKothTimePanel.res"
 {
-	"HudKothTimeStatus"
-	{
-		"zpos"					"5"
-	}
-
 	"BlueTimer"
 	{
 		"ControlName"			"CTFHudTimeStatus"
@@ -22,6 +17,27 @@
 		"delta_lifetime"		"2"
 		"visible"				"1"
 		"enabled"				"1"
+		
+		"TimePanelBG"
+		{
+			"ControlName"		"ImagePanel"
+			"fieldName"			"TimePanelBG"
+			"xpos"				"28"
+			"ypos"				"-10"
+			"zpos"				"2"
+			"wide"				"50"
+			"tall"				"35"
+			"visible"			"1"
+			"enabled"			"1"
+			"fillcolor"			"Black"
+			"proportionaltoparent"	"1"
+			"paintbackground"		"1"
+			"scaleImage"			"1"
+			"src_corner_height"		"20"
+			"src_corner_width"		"20"
+			"draw_corner_height"	"0"
+			"draw_corner_width"		"0"
+		}
 
 		"TimePanelValue"
 		{
@@ -49,7 +65,7 @@
 		"ypos"					"0"
 		"zpos"					"2"
 		"wide"					"75"
-		"tall"					"15"
+		"tall"					"25"
 		"delta_item_x"			"50"
 		"delta_item_start_y"	"12"
 		"delta_item_end_y"		"50"
@@ -58,6 +74,27 @@
 		"delta_lifetime"		"2"
 		"visible"				"1"
 		"enabled"				"1"
+		
+		"TimePanelBG"
+		{
+			"ControlName"		"ImagePanel"
+			"fieldName"			"TimePanelBG"
+			"xpos"				"28"
+			"ypos"				"-10"
+			"zpos"				"2"
+			"wide"				"50"
+			"tall"				"35"
+			"visible"			"1"
+			"enabled"			"1"
+			"fillcolor"			"Black"
+			"proportionaltoparent"	"1"
+			"paintbackground"		"1"
+			"scaleImage"			"1"
+			"src_corner_height"		"20"
+			"src_corner_width"		"20"
+			"draw_corner_height"	"0"
+			"draw_corner_width"		"0"
+		}
 
 		"TimePanelValue"
 		{
@@ -82,8 +119,8 @@
 		"ControlName"			"ImagePanel"
 		"fieldName"				"ActiveTimerBG"
 		"xpos"					"0"
-		"ypos"					"15"
-		"zpos"					"2"
+		"ypos"					"25"
+		"zpos"					"3"
 		"wide"					"42"
 		"tall"					"3"
 		"visible"				"0"

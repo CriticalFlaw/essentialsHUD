@@ -42,6 +42,7 @@
 		"enabled"		"1"
 		"xpos"			"c-100"
 		"ypos"			"0"
+		"zpos"			"5"
 		"wide"			"200"
 		"tall"			"200"
 
@@ -1085,6 +1086,7 @@
 		"ypos"			"0"
 		"wide"			"f0"
 		"tall"			"70"
+		"zpos"			"5"
 	}
 	
 	NotificationPanel

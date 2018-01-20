@@ -67,7 +67,6 @@
 		"font"				"RobotoBold34"
 		"fgcolor"			"Black"
 		"labelText"			"%mapname%"
-		
 		"pin_to_sibling" 		"SBMapName"
 		"pin_corner_to_sibling" "PIN_TOPLEFT"
 		"pin_to_sibling_corner" "PIN_TOPLEFT"
@@ -91,7 +90,6 @@
 		"enabled"			"1"
 		"fgcolor"			"White"
 		"centerwrap"		"1"
-		
 		"pin_to_sibling" 		"MapNameShadow"
 		"pin_corner_to_sibling" "PIN_CENTER_TOP"
 		"pin_to_sibling_corner" "PIN_CENTER_BOTTOM"
@@ -114,7 +112,6 @@
 		"enabled"			"1"
 		"fgcolor"			"Black"
 		"centerwrap"		"1"
-		
 		"pin_to_sibling" 		"ServerTimeValue"
 		"pin_corner_to_sibling" "PIN_TOPLEFT"
 		"pin_to_sibling_corner" "PIN_TOPLEFT"
@@ -151,7 +148,6 @@
 		"fgcolor"			"White"
 		"labelText"			"%blueteamscore%"
 		"textAlignment"		"center"
-		
 		"pin_to_sibling" 		"BlueTeamLabel"
 		"pin_corner_to_sibling" "PIN_TOPLEFT"
 		"pin_to_sibling_corner" "PIN_TOPRIGHT"
@@ -267,8 +263,8 @@
 		"labelText"			"%blueteamname%"
 		"textAlignment"		"center"
 		"auto_wide_tocontents"	"1"
-		"textinsetx"		"60"
-		"bgcolor_override"	"30 30 30 130"
+		"textinsetx"			"60"
+		"bgcolor_override"		"30 30 30 130"
 		
 		"pin_to_sibling" 		"BlueTeamLabelShadow"
 		"pin_corner_to_sibling" "PIN_BOTTOMLEFT"

@@ -17,10 +17,10 @@
 		}
 	}
 
-	"PanelCoverLeft"
+	"PanelCover"
 	{
 		"ControlName"	"ImagePanel"
-		"fieldName"		"PanelCoverLeft"
+		"fieldName"		"PanelCover"
 		"xpos"			"0"
 		"ypos"			"0"
 		"zpos"			"1"
@@ -98,9 +98,6 @@
 			}
 
 			"medigun-quickfix" {
-				//"ypos"	"0"
-				//"wide"	"17"
-				//"tall"	"17"
 				"image"		"replay/thumbnails/quickfix"
 			}
 

@@ -130,8 +130,7 @@
 		fieldName      CenterAnchor
 		xpos           cs-0.5
 		ypos           -13
-		wide           82
-		wide_minmode	100
+		wide           100
 		tall           0
 		visible        1
 	}
