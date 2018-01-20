@@ -9,52 +9,62 @@
 		"horiz_inset"	"2"
 	}
 
-	"RoundSignModel"
+	"ObjectiveStatusTimePanel"
 	{
-		"ControlName"	"CModelPanel"
-		"fieldName"		"RoundSignModel"
-		"xpos"			"0"
-		"ypos"			"0"
-		"zpos"			"3"
-		"wide"			"f0"
-		"tall"			"f0"
-		"autoResize"	"0"
-		"pinCorner"		"0"
-		"visible"		"0"
-		"enabled"		"1"
-		"fov"			"70"
-		"proportionaltoparent"	"1"
-
-		"model"
+		"ControlName"			"EditablePanel"
+		"fieldName"				"ObjectiveStatusTimePanel"
+		"xpos"					"cs-0.5"
+		"ypos"					"-20"
+		"zpos"					"1"
+		"wide"					"640"
+		"tall"					"f0"
+		"visible"				"0"
+		"enabled"				"1"
+		"delta_item_x"			"280"
+		"delta_item_start_y"	"26"
+		"delta_item_end_y"		"21"
+		"PositiveColor"			"0 255 0 255"
+		"NegativeColor"			"255 0 0 255"
+		"delta_lifetime"		"0"
+		"delta_item_font"		"RobotoBold24"
+	
+		"TimePanelBG"
 		{
-			"modelname"		"models/props_ui/banner.mdl"
-			"skin"			"0"
-			"angles_x"		"30"
-			"angles_y"		"180"
-			"angles_z"		"0"
-			"origin_x"		"150"
-			"origin_y"		"0"
-			"origin_z"		"62"
-			"spotlight"		"1"
-
-			"animation"
-			{
-				"name"		"ref"
-				"sequence"	"ref"
-				"default"	"1"
-			}
-
-			"animation"
-			{
-				"name"		"intro"
-				"sequence"	"intro"
-			}
-
-			"animation"
-			{
-				"name"		"outro"
-				"sequence"	"outro"
-			}
+			"ControlName"		"ImagePanel"
+			"fieldName"			"TimePanelBG"
+			"xpos"				"cs-0.52"
+			"ypos"				"0"
+			"zpos"				"2"
+			"wide"				"85"
+			"tall"				"45"
+			"visible"			"1"
+			"enabled"			"1"
+			"fillcolor"			"Black"
+			"proportionaltoparent"	"1"
+			"paintbackground"		"1"
+			"scaleImage"			"1"
+			"src_corner_height"		"20"
+			"src_corner_width"		"20"
+			"draw_corner_height"	"0"
+			"draw_corner_width"		"0"
+		}
+		
+		"TimePanelValue"
+		{
+			"ControlName"	"CExLabel"
+			"fieldName"		"TimePanelValue"
+			"xpos"			"cs-0.50"
+			"ypos"			"11"
+			"zpos"			"4"
+			"wide"			"52"
+			"tall"			"35"
+			"visible"		"1"
+			"enabled"		"1"
+			"font"			"RobotoBold18"
+			"fgcolor"		"White"
+			"textAlignment"	"center"
+			"labelText"		"0:00"
+			"proportionaltoparent"	"1"
 		}
 	}
 
@@ -110,7 +120,71 @@
 			"xpos"		"300"
 			"ypos"		"130"
 		}
-	}	
+	}
+
+	"BGFrame"
+	{
+		"ControlName"	"EditablePanel"
+		"fieldName"		"BGFrame"
+		"xpos"			"cs-0.5"
+		"ypos"			"-5"
+		"zpos"			"0"
+		"wide"			"365"
+		"tall"			"28"
+		"visible"		"0"
+		"border"		"TFFatLineBorder"
+		"proportionaltoaparent"	"1"
+	}
+
+	// DEFAULT
+	"RoundSignModel"
+	{
+		"ControlName"	"CModelPanel"
+		"fieldName"		"RoundSignModel"
+		"xpos"			"0"
+		"ypos"			"0"
+		"zpos"			"3"
+		"wide"			"f0"
+		"tall"			"f0"
+		"autoResize"	"0"
+		"pinCorner"		"0"
+		"visible"		"0"
+		"enabled"		"1"
+		"fov"			"70"
+		"proportionaltoparent"	"1"
+
+		"model"
+		{
+			"modelname"		"models/props_ui/banner.mdl"
+			"skin"			"0"
+			"angles_x"		"30"
+			"angles_y"		"180"
+			"angles_z"		"0"
+			"origin_x"		"150"
+			"origin_y"		"0"
+			"origin_z"		"62"
+			"spotlight"		"1"
+
+			"animation"
+			{
+				"name"		"ref"
+				"sequence"	"ref"
+				"default"	"1"
+			}
+
+			"animation"
+			{
+				"name"		"intro"
+				"sequence"	"intro"
+			}
+
+			"animation"
+			{
+				"name"		"outro"
+				"sequence"	"outro"
+			}
+		}
+	}
 
 	"FrontParticlePanel"
 	{
@@ -206,60 +280,8 @@
 		"enabled"		"1"
 	}	
 
-	"BGFrame"
-	{
-		"ControlName"	"EditablePanel"
-		"fieldName"		"BGFrame"
-		"xpos"			"cs-0.5"
-		"ypos"			"-5"
-		"zpos"			"0"
-		"wide"			"365"
-		"tall"			"28"
-		"visible"		"0"
-		"border"		"TFFatLineBorder"
-		"proportionaltoaparent"	"1"
-	}
 
-	"ObjectiveStatusTimePanel"
-	{
-		"ControlName"			"EditablePanel"
-		"fieldName"				"ObjectiveStatusTimePanel"
-		"xpos"					"cs-0.5"
-		"ypos"					"-15"
-		"zpos"					"1"
-		"wide"					"640"
-		"tall"					"f0"
-		"visible"				"0"
-		"enabled"				"1"
-		"delta_item_x"			"280"
-		"delta_item_start_y"	"26"
-		"delta_item_end_y"		"21"
-		"PositiveColor"			"0 255 0 255"
-		"NegativeColor"			"255 0 0 255"
-		"delta_lifetime"		"0"
-		"delta_item_font"		"RobotoBold24"
-		
-		"TimePanelValue"
-		{
-			"ControlName"	"CExLabel"
-			"fieldName"		"TimePanelValue"
-			"xpos"			"cs-0.50"
-			"ypos"			"3"
-			"xpos_minmode"	"cs-0.51"
-			"ypos_minmode"	"13"
-			"zpos"			"4"
-			"wide"			"52"
-			"tall"			"40"
-			"visible"		"1"
-			"enabled"		"1"
-			"font"			"RobotoBold18"
-			"font_minmode"	"RobotoBold14"
-			"fgcolor"		"White"
-			"textAlignment"	"center"
-			"labelText"		"0:00"
-			"proportionaltoparent"	"1"
-		}
-	}
+	
 	"TeamStatus"
 	{
 		"ControlName"	"CTFTeamStatus"
