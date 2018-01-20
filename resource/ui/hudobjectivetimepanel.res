@@ -47,7 +47,7 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"			"OvertimeLabel"
-		"xpos"				"0"
+		"xpos"				"-37"
 		"ypos"				"0"
 		"zpos"				"3"
 		"wide"				"50"
@@ -58,7 +58,7 @@
 		"fgcolor"			"Black"
 		"labelText"			"OVERTIME"
 		"textinsetx"		"0"
-		"textAlignment"		"center"
+		"textAlignment"		"west"
 		"auto_wide_tocontents"	"1"
 		"proportionaltoparent"	"1"
 		"pin_to_sibling" 		"TimePanelValue"
