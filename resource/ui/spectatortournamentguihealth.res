@@ -27,7 +27,7 @@
 		"xpos"		"cs-0.5"
 		"ypos"		"cs-0.5"
 		"zpos"		"2"
-		"wide"		"224"
+		"wide"		"226"
 		"tall"		"234"
 		"visible"	"0"
 		"enabled"	"1"
@@ -55,7 +55,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"	"RedPlayerHealth"
-		"xpos"		"-30"
+		"xpos"		"0"
 		"ypos"		"5"
 		"zpos"		"7"
 		"wide"		"28"
@@ -86,7 +86,7 @@
 		"labelText"	"%Health%"
 		"textAlignment"	"center"
 		"textinsetx"	"2"
-		"visible"	"1"
+		"visible"	"0"
 		"fgcolor"	"Black"
 		"proportionaltoparent"	"1"
 
@@ -118,7 +118,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"	"BluePlayerHealth"
-		"xpos"		"-30"
+		"xpos"		"0"
 		"ypos"		"5"
 		"zpos"		"7"
 		"wide"		"28"
@@ -149,7 +149,7 @@
 		"labelText"	"%Health%"
 		"textAlignment"	"center"
 		"textinsetx"	"2"
-		"visible"	"1"
+		"visible"	"0"
 		"fgcolor"	"Black"
 		"proportionaltoparent"	"1"
 
