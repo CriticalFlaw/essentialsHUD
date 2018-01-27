@@ -75,10 +75,10 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"			"SetupLabel"
-		"xpos"				"0"
+		"xpos"				"1"
 		"ypos"				"11"
 		"zpos"				"6"
-		"wide"				"34"
+		"wide"				"33"
 		"tall"				"14"
 		"visible"			"0"
 		"enabled"			"1"
