@@ -34,7 +34,7 @@
 	{
 		ControlName              VariableLabel
 		fieldName                TeamNameBlu
-		xpos                     33
+		xpos                     0
 		ypos                     -3
 		zpos                     1
 		wide					 100
@@ -48,7 +48,7 @@
 		fgcolor_override         HUDBlueTeam
 		
 		pin_to_sibling           TeamScoreBluBG
-		pin_corner_to_sibling    PIN_TOPLEFT
+		pin_corner_to_sibling    PIN_TOPRIGHT
 		pin_to_sibling_corner    PIN_TOPLEFT
 	}
 	TeamNameBluShadow
@@ -134,62 +134,7 @@
 		tall           0
 		visible        1
 	}
-	TeamNameRed
-	{
-		ControlName              VariableLabel
-		fieldName                TeamNameRed
-		xpos                     33
-		ypos                     -3
-		zpos                     1
-		wide					 100
-		tall					 18
-		font                     RobotoBold18
-		labelText                "%redteamname%"
-		textinsetx               20
-		textAlignment            west
-		visible                  1
-		auto_wide_tocontents     1
-		fgcolor_override         HUDRedTeam
 
-		pin_to_sibling           TeamScoreRedBG
-		pin_corner_to_sibling    PIN_TOPRIGHT
-		pin_to_sibling_corner    PIN_TOPRIGHT
-	}
-	TeamNameRedShadow
-	{
-		ControlName              VariableLabel
-		fieldName                TeamNameRedShadow
-		xpos                     -1
-		ypos                     -1
-		wide					 100
-		tall					 18
-		font                     RobotoBold18
-		labelText                "%redteamname%"
-		textinsetx               20
-		textAlignment            west
-		visible                  1
-		auto_wide_tocontents     1
-
-		fgcolor_override         Black
-
-		pin_to_sibling           TeamNameRed
-		pin_corner_to_sibling    PIN_TOPLEFT
-		pin_to_sibling_corner    PIN_TOPLEFT
-	}
-	"TeamScoreRedBG"
-	{
-		"ControlName"		"ImagePanel"
-		"fieldName"			"TeamScoreRedBG"
-		xpos				16
-		ypos				-13
-		"zpos"				"0"
-		"wide"				"25"
-		"tall"				"25"
-		"fillcolor"			"HUDRedTeam"
-		pin_to_sibling           CenterAnchor
-		pin_corner_to_sibling    PIN_TOPRIGHT
-		pin_to_sibling_corner    PIN_TOPRIGHT
-	}
 	TeamScoreRed
 	{
 		ControlName              VariableLabel
@@ -226,5 +171,61 @@
 		pin_to_sibling           TeamScoreRed
 		pin_corner_to_sibling    PIN_TOPLEFT
 		pin_to_sibling_corner    PIN_TOPLEFT
+	}
+	TeamNameRed
+	{
+		ControlName              VariableLabel
+		fieldName                TeamNameRed
+		xpos                     0
+		ypos                     -3
+		zpos                     1
+		wide					 100
+		tall					 18
+		font                     RobotoBold18
+		labelText                "%redteamname%"
+		textinsetx               20
+		textAlignment            west
+		visible                  1
+		auto_wide_tocontents     1
+		fgcolor_override         HUDRedTeam
+
+		pin_to_sibling           TeamScoreRedBG
+		pin_corner_to_sibling    PIN_TOPLEFT
+		pin_to_sibling_corner    PIN_TOPRIGHT
+	}
+	TeamNameRedShadow
+	{
+		ControlName              VariableLabel
+		fieldName                TeamNameRedShadow
+		xpos                     -1
+		ypos                     -1
+		wide					 100
+		tall					 18
+		font                     RobotoBold18
+		labelText                "%redteamname%"
+		textinsetx               20
+		textAlignment            west
+		visible                  1
+		auto_wide_tocontents     1
+
+		fgcolor_override         Black
+
+		pin_to_sibling           TeamNameRed
+		pin_corner_to_sibling    PIN_TOPLEFT
+		pin_to_sibling_corner    PIN_TOPLEFT
+	}
+	"TeamScoreRedBG"
+	{
+		"ControlName"		"ImagePanel"
+		"fieldName"			"TeamScoreRedBG"
+		xpos				16
+		ypos				-13
+		"zpos"				"0"
+		"wide"				"25"
+		"tall"				"25"
+		"fillcolor"			"HUDRedTeam"
+		pin_to_sibling           CenterAnchor
+		pin_corner_to_sibling    PIN_TOPRIGHT
+		pin_to_sibling_corner    PIN_TOPRIGHT
 	}
 }

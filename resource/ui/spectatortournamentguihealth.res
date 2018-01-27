@@ -55,7 +55,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"	"RedPlayerHealth"
-		"xpos"		"0"
+		"xpos"		"2"
 		"ypos"		"5"
 		"zpos"		"7"
 		"wide"		"28"
