@@ -1,0 +1,9 @@
+160     294   // lugermorph
+810     831   // red tape recorder
+811     832   // Huo-long heater
+812     833   // flying guillotine
+22      23    // pistol
+9       10    // shotgun
+9       11    // shotgun
+9       12    // shotgun
+25      28    // build pda
