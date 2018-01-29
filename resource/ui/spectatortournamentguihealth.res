@@ -27,7 +27,7 @@
 		"xpos"		"cs-0.5"
 		"ypos"		"cs-0.5"
 		"zpos"		"2"
-		"wide"		"226"
+		"wide"		"224"
 		"tall"		"234"
 		"visible"	"0"
 		"enabled"	"1"
@@ -55,7 +55,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"	"RedPlayerHealth"
-		"xpos"		"2"
+		"xpos"		"-30"
 		"ypos"		"5"
 		"zpos"		"7"
 		"wide"		"28"
@@ -118,7 +118,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"	"BluePlayerHealth"
-		"xpos"		"0"
+		"xpos"		"-30"
 		"ypos"		"5"
 		"zpos"		"7"
 		"wide"		"28"
