@@ -2,11 +2,11 @@
 {
 	"HudMatchStatus"
 	{
-		"fieldName"		"HudMatchStatus"
-		"avatar_width"	"63"
-		"spacer"		"5"
-		"name_width"	"57"
-		"horiz_inset"	"2"
+		"fieldName"			"HudMatchStatus"
+		"avatar_width"		"63"
+		"spacer"			"5"
+		"name_width"		"57"
+		"horiz_inset"		"2"
 	}
 
 	"ObjectiveStatusTimePanel"

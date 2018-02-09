@@ -79,11 +79,11 @@
 		
 		"TimePanelBG"
 		{
-			"ControlName"		"ImagePanel"
-			"fieldName"			"TimePanelBG"
-			"tall"				"0"
-			"visible"			"0"
-			"enabled"			"0"
+			"ControlName"	"ImagePanel"
+			"fieldName"		"TimePanelBG"
+			"tall"			"0"
+			"visible"		"0"
+			"enabled"		"0"
 		}
 
 		"TimePanelValue"

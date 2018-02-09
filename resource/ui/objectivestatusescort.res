@@ -11,8 +11,8 @@
 		"tall"				"150"
 		"visible"			"1"
 		"enabled"			"1"
-		"progress_xpos"			"93"
-		"progress_wide"			"214"
+		"progress_xpos"		"93"
+		"progress_wide"		"214"
 	}
 
 	"LevelBar"
@@ -72,17 +72,17 @@
 
 		"if_team_red"
 		{
-			"image"			"../hud/cart_home_red"
+			"image"		"../hud/cart_home_red"
 		}
 
 		"if_single_with_hills_blue"
 		{
-			"image"			"../hud/cart_home_blue_opaque"
+			"image"		"../hud/cart_home_blue_opaque"
 		}
 
 		"if_single_with_hills_red"
 		{
-			"image"			"../hud/cart_home_red_opaque"
+			"image"		"../hud/cart_home_red_opaque"
 		}
 	}
 
@@ -95,14 +95,14 @@
 		"zpos"			"1"
 		"wide"			"20"
 		"tall"			"20"
-		"autoResize"		"0"
+		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"0"
 		"enabled"		"1"
-		"tabPosition"		"0"
+		"tabPosition"	"0"
 		"labelText"		""
 		"image"			"../hud/cart_point_neutral"
-		"scaleImage"		"1"
+		"scaleImage"	"1"
 	}
 
 	"EscortItemPanel"
@@ -127,18 +127,18 @@
 			"zpos"			"2"
 			"wide"			"f0"
 			"tall"			"14"
-			"autoResize"		"0"
+			"autoResize"	"0"
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
 			"fgcolor"		"TanLight"
 			"labelText"		"%recede%"
-			"textAlignment"		"center"
+			"textAlignment"	"center"
 			"dulltext"		"0"
-			"brighttext"		"0"
+			"brighttext"	"0"
 			"proportionaltoparent"	"1"
 			
-			"pin_to_sibling"	"EscortItemImage"
+			"pin_to_sibling"		"EscortItemImage"
 			"pin_corner_to_sibling"	"PIN_CENTER_TOP"
 			"pin_to_sibling_corner"	"PIN_CENTER_TOP"
 		}
@@ -164,12 +164,12 @@
 
 			"if_team_blue"
 			{
-				"image"			"../hud/cart_blue"
+				"image"		"../hud/cart_blue"
 			}
 
 			"if_team_red"
 			{
-				"image"			"../hud/cart_red"
+				"image"		"../hud/cart_red"
 			}
 		}
 
@@ -193,12 +193,12 @@
 
 			"if_team_blue"
 			{
-				"image"			"../hud/cart_blue_bottom"
+				"image"		"../hud/cart_blue_bottom"
 			}
 
 			"if_team_red"
 			{
-				"image"			"../hud/cart_red_bottom"
+				"image"		"../hud/cart_red_bottom"
 			}
 		}
 
@@ -230,17 +230,17 @@
 			"zpos"			"2"
 			"wide"			"9"
 			"tall"			"9"
-			"autoResize"		"0"
+			"autoResize"	"0"
 			"pinCorner"		"0"
 			"visible"		"0"
 			"enabled"		"1"
-			"tabPosition"		"0"
+			"tabPosition"	"0"
 			"labelText"		""
 			"image"			"../hud/cart_arrow_left"
-			"scaleImage"		"1"
+			"scaleImage"	"1"
 			"proportionaltoparent"	"1"
 			
-			"pin_to_sibling"	"EscortItemImage"
+			"pin_to_sibling"		"EscortItemImage"
 			"pin_corner_to_sibling"	"PIN_CENTER_TOP"
 			"pin_to_sibling_corner"	"PIN_CENTER_TOP"
 		}
@@ -257,10 +257,10 @@
 			"visible"		"0"
 			"enabled"		"1"
 			"image"			"capture_icon_white"
-			"scaleImage"		"1"
+			"scaleImage"	"1"
 			"fgcolor"		"White"
 			
-			"pin_to_sibling"	"CapNumPlayers"
+			"pin_to_sibling"		"CapNumPlayers"
 			"pin_corner_to_sibling"	"PIN_CENTER_RIGHT"
 			"pin_to_sibling_corner"	"PIN_CENTER_LEFT"
 		}
@@ -275,7 +275,7 @@
 			"zpos"			"4"
 			"wide"			"20"
 			"tall"			"15"
-			"autoResize"		"0"
+			"autoResize"	"0"
 			"pinCorner"		"0"
 			"visible"		"0"
 			"enabled"		"1"
@@ -284,7 +284,7 @@
 			"dulltext"		"0"
 			"brighttext"	"0"
 			
-			"pin_to_sibling"	"EscortItemImage"
+			"pin_to_sibling"		"EscortItemImage"
 			"pin_corner_to_sibling"	"PIN_TOPLEFT"
 			"pin_to_sibling_corner"	"PIN_CENTER_TOP"
 		}
@@ -298,14 +298,14 @@
 			"zpos"			"2"
 			"wide"			"10"
 			"tall"			"10"
-			"autoResize"		"0"
+			"autoResize"	"0"
 			"pinCorner"		"0"
 			"visible"		"0"
 			"enabled"		"1"
-			"tabPosition"		"0"
+			"tabPosition"	"0"
 			"labelText"		""
 			"image"			"../hud/cart_blocked"
-			"scaleImage"		"1"
+			"scaleImage"	"1"
 			"proportionaltoparent"	"1"
 		}
 
