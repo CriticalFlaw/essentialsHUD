@@ -437,7 +437,7 @@
 		"visible" "1"
 		"enabled" "1"
 		"xpos"	 "r628"	[$WIN32]
-		"ypos"	 "35"	[$WIN32]
+		"ypos"	 "30"	[$WIN32]
 		"wide"	 "628"
 		"tall"	 "468"
 

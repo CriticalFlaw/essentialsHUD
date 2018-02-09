@@ -12,22 +12,24 @@
 
 		"team1_player_base_offset_x"	"0"
 		"team1_player_base_x"			"-136"
-		"team1_player_base_y"			"190"
+		"team1_player_base_y"			"270"
 		"team1_player_delta_x"			"0"
 		"team1_player_delta_y"			"23"
 
 		"team2_player_base_offset_x"	"0"
 		"team2_player_base_x"			"698"
-		"team2_player_base_y"			"190"
+		"team2_player_base_y"			"270"
 		"team2_player_delta_x"			"0"
 		"team2_player_delta_y"			"23"
 
 		"playerpanels_kv"
 		{
-			"visible"		"0"
-			"wide"			"291"
-			"tall"			"22"
-			"zpos"			"50"
+			"visible"			"0"
+			"wide"				"291"
+			"tall"				"22"
+			"zpos"				"50"
+			"paintborder" 		"0"
+			"paintbackground"	"0"
 
 			"classimage"
 			{
@@ -44,7 +46,7 @@
 				"scaleImage"		"1"
 				"proportionaltoparent"	"1"
 			}
-			
+
 			"classimagebg"
 			{
 				"ControlName"		"Panel"
@@ -115,7 +117,7 @@
 				"xpos"		"0"
 				"ypos"		"5"
 				"zpos"		"10"
-				"wide"		"85"
+				"wide"		"83"
 				"tall"		"f0"
 				"visible"	"1"
 				"font"		"RobotoBold10"
@@ -157,7 +159,7 @@
 				"xpos"		"0"
 				"ypos"		"5"
 				"zpos"		"10"
-				"wide"		"82"
+				"wide"		"78"
 				"tall"		"p1"
 				"visible"	"1"
 				"font"		"RobotoBold10"
@@ -178,7 +180,7 @@
 				"xpos"		"-1"
 				"ypos"		"-1"
 				"zpos"		"10"
-				"wide"		"82"
+				"wide"		"80"
 				"tall"		"f0"
 				"visible"	"0"
 				"font"		"RobotoBold10"
@@ -202,9 +204,9 @@
 				"zpos"			"-1"
 				"wide"			"f0"
 				"tall"			"f0"
-				"bgcolor_override"	"0 0 0 0"
-				"proportionaltoparent"	"1"
-				"HealthBonusPosAdj"		"-240"
+				"bgcolor_override"			"0 0 0 0"
+				"proportionaltoparent"		"1"
+				"HealthBonusPosAdj"			"-240"
 				"HealthDeathWarning"		"1.001"
 				"HealthDeathWarningColor"	"255 255 255 0"
 			}
@@ -221,7 +223,76 @@
 				"fillcolor"			"0 0 0 220"
 				"proportionaltoparent"	"1"
 			}
-
+			
+			"PanelColorBG"
+			{
+				"ControlName"		"ImagePanel"
+				"fieldName"			"PanelColorBG"
+				"xpos"				"33"
+				"ypos"				"0"
+				"zpos"				"-2"
+				"wide"				"0"
+				"tall"				"12"
+				"visible"			"1"
+			}
+			
+			"PlayerHealthRed"
+			{
+				"ControlName"		"ContinuousProgressBar"
+				"fieldName"			"PlayerHealthRed"
+				"xpos"				"55"
+				"ypos"				"0"
+				"zpos"				"-2"
+				"wide"				"81"
+				"tall"				"12"
+				"progress"			"1"
+				"direction"			"west"
+				"bgcolor_override"	"89 24 23 255"
+				"fgcolor_override"	"157 49 47 255"
+			}
+			"PlayerHealthOverhealRed"
+			{
+				"ControlName"		"ContinuousProgressBar"
+				"fieldName"			"PlayerHealthOverhealRed"
+				"xpos"				"33"
+				"ypos"				"0"
+				"zpos"				"-2"
+				"wide"				"22"
+				"tall"				"12"
+				"progress"			"0"
+				"direction"			"west"
+				"bgcolor_override"	"89 24 23 255"
+				"fgcolor_override"	"157 49 47 255"
+			}
+			"PlayerHealthBlue"
+			{
+				"ControlName"		"ContinuousProgressBar"
+				"fieldName"			"PlayerHealthBlue"
+				"xpos"				"155"
+				"ypos"				"0"
+				"zpos"				"-2"
+				"wide"				"83"
+				"tall"				"12"
+				"progress"			"1"
+				"direction"			"east"
+				"bgcolor_override"	"38 55 63 255"
+				"fgcolor_override"	"57 92 120 255"
+			}
+			"PlayerHealthOverhealBlue"
+			{
+				"ControlName"		"ContinuousProgressBar"
+				"fieldName"			"PlayerHealthOverhealBlue"
+				"xpos"				"237"
+				"ypos"				"0"
+				"zpos"				"-2"
+				"wide"				"21"
+				"tall"				"12"
+				"progress"			"0"
+				"direction"			"east"
+				"bgcolor_override"	"38 55 63 255"
+				"fgcolor_override"	"57 92 120 255"
+			}
+			
 			"BlueRespawnTime"
 			{
 				"ControlName"	"CExLabel"
@@ -286,7 +357,7 @@
 			}
 
 			"chargeamount"
-			{				
+			{
 				"fieldName"			"chargeamount"
 				//"visible"			"0"
 			}
@@ -309,7 +380,7 @@
 				"pin_to_sibling_corner"	"PIN_TOPLEFT"
 			}
 			"MedigunChargeRed"
-			{	
+			{
 				"ControlName"	"ContinuousProgressBar"
 				"fieldName"		"MedigunChargeRed"
 				"font"			"Default"
@@ -317,7 +388,7 @@
 				"ypos"			"12"
 				"zpos" 			"200"
 				"wide"			"65"
-				"tall"			"9"				
+				"tall"			"9"
 				"autoResize"	"0"
 				"pinCorner"		"0"
 				"visible"		"1"
@@ -327,8 +398,8 @@
 				"brighttext"	"0"
 				"variable" 		"chargeamount"
 				"direction" 	"west"
-				"bgcolor"		"15 105 25 180"
-				"fgcolor"		"25 195 25 255"
+				//"bgcolor_override"	"15 105 25 180"
+				//"fgcolor_override"	"25 195 25 255"
 			}
 			"MedigunPercentRed"
 			{
@@ -361,7 +432,7 @@
 				"visible"		"1"
 				"proportionaltoparent"	"1"
 			}
-			
+
 			"MedigunIconBlue"
 			{
 				"ControlName"	"ImagePanel"
@@ -380,7 +451,7 @@
 				"pin_to_sibling_corner"	"PIN_TOPLEFT"
 			}
 			"MedigunChargeBlue"
-			{	
+			{
 				"ControlName"	"ContinuousProgressBar"
 				"fieldName"		"MedigunChargeBlue"
 				"font"			"Default"
@@ -388,7 +459,7 @@
 				"ypos"			"12"
 				"zpos" 			"200"
 				"wide"			"67"
-				"tall"			"9"				
+				"tall"			"9"
 				"autoResize"	"0"
 				"pinCorner"		"0"
 				"visible"		"1"
@@ -399,8 +470,8 @@
 				//progress 		"0.5"
 				variable 		"chargeamount"
 				//"direction" 	"east"
-				"bgcolor"		"15 105 25 180"
-				"fgcolor"		"25 195 25 255"
+				//"bgcolor_override"	"15 105 25 180"
+				//"fgcolor_override"	"25 195 25 255"
 			}
 			"MedigunPercentBlue"
 			{
@@ -434,7 +505,7 @@
 				"visible"			"1"
 				"proportionaltoparent"	"1"
 			}
-		}	
+		}
 	}
 
 	"topbar"
