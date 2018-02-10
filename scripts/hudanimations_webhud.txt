@@ -1,49 +1,34 @@
 event HudHealthBonusPulse
 {
-	SetVisible BluePlayerHealthCover			0.0 0.0
-	SetVisible RedPlayerHealthCover				0.0 0.0
-	SetVisible PlayerStatusHealthBonusImage		0.0 0.0
-
-	Animate RedPlayerHealth						FgColor		"HealthBuff"	Linear 0.0 0.0
-	Animate BluePlayerHealth					FgColor		"HealthBuff"	Linear 0.0 0.0
+	Animate RedPlayerHealth				FgColor		"HealthBuff"	Linear 0.0 0.0
+	Animate BluePlayerHealth			FgColor		"HealthBuff"	Linear 0.0 0.0
 	
-	RunEvent HudHealthBonusPulseLoop			0.4
+	RunEvent HudHealthBonusPulseLoop	0.4
 }
 
 event HudHealthBonusPulseStop
 {
-	SetVisible BluePlayerHealthCover			1.0 0.0
-	SetVisible RedPlayerHealthCover				1.0 0.0
-	SetVisible PlayerStatusHealthBonusImage		1.0 0.0
+	Animate RedPlayerHealth				FgColor		"HudWhite"		Linear 0.0 0.0
+	Animate BluePlayerHealth			FgColor		"HudWhite"		Linear 0.0 0.0
 
-	Animate RedPlayerHealth						FgColor		"HudWhite"		Linear 0.0 0.0
-	Animate BluePlayerHealth					FgColor		"HudWhite"		Linear 0.0 0.0
-
-	StopEvent HudHealthBonusPulse				0.0
-	StopEvent HudHealthBonusPulseLoop			0.0
+	StopEvent HudHealthBonusPulse		0.0
+	StopEvent HudHealthBonusPulseLoop	0.0
 }
+//==================================================================================
 
 event HudHealthDyingPulse
 {
-	SetVisible BluePlayerHealthCover			1 0
-	SetVisible RedPlayerHealthCover				1 0
-	SetVisible PlayerStatusHealthBonusImage		1 0
-
-	Animate RedPlayerHealth						FgColor		"HudWhite"		Linear 0.0 0.0
-	Animate BluePlayerHealth					FgColor		"HudWhite"		Linear 0.0 0.0
+	Animate RedPlayerHealth				FgColor		"HudWhite"		Linear 0.0 0.0
+	Animate BluePlayerHealth			FgColor		"HudWhite"		Linear 0.0 0.0
 	
-	RunEvent HudHealthDyingPulseLoop			0.1
+	RunEvent HudHealthDyingPulseLoop	0.1
 }
 
 event HudHealthDyingPulseStop
 {
-	SetVisible BluePlayerHealthCover			1.0 0.0
-	SetVisible RedPlayerHealthCover				1.0 0.0
-	SetVisible PlayerStatusHealthBonusImage		0.0 0.0
+	Animate RedPlayerHealth				FgColor		"HudWhite"		Linear 0.0 0.0
+	Animate BluePlayerHealth			FgColor		"HudWhite"		Linear 0.0 0.0
 
-	Animate RedPlayerHealth						FgColor		"HudWhite"		Linear 0.0 0.0
-	Animate BluePlayerHealth					FgColor		"HudWhite"		Linear 0.0 0.0
-
-	StopEvent HudHealthDyingPulse				0.0
-	StopEvent HudHealthDyingPulseLoop			0.0
+	StopEvent HudHealthDyingPulse		0.0
+	StopEvent HudHealthDyingPulseLoop	0.0
 }

@@ -238,7 +238,7 @@ Scheme
 				"name"		"Roboto Condensed"
 				"tall"		"10"
 				"weight"	"900"
-				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
+				"range"		"0x0000 0x017F"
 				"outline"	"1"
 			}
 		}
@@ -250,7 +250,7 @@ Scheme
 				"tall"		"12"
 				"weight"	"500"
 				"underline" "1"
-				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
+				"range"		"0x0000 0x017F"
 			}
 			"2"
 			{
@@ -320,7 +320,7 @@ Scheme
 				"name"		"Roboto Condensed"
 				"tall"		"12"
 				"weight"	"0"
-				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
+				"range"		"0x0000 0x017F"
 				"yres"		"480 599"
 			}
 			"2"
@@ -328,7 +328,7 @@ Scheme
 				"name"		"Roboto Condensed"
 				"tall"		"12"
 				"weight"	"0"
-				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
+				"range"		"0x0000 0x017F"
 				"yres"		"600 767"
 			}
 			"3"
@@ -336,7 +336,7 @@ Scheme
 				"name"		"Roboto Condensed"
 				"tall"		"12"
 				"weight"	"0"
-				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
+				"range"		"0x0000 0x017F"
 				"yres"		"768 1023"
 				"antialias"	"1"
 			}
@@ -345,7 +345,7 @@ Scheme
 				"name"		"Roboto Condensed"
 				"tall"		"14"
 				"weight"	"0"
-				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
+				"range"		"0x0000 0x017F"
 				"yres"		"1024 1199"
 				"antialias"	"1"
 			}
@@ -354,7 +354,7 @@ Scheme
 				"name"		"Roboto Condensed"
 				"tall"		"16"
 				"weight"	"0"
-				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
+				"range"		"0x0000 0x017F"
 				"yres"		"1200 6000"
 				"antialias"	"1"
 			}
@@ -366,7 +366,7 @@ Scheme
 				"name"		"Roboto Condensed"
 				"tall"		"18"
 				"weight"	"900"
-				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
+				"range"		"0x0000 0x017F"
 				"yres"		"480 599"
 			}
 			"2"
@@ -374,7 +374,7 @@ Scheme
 				"name"		"Roboto Condensed"
 				"tall"		"21"
 				"weight"	"900"
-				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
+				"range"		"0x0000 0x017F"
 				"yres"		"600 767"
 			}
 			"3"
@@ -382,7 +382,7 @@ Scheme
 				"name"		"Roboto Condensed"
 				"tall"		"22"
 				"weight"	"900"
-				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
+				"range"		"0x0000 0x017F"
 				"yres"		"768 1023"
 				"antialias"	"1"
 			}
@@ -391,7 +391,7 @@ Scheme
 				"name"		"Roboto Condensed"
 				"tall"		"28"
 				"weight"	"900"
-				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
+				"range"		"0x0000 0x017F"
 				"yres"		"1024 1199"
 				"antialias"	"1"
 			}
@@ -400,7 +400,7 @@ Scheme
 				"name"		"Roboto Condensed"
 				"tall"		"30"
 				"weight"	"900"
-				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
+				"range"		"0x0000 0x017F"
 				"yres"		"1200 6000"
 				"antialias"	"1"
 			}
@@ -458,8 +458,7 @@ Scheme
 			"2"
 			{
 				"name"		"Roboto Condensed"
-				"tall"		"13"	[$WIN32]
-				"tall"		"23"	[$X360]
+				"tall"		"13"
 				"weight"	"700"
 				"yres"		"600 767"
 			}
@@ -484,8 +483,7 @@ Scheme
 				"weight"	"700"
 				"yres"		"1200 10000"
 			}
-		}
-		
+		}	
 		"HudFontGiant"
 		{
 			"1"
@@ -966,18 +964,17 @@ Scheme
 				"weight"	"700"
 				"antialias" "1"
 				"yres"		"1 599"
-				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
+				"range"		"0x0000 0x017F"
 				"additive"	"1"
 			}
 			"2"
 			{
 				"name"		"Roboto Condensed"
-				"tall"		"15"	[$WIN32]
-				"tall"		"21"	[$X360]
+				"tall"		"15"
 				"weight"	"700"
 				"antialias" "1"
 				"yres"		"600 767"
-				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
+				"range"		"0x0000 0x017F"
 				"additive"	"1"
 			}
 			"3"
@@ -987,7 +984,7 @@ Scheme
 				"weight"	"900"
 				"antialias" "1"
 				"yres"		"768 1023"
-				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
+				"range"		"0x0000 0x017F"
 			}
 			"4"
 			{
@@ -996,7 +993,7 @@ Scheme
 				"weight"	"900"
 				"antialias" "1"
 				"yres"		"1024 1199"
-				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
+				"range"		"0x0000 0x017F"
 			}
 			"5"
 			{
@@ -1005,26 +1002,19 @@ Scheme
 				"weight"	"1000"
 				"antialias" "1"
 				"yres"		"1200 10000"
-				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
+				"range"		"0x0000 0x017F"
 			}
 		}
 		
 		DebugOverlay
 		{
-			"1"	[$WIN32]
+			"1"
 			{
 				"name"		"Courier New"
 				"tall"		"14"
 				"weight"	"400"
 				"outline"	"1"
-				"range"		"0x0000 0x017F" // Basic Latin, Latin-1 Supplement, Latin Extended-A
-			}
-			"1"	[$X360]
-			{
-				"name"		"Tahoma"
-				"tall"		"18"
-				"weight"	"200"
-				"outline"	"1"
+				"range"		"0x0000 0x017F"
 			}
 		}
 		
@@ -1032,7 +1022,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"  	"tfd" // tfd.ttf
+				"name"  	"tfd"
 				"tall"  	"28"
 				"weight" 	"0"
 				"additive" 	"0"
@@ -1044,7 +1034,7 @@ Scheme
 		{
 			"1"
 			 {
-				"name"  	"Team Fortress" // tf.ttf
+				"name"  	"Team Fortress"
 				"tall"  	"28"
 				"weight" 	"0"
 				"additive" 	"1"
@@ -1059,7 +1049,7 @@ Scheme
 				"name"		"Courier New"
 				"tall"		"90"
 				"weight"	"900"
-				"range"		"0x0000 0x007F"	//	Basic Latin
+				"range"		"0x0000 0x007F"
 				"antialias" "1"
 				"additive"	"0"
 			}
@@ -1069,7 +1059,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Team Fortress" // tf.ttf
+				"name"		"Team Fortress"
 				"tall"		"28"
 				"weight"	"0"
 				"additive"	"1"
@@ -1093,7 +1083,7 @@ Scheme
 				"tall"		"24"
 				"antialias" "1"
 				"weight"	"500"
-				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
+				"range"		"0x0000 0x017F"
 			}
 		}
 		"CloseCaption_Italic"
@@ -1105,7 +1095,7 @@ Scheme
 				"antialias" "1"
 				"weight"	"500"
 				"italic"	"1"
-				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
+				"range"		"0x0000 0x017F"
 			}
 		}
 		"CloseCaption_Bold"
@@ -1116,7 +1106,7 @@ Scheme
 				"tall"		"24"
 				"antialias" "1"
 				"weight"	"900"
-				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
+				"range"		"0x0000 0x017F"
 			}
 		}
 		"CloseCaption_BoldItalic"
@@ -1128,7 +1118,7 @@ Scheme
 				"antialias" "1"
 				"weight"	"900"
 				"italic"	"1"
-				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
+				"range"		"0x0000 0x017F"
 			}
 		}
 		"CloseCaption_Small"
@@ -1139,11 +1129,10 @@ Scheme
 				"tall"		"16"
 				"antialias" "1"
 				"weight"	"900"
-				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
+				"range"		"0x0000 0x017F"
 			}
 		}
 
-		// this is the symbol font
 		"Marlett"
 		{
 			"1"
@@ -1152,7 +1141,7 @@ Scheme
 				"tall"		"20"
 				"weight"	"0"
 				"symbol"	"1"
-				"range"		"0x0000 0x007F"	//	Basic Latin
+				"range"		"0x0000 0x007F"
 			}
 		}
 		"MarlettSmall"
@@ -1163,7 +1152,7 @@ Scheme
 				"tall"		"14"
 				"weight"	"0"
 				"symbol"	"1"
-				"range"		"0x0000 0x007F"	//	Basic Latin
+				"range"		"0x0000 0x007F"
 			}
 		}
 		
@@ -1188,7 +1177,6 @@ Scheme
 				"weight"	"500"
 			}
 		}
-		
 		"MenuKeys"
 		{
 			"1"
@@ -1298,7 +1286,7 @@ Scheme
 				"name"		"Roboto Condensed"
 				"tall"		"14"
 				"weight"	"500"
-				"range"		"0x0000 0x007F"	//	Basic Latin
+				"range"		"0x0000 0x007F"
 				"antialias" "1"
 				"additive"	"0"
 			}
@@ -1310,7 +1298,7 @@ Scheme
 				"name"		"Roboto Condensed"
 				"tall"		"20"
 				"weight"	"500"
-				"range"		"0x0000 0x007F"	//	Basic Latin
+				"range"		"0x0000 0x007F"
 				"antialias" "1"
 				"additive"	"0"
 			}
@@ -1322,7 +1310,7 @@ Scheme
 				"name"		"Roboto Condensed"
 				"tall"		"20"
 				"weight"	"500"
-				"range"		"0x0000 0x007F"	//	Basic Latin
+				"range"		"0x0000 0x007F"
 				"antialias" "1"
 				"additive"	"0"
 			}
@@ -1334,7 +1322,7 @@ Scheme
 				"name"		"Roboto Condensed"
 				"tall"		"14"
 				"weight"	"500"
-				"range"		"0x0000 0x007F"	//	Basic Latin
+				"range"		"0x0000 0x007F"
 				"antialias" "1"
 				"additive"	"0"
 			}
@@ -1346,7 +1334,7 @@ Scheme
 				"name"		"Roboto Condensed"
 				"tall"		"20"
 				"weight"	"500"
-				"range"		"0x0000 0x007F"	//	Basic Latin
+				"range"		"0x0000 0x007F"
 				"antialias" "1"
 				"additive"	"0"
 			}
@@ -1358,7 +1346,7 @@ Scheme
 				"name"		"Roboto Condensed"
 				"tall"		"34"
 				"weight"	"500"
-				"range"		"0x0000 0x007F"	//	Basic Latin
+				"range"		"0x0000 0x007F"
 				"antialias" "1"
 				"additive"	"0"
 			}
@@ -1430,7 +1418,7 @@ Scheme
 				"name"		"Roboto Condensed"
 				"tall"		"36"
 				"weight"	"500"
-				"range"		"0x0000 0x007F"	//	Basic Latin
+				"range"		"0x0000 0x007F"
 				"antialias" "1"
 				"additive"	"0"
 			}
@@ -1666,7 +1654,7 @@ Scheme
 				"name"		"Roboto Condensed"
 				"tall"		"12"
 				"weight"	"500"
-				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
+				"range"		"0x0000 0x017F"
 				"TextColor"	"Black"
 				"antialias" "1"
 			}
@@ -1678,7 +1666,7 @@ Scheme
 				"name"		"Roboto Condensed"
 				"tall"		"8"
 				"weight"	"500"
-				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
+				"range"		"0x0000 0x017F"
 				"TextColor"	"Black"
 				"antialias" "1"
 			}
@@ -1749,7 +1737,7 @@ Scheme
 		}
 		MatchmakingDialogMenuBrowserHostname
 		{
-			"1"			// brower item hostname
+			"1"
 			{
 				"name"		"Trebuchet MS"
 				"tall"		"22"
@@ -1758,7 +1746,7 @@ Scheme
 		}
 		MatchmakingDialogMenuBrowserDetails
 		{
-			"1"			// browser item players and map name
+			"1"
 			{
 				"name"		"Trebuchet MS"
 				"tall"		"18"
@@ -1901,7 +1889,7 @@ Scheme
 				"name"		"Verdana"
 				"tall"		"10"
 				"weight"	"0"
-				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
+				"range"		"0x0000 0x017F"
 				"yres"		"480 599"
 				"antialias"	"1"
 			}
@@ -1910,7 +1898,7 @@ Scheme
 				"name"		"Verdana"
 				"tall"		"12"
 				"weight"	"0"
-				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
+				"range"		"0x0000 0x017F"
 				"yres"		"600 1199"
 				"antialias"	"1"
 			}
@@ -1919,7 +1907,7 @@ Scheme
 				"name"		"Verdana"
 				"tall"		"15"
 				"weight"	"0"
-				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
+				"range"		"0x0000 0x017F"
 				"yres"		"1200 6000"
 				"antialias"	"1"
 			}
@@ -2367,7 +2355,7 @@ Scheme
 				"name"		"Verdana"
 				"tall"		"12"
 				"weight"	"0"
-				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
+				"range"		"0x0000 0x017F"
 				"yres"		"480 599"
 			}
 			"2"
@@ -2375,7 +2363,7 @@ Scheme
 				"name"		"Verdana"
 				"tall"		"12"
 				"weight"	"0"
-				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
+				"range"		"0x0000 0x017F"
 				"yres"		"600 767"
 			}
 			"3"
@@ -2383,7 +2371,7 @@ Scheme
 				"name"		"Verdana"
 				"tall"		"12"
 				"weight"	"0"
-				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
+				"range"		"0x0000 0x017F"
 				"yres"		"768 1023"
 				"antialias"	"1"
 			}
@@ -2392,7 +2380,7 @@ Scheme
 				"name"		"Verdana"
 				"tall"		"14"
 				"weight"	"0"
-				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
+				"range"		"0x0000 0x017F"
 				"yres"		"1024 1199"
 				"antialias"	"1"
 			}
@@ -2401,7 +2389,7 @@ Scheme
 				"name"		"Verdana"
 				"tall"		"16"
 				"weight"	"0"
-				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
+				"range"		"0x0000 0x017F"
 				"yres"		"1200 6000"
 				"antialias"	"1"
 			}
@@ -2557,7 +2545,7 @@ Scheme
 				"name"		"Roboto Condensed"
 				"tall"		"15"
 				"weight"	"500"
-				"range"		"0x0000 0x007F"	//	Basic Latin
+				"range"		"0x0000 0x007F"
 				"antialias" "1"
 				"additive"	"0"
 			}

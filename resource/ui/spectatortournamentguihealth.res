@@ -94,25 +94,6 @@
 		"pin_corner_to_sibling"	"PIN_TOPLEFT"
 		"pin_to_sibling_corner"	"PIN_TOPLEFT"
 	}
-	"RedPlayerHealthCover"
-	{
-		"ControlName"	"ImagePanel"
-		"fieldName"		"RedPlayerHealthCover"
-		"xpos"			"0"
-		"ypos"			"0"
-		"zpos"			"5"
-		"wide"			"f0"
-		"tall"			"f0"
-		"visible"		"0"
-		"enabled"		"1"
-		"fillcolor"		"0 255 0 180"
-		"alpha"			"0"
-		"proportionaltoparent"	"1"
-
-		"pin_to_sibling"		"PlayerStatusHealthBonusImage"
-		"pin_corner_to_sibling"	"PIN_CENTER_RIGHT"
-		"pin_to_sibling_corner"	"PIN_CENTER_LEFT"
-	}
 
 	"BluePlayerHealth"
 	{
@@ -156,24 +137,5 @@
 		"pin_to_sibling"		"BluePlayerHealth"
 		"pin_corner_to_sibling"	"PIN_TOPLEFT"
 		"pin_to_sibling_corner"	"PIN_TOPLEFT"
-	}
-	"BluePlayerHealthCover"
-	{
-		"ControlName"	"ImagePanel"
-		"fieldName"		"BluePlayerHealthCover"
-		"xpos"			"0"
-		"ypos"			"0"
-		"zpos"			"5"
-		"wide"			"f0"
-		"tall"			"f0"
-		"visible"		"0"
-		"enabled"		"1"
-		"fillcolor"		"30 255 30 180"
-		"alpha"			"0"
-		"proportionaltoparent"	"1"
-
-		"pin_to_sibling"		"PlayerStatusHealthBonusImage"
-		"pin_corner_to_sibling"	"PIN_CENTER_LEFT"
-		"pin_to_sibling_corner"	"PIN_CENTER_RIGHT"
 	}
 }

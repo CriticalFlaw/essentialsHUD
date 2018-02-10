@@ -124,7 +124,6 @@
 		"proportionaltoaparent"	"1"
 	}
 
-	// DEFAULT
 	"RoundSignModel"
 	{
 		"ControlName"	"CModelPanel"
@@ -266,10 +265,8 @@
 		"tall"			"100"
 		"visible"		"1"
 		"enabled"		"1"
-	}	
+	}
 
-
-	
 	"TeamStatus"
 	{
 		"ControlName"	"CTFTeamStatus"

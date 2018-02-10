@@ -42,6 +42,7 @@
 		"enabled"			"1"
 		"fgcolor"			"White"
 	}
+
 	"StopWatchPointsLabel"
 	{
 		"ControlName"		"CExLabel"

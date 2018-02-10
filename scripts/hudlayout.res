@@ -16,10 +16,8 @@
 		"fieldName"		"HudWeaponAmmo"
 		"visible"		"1"
 		"enabled"		"1"
-		"xpos"			"r95"	[$WIN32]
-		"ypos"			"r55"	[$WIN32]
-		"xpos"			"r131"	[$X360]
-		"ypos"			"r77"	[$X360]
+		"xpos"			"r95"
+		"ypos"			"r55"
 		"wide"			"94"
 		"tall"			"45"
 	}
@@ -55,10 +53,8 @@
 		"fieldName"		"HudItemEffectMeter"
 		"visible"		"1"
 		"enabled"		"1"
-		"xpos"			"r162"	[$WIN32]
-		"ypos"			"r52"	[$WIN32]
-		"xpos"			"r194"	[$X360]
-		"ypos"			"r74"	[$X360]
+		"xpos"			"r162"
+		"ypos"			"r52"
 		"wide"			"100"
 		"tall"			"50"
 		"MeterFG"		"White"
@@ -70,10 +66,8 @@
 		"fieldName"		"HudMedicCharge"
 		"visible"		"1"
 		"enabled"		"1"
-		"xpos"			"r138"	[$WIN32]
-		"ypos"			"r69"	[$WIN32]
-		"xpos"			"r174"	[$X360]
-		"ypos"			"r90"	[$X360]
+		"xpos"			"r138"
+		"ypos"			"r69"
 		"wide"			"200"
 		"tall"			"100"
 	}
@@ -83,11 +77,9 @@
 		"fieldName"		"HudDemomanCharge"
 		"visible"		"1"
 		"enabled"		"1"
-		"xpos"			"r80"	[$WIN32]
-		"ypos"			"r21"	[$WIN32]
-		"xpos"			"r112"	[$X360]
-		"ypos"			"r45"	[$X360]
-		"zpos"			"1"			// draw in front of ammo
+		"xpos"			"r80"
+		"ypos"			"r21"
+		"zpos"			"1"
 		"wide"			"60"
 		"tall"			"8"
 		"MeterFG"		"White"
@@ -99,11 +91,8 @@
 		"fieldName"		"HudBowCharge"
 		"visible"		"1"
 		"enabled"		"1"
-		"xpos"			"r80"	[$WIN32]
-		"ypos"			"r21"	[$WIN32]
-		"xpos"			"r112"	[$X360]
-		"ypos"			"r45"	[$X360]
-		"zpos"			"1"			// draw in front of ammo
+		"xpos"			"r80"
+		"ypos"			"r21"
 		"wide"			"60"
 		"tall"			"8"
 		"MeterFG"		"White"
@@ -115,11 +104,8 @@
 		"fieldName"		"HudFlameRocketCharge"
 		"visible"		"1"
 		"enabled"		"1"
-		"xpos"			"r80"	[$WIN32]
-		"ypos"			"r21"	[$WIN32]
-		"xpos"			"r112"	[$X360]
-		"ypos"			"r45"	[$X360]
-		"zpos"			"1"			// draw in front of ammo
+		"xpos"			"r80"
+		"ypos"			"r21"
 		"wide"			"60"
 		"tall"			"8"
 		"MeterFG"		"White"
@@ -133,7 +119,7 @@
 		"enabled"		"1"
 		"xpos"			"c-100"
 		"ypos"			"42"
-		"zpos"			"0"			// draw in front of ammo
+		"zpos"			"0"
 		"wide"			"200"
 		"tall"			"50"
 		"MeterFG"		"Red"
@@ -157,14 +143,12 @@
 		"PlusStyleExpandSelected"	"0.3"
 		"LargeBoxWide"	"110"
 		"LargeBoxTall"	"77"
-		"BoxGap"			"4"	[$WIN32]
-		"BoxGap"			"4"	[$X360]
+		"BoxGap"		"4"
 		"SelectionNumberXPos" "12"
 		"SelectionNumberYPos" "4"
 		"IconXPos" "8"
 		"IconYPos" "0"
-		"TextYPos" "70"		[$WIN32]
-		"TextYPos" "65"		[$X360]
+		"TextYPos" "70"
 		"ErrorYPos" "48"
 		"TextColor" "SelectionTextFg"
 		"MaxSlots"	"6"
@@ -180,10 +164,8 @@
 	CHudAccountPanel
 	{
 		"fieldName"				"CHudAccountPanel"
-		"xpos"					"r162"	[$WIN32]
-		"ypos"					"r152"	[$WIN32]
-		"xpos"					"r194"	[$X360]
-		"ypos"					"r174"	[$X360]
+		"xpos"					"r162"
+		"ypos"					"r152"
 		"wide"					"116"
 		"tall"  				"180"
 		"visible" 				"1"
@@ -220,13 +202,10 @@
 		"fieldName" "DisguiseStatus"
 		"visible"	"1"
 		"enabled"	"1"
-		"xpos"		"10"	[$WIN32]
-		"ypos"		"r70"	[$WIN32]
-		"xpos"		"50"	[$X360]
-		"ypos"		"330"	[$X360]
+		"xpos"		"10"
+		"ypos"		"r70"
 		"wide"		"500"
 		"tall"		"200"
-		"TextFont"	"Default"	[$X360]
 	}
 
 	CMainTargetID
@@ -273,13 +252,10 @@
 		"fieldName" "BuildingStatus_Spy"
 		"visible"	"1"
 		"enabled"	"1"
-		"xpos"		"0"	[$WIN32]
-		"ypos"		"0"	[$WIN32]
-		"xpos"		"32"	[$X360]
-		"ypos"		"16"	[$X360]		
+		"xpos"		"0"
+		"ypos"		"0"
 		"wide"		"640"
 		"tall"		"480"
-		
 		"PaintBackgroundType"	"2"
 	}
 	
@@ -292,7 +268,6 @@
 		"ypos"		"0"
 		"wide"		"640"
 		"tall"		"480"
-
 		"PaintBackgroundType"	"2"
 	}
 	
@@ -306,7 +281,6 @@
 		"zpos"		"1"
 		"wide"		"f0"
 		"tall"		"480"
-		
 		"PaintBackgroundType"	"2"
 	}
 	
@@ -319,7 +293,6 @@
 		"tall"  "15"
 		"visible" "1"
 		"enabled" "1"
-
 		"BorderThickness" "1"
 		"PaintBackgroundType"	"2"
 	}
@@ -333,10 +306,8 @@
 		"tall"  "40"
 		"visible" "1"
 		"enabled" "1"
-		
 		"PaintBackgroundType"	"2"
-		"FlashColor" "HudIcon_Red"		
-
+		"FlashColor" "HudIcon_Red"
 		"icon_xpos"		"0"
 		"icon_ypos"		"2"
 		"digit_xpos"	"34"
@@ -352,7 +323,6 @@
 		"tall"  "44"
 		"visible" "1"
 		"enabled" "1"
-
 		"PaintBackgroundType"	"2"
 		"IconColor"				"Hostage_Yellow"	
 	}
@@ -366,17 +336,14 @@
 		"ypos"	"370"
 		"wide"	"102"
 		"tall"	"20"
-		
 		"text_xpos" "8"
 		"text_ypos" "6"
 		"TextColor"	"255 170 0 220"
-
 		"PaintBackgroundType"	"2"
 	}
 
 	HudDamageIndicator
 	{
-
 	}
 
 	HudCommentary
@@ -398,7 +365,7 @@
 		"bar_width"		"320"
 		"speaker_xpos"	"50"
 		"speaker_ypos"	"8"
-		"count_xpos_from_right"	"10"	// Counts from the right side
+		"count_xpos_from_right"	"10"
 		"count_ypos"	"8"
 		
 		"icon_texture"	"vgui/hud/icon_commentary"
@@ -436,8 +403,8 @@
 		"fieldName" "HudDeathNotice"
 		"visible" "1"
 		"enabled" "1"
-		"xpos"	 "r628"	[$WIN32]
-		"ypos"	 "30"	[$WIN32]
+		"xpos"	 "r628"
+		"ypos"	 "30"
 		"wide"	 "628"
 		"tall"	 "468"
 
@@ -446,19 +413,15 @@
 		"LineHeight"	  "16"
 		"LineSpacing"	  "1"
 		"CornerRadius"	  "0"
-		"RightJustify"	  "1"	// If 1, draw notices from the right
+		"RightJustify"	  "1"
 		
-		"TextFont"		"Default"
-		
-		"TeamBlue"		"HUDBlueTeamSolid"
-		"TeamRed"		"HUDRedTeamSolid"
-		"IconColor"		"HudWhite"
-		"LocalPlayerColor"	"HUDBlack"
-
-		"BaseBackgroundColor"	"0 0 0 255"		[$WIN32]
-		"LocalBackgroundColor"	"245 229 196 200"	[$WIN32]
-		"BaseBackgroundColor"	"32 32 32 255"		[$X360]
-		"LocalBackgroundColor"	"0 0 0 255"		[$X360]
+		"TextFont"				"Default"
+		"TeamBlue"				"HUDBlueTeamSolid"
+		"TeamRed"				"HUDRedTeamSolid"
+		"IconColor"				"HudWhite"
+		"LocalPlayerColor"		"HUDBlack"
+		"BaseBackgroundColor"	"0 0 0 255"
+		"LocalBackgroundColor"	"245 229 196 200"
 	}
 
 	HudVehicle
@@ -551,19 +514,16 @@
 		"visible"	"1"
 		"enabled"	"1"
 		"xpos"		"c-250"
-		"ypos"		"276"	[$WIN32]
-		"ypos"		"236"	[$X360]
+		"ypos"		"276"
 		"wide"		"500"
-		"tall"		"136"	[$WIN32]
-		"tall"		"176"	[$X360]
-
+		"tall"		"136"
 		"BgAlpha"	"128"
 
-		"GrowTime"		"0.25"
-		"ItemHiddenTime"	"0.2"  // Nearly same as grow time so that the item doesn't start to show until growth is finished
-		"ItemFadeInTime"	"0.15"	// Once ItemHiddenTime is finished, takes this much longer to fade in
+		"GrowTime"			"0.25"
+		"ItemHiddenTime"	"0.2"
+		"ItemFadeInTime"	"0.15"
 		"ItemFadeOutTime"	"0.3"
-		"topoffset"		"0"
+		"topoffset"			"0"
 	}
 
 	HudHistoryResource 
@@ -571,8 +531,7 @@
 		"fieldName" "HudHistoryResource"
 		"visible" "0"
 		"enabled" "0"
-		"xpos"	 "r640"	[$WIN32]
-		"xpos"	 "r672"	[$X360]
+		"xpos"	 "r640"
 		"wide"	 "640"
 		"tall"	 "330"
 		"history_gap" "55"
@@ -604,6 +563,7 @@
 		"wide"	 "640"
 		"tall"	 "480"
 	}
+
 	HudAnimationInfo
 	{
 		"fieldName" "HudAnimationInfo"
@@ -612,6 +572,7 @@
 		"wide"	 "640"
 		"tall"	 "480"
 	}
+
 	CBudgetPanel
 	{
 		"fieldName" "CBudgetPanel"
@@ -620,6 +581,7 @@
 		"wide"	 "640"
 		"tall"	 "480"
 	}
+
 	CTextureBudgetPanel
 	{
 		"fieldName" "CTextureBudgetPanel"
@@ -675,10 +637,8 @@
 		"fieldName" "HudVoiceSelfStatus"
 		"visible" "1"
 		"enabled" "1"
-		"xpos" "r42" 	[$WIN32]
-		"ypos" "355"	[$WIN32]
-		"xpos" "r75"	[$X360]
-		"ypos" "375"	[$X360]
+		"xpos" "r42"
+		"ypos" "355"
 		"wide" "32"
 		"tall" "32"
 	}
@@ -688,17 +648,13 @@
 		"fieldName" "HudVoiceStatus"
 		"visible" "1"
 		"enabled" "1"
-		"xpos" "r145" [$WIN32]
-		"ypos" "0" [$WIN32]
-		"xpos" "r210" [$X360]
-		"ypos" "0" [$X360]
+		"xpos" "r145"
+		"ypos" "0"
 		"wide" "145"
 		"tall" "400"
-
 		"item_wide"	"135"
 		
 		"show_avatar"		"0"
-		
 		"show_dead_icon"	"1"
 		"dead_xpos"			"1"
 		"dead_ypos"			"0"
@@ -744,7 +700,6 @@
 		"text_xgap"	"8"
 		"text_ygap"	"8"
 		"TextColor"	"255 170 0 220"
-
 		"PaintBackgroundType"	"2"
 	}
 	
@@ -777,10 +732,9 @@
 		"tall"					"200"
 		"visible"				"1"
 		"enabled"				"1"
-		"separator_width"		"1"	// distance between the icons (including their backgrounds)
+		"separator_width"		"1"
 		"separator_height"		"7"
-		"height_offset"			"0"	[$WIN32] // distance from the bottom of the panel
-		"height_offset"			"26"	[$X360]
+		"height_offset"			"0"
 	}
 
 	HudCapturePanel
@@ -793,16 +747,6 @@
 		"visible"				"1"
 		"enabled"				"1"
 		"icon_space"			"2"
-	}
-	
-	HUDAutoAim
-	{
-
-	}	
-	
-	HudHDRDemo
-	{
-
 	}
 
 	WinPanel
@@ -883,11 +827,6 @@
 		"wide"					"100"
 		"tall"					"50"
 	}
-	
-	AnnotationsPanel
-	{
-		
-	}
 
 	WaitingForPlayersPanel
 	{
@@ -917,8 +856,7 @@
 		"fieldName" 		"HudChat"
 		"visible" 		"1"
 		"enabled" 		"1"
-		"xpos"			"10"	[$WIN32]
-		"xpos"			"42"	[$X360]
+		"xpos"			"10"
 		"ypos"			"275"
 		"wide"	 		"320"
 		"tall"	 		"120"
@@ -969,8 +907,7 @@
 		"xpos"			"c-235"
 		"ypos"			"c-52"
 		"wide"			"470"
-		"tall"			"200"	[$WIN32]
-		"tall"			"180"	[$X360]
+		"tall"			"200"
 		"PaintBackgroundType"	"0"
 	}	
 	
@@ -979,10 +916,8 @@
 		"fieldName"		"HudDemomanPipes"
 		"visible"		"1"
 		"enabled"		"1"
-		"xpos"			"r162"	[$WIN32]
-		"ypos"			"r52"	[$WIN32]
-		"xpos"			"r194"	[$X360]
-		"ypos"			"r74"	[$X360]
+		"xpos"			"r162"
+		"ypos"			"r52"
 		"wide"			"100"
 		"tall"			"50"
 	}
@@ -997,7 +932,6 @@
 		"wide"					"320"
 		"tall"					"100"
 	}
-
 
 	HudTeamGoalTournament
 	{
@@ -1054,6 +988,7 @@
 		"wide"					"320"
 		"tall"					"100"
 	}
+
 	HudTournament
 	{
 		"fieldName"				"HudTournament"
@@ -1084,9 +1019,9 @@
 		"enabled"		"1"
 		"xpos"			"0"
 		"ypos"			"0"
+		"zpos"			"5"
 		"wide"			"f0"
 		"tall"			"70"
-		"zpos"			"5"
 	}
 	
 	NotificationPanel
@@ -1107,12 +1042,11 @@
 		"enabled"				"1"
 		"xpos"					"0"
 		"ypos"					"180"
-		"wide"					"f10"	[$WIN32]
-		"wide"					"f60"	[$X360]
+		"wide"					"f10"
 		"tall"					"100"
 	}
 
-	CriticalPanel [$WIN32]
+	CriticalPanel
 	{
 		"fieldName"				"CriticalPanel"		
 		"visible"				"1"
@@ -1123,7 +1057,7 @@
 		"tall"					"25"
 	}
 	
-	HudArenaClassLayout [$WIN32]
+	HudArenaClassLayout
 	{
 		"fieldName"				"HudArenaClassLayout"		
 		"visible"				"1"
@@ -1134,7 +1068,7 @@
 		"tall"					"320"
 	}
 	
-	HudArenaVsPanel [$WIN32]
+	HudArenaVsPanel
 	{
 		"fieldName"				"HudArenaVsPanel"		
 		"visible"				"1"
@@ -1145,7 +1079,7 @@
 		"tall"					"240"
 	}
 	
-	HudArenaPlayerCount [$WIN32]
+	HudArenaPlayerCount
 	{
 		"fieldName"				"HudArenaPlayerCount"		
 		"visible"				"1"
@@ -1179,16 +1113,6 @@
 		"ypos"					"50"
 		"wide"					"200"
 		"tall"					"300"
-	}
-	
-	HudTrainingMsg
-	{
-		
-	}
-	
-	TrainingComplete
-	{
-		
 	}
 
 	HudInspectPanel
@@ -1432,4 +1356,10 @@
 		"mouseinputenabled"		"0"
 		"alpha"					"100"
 	}
+
+	HUDAutoAim			{ }
+	HudHDRDemo			{ }
+	HudTrainingMsg		{ }
+	TrainingComplete	{ }
+	AnnotationsPanel	{ }
 }

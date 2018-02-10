@@ -14,6 +14,7 @@
 		"textAlignment"	"center"
 		"scaleImage"	"1"	
 	}		
+
 	"PlayerStatusHealthImageBG"
 	{
 		"ControlName"	"ImagePanel"
@@ -29,6 +30,7 @@
 		"textAlignment"	"center"
 		"scaleImage"	"1"	
 	}	
+
 	"BuildingStatusHealthImageBG"
 	{
 		"ControlName"	"ImagePanel"
@@ -44,6 +46,7 @@
 		"textAlignment"	"center"
 		"scaleImage"	"1"	
 	}	
+
 	"PlayerStatusHealthBonusImage"
 	{
 		"ControlName"	"ImagePanel"
@@ -59,6 +62,7 @@
 		"textAlignment"	"center"
 		"scaleImage"	"1"	
 	}
+
 	"ShadedBarThin"
 	{
 		"ControlName"	"ImagePanel"
@@ -112,6 +116,7 @@
 		"fillcolor"		"BuffedColor"
 		"PaintBackgroundType"	"0"
 	}
+
 	"PlayerStatusHealthValueSpec"
 	{
 		"ControlName"	"CExLabel"

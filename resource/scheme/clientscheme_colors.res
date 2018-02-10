@@ -51,6 +51,7 @@ Scheme
 		"Yellow"					"251 235 202 255"
 		"TransparentYellow"			"251 235 202 140"
 		"BrightYellow"				"251 235 0 255"
+		//"Black"						"0 0 0 255"
 		"GreenSolid"				"76 107 34 255"
 
 		"Black"						"46 43 42 255"
@@ -59,11 +60,11 @@ Scheme
 		"TransparentLightBlack"		"0 0 0 90"
 		"FooterBGBlack"				"52 48 55 255"
 
-		"HUDBlueTeam"				"57 92 120 255"		//"104 124 155 127"
-		"HUDRedTeam"				"157 49 47 255"		//"180 92 77 127"
+		"HUDBlueTeam"				"57 92 120 255"
+		"HUDRedTeam"				"157 49 47 255"
 		"HUDSpectator"				"124 124 124 127"
-		"HUDBlueTeamSolid"			"57 92 120 255"		//"104 124 155 255"
-		"HUDRedTeamSolid"			"157 47 49 255"		//"180 92 77 255"
+		"HUDBlueTeamSolid"			"57 92 120 255"
+		"HUDRedTeamSolid"			"157 47 49 255"
 		"HUDDeathWarning"			"255 0 0 255"
 		"HudWhite"					"255 255 255 255"
 		"HudOffWhite"				"200 187 161 255"
@@ -72,7 +73,6 @@ Scheme
 		"CreditsGreen"				"94 150 49 255"
 
 		"Gray"						"178 178 178 255"
-
 		"Blank"						"0 0 0 0"
 		"ForTesting"				"255 0 0 32"
 		"ForTesting_Magenta"		"255 0 255 255"
@@ -91,7 +91,7 @@ Scheme
 		"HudTimerProgressInActive"	"52 48 45 255"
 		"HudTimerProgressWarning"	"240 30 30 255"
 
-		// training
+		// Training
 		"HudTrainingHint"			"212 160 23 255"
 		
 		"TanDark"					"117 107 94 255"
@@ -116,7 +116,6 @@ Scheme
 		"DisguiseMenuIconBlue"		"92 128 166 255"
 		
 		"ProgressOffWhiteTransparent"			"251 235 202 128"
-
  		"MatchmakingDialogTitleColor"			"200 184 151 255"
  		"MatchmakingMenuItemBackground"			"46 43 42 255"
  		"MatchmakingMenuItemBackgroundActive"	"150 71 0 255"	

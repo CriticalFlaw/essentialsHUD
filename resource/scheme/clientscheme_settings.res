@@ -2,7 +2,6 @@ Scheme
 {
 	BaseSettings
 	{
-		// vgui_controls color specifications
 		ReplayBrowser.BgColor								"DarkBrown"
 		ReplayBrowser.Details.TitleEdit.Carat.FgColor		"LightRed"
 		ReplayBrowser.Button.ArmedBgColor					"TFOrange"
@@ -12,7 +11,6 @@ Scheme
 		ReplayBrowser.ScrollBar.SliderButton.FgColor		"TransparentYellow"
 		ReplayBrowser.Search.BgColor						"TanDark"
 		ReplayBrowser.Search.FgColor						"White"
-		
 		Replay.RenderDialog.BgColor							"LighterDarkBrown"
 		
 		Econ.Dialog.BgColor									"Blank"
@@ -22,11 +20,9 @@ Scheme
 		Econ.Button.ArmedFgColor							"TanLight"
 		Econ.Button.DepressedBgColor						"TFOrange"
 		Econ.Button.DepressedFgColor						"Black"
-		
 		Econ.Button.PresetDefaultColorFg					"TanLight"
 		Econ.Button.PresetArmedColorFg						"TanLight"
 		Econ.Button.PresetDepressedColorFg					"TanLight"
-		
 		Econ.Button.PresetDefaultColorBg					"LighterRed"
 		Econ.Button.PresetArmedColorBg						"LightRed"
 		Econ.Button.PresetDepressedColorBg					"TFOrange"
@@ -59,10 +55,8 @@ Scheme
 
 		Frame.BgColor					"TransparentBlack"
 		Frame.OutOfFocusBgColor			"TransparentBlack"
-		Frame.FocusTransitionEffectTime	"0.0"	[$WIN32] // time it takes for a window to fade in/out on focus/out of focus
-		Frame.TransitionEffectTime		"0.0"	[$WIN32] // time it takes for a window to fade in/out on open/close
-		Frame.FocusTransitionEffectTime	"0.15"	[$X360] // time it takes for a window to fade in/out on focus/out of focus
-		Frame.TransitionEffectTime		"0.15"	[$X360] // time it takes for a window to fade in/out on open/close
+		Frame.FocusTransitionEffectTime	"0.0"	// time it takes for a window to fade in/out on focus/out of focus
+		Frame.TransitionEffectTime		"0.0"	// time it takes for a window to fade in/out on open/close
 		Frame.AutoSnapRange				"0"
 		FrameGrip.Color1				"Blank"
 		FrameGrip.Color2				"Blank"
