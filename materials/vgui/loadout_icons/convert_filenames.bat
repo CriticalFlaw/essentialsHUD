@@ -59,7 +59,7 @@ mv diamondback.vtf	525.vtf
 mv direct_hit.vtf	127.vtf
 mv disguise_kit.vtf	27.vtf
 mv displinary_action.vtf	447.vtf
-mv dragon_fury.vtf	1178.vtf
+mv dragons_fury.vtf               1178.vtf
 mv enforcer.vtf	460.vtf
 mv enthusiasts_timepiece.vtf	297.vtf
 mv equilizer.vtf	128.vtf
@@ -186,8 +186,7 @@ mv stickybomb_launcher.vtf	20.vtf
 mv sun_on_a_stick.vtf	349.vtf
 mv sydney_sleeper.vtf	230.vtf
 mv syringe_gun.vtf	17.vtf
-mv thermal_thruster.vtf    1179.vtf
-mv thermal_thruster.vtf	1179.vtf
+mv thermal_thruster.vtf           1179.vtf
 mv third_degree.vtf    593.vtf
 mv third_degree.vtf	593.vtf
 mv three_rune_blade.vtf	452.vtf
