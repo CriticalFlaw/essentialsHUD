@@ -14,7 +14,7 @@
 		"ControlName"			"EditablePanel"
 		"fieldName"			"ObjectiveStatusTimePanel"
 		"xpos"				"cs-0.5"
-		"ypos"				"2"
+		"ypos"				"0"
 		"zpos"				"1"
 		"wide"				"640"
 		"tall"				"f0"
@@ -27,14 +27,19 @@
 		"NegativeColor"			"255 0 0 255"
 		"delta_lifetime"		"0"
 		"delta_item_font"		"RobotoBold24"
-	
+		
 		"TimePanelBG"
 		{
 			"ControlName"		"ImagePanel"
 			"fieldName"		"TimePanelBG"
-			"tall"			"0"
-			"visible"		"0"
-			"enabled"		"0"
+			"xpos"			"276"
+			"ypos"			"0"
+			"wide"			"86"
+			"tall"			"25"
+			"visible"		"1"
+			"enabled"		"1"
+			"fillcolor"		"0 0 0 0"
+			"fillcolor_minmode"		"0 0 0 220"
 		}
 		
 		"TimePanelValue"
@@ -42,7 +47,7 @@
 			"ControlName"		"CExLabel"
 			"fieldName"		"TimePanelValue"
 			"xpos"			"cs-0.50"
-			"ypos"			"0"
+			"ypos"			"2"
 			"zpos"			"4"
 			"wide"			"52"
 			"tall"			"35"
@@ -308,9 +313,9 @@
 		"ypos"			"-2"
 		"zpos"			"1"		
 		"wide"			"300"
-		"tall"			"100"
-		"visible"		"1"
-		"enabled"		"1"
+		"tall"			"0"
+		"visible"		"0"
+		"enabled"		"0"
 	}
 
 	"TeamStatus"

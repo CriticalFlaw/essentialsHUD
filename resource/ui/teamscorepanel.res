@@ -17,10 +17,10 @@
 		"enabled"				"1"
 		"tabPosition"			"0"
 	}
-	"TeamNameBluBG"
+	"TeamScoresBG"
 	{
 		"ControlName"			"ImagePanel"
-		"fieldName"				"TeamNameBluBG"
+		"fieldName"				"TeamScoresBG"
 		"xpos"					"0"
 		"ypos"					"0"
 		"zpos"					"0"
@@ -28,7 +28,7 @@
 		"tall"					"25"
 		"visible"				"1"
 		"enabled"				"1"
-		"fillcolor"				"0 0 0 200"
+		"fillcolor"				"0 0 0 220"
 	}
 	"TeamNameBlu"
 	{
@@ -227,5 +227,85 @@
 		"pin_to_sibling"		"CenterAnchor"
 		"pin_corner_to_sibling"	"PIN_TOPRIGHT"
 		"pin_to_sibling_corner"	"PIN_TOPRIGHT"
+	}
+	
+	"MessageLabel1"
+	{
+		"ControlName"			"VariableLabel"
+		"fieldName"				"MessageLabel1"
+		"xpos"					"-7"
+		"ypos"					"46"
+		"zpos"					"10"
+		"wide"					"85"
+		"tall"					"10"
+		"font"					"Roboto10"
+		"labelText"				"%customtext1%"
+		"textAlignment"			"center"
+		"visible"				"0"
+		"fgcolor_override"		"White"
+		
+		"pin_to_sibling"		"CenterAnchor"
+		"pin_corner_to_sibling"	"PIN_BOTTOMLEFT"
+		"pin_to_sibling_corner"	"PIN_BOTTOMLEFT"
+	}
+	
+	"MessageLabel2"
+	{
+		"ControlName"			"VariableLabel"
+		"fieldName"				"MessageLabel2"
+		"xpos"					"-7"
+		"ypos"					"46"
+		"zpos"					"10"
+		"wide"					"85"
+		"tall"					"10"
+		"font"					"Roboto10"
+		"labelText"				"%customtext2%"
+		"textAlignment"			"center"
+		"visible"				"0"
+		"fgcolor_override"		"White"
+		
+		"pin_to_sibling"		"CenterAnchor"
+		"pin_corner_to_sibling"	"PIN_BOTTOMLEFT"
+		"pin_to_sibling_corner"	"PIN_BOTTOMLEFT"
+	}
+	
+	"MessageLabel3"
+	{
+		"ControlName"			"VariableLabel"
+		"fieldName"				"MessageLabel3"
+		"xpos"					"-7"
+		"ypos"					"46"
+		"zpos"					"10"
+		"wide"					"85"
+		"tall"					"10"
+		"font"					"Roboto10"
+		"labelText"				"%customtext3%"
+		"textAlignment"			"center"
+		"visible"				"0"
+		"fgcolor_override"		"White"
+		
+		"pin_to_sibling"		"CenterAnchor"
+		"pin_corner_to_sibling"	"PIN_BOTTOMLEFT"
+		"pin_to_sibling_corner"	"PIN_BOTTOMLEFT"
+	}
+	
+	"MessageLabel4"
+	{
+		"ControlName"			"VariableLabel"
+		"fieldName"				"MessageLabel4"
+		"xpos"					"-7"
+		"ypos"					"46"
+		"zpos"					"10"
+		"wide"					"85"
+		"tall"					"10"
+		"font"					"Roboto10"
+		"labelText"				"%customtext4%"
+		"textAlignment"			"center"
+		"visible"				"0"
+		"fgcolor_override"		"White"
+		
+		"pin_to_sibling"		"CenterAnchor"
+		"pin_corner_to_sibling"	"PIN_BOTTOMLEFT"
+		"pin_to_sibling_corner"	"PIN_BOTTOMLEFT"
 	}
 }
