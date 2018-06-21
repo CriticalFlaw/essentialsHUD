@@ -306,7 +306,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Roboto Bold Condensed"
+				"name"		"Open Sans ExtraBold"
 				"tall"		"35"
 				"additive"	"0"
 				"antialias" "1"
@@ -316,7 +316,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Roboto Condensed"
+				"name"		"Open Sans SemiBold"
 				"tall"		"16"
 				"additive"	"0"
 				"antialias" "1"
@@ -326,7 +326,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Roboto Condensed"
+				"name"		"Open Sans SemiBold"
 				"tall"		"17"
 				"additive"	"0"
 				"antialias" "1"
@@ -336,7 +336,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Roboto Condensed"
+				"name"		"Open Sans SemiBold"
 				"tall"		"18"
 				"additive"	"0"
 				"antialias" "1"
@@ -346,7 +346,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Roboto Condensed"
+				"name"		"Open Sans SemiBold"
 				"tall"		"19"
 				"additive"	"0"
 				"antialias" "1"
@@ -356,7 +356,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Roboto Condensed"
+				"name"		"Open Sans SemiBold"
 				"tall"		"20"
 				"additive"	"0"
 				"antialias" "1"
@@ -379,7 +379,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Roboto Condensed"
+				"name"		"Open Sans SemiBold"
 				"tall"		"18"
 				"weight"	"0"
 				"antialias"	"1"
@@ -390,7 +390,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Roboto Bold Condensed"
+				"name"		"Open Sans ExtraBold"
 				"tall"		"35"
 				"antialias" "1"
 			}
@@ -758,13 +758,13 @@ Scheme
 		}
 		"2"
 		{
-			"font"	"resource/fonts/robotoBold.ttf"
-			"name"	"Roboto Bold Condensed"
+			"font"	"resource/fonts/OpenSans-ExtraBold.ttf"
+			"name"	"Open Sans ExtraBold"
 		}
 		"3"
 		{
-			"font"	"resource/fonts/robotoReg.ttf"
-			"name"	"Roboto Condensed"
+			"font"	"resource/fonts/OpenSans-ExtraBold.ttf"
+			"name"	"Open Sans SemiBold"
 		}
 	}
 }

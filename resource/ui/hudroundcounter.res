@@ -10,12 +10,11 @@
 		"tall"			"25"
 		"visible"		"1"
 		"enabled"		"1"
-		"proportionaltoparent"	"1"
-
-		"starting_width"	"20"
-		"width_per_round"	"24"
+		"proportionaltoparent"		"1"
+		"starting_width"			"20"
+		"width_per_round"			"24"
 		"indicator_start_offset"	"4"
-		"indicator_max_wide"	"30"
+		"indicator_max_wide"		"30"
 
 		"RoundIndicatorPanel_kv"
 		{

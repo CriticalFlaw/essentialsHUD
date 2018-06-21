@@ -17,18 +17,25 @@
 		"enabled"				"1"
 		"tabPosition"			"0"
 	}
-	"TeamScoresBG"
+	"TeamNameBluBG"
 	{
 		"ControlName"			"ImagePanel"
-		"fieldName"				"TeamScoresBG"
-		"xpos"					"0"
-		"ypos"					"0"
+		"fieldName"				"TeamNameBluBG"
+		"xpos"					"377"
+		"xpos_minmode"			"0"
+		"ypos"					"-13"
 		"zpos"					"0"
 		"wide"					"f0"
+		"wide_minmode"			"100"
 		"tall"					"25"
 		"visible"				"1"
 		"enabled"				"1"
-		"fillcolor"				"0 0 0 220"
+		"fillcolor"				"0 0 0 200"
+		"fillcolor_minmode"		"0 0 0 225"
+		
+		"pin_to_sibling"		"CenterAnchor"
+		"pin_corner_to_sibling"	"PIN_TOPLEFT"
+		"pin_to_sibling_corner"	"PIN_TOPLEFT"
 	}
 	"TeamNameBlu"
 	{

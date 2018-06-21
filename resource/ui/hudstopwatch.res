@@ -31,7 +31,7 @@
 		"font"				"RobotoBold12"
 		"labelText"			"%scoretobeat%"
 		"textAlignment"		"west"
-		"xpos"				"c-38"
+		"xpos"				"c-40"
 		"ypos"				"1"
 		"zpos"				"4"
 		"wide"				"120"
@@ -50,7 +50,7 @@
 		"font"				"RobotoBold12"
 		"labelText"			"POINTS IN"
 		"textAlignment"		"west"
-		"xpos"				"c-29"
+		"xpos"				"c-31"
 		"ypos"				"1"
 		"zpos"				"4"
 		"wide"				"120"
@@ -84,7 +84,6 @@
 			"fieldName"		"TimePanelBG"
 			"tall"			"0"
 			"visible"		"0"
-			"enabled"		"0"
 		}
 
 		"TimePanelValue"
@@ -108,7 +107,7 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"			"StopWatchLabel"
-		"font"				"Roboto10"
+		"font"				"Roboto9"
 		"labelText"			"%stopwatchlabel%"
 		"textAlignment"		"west"
 		"xpos"				"c-39"

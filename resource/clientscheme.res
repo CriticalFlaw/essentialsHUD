@@ -31,13 +31,13 @@ Scheme
 		}
 		"7"
 		{
-			"font"	"resource/fonts/robotoBold.ttf"
-			"name"	"Roboto Bold Condensed"
+			"font"	"resource/fonts/OpenSans-ExtraBold.ttf"
+			"name"	"Open Sans ExtraBold"
 		}
 		"8"
 		{
-			"font"	"resource/fonts/robotoReg.ttf"
-			"name"	"Roboto Condensed"
+			"font"	"resource/fonts/OpenSans-SemiBold.ttf"
+			"name"	"Open Sans SemiBold"
 		}
 		"9" "resource/ocra.ttf"
 	}

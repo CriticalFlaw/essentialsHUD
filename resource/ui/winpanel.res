@@ -227,84 +227,84 @@
 
 		TeamNameAnchor
 		{
-			"ControlName"			"EditablePanel"
-			"fieldName"				"TeamNameAnchor"
-			"xpos"					"c0"
-			"ypos"					"c0"
-			"wide"					"0"
-			"tall"					"0"
+			"ControlName"		"EditablePanel"
+			"fieldName"			"TeamNameAnchor"
+			"xpos"				"c0"
+			"ypos"				"c0"
+			"wide"				"0"
+			"tall"				"0"
 			"proportionaltoparent"	"1"
 		}
 
 		"BlueTeamScore"
 		{
-			"ControlName"			"CExLabel"
-			"fieldName"				"BlueTeamScore"
-			"tall"					"0"
-			"enabled"				"1"
+			"ControlName"		"CExLabel"
+			"fieldName"			"BlueTeamScore"
+			"tall"				"0"
+			"enabled"			"1"
 		}
 		"BlueTeamLabel"
 		{
-			"ControlName"			"CExLabel"
-			"fieldName"				"BlueTeamLabel"
-			"tall"					"0"
-			"enabled"				"1"
+			"ControlName"		"CExLabel"
+			"fieldName"			"BlueTeamLabel"
+			"tall"				"0"
+			"enabled"			"1"
 		}
 		"BlueLeaderAvatar"
 		{
-			"tall"					"0"
-			"visible"				"0"
+			"tall"				"0"
+			"visible"			"0"
 		}
 		"BlueLeaderAvatarBG"
 		{
-			"tall"					"0"
-			"visible"				"0"
+			"tall"				"0"
+			"visible"			"0"
 		}
 		"BlueScoreBG"
 		{
-			"ControlName"			"EditablePanel"
-			"fieldName"				"BlueScoreBG"
-			"tall"					"0"
-			"visible"				"0"
-			"border"				"TFFatLineBorderBlueBGMoreOpaque"
+			"ControlName"		"EditablePanel"
+			"fieldName"			"BlueScoreBG"
+			"tall"				"0"
+			"visible"			"0"
+			"border"			"TFFatLineBorderBlueBGMoreOpaque"
 		}
 
 		"RedTeamScore"
 		{
-			"ControlName"			"CExLabel"
-			"fieldName"				"RedTeamScore"
-			"tall"					"0"
-			"enabled"				"1"
+			"ControlName"		"CExLabel"
+			"fieldName"			"RedTeamScore"
+			"tall"				"0"
+			"enabled"			"1"
 		}
 		"RedTeamLabel"
 		{
-			"ControlName"			"CExLabel"
-			"fieldName"				"RedTeamLabel"
-			"tall"					"0"
-			"enabled"				"1"
+			"ControlName"		"CExLabel"
+			"fieldName"			"RedTeamLabel"
+			"tall"				"0"
+			"enabled"			"1"
 		}
 		"RedLeaderAvatar"
 		{
-			"ControlName"			"CAvatarImagePanel"
-			"fieldName"				"RedLeaderAvatar"
-			"tall"					"0"
-			"visible"				"0"
-			"image"					""
+			"ControlName"		"CAvatarImagePanel"
+			"fieldName"			"RedLeaderAvatar"
+			"tall"				"0"
+			"visible"			"0"
+			"image"				""
 		}
 		"RedLeaderAvatarBG"
 		{
-			"ControlName"			"EditablePanel"
-			"fieldName"				"RedLeaderAvatarBG"
-			"tall"					"0"
-			"visible"				"0"
+			"ControlName"		"EditablePanel"
+			"fieldName"			"RedLeaderAvatarBG"
+			"tall"				"0"
+			"visible"			"0"
 		}
 		"RedScoreBG"
 		{
-			"ControlName"			"EditablePanel"
-			"fieldName"				"RedScoreBG"
-			"tall"					"0"
-			"visible"				"0"
-			"border"				"TFFatLineBorderRedBGMoreOpaque"
+			"ControlName"		"EditablePanel"
+			"fieldName"			"RedScoreBG"
+			"tall"				"0"
+			"visible"			"0"
+			"border"			"TFFatLineBorderRedBGMoreOpaque"
 		}
 	}
 	"ShadedBar"
