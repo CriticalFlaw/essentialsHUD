@@ -32,13 +32,18 @@ Scheme
 		"7"
 		{
 			"font"	"resource/fonts/OpenSans-Bold.ttf"
-			"name"	"Open Sans ExtraBold"
+			"name"	"Open Sans Bold"
 		}
 		"8"
+		{
+			"font"	"resource/fonts/OpenSans-ExtraBold.ttf"
+			"name"	"Open Sans ExtraBold"
+		}
+		"9"
 		{
 			"font"	"resource/fonts/OpenSans-SemiBold.ttf"
 			"name"	"Open Sans SemiBold"
 		}
-		"9" "resource/ocra.ttf"
+		"10" "resource/ocra.ttf"
 	}
 }
