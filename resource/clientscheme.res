@@ -31,7 +31,7 @@ Scheme
 		}
 		"7"
 		{
-			"font"	"resource/fonts/OpenSans-ExtraBold.ttf"
+			"font"	"resource/fonts/OpenSans-Bold.ttf"
 			"name"	"Open Sans ExtraBold"
 		}
 		"8"
