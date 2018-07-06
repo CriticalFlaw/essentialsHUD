@@ -86,7 +86,7 @@
 		"labelText"		"%Health%"
 		"textAlignment"	"center"
 		"textinsetx"	"2"
-		"visible"		"1"
+		"visible"		"0"
 		"fgcolor"		"Black"
 		"proportionaltoparent"	"1"
 
@@ -130,7 +130,7 @@
 		"labelText"		"%Health%"
 		"textAlignment"	"center"
 		"textinsetx"	"2"
-		"visible"		"1"
+		"visible"		"0"
 		"fgcolor"		"Black"
 		"proportionaltoparent"	"1"
 

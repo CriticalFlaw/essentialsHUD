@@ -6,7 +6,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Open Sans ExtraBold"
+				"name"		"Open Sans Bold"
 				"tall"		"10"
 				"additive"	"0"
 				"antialias" "1"
@@ -16,7 +16,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Open Sans ExtraBold"
+				"name"		"Open Sans Bold"
 				"tall"		"11"
 				"additive"	"0"
 				"antialias" "1"
@@ -26,7 +26,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Open Sans ExtraBold"
+				"name"		"Open Sans Bold"
 				"tall"		"12"
 				"additive"	"0"
 				"antialias" "1"
@@ -36,7 +36,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Open Sans ExtraBold"
+				"name"		"Open Sans Bold"
 				"tall"		"14"
 				"additive"	"0"
 				"antialias" "1"
@@ -46,7 +46,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Open Sans ExtraBold"
+				"name"		"Open Sans Bold"
 				"tall"		"16"
 				"additive"	"0"
 				"antialias" "1"
@@ -56,7 +56,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Open Sans ExtraBold"
+				"name"		"Open Sans Bold"
 				"tall"		"18"
 				"additive"	"0"
 				"antialias" "1"
@@ -66,7 +66,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Open Sans ExtraBold"
+				"name"		"Open Sans Bold"
 				"tall"		"20"
 				"additive"	"0"
 				"antialias" "1"
@@ -76,7 +76,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Open Sans ExtraBold"
+				"name"		"Open Sans Bold"
 				"tall"		"24"
 				"additive"	"0"
 				"antialias" "1"
@@ -86,7 +86,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Open Sans ExtraBold"
+				"name"		"Open Sans Bold"
 				"tall"		"34"
 				"additive"	"0"
 				"antialias" "1"
@@ -536,7 +536,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Open Sans ExtraBold"
+				"name"		"Open Sans Bold"
 				"tall"		"44"
 				"weight"	"500"
 				"additive"	"0"
@@ -547,7 +547,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Open Sans ExtraBold"
+				"name"		"Open Sans Bold"
 				"tall"		"35"
 				"weight"	"500"
 				"additive"	"0"
@@ -580,7 +580,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Open Sans ExtraBold"
+				"name"		"Open Sans Bold"
 				"tall"		"30"
 				"weight"	"500"
 				"additive"	"0"
@@ -613,7 +613,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Open Sans ExtraBold"
+				"name"		"Open Sans Bold"
 				"tall"		"24"
 				"weight"	"500"
 				"additive"	"0"
@@ -624,7 +624,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Open Sans ExtraBold"
+				"name"		"Open Sans Bold"
 				"tall"		"18"
 				"weight"	"500"
 				"additive"	"0"
@@ -668,7 +668,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Open Sans ExtraBold"
+				"name"		"Open Sans Bold"
 				"tall"		"16"
 				"weight"	"500"
 				"additive"	"0"
@@ -679,7 +679,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Open Sans ExtraBold"
+				"name"		"Open Sans Bold"
 				"tall"		"14"
 				"weight"	"500"
 				"additive"	"0"
@@ -690,7 +690,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Open Sans ExtraBold"
+				"name"		"Open Sans Bold"
 				"tall"		"14"
 				"weight"	"500"
 				"additive"	"0"
@@ -725,7 +725,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Open Sans ExtraBold"
+				"name"		"Open Sans Bold"
 				"tall"		"11"
 				"weight"	"500"
 				"additive"	"0"
@@ -737,7 +737,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Open Sans ExtraBold"
+				"name"		"Open Sans Bold"
 				"tall"		"4"
 				"weight"	"500"
 				"additive"	"0"
@@ -749,7 +749,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Open Sans ExtraBold"
+				"name"		"Open Sans Bold"
 				"tall"		"10"
 				"weight"	"500"
 				"additive"	"0"
@@ -761,7 +761,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Open Sans ExtraBold"
+				"name"		"Open Sans Bold"
 				"tall"		"16"
 				"weight"	"500"
 				"additive"	"0"
@@ -772,7 +772,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Open Sans ExtraBold"
+				"name"		"Open Sans Bold"
 				"tall"		"9"
 				"weight"	"0"
 				"additive"	"0"
@@ -1712,7 +1712,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Open Sans ExtraBold"
+				"name"		"Open Sans Bold"
 				"tall"		"36"
 				"weight"	"500"
 			}
@@ -1721,7 +1721,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Open Sans ExtraBold"
+				"name"		"Open Sans Bold"
 				"tall"		"30"
 				"weight"	"500"
 			}
@@ -1804,7 +1804,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Open Sans ExtraBold"
+				"name"		"Open Sans Bold"
 				"tall"		"36"
 				"weight"	"500"
 				"additive"	"0"
@@ -1917,7 +1917,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Open Sans ExtraBold"
+				"name"		"Open Sans Bold"
 				"tall"		"8"
 				"weight"	"500"
 				"additive"	"0"
@@ -1928,7 +1928,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Open Sans ExtraBold"
+				"name"		"Open Sans Bold"
 				"tall"		"9"
 				"weight"	"500"
 				"additive"	"0"
@@ -1939,7 +1939,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Open Sans ExtraBold"
+				"name"		"Open Sans Bold"
 				"tall"		"12"
 				"weight"	"500"
 				"additive"	"0"
@@ -1950,7 +1950,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Open Sans ExtraBold"
+				"name"		"Open Sans Bold"
 				"tall"		"18"
 				"weight"	"500"
 				"additive"	"0"
@@ -2016,7 +2016,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Open Sans ExtraBold"
+				"name"		"Open Sans Bold"
 				"tall"		"9"
 				"weight"	"500"
 				"additive"	"0"
@@ -2027,7 +2027,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Open Sans ExtraBold"
+				"name"		"Open Sans Bold"
 				"tall"		"9"
 				"weight"	"500"
 				"blur"		"3"
@@ -2462,7 +2462,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Open Sans ExtraBold"
+				"name"		"Open Sans Bold"
 				"tall"		"11"
 				"weight"	"500"
 				"additive"	"0"
@@ -2473,7 +2473,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Open Sans ExtraBold"
+				"name"		"Open Sans Bold"
 				"tall"		"14"
 				"weight"	"500"
 				"additive"	"0"
@@ -2495,7 +2495,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Open Sans ExtraBold"
+				"name"		"Open Sans Bold"
 				"tall"		"24"
 				"weight"	"500"
 				"additive"	"0"
@@ -2519,7 +2519,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Open Sans ExtraBold"
+				"name"		"Open Sans Bold"
 				"tall"		"14"
 				"weight"	"500"
 				"additive"	"0"
@@ -2530,7 +2530,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Open Sans ExtraBold"
+				"name"		"Open Sans Bold"
 				"tall"		"24"
 				"weight"	"500"
 				"additive"	"0"
@@ -2567,7 +2567,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Open Sans ExtraBold"
+				"name"		"Open Sans Bold"
 				"tall"		"11"
 				"weight"	"500"
 				"antialias" "1"
@@ -2578,7 +2578,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Open Sans ExtraBold"
+				"name"		"Open Sans Bold"
 				"tall"		"11"
 				"weight"	"500"
 				"blur"		"3"
