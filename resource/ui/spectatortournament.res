@@ -355,7 +355,39 @@
 				"fieldName"			"chargeamount"
 				//"visible"			"0"
 			}
-
+			
+			"StatusEffectIconRed"
+			{
+				"ControlName"			"ImagePanel"
+				"fieldName"				"StatusEffectIconRed"
+				"xpos"					"33"
+				"ypos"					"13"
+				"zpos"					"200"
+				"wide"					"8"
+				"tall"					"8"
+				"visible"				"1"
+				"enabled"				"1"
+				"scaleImage"			"1"
+				"proportionalToParent"	"1"
+				"image"					""../castingessentials/statuseffects/marked_for_death_red"
+			}
+			
+			"StatusEffectIconBlue"
+			{
+				"ControlName"			"ImagePanel"
+				"fieldName"				"StatusEffectIconBlue"
+				"xpos"					"250"
+				"ypos"					"13"
+				"zpos"					"200"
+				"wide"					"8"
+				"tall"					"8"
+				"visible"				"1"
+				"enabled"				"1"
+				"scaleImage"			"1"
+				"proportionalToParent" 	"1"
+				"image"					""../castingessentials/statuseffects/marked_for_death_blue"
+			}
+			
 			"MedigunIconRed"
 			{
 				"ControlName"		"ImagePanel"
