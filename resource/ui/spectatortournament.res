@@ -369,7 +369,7 @@
 				"enabled"				"1"
 				"scaleImage"			"1"
 				"proportionalToParent"	"1"
-				"image"					""../castingessentials/statuseffects/marked_for_death_red"
+				"image"					"../castingessentials/statuseffects/marked_for_death_red"
 			}
 			
 			"StatusEffectIconBlue"
@@ -385,7 +385,7 @@
 				"enabled"				"1"
 				"scaleImage"			"1"
 				"proportionalToParent" 	"1"
-				"image"					""../castingessentials/statuseffects/marked_for_death_blue"
+				"image"					"../castingessentials/statuseffects/marked_for_death_blue"
 			}
 			
 			"WeaponChargeRed"
