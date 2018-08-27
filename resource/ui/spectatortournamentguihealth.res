@@ -99,7 +99,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"BluePlayerHealth"
-		"xpos"			"-30"
+		"xpos"			"-29"
 		"ypos"			"5"
 		"zpos"			"7"
 		"wide"			"28"
