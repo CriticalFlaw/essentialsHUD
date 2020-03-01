@@ -38,8 +38,7 @@
 			"tall"				"25"
 			"visible"			"1"
 			"enabled"			"1"
-			"fillcolor"			"0 0 0 0"
-			"fillcolor_minmode"	"0 0 0 220"
+			"fillcolor"			"0 0 0 220"
 			
 		}
 		

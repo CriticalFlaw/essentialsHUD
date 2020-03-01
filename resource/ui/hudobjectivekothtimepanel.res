@@ -24,7 +24,7 @@
 			"fieldName"			"TimePanelValue"
 			"font"				"RobotoBold18"
 			"fgcolor"			"White"
-			"xpos"				"7"
+			"xpos"				"12"
 			"ypos"				"0"
 			"zpos"				"3"
 			"wide"				"100"
@@ -60,7 +60,7 @@
 			"fieldName"			"TimePanelValue"
 			"font"				"RobotoBold18"
 			"fgcolor"			"White"
-			"xpos"				"8"
+			"xpos"				"6"
 			"ypos"				"0"
 			"zpos"				"3"
 			"wide"				"100"
@@ -84,5 +84,18 @@
 		"visible"				"0"
 		"enabled"				"1"
 		"fillcolor"				"White"
+	}
+	"TimerBG"
+	{
+		"ControlName"			"ImagePanel"
+		"fieldName"				"TimerBG"
+		"xpos"					"57"
+		"ypos"					"0"
+		"zpos"					"0"
+		"wide"					"84"
+		"tall"					"25"
+		"visible"				"1"
+		"enabled"				"1"
+		"fillcolor"				"0 0 0 220"
 	}
 }
