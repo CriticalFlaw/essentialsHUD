@@ -235,9 +235,9 @@
 		"visible" 	"0"
 		"enabled" 	"1"
 		"xpos"		"c-126"
-		"ypos"		"360"
+		"ypos"		"365"
 		"wide"	 	"252"
-		"tall"	 	"35"
+		"tall"	 	"45"
 		"priority"	"40"
 		
 		"x_offset" "20"

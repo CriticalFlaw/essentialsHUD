@@ -8,7 +8,7 @@
 		"ypos"			"0"
 		"zpos"			"-1"
 		"wide"			"252"
-		"tall"	 		"50"
+		"tall"	 		"100"
 		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"1"
@@ -29,7 +29,7 @@
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"TargetIDBG_Spec_Blue"
-		"xpos"			"35"
+		"xpos"			"0"
 		"ypos"			"15"
 		"zpos"			"-1"
 		"wide"			"252"
@@ -39,6 +39,8 @@
 		"visible"		"0"
 		"enabled"		"1"
 		"fillcolor"		"HUDBlueTeam"
+		"paintborder"	"1"
+		"border"		"BlackBorder"
 		
 		"src_corner_height"		"23"			// pixels inside the image
 		"src_corner_width"		"23"
@@ -50,7 +52,7 @@
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"TargetIDBG_Spec_Red"
-		"xpos"			"35"
+		"xpos"			"0"
 		"ypos"			"15"
 		"zpos"			"-1"
 		"wide"			"252"
@@ -60,6 +62,8 @@
 		"visible"		"0"
 		"enabled"		"1"
 		"fillcolor"		"HUDRedTeam"
+		"paintborder"	"1"
+		"border"		"BlackBorder"
 		
 		"src_corner_height"		"23"			// pixels inside the image
 		"src_corner_width"		"23"
@@ -72,9 +76,9 @@
 	{	
 		"ControlName"	"Label"
 		"fieldName"		"TargetNameLabel"
-		"font"			"RobotoBold18"
+		"font"			"RobotoBold24"
 		"xpos"			"0"
-		"ypos"			"15"
+		"ypos"			"14"
 		"zpos"			"1"
 		"wide"			"640"
 		"tall"			"30"
@@ -83,7 +87,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"labelText"		"%targetname%"
-		"textAlignment"	"North-West"
+		"textAlignment"	"centre"
 		"dulltext"		"0"
 		"brighttext"	"0"
 	}
@@ -92,9 +96,9 @@
 	{	
 		"ControlName"	"Label"
 		"fieldName"		"TargetNameLabelShadow"
-		"font"			"RobotoBold18"
-		"xpos"			"-1"
-		"ypos"			"-1"
+		"font"			"RobotoBold24"
+		"xpos"			"-2"
+		"ypos"			"-2"
 		"zpos"			"1"
 		"wide"			"640"
 		"tall"			"30"
@@ -103,7 +107,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"labelText"		"%targetname%"
-		"textAlignment"	"North-West"
+		"textAlignment"	"centre"
 		"dulltext"		"0"
 		"brighttext"	"0"
 		"fgcolor_override"		"Black"
@@ -116,7 +120,7 @@
 	{	
 		"ControlName"	"Label"
 		"fieldName"		"TargetDataLabel"
-		"font"			"Roboto10"
+		"font"			"Roboto12"
 		"xpos"			"0"
 		"ypos"			"3"
 		"zpos"			"1"
@@ -135,7 +139,7 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"SpectatorGUIHealth"
-		"xpos"			"0"
+		"xpos"			"5"
 		"ypos"			"15"
 		"zpos"			"5"
 		"wide"			"35"
@@ -275,15 +279,15 @@
 	{
 		"ControlName"	"CAvatarImagePanel"
 		"fieldName"		"AvatarImage"
-		"xpos"			"6"
-		"ypos"			"6"
+		"xpos"			"8"
+		"ypos"			"5"	[$WIN32]
 		"zpos"			"99"
-		"wide"			"11"
-		"tall"			"11"
-		"visible"		"0"
-		"enabled"		"0"
-		"image"			""
-		"scaleImage"	"1"	
-		"color_outline"	"52 48 45 255"
-	}	
+		"wide"			"20"
+		"tall"			"20"
+		"visible"		"1"
+		"enabled"		"1"
+		"image"			"../hud/class_scoutred"
+		"scaleImage"		"1"
+		"color_outline"		"52 48 45 255"
+	}
 }
