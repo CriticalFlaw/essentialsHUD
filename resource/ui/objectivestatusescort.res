@@ -13,6 +13,12 @@
 		"enabled"			"1"
 		"progress_xpos"		"93"
 		"progress_wide"		"214"
+		
+		"if_multiple_trains"
+		{
+			"ypos"				"r200"
+			"tall"				"200"
+		}
 	}
 
 	"LevelBar"
@@ -29,6 +35,14 @@
 		"labelText"		""
 		"image"			"../hud/cart_track"
 		"scaleImage"	"1"
+		
+		"if_multiple_trains"
+		{
+			"ypos"			"114"
+			"zpos"			"3"
+			"tall"			"12"
+			"image"			"../hud/cart_track_neutral_opaque"
+		}
 
 		"if_single_with_hills"
 		{
@@ -50,6 +64,14 @@
 		"visible"		"0"
 		"enabled"		"1"
 		"scaleImage"	"1"
+		
+		"if_multiple_trains"
+		{
+			"ypos"			"114"
+			"zpos"			"6"
+			"tall"			"12"
+			"visible"		"1"
+		}
 	}
 
 	"HomeCPIcon"
@@ -58,7 +80,7 @@
 		"fieldName"		"HomeCPIcon"
 		"xpos"			"90"
 		"ypos"			"115"
-		"zpos"			"3"
+		"zpos"			"1"
 		"wide"			"20"
 		"tall"			"20"
 		"autoResize"	"0"
@@ -84,6 +106,35 @@
 		{
 			"image"		"../hud/cart_home_red_opaque"
 		}
+		
+		"if_multiple_trains"
+		{
+			"xpos"			"59"
+			"zpos"			"5"
+			"wide"			"14"
+			"tall"			"14"
+			"image"			"../hud/cart_track_neutral_opaque"
+		}
+		
+		"if_multiple_trains_top"
+		{
+			"ypos"			"113"
+		}
+		
+		"if_multiple_trains_bottom"
+		{
+			"ypos"			"113"
+		}
+		
+		"if_multiple_trains_red"
+		{
+			"image"			"../hud/cart_home_red_square"
+		}
+		
+		"if_multiple_trains_blue"
+		{
+			"image"			"../hud/cart_home_blue_square"
+		}
 	}
 
 	"SimpleControlPointTemplate"
@@ -103,6 +154,15 @@
 		"labelText"		""
 		"image"			"../hud/cart_point_neutral"
 		"scaleImage"	"1"
+		
+		"if_multiple_trains"
+		{
+			"xpos"			"61"
+			"ypos"			"114"
+			"zpos"			"5"	
+			"wide"			"12"
+			"tall"			"12"
+		}
 	}
 
 	"EscortItemPanel"
@@ -116,6 +176,14 @@
 		"tall"			"75"
 		"visible"		"1"
 		"enabled"		"1"
+				
+		"if_multiple_trains"
+		{
+			"ypos"			"48"
+			"zpos"			"8"
+			"wide"			"52"
+			"tall"			"170"
+		}
 
 		"RecedeTime"
 		{
@@ -141,6 +209,24 @@
 			"pin_to_sibling"		"EscortItemImage"
 			"pin_corner_to_sibling"	"PIN_CENTER_TOP"
 			"pin_to_sibling_corner"	"PIN_CENTER_TOP"
+			
+			"if_multiple_trains"
+			{
+				"font"			"ItemFontAttribSmall"
+				"xpos"			"21"
+				"wide"			"11"
+				"tall"			"10"
+			}
+			
+			"if_multiple_trains_top"
+			{
+				"ypos"			"46"
+			}
+			
+			"if_multiple_trains_bottom"
+			{
+				"ypos"			"82"
+			}
 		}
 
 		"EscortItemImage"
@@ -171,6 +257,14 @@
 			{
 				"image"		"../hud/cart_red"
 			}
+			
+			"if_multiple_trains"
+			{
+				"xpos"			"11"
+				"ypos"			"43"
+				"wide"			"30"
+				"tall"			"30"
+			}
 		}
 
 		"EscortItemImageBottom"
@@ -200,6 +294,14 @@
 			{
 				"image"		"../hud/cart_red_bottom"
 			}
+			
+			"if_multiple_trains"
+			{
+				"xpos"			"11"
+				"ypos"			"71"
+				"wide"			"30"
+				"tall"			"30"
+			}
 		}
 
 		"EscortItemImageAlert"
@@ -219,6 +321,12 @@
 			"labelText"		""
 			"image"			"../hud/cart_alert"
 			"scaleImage"	"1"
+			
+			"if_multiple_trains_bottom"
+			{
+				"xpos"			"-5"
+				"ypos"			"75"
+			}
 		}
 
 		"Speed_Backwards"
@@ -243,6 +351,23 @@
 			"pin_to_sibling"		"EscortItemImage"
 			"pin_corner_to_sibling"	"PIN_CENTER_TOP"
 			"pin_to_sibling_corner"	"PIN_CENTER_TOP"
+			
+			"if_multiple_trains"
+			{
+				"xpos"			"22"
+				"wide"			"8"
+				"tall"			"8"
+			}
+			
+			"if_multiple_trains_top"
+			{
+				"ypos"			"46"
+			}
+			
+			"if_multiple_trains_bottom"
+			{
+				"ypos"			"83"
+			}
 		}
 
 		"CapPlayerImage"
@@ -263,7 +388,25 @@
 			"pin_to_sibling"		"CapNumPlayers"
 			"pin_corner_to_sibling"	"PIN_CENTER_RIGHT"
 			"pin_to_sibling_corner"	"PIN_CENTER_LEFT"
+			
+			"if_multiple_trains"
+			{
+				"xpos"			"20"
+				"wide"			"5"
+				"tall"			"10"
+			}
+			
+			"if_multiple_trains_top"
+			{
+				"ypos"			"45"
+			}
+			
+			"if_multiple_trains_bottom"
+			{
+				"ypos"			"81"
+			}
 		}
+		
 		"CapNumPlayers"
 		{
 			"ControlName"	"CExLabel"
@@ -287,6 +430,24 @@
 			"pin_to_sibling"		"EscortItemImage"
 			"pin_corner_to_sibling"	"PIN_TOPLEFT"
 			"pin_to_sibling_corner"	"PIN_CENTER_TOP"
+			
+			"if_multiple_trains"
+			{
+				"font"			"ItemFontAttribSmall"
+				"xpos"			"25"
+				"wide"			"30"
+				"tall"			"10"
+			}
+			
+			"if_multiple_trains_top"
+			{
+				"ypos"			"46"
+			}
+			
+			"if_multiple_trains_bottom"
+			{
+				"ypos"			"82"
+			}
 		}
 
 		"Blocked"
@@ -307,6 +468,23 @@
 			"image"			"../hud/cart_blocked"
 			"scaleImage"	"1"
 			"proportionaltoparent"	"1"
+			
+			"if_multiple_trains"
+			{
+				"xpos"			"22"
+				"wide"			"8"
+				"tall"			"8"
+			}
+			
+			"if_multiple_trains_top"
+			{
+				"ypos"			"46"
+			}	
+			
+			"if_multiple_trains_bottom"
+			{
+				"ypos"			"83"
+			}
 		}
 
 		"EscortTeardrop"
@@ -320,6 +498,14 @@
 			"tall"				"65"
 			"visible"			"0"
 			"enabled"			"1"
+			
+			"if_multiple_trains"
+			{
+				"xpos"			"9"
+				"ypos"			"2"
+				"wide"			"65"
+				"tall"			"42"
+			}
 
 			"Teardrop"
 			{
@@ -335,6 +521,14 @@
 				"scaleImage"		"1"
 				"icon"				"cappoint_progressbar_teardrop"
 				"iconColor"			"255 255 255 255"
+				
+				"if_multiple_trains"
+				{
+					"xpos"			"0"
+					"ypos"			"0"
+					"wide"			"35"
+					"tall"			"42"
+				}
 			}
 
 			"ProgressText"
@@ -355,6 +549,15 @@
 				"dulltext"			"0"
 				"brighttext"		"0"
 				"centerwrap"		"1"
+				
+				"if_multiple_trains"
+				{
+					"font"			"DefaultVerySmall"
+					"xpos"			"0"
+					"ypos"			"3"
+					"wide"			"35"
+					"tall"			"28"
+				}
 			}
 
 			"Blocked"
@@ -371,6 +574,14 @@
 				"scaleImage"		"1"
 				"icon"				"cappoint_progressbar_blocked"
 				"iconColor"			"255 255 255 255"
+				
+				"if_multiple_trains"
+				{
+					"xpos"			"2"
+					"ypos"			"2"
+					"wide"			"31"
+					"tall"			"31"
+				}
 			}
 
 			"Capping"
@@ -390,6 +601,14 @@
 				"labelText"		""
 				"image"			"../hud/cart_arrow_right"
 				"scaleImage"	"1"
+				
+				"if_multiple_trains"
+				{
+					"xpos"			"8"
+					"ypos"			"8"
+					"wide"			"20"
+					"tall"			"20"
+				}
 			}
 		}
 	}

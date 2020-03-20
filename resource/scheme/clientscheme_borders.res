@@ -2,195 +2,6 @@ Scheme
 {
 	Borders
 	{
-		WhiteBorder
-		{
-			"inset" "0 0 1 1"
-			Left
-			{
-				"1"
-				{
-					"color" "White"
-					"offset" "0 1"
-				}
-			}
-
-			Right
-			{
-				"1"
-				{
-					"color" "White"
-					"offset" "1 0"
-				}
-			}
-
-			Top
-			{
-				"1"
-				{
-					"color" "White"
-					"offset" "0 0"
-				}
-			}
-
-			Bottom
-			{
-				"1"
-				{
-					"color" "White"
-					"offset" "0 0"
-				}
-			}
-		}
-		
-		MenuBorder
-		{
-			"inset" "0 0 0 0"
-			Left
-			{
-				"1"
-				{
-					"color" "Yellow"
-					"offset" "0 0"
-				}
-				"2"
-				{
-					"color" "Yellow"
-					"offset" "0 0"
-				}
-				"3"
-				{
-					"color" "Yellow"
-					"offset" "0 0"
-				}
-				"4"
-				{
-					"color" "Yellow"
-					"offset" "0 0"
-				}
-				"5"
-				{
-					"color" "Yellow"
-					"offset" "0 0"
-				}
-			}
-		}
-		
-		PanelBorder
-		{
-			"inset" "0 0 0 0"
-			Left
-			{
-				"1"
-				{
-					"color" "Black"
-					"offset" "0 0"
-				}
-			}
-
-			Right
-			{
-				"1"
-				{
-					"color" "Black"
-					"offset" "0 0"
-				}
-			}
-
-			Top
-			{
-				"1"
-				{
-					"color" "Black"
-					"offset" "0 0"
-				}
-			}
-
-			Bottom
-			{
-				"1"
-				{
-					"color" "Black"
-					"offset" "0 0"
-				}
-			}
-		}
-		
-		DarkBlueTeamBorder
-		{
-			"inset" "0 0 0 0"
-			Bottom
-			{
-				"1"
-				{
-					"color" "DarkBlue"
-					"offset" "0 0"
-				}
-				"2"
-				{
-					"color" "DarkBlue"
-					"offset" "0 0"
-				}
-				"3"
-				{
-					"color" "DarkBlue"
-					"offset" "0 0"
-				}
-				"4"
-				{
-					"color" "DarkBlue"
-					"offset" "0 0"
-				}
-				"5"
-				{
-					"color" "DarkBlue"
-					"offset" "0 0"
-				}
-				"6"
-				{
-					"color" "DarkBlue"
-					"offset" "0 0"
-				}
-			}
-		}
-		
-		DarkRedTeamBorder
-		{
-			"inset" "0 0 0 0"
-			Bottom
-			{
-				"1"
-				{
-					"color" "DarkRed"
-					"offset" "0 0"
-				}
-				"2"
-				{
-					"color" "DarkRed"
-					"offset" "0 0"
-				}
-				"3"
-				{
-					"color" "DarkRed"
-					"offset" "0 0"
-				}
-				"4"
-				{
-					"color" "DarkRed"
-					"offset" "0 0"
-				}
-				"5"
-				{
-					"color" "DarkRed"
-					"offset" "0 0"
-				}
-				"6"
-				{
-					"color" "DarkRed"
-					"offset" "0 0"
-				}
-			}
-		}
-		
 		NoBorder
 		{
 			"inset" "0 0 0 0"
@@ -294,32 +105,32 @@ Scheme
 		ScrollBarButtonBorder
 		{
 			"inset" "0 0 0 0"
-			"backgroundtype" "0"
+			"backgroundtype" "2"
 		}
 
 		ScrollBarButtonDepressedBorder
 		{
 			"inset" "0 0 0 0"
-			"backgroundtype" "0"
+			"backgroundtype" "2"
 		}
 
 		ButtonBorder
 		{
-			"offset" "0 0"
-			"color" "Blank"
+			"inset" "0 0 0 0"
+			"backgroundtype" "2"
 		}
 
 		// this is the border used for default buttons (the button that gets pressed when you hit enter)
 		ButtonKeyFocusBorder
 		{
-			"offset" "0 0"
-			"color" "Blank"
+			"inset" "0 0 0 0"
+			"backgroundtype" "2"
 		}
 
 		ButtonDepressedBorder
 		{
-			"offset" "0 0"
-			"color" "Blank"
+			"inset" "0 0 0 0"
+			"backgroundtype" "2"
 		}
 
 		ComboBoxBorder
@@ -329,7 +140,7 @@ Scheme
 			{
 				"1"
 				{
-					"color" "Blank"
+					"color" "TanLight"
 					"offset" "0 1"
 				}
 			}
@@ -338,7 +149,7 @@ Scheme
 			{
 				"1"
 				{
-					"color" "Blank"
+					"color" "TanLight"
 					"offset" "1 0"
 				}
 			}
@@ -347,7 +158,7 @@ Scheme
 			{
 				"1"
 				{
-					"color" "Blank"
+					"color" "TanLight"
 					"offset" "0 0"
 				}
 			}
@@ -356,7 +167,7 @@ Scheme
 			{
 				"1"
 				{
-					"color" "Blank"
+					"color" "TanLight"
 					"offset" "0 0"
 				}
 			}
@@ -473,13 +284,13 @@ Scheme
 		OutlinedGreyBox
 		{
 			"bordertype"			"scalable_image"
-			"backgroundtype"		"0"
+			"backgroundtype"		"2"
 			
 			"image"					"loadout_round_rect_selected"
 			"src_corner_height"		"24"				// pixels inside the image
 			"src_corner_width"		"24"
-			"draw_corner_width"		"0"				// screen size of the corners ( and sides ), proportional
-			"draw_corner_height" 	"0"	
+			"draw_corner_width"		"11"				// screen size of the corners ( and sides ), proportional
+			"draw_corner_height" 	"11"	
 		}
 		OutlinedDullGreyBox
 		{
@@ -489,76 +300,76 @@ Scheme
 			"image"					"loadout_round_rect"
 			"src_corner_height"		"24"				// pixels inside the image
 			"src_corner_width"		"24"
-			"draw_corner_width"		"0"				// screen size of the corners ( and sides ), proportional
-			"draw_corner_height" 	"0"	
+			"draw_corner_width"		"11"				// screen size of the corners ( and sides ), proportional
+			"draw_corner_height" 	"11"	
 		}
 		
 		TFThinLineBorder
 		{
 			"bordertype"			"scalable_image"
-			"backgroundtype"		"0"
+			"backgroundtype"		"2"
 			
 			"image"					"../hud/tournament_panel_brown"
 			//"image"					"../hud/color_panel_browner"
 			"src_corner_height"		"23"				// pixels inside the image
 			"src_corner_width"		"23"
-			"draw_corner_width"		"0"				// screen size of the corners ( and sides ), proportional
-			"draw_corner_height" 	"0"	
+			"draw_corner_width"		"8"				// screen size of the corners ( and sides ), proportional
+			"draw_corner_height" 	"8"	
 		}
 		TFFatLineBorderOpaque
 		{
 			"bordertype"			"scalable_image"
-			"backgroundtype"		"0"
+			"backgroundtype"		"2"
 			
 			"image"					"../hud/color_panel_brown_opaque"
 			"src_corner_height"		"23"				// pixels inside the image
 			"src_corner_width"		"23"
-			"draw_corner_width"		"0"				// screen size of the corners ( and sides ), proportional
-			"draw_corner_height" 	"0"	
+			"draw_corner_width"		"5"				// screen size of the corners ( and sides ), proportional
+			"draw_corner_height" 	"5"	
 		}
 		TFFatLineBorder
 		{
 			"bordertype"			"scalable_image"
-			"backgroundtype"		"0"
+			"backgroundtype"		"2"
 			
 			"image"					"../hud/color_panel_brown"
 			"src_corner_height"		"23"				// pixels inside the image
 			"src_corner_width"		"23"
-			"draw_corner_width"		"0"				// screen size of the corners ( and sides ), proportional
-			"draw_corner_height" 	"0"
+			"draw_corner_width"		"5"				// screen size of the corners ( and sides ), proportional
+			"draw_corner_height" 	"5"	
 		}
 		TFFatLineBorderRedBGOpaque
 		{
 			"bordertype"			"scalable_image"
-			"backgroundtype"		"0"
+			"backgroundtype"		"2"
 			
 			"image"					"../hud/color_panel_red_opaque"
-			"src_corner_height"		"23"			// pixels inside the image
+			"src_corner_height"		"23"				// pixels inside the image
 			"src_corner_width"		"23"
-			"draw_corner_width"		"0"				// screen size of the corners ( and sides ), proportional
-			"draw_corner_height" 	"0"	
+			"draw_corner_width"		"5"				// screen size of the corners ( and sides ), proportional
+			"draw_corner_height" 	"5"	
 		}
 		TFFatLineBorderRedBGOpaque_Store
 		{
 			"bordertype"			"scalable_image"
-			"backgroundtype"		"0"
+			"backgroundtype"		"2"
 			
 			"image"					"../hud/color_panel_red_opaque"
-			"src_corner_height"		"24"			// pixels inside the image
+			"src_corner_height"		"24"				// pixels inside the image
 			"src_corner_width"		"24"
-			"draw_corner_width"		"0"				// screen size of the corners ( and sides ), proportional
-			"draw_corner_height" 	"0"	
+			"draw_corner_width"		"11"				// screen size of the corners ( and sides ), proportional
+			"draw_corner_height" 	"11"	
 		}
 		TFFatLineBorderRedBG
 		{
 			"bordertype"			"scalable_image"
-			"backgroundtype"		"0"
+			"backgroundtype"		"2"
 			
-			"image"					"replay/thumbnails/bg_red"
-			"src_corner_height"		"23"			// pixels inside the image
+			"image"					"../hud/color_panel_red"
+			"src_corner_height"		"23"				// pixels inside the image
 			"src_corner_width"		"23"
-			"draw_corner_width"		"0"				// screen size of the corners ( and sides ), proportional
-			"draw_corner_height" 	"0"
+			"draw_corner_width"		"5"				// screen size of the corners ( and sides ), proportional
+			"draw_corner_height" 	"5"	
 		}
 		TFFatLineBorderRedBGMoreOpaque
 		{
@@ -574,13 +385,13 @@ Scheme
 		TFFatLineBorderBlueBG
 		{
 			"bordertype"			"scalable_image"
-			"backgroundtype"		"0"
+			"backgroundtype"		"2"
 			
-			"image"					"replay/thumbnails/bg_blu"
+			"image"					"../hud/color_panel_blu"
 			"src_corner_height"		"23"				// pixels inside the image
 			"src_corner_width"		"23"
-			"draw_corner_width"		"0"				// screen size of the corners ( and sides ), proportional
-			"draw_corner_height" 	"0"
+			"draw_corner_width"		"5"				// screen size of the corners ( and sides ), proportional
+			"draw_corner_height" 	"5"	
 		}
 		TFFatLineBorderBlueBGMoreOpaque
 		{
@@ -601,8 +412,8 @@ Scheme
 			"image"					"../hud/color_panel_blu_opaque"
 			"src_corner_height"		"23"				// pixels inside the image
 			"src_corner_width"		"23"
-			"draw_corner_width"		"0"				// screen size of the corners ( and sides ), proportional
-			"draw_corner_height" 	"0"	
+			"draw_corner_width"		"5"				// screen size of the corners ( and sides ), proportional
+			"draw_corner_height" 	"5"	
 		}
 		TFFatLineBorderClearBG
 		{
@@ -612,8 +423,8 @@ Scheme
 			"image"					"../hud/color_panel_clear"
 			"src_corner_height"		"23"				// pixels inside the image
 			"src_corner_width"		"23"
-			"draw_corner_width"		"0"				// screen size of the corners ( and sides ), proportional
-			"draw_corner_height" 	"0"	
+			"draw_corner_width"		"5"				// screen size of the corners ( and sides ), proportional
+			"draw_corner_height" 	"5"	
 		}
 
 		ToolTipBorder

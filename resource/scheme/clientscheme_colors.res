@@ -2,18 +2,8 @@ Scheme
 {
 	Colors
 	{
-		// CUSTOM COLORS
-		//---------------------------------------------
 		// HUD COLORS
 		//---------------------------------------------
-		"Blue"						"72 112 125 255"
-		"DarkBlue"					"46 73 82 255"
-		"Red"						"158 64 61 255"
-		"DarkRed"					"102 48 46 255"
-		"Yellow"					"170 221 183 255"
-		"White"						"242 242 242 255"
-		"Black"						"17 17 17 255"
-		
 		"HealthBuff"				"58 225 25 255"
 		"HealthLow"					"223 142 0 255"
 		//---------------------------------------------
@@ -26,12 +16,12 @@ Scheme
 		"TFOrange"					"145 73 59 255"
 		"Purple"					"137 69 99 255"
 
+		"QuestGold"					"208 147 75 255"
 		"HalloweenThemeColor2015_Light"	"238 126 17 255"
 		"HalloweenThemeColor2015"		"135 54 16 255"
 		"HalloweenThemeColor2015_Dark"	"108 49 21 255"
+		"QuestUncommitted"				"183 147 100 255"
 		
-		"QuestGold"					"208 147 75 255"
-		"QuestUncommitted"			"183 147 100 255"
 		"QuestMap_Bonus"			"222 217 166 255"
 		"QuestMap_ActiveOrange"		"212 127 25 255"
 		"QuestMap_InactiveGrey"		"100 100 100 255"
@@ -51,7 +41,8 @@ Scheme
 		"Yellow"					"251 235 202 255"
 		"TransparentYellow"			"251 235 202 140"
 		"BrightYellow"				"251 235 0 255"
-		//"Black"						"0 0 0 255"
+		//"Black"					"0 0 0 255"
+		//Changed black to a NTSC safe color
 		"GreenSolid"				"76 107 34 255"
 
 		"Black"						"46 43 42 255"
@@ -91,7 +82,7 @@ Scheme
 		"HudTimerProgressInActive"	"52 48 45 255"
 		"HudTimerProgressWarning"	"240 30 30 255"
 
-		// Training
+		// training
 		"HudTrainingHint"			"212 160 23 255"
 		
 		"TanDark"					"117 107 94 255"
@@ -107,15 +98,16 @@ Scheme
 		"ProgressBackground"		"250 234 201 51"
 		"HealthBgGrey"				"72 71 69 255"
 		
-		"LabelDark"					"48 43 42 255"
-		"LabelTransparent"			"109 96 80 180"
+		"ProgressOffWhiteTransparent"	"251 235 202 128"
 		
-		"BuildMenuActive"			"248 231 198 255"
+		"LabelDark"						"48 43 42 255"
+		"LabelTransparent"				"109 96 80 180"
 		
-		"DisguiseMenuIconRed"		"192 56 63 255"
-		"DisguiseMenuIconBlue"		"92 128 166 255"
+		"BuildMenuActive"				"248 231 198 255"
 		
-		"ProgressOffWhiteTransparent"			"251 235 202 128"
+		"DisguiseMenuIconRed"			"192 56 63 255"
+		"DisguiseMenuIconBlue"			"92 128 166 255"
+		
  		"MatchmakingDialogTitleColor"			"200 184 151 255"
  		"MatchmakingMenuItemBackground"			"46 43 42 255"
  		"MatchmakingMenuItemBackgroundActive"	"150 71 0 255"	
@@ -189,6 +181,7 @@ Scheme
 		"QualityColorPaintkitWeapon_GreyedOut"	"60 60 60 255"
 		
 		"SaleGreen"								"76 107 34 255"
+		
 		"LightRed"								"200 80 60 255"
 		"LighterRed"							"220 100 80 255"
 		"LighterDarkBrown"						"59 54 48 255"

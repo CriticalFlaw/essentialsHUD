@@ -1,5 +1,120 @@
 "Resource/UI/winpanel.res"
 {
+	"TeamScoresPanel"
+	{
+		"ControlName"			"EditablePanel"
+		"fieldName"				"TeamScoresPanel"
+		"xpos"					"0"
+		"ypos"					"0"
+		"wide"					"f0"
+		"tall"					"f0"
+		"visible"				"1"
+
+		"TeamNameAnchor"
+		{
+			"ControlName"		"EditablePanel"
+			"fieldName"			"TeamNameAnchor"
+			"xpos"				"c0"
+			"ypos"				"c0"
+			"wide"				"0"
+			"tall"				"0"
+			"proportionaltoparent"	"1"
+		}
+		
+		"BlueScoreBG"
+		{
+			"ControlName"		"EditablePanel"
+			"fieldName"			"BlueScoreBG"
+			"tall"				"0"
+			"visible"			"0"
+			"border"			"TFFatLineBorderBlueBGMoreOpaque"
+		}
+		"RedScoreBG"
+		{
+			"ControlName"		"EditablePanel"
+			"fieldName"			"RedScoreBG"
+			"tall"				"0"
+			"visible"			"0"
+			"border"			"TFFatLineBorderRedBGMoreOpaque"
+		}
+		"BlueTeamLabel"
+		{
+			"ControlName"		"CExLabel"
+			"fieldName"			"BlueTeamLabel"
+			"tall"				"0"
+			"enabled"			"1"
+		}
+		"BlueTeamScore"
+		{
+			"ControlName"		"CExLabel"
+			"fieldName"			"BlueTeamScore"
+			"tall"				"0"
+			"enabled"			"1"
+		}
+		"BlueLeaderAvatar"
+		{
+			"tall"				"0"
+			"visible"			"0"
+		}
+		"BlueLeaderAvatarBG"
+		{
+			"tall"				"0"
+			"visible"			"0"
+		}
+		"RedTeamLabel"
+		{
+			"ControlName"		"CExLabel"
+			"fieldName"			"RedTeamLabel"
+			"tall"				"0"
+			"enabled"			"1"
+		}
+		"RedTeamScore"
+		{
+			"ControlName"		"CExLabel"
+			"fieldName"			"RedTeamScore"
+			"tall"				"0"
+			"enabled"			"1"
+		}
+		"RedLeaderAvatar"
+		{
+			"ControlName"		"CAvatarImagePanel"
+			"fieldName"			"RedLeaderAvatar"
+			"tall"				"0"
+			"visible"			"0"
+			"image"				""
+		}
+		"RedLeaderAvatarBG"
+		{
+			"ControlName"		"EditablePanel"
+			"fieldName"			"RedLeaderAvatarBG"
+			"tall"				"0"
+			"visible"			"0"
+		}
+	}
+
+	"WinPanelBGBorder"
+	{
+		"ControlName"			"EditablePanel"
+		"fieldName"				"WinPanelBGBorder"
+		"xpos"					"0"
+		"ypos"					"0"
+		"zpos"					"-1"
+		"wide"					"300"
+		"tall"					"30"
+		"visible"				"1"
+		"enabled"				"1"
+		"scaleImage"			"1"
+		"proportionaltoparent"	"1"
+
+		"draw_corner_width"		"30"
+		"draw_corner_height"	"30"
+		"src_corner_width"		"0"
+		"src_corner_height"		"0"
+
+		"pin_to_sibling" 		"WinningTeamLabel"
+		"pin_corner_to_sibling" "PIN_CENTER_TOP"
+		"pin_to_sibling_corner" "PIN_CENTER_TOP"
+	}
 	"WinningTeamLabel"
 	{
 		"ControlName"			"CExLabel"
@@ -107,8 +222,6 @@
 		"pin_corner_to_sibling" "PIN_TOPLEFT"
 		"pin_to_sibling_corner" "PIN_TOPLEFT"
 	}
-
-	// captured all points/defended succesfully
 	"WinReasonLabel"
 	{
 		"ControlName"			"CExLabel"
@@ -165,7 +278,6 @@
 		"pin_corner_to_sibling" "PIN_TOPLEFT"
 		"pin_to_sibling_corner" "PIN_TOPLEFT"
 	}
-
 	"DetailsLabel"
 	{
 		"ControlName"			"CExLabel"
@@ -191,122 +303,6 @@
 		"pin_corner_to_sibling" "PIN_TOPLEFT"
 		"pin_to_sibling_corner" "PIN_TOPLEFT"
 	}
-	// Team colored border
-	"WinPanelBGBorder"
-	{
-		"ControlName"			"EditablePanel"
-		"fieldName"				"WinPanelBGBorder"
-		"xpos"					"0"
-		"ypos"					"0"
-		"zpos"					"-1"
-		"wide"					"300"
-		"tall"					"30"
-		"visible"				"1"
-		"enabled"				"1"
-		"scaleImage"			"1"
-		"proportionaltoparent"	"1"
-
-		"draw_corner_width"		"30"
-		"draw_corner_height"	"30"
-		"src_corner_width"		"0"
-		"src_corner_height"		"0"
-
-		"pin_to_sibling" 		"WinningTeamLabel"
-		"pin_corner_to_sibling" "PIN_CENTER_TOP"
-		"pin_to_sibling_corner" "PIN_CENTER_TOP"
-	}
-	"TeamScoresPanel"
-	{
-		"ControlName"			"EditablePanel"
-		"fieldName"				"TeamScoresPanel"
-		"xpos"					"0"
-		"ypos"					"0"
-		"wide"					"f0"
-		"tall"					"f0"
-		"visible"				"1"
-
-		TeamNameAnchor
-		{
-			"ControlName"		"EditablePanel"
-			"fieldName"			"TeamNameAnchor"
-			"xpos"				"c0"
-			"ypos"				"c0"
-			"wide"				"0"
-			"tall"				"0"
-			"proportionaltoparent"	"1"
-		}
-
-		"BlueTeamScore"
-		{
-			"ControlName"		"CExLabel"
-			"fieldName"			"BlueTeamScore"
-			"tall"				"0"
-			"enabled"			"1"
-		}
-		"BlueTeamLabel"
-		{
-			"ControlName"		"CExLabel"
-			"fieldName"			"BlueTeamLabel"
-			"tall"				"0"
-			"enabled"			"1"
-		}
-		"BlueLeaderAvatar"
-		{
-			"tall"				"0"
-			"visible"			"0"
-		}
-		"BlueLeaderAvatarBG"
-		{
-			"tall"				"0"
-			"visible"			"0"
-		}
-		"BlueScoreBG"
-		{
-			"ControlName"		"EditablePanel"
-			"fieldName"			"BlueScoreBG"
-			"tall"				"0"
-			"visible"			"0"
-			"border"			"TFFatLineBorderBlueBGMoreOpaque"
-		}
-
-		"RedTeamScore"
-		{
-			"ControlName"		"CExLabel"
-			"fieldName"			"RedTeamScore"
-			"tall"				"0"
-			"enabled"			"1"
-		}
-		"RedTeamLabel"
-		{
-			"ControlName"		"CExLabel"
-			"fieldName"			"RedTeamLabel"
-			"tall"				"0"
-			"enabled"			"1"
-		}
-		"RedLeaderAvatar"
-		{
-			"ControlName"		"CAvatarImagePanel"
-			"fieldName"			"RedLeaderAvatar"
-			"tall"				"0"
-			"visible"			"0"
-			"image"				""
-		}
-		"RedLeaderAvatarBG"
-		{
-			"ControlName"		"EditablePanel"
-			"fieldName"			"RedLeaderAvatarBG"
-			"tall"				"0"
-			"visible"			"0"
-		}
-		"RedScoreBG"
-		{
-			"ControlName"		"EditablePanel"
-			"fieldName"			"RedScoreBG"
-			"tall"				"0"
-			"visible"			"0"
-			"border"			"TFFatLineBorderRedBGMoreOpaque"
-		}
-	}
 	"ShadedBar"
 	{
 		"ControlName"			"ImagePanel"
@@ -314,7 +310,6 @@
 		"visible"				"0"
 		"enabled"				"1"
 	}
-
 	"TopPlayersLabel"
 	{
 		"ControlName"			"CExLabel"
@@ -336,7 +331,6 @@
 		"visible"				"0"
 		"enabled"				"1"
 	}
-
 	"Player1Name"
 	{
 		"ControlName"			"CExLabel"
