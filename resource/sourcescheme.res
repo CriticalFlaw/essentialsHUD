@@ -25,20 +25,19 @@ Scheme
 	    "TFTextBlack"               "42 39 37 255"
 	    "TFTextDull"                "131 121 104 255"
 
-	    "TFMediumBrown"		"69 64 58 255"
+	    "TFMediumBrown"				"69 64 58 255"
 
 	    "QuickListBGDeselected"		"69 64 58 255"
-	    "QuickListBGSelected"               "131 121 104 150"
+	    "QuickListBGSelected"		"131 121 104 150"
 	    
-	    "Blank"				"0 0 0 0"
+	    "Blank"						"0 0 0 0"
 	    
-	    // background colors
-		"ControlBG"			"76 88 68 255"		// background color of controls
-		"ControlDarkBG"		"90 106 80 255"		// darker background color; used for background of scrollbars
-		"WindowBG"			"62 70 55 255"		// background color of text edit panes (chat, text entries, etc.)
-		"SelectionBG"		"90 84 75 255"	// background color of any selected text or menu item
-		"SelectionBG2"		"69 64 57 255"		// selection background in window w/o focus
-		"ListBG"			"39 36 34 255"		// background of server browser, buddy list, etc.
+		"ControlBG"					"76 88 68 255"		// background color of controls
+		"ControlDarkBG"				"90 106 80 255"		// darker background color; used for background of scrollbars
+		"WindowBG"					"62 70 55 255"		// background color of text edit panes (chat, text entries, etc.)
+		"SelectionBG"				"90 84 75 255"		// background color of any selected text or menu item
+		"SelectionBG2"				"69 64 57 255"		// selection background in window w/o focus
+		"ListBG"					"39 36 34 255"		// background of server browser, buddy list, etc.
 	}
 	BaseSettings
 	{
@@ -56,15 +55,15 @@ Scheme
 		Button.FocusBorderColor			"TransparentBlack"
 		
 		CheckButton.TextColor			"TFTextBright"
-		CheckButton.SelectedTextColor		"TFTextBright"
+		CheckButton.SelectedTextColor	"TFTextBright"
 		CheckButton.BgColor				"ListBG"
-		CheckButton.HighlightFgColor		"TFTextMedium"
+		CheckButton.HighlightFgColor	"TFTextMedium"
 		CheckButton.ArmedBgColor		"Blank"
-		CheckButton.DepressedBgColor		"Blank"
+		CheckButton.DepressedBgColor	"Blank"
 		CheckButton.Border1  			"Border.Dark" 		// the left checkbutton border
 		CheckButton.Border2  			"Border.Bright"		// the right checkbutton border
 		CheckButton.Check				"TFTanBright"	// color of the check itself
-		CheckButton.DisabledBgColor	    "ListBG"
+		CheckButton.DisabledBgColor		"ListBG"
 
 		ToggleButton.SelectedTextColor	"TFTextBright"
 		
@@ -73,16 +72,16 @@ Scheme
 		ComboBoxButton.BgColor			"Blank"
 		ComboBoxButton.DisabledBgColor	"Blank"
 		
-		RadioButton.TextColor		"TFTextBright"
+		RadioButton.TextColor			"TFTextBright"
 		RadioButton.SelectedTextColor	"TFTextBright"
-		RadioButton.ArmedTextColor	"TFTextMedium"
+		RadioButton.ArmedTextColor		"TFTextMedium"
 		
 		Frame.BgColor					"TFDarkBrown"
 		Frame.OutOfFocusBgColor			"TFDarkBrownTransparent"
 		FrameGrip.Color1				"TFTanMedium"
 		FrameGrip.Color2				"TFDarkBrown"
 		FrameTitleButton.FgColor		"TFTanBright"
-		FrameTitleBar.Font			"DefaultLarge"		[$WIN32]
+		FrameTitleBar.Font				"DefaultLarge"		[$WIN32]
 		FrameTitleBar.TextColor			"TFTanBright"
 		FrameTitleBar.DisabledTextColor	"TFTanLight"
 		
@@ -91,24 +90,24 @@ Scheme
 		Label.TextBrightColor			"TFTextBright"
 		Label.SelectedTextColor			"TFTextBright"
 		Label.BgColor					"Blank"
-		Label.DisabledFgColor1			"TFTextDull"	
-		Label.DisabledFgColor2			"Blank"	
+		Label.DisabledFgColor1			"TFTextDull"
+		Label.DisabledFgColor2			"Blank"
 		
 		ListPanel.TextColor					"TFTextBright"
 		ListPanel.BgColor					"ListBG"
 		ListPanel.SelectedBgColor			"SelectionBG"
 		ListPanel.SelectedOutOfFocusBgColor	"SelectionBG2"
 		
-		MainMenu.TextColor			"TanLight"			[$WIN32]
-		MainMenu.ArmedTextColor		"117 107 94 255"	[$WIN32]
-		MainMenu.Inset				"32"
+		MainMenu.TextColor					"TanLight"			[$WIN32]
+		MainMenu.ArmedTextColor				"117 107 94 255"	[$WIN32]
+		MainMenu.Inset						"32"
 		
-		Menu.TextInset					"6"
-		Menu.FgColor			"TFTextLight"
-		Menu.BgColor			"ListBG"
-		Menu.ArmedFgColor		"TFTextBright"
-		Menu.ArmedBgColor		"TFOrangeBright"
-		Menu.DividerColor		"BorderDark"
+		Menu.TextInset						"6"
+		Menu.FgColor						"TFTextLight"
+		Menu.BgColor						"ListBG"
+		Menu.ArmedFgColor					"TFTextBright"
+		Menu.ArmedBgColor					"TFOrangeBright"
+		Menu.DividerColor					"BorderDark"
 		
 		ScrollBarButton.FgColor				"TFDarkBrown"
 		ScrollBarButton.BgColor				"TFTanLight"
@@ -120,15 +119,15 @@ Scheme
 		ScrollBarSlider.BgColor				"TFTanMedium"		// this isn't really used
 		ScrollBarSlider.FgColor				"TFTanLight"		// handle with which the slider is grabbed
 		
-		Slider.NobColor				"TFTanLight"		
-		Slider.TextColor			"TFTextBright"
-		Slider.TrackColor			"ListBG"
-		Slider.DisabledTextColor1	"TFTextMediumDark"
-        Slider.DisabledTextColor2	"Blank"
+		Slider.NobColor						"TFTanLight"
+		Slider.TextColor					"TFTextBright"
+		Slider.TrackColor					"ListBG"
+		Slider.DisabledTextColor1			"TFTextMediumDark"
+		Slider.DisabledTextColor2			"Blank"
 		
-		TextEntry.TextColor			        "TFTextBright"
+		TextEntry.TextColor					"TFTextBright"
 		TextEntry.DisabledTextColor	        "TFTextMedium"
-		TextEntry.SelectedBgColor	        "TFOrangeBright"
+		TextEntry.SelectedBgColor			"TFOrangeBright"
 	}
 	
 	Fonts
@@ -294,7 +293,6 @@ Scheme
 			}
 		}
 		
-				
 		AchievementItemTitle	[$WIN32]
 		{
 			"1"
@@ -333,12 +331,11 @@ Scheme
 				"antialias"		"1" [!$OSX]
 			}
 		}
-
 	}
 	
 	CustomFontFiles
 	{
-		"6" 
+		"6"
 		{
 			"font" "resource/TF2Build.ttf"
 			"name" "TF2 Build"
@@ -397,7 +394,7 @@ Scheme
 			"russian"
 			{
 				"range" "0x0000 0x0451"
-			}	
+			}
 		}
 	}
 }

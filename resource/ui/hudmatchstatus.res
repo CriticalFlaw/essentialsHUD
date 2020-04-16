@@ -105,7 +105,6 @@
 		"fgcolor"		"Black"
 		"proportionaltoparent"	"1"
 		
-		
 		if_readymode
 		{
 			"xpos"			"300"
@@ -130,10 +129,10 @@
 			"0"
 			{
 				"particle_xpos"		"c0"
-				"particle_ypos" 	"c0"
+				"particle_ypos"		"c0"
 				"particle_scale"	"2"
 				"particleName"		"versus_door_slam"
-				"start_activated" 	"0"
+				"start_activated"	"0"
 				"loop"				"0"
 			}
 		}
@@ -147,7 +146,7 @@
 		"fieldName"		"MatchDoors"
 		"xpos"			"0"
 		"ypos"			"0"
-		"zpos"			"2"		
+		"zpos"			"2"
 		"wide"			"f0"
 		"tall"			"f0"
 		"autoResize"	"0"
@@ -193,7 +192,7 @@
 				"sequence"	"idle_closed"
 			}
 		}
-	}	
+	}
 
 	"RoundCounter"
 	{
@@ -330,7 +329,6 @@
 		"visible"		"1"
 		"enabled"		"1"
 
-
 		"max_size"		"19"
 
 		"6v6_gap"		"4"
@@ -340,7 +338,7 @@
 		"team1_base_x"		"c-45"
 		"team1_max_expand"	"133"
 
-		"team2_grow_dir" 	"east"
+		"team2_grow_dir"	"east"
 		"team2_base_x"		"c47"
 		"team2_max_expand"	"133"
 
@@ -407,7 +405,7 @@
 				"proportionaltoparent"	"1"
 			}
 			"healthbar"
-			{	
+			{
 				"ControlName"	"ContinuousProgressBar"
 				"fieldName"		"healthbar"
 				"font"			"Default"
@@ -427,7 +425,7 @@
 				"proportionaltoparent"	"1"
 			}
 			"overhealbar"
-			{	
+			{
 				"ControlName"	"ContinuousProgressBar"
 				"fieldName"		"overhealbar"
 				"font"			"Default"

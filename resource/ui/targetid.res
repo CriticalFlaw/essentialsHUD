@@ -73,7 +73,7 @@
 	}
 	
 	"TargetNameLabel"
-	{	
+	{
 		"ControlName"	"Label"
 		"fieldName"		"TargetNameLabel"
 		"font"			"RobotoBold24"
@@ -93,7 +93,7 @@
 	}
 	
 	"TargetNameLabelShadow"
-	{	
+	{
 		"ControlName"	"Label"
 		"fieldName"		"TargetNameLabelShadow"
 		"font"			"RobotoBold24"
@@ -112,12 +112,12 @@
 		"brighttext"	"0"
 		"fgcolor_override"		"Black"
 
-		"pin_to_sibling" 		"TargetNameLabel"
+		"pin_to_sibling"		"TargetNameLabel"
 		"pin_corner_to_sibling" "PIN_TOPLEFT"
 		"pin_to_sibling_corner" "PIN_TOPLEFT"
 	}
 	"TargetDataLabel"
-	{	
+	{
 		"ControlName"	"Label"
 		"fieldName"		"TargetDataLabel"
 		"font"			"Roboto12"
@@ -208,7 +208,7 @@
 		"wide"			"32"
 		"tall"			"36"
 		"visible"		"1"
-		"enabled"		"1"	
+		"enabled"		"1"
 		
 		"MoveableIconBG"
 		{
@@ -273,7 +273,7 @@
 			"textAlignment"	"North"
 			"dulltext"		"0"
 			"brighttext"	"0"
-		}	
+		}
 	}
 	"AvatarImage"
 	{
@@ -287,7 +287,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"image"			"../hud/class_scoutred"
-		"scaleImage"		"1"
-		"color_outline"		"52 48 45 255"
+		"scaleImage"	"1"
+		"color_outline"	"52 48 45 255"
 	}
 }

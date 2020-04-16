@@ -13,7 +13,7 @@
 		"enabled"		"1"
 		"alpha"			"0"
 		"scaleImage"	"1"	
-	}		
+	}
 	"PlayerStatusHealthImageBG"
 	{
 		"ControlName"	"ImagePanel"
@@ -28,7 +28,7 @@
 		"alpha"			"0"
 		"image"			"../hud/health_bg"
 		"scaleImage"	"1"	
-	}	
+	}
 	"BuildingStatusHealthImageBG"
 	{
 		"ControlName"	"ImagePanel"
@@ -43,7 +43,7 @@
 		"alpha"			"0"
 		"image"			"../hud/health_equip_bg"
 		"scaleImage"	"1"	
-	}	
+	}
 	"PlayerStatusHealthBonusImage"
 	{
 		"ControlName"	"ImagePanel"

@@ -48,8 +48,8 @@
 		"dulltext"			"0"
 		"brighttext"		"0"
 		"wrap"				"0"
-		"font"				"Roboto8"
-	}			
+		"font"				"Roboto10"
+	}
 	"WaitingForPlayersBG"
 	{
 		"ControlName"		"CTFImagePanel"
@@ -80,8 +80,8 @@
 		"dulltext"			"0"
 		"brighttext"		"0"
 		"wrap"				"0"
-		"font"				"Roboto8"
-	}			
+		"font"				"Roboto10"
+	}
 	"OvertimeBG"
 	{
 		"ControlName"		"CTFImagePanel"
@@ -112,8 +112,8 @@
 		"dulltext"			"0"
 		"brighttext"		"0"
 		"wrap"				"0"
-		"font"				"Roboto8"
-	}			
+		"font"				"Roboto10"
+	}
 	"SuddenDeathBG"
 	{
 		"ControlName"		"CTFImagePanel"
@@ -127,7 +127,7 @@
 		"enabled"			"1"
 		"image"				"../hud/objectives_timepanel_suddendeath"	
 		"scaleImage"		"1"	
-	}	
+	}
 	"SetupLabel"
 	{
 		"ControlName"		"CExLabel"
@@ -144,8 +144,8 @@
 		"dulltext"			"0"
 		"brighttext"		"0"
 		"wrap"				"0"
-		"font"				"RobotoBold10"
-	}	
+		"font"				"RobotoBold12"
+	}
 	"SetupBG"
 	{
 		"ControlName"		"CTFImagePanel"
@@ -177,7 +177,7 @@
 		"brighttext"		"0"
 		"wrap"				"0"
 		"font"				"RobotoBold16"
-	}	
+	}
 	"ServerTimeLimitLabelBG"
 	{
 		"ControlName"		"CTFImagePanel"

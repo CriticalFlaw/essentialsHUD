@@ -1,3 +1,5 @@
+#base "../../resource/preload.res"
+
 "Resource/UI/MainMenuOverride.res"
 {
 	MainMenuOverride
@@ -60,6 +62,7 @@
 				
 				"image_drawcolor"	"117 107 94 255"
 				"image_armedcolor"	"235 226 202 255"
+				
 				"SubImage"
 				{
 					"ControlName"	"ImagePanel"
@@ -72,7 +75,7 @@
 					"visible"		"1"
 					"enabled"		"1"
 					"scaleImage"	"1"
-				}				
+				}
 			}		
 		}
 		
@@ -118,8 +121,8 @@
 				"zpos"			"9"
 			}
 		}
-	}	
-
+	}
+	
 	"mouseoveritempanel"
 	{
 		"ControlName"	"CItemModelPanel"
@@ -205,7 +208,7 @@
 			"image"		"../console/title_team_halloween2014_widescreen"
 		}
 		if_halloween_4
-		{	
+		{
 			"image"		"../console/title_team_halloween2015_widescreen"
 		}
 		if_halloween_5
@@ -219,9 +222,9 @@
 		if_christmas
 		{
 			"image"		"../console/background_xmas2011_widescreen"
-		}		
+		}
 	}
-					
+	
 	"TFLogoImage"
 	{
 		"ControlName"	"ImagePanel"
@@ -236,7 +239,7 @@
 		"image"			"../logo/new_tf2_logo"
 		"scaleImage"	"1"
 		"mouseinputenabled"	"0"
-	}	
+	}
 	
 	"TFCharacterImage"
 	{
@@ -251,7 +254,7 @@
 		"enabled"		"1"
 		"scaleImage"	"1"
 	}
-
+	
 	"RankModelPanel"
 	{
 		"ControlName"	"CPvPRankPanel"
@@ -297,7 +300,7 @@
 		"sound_released"	"vo/null.mp3"
 		"actionsignallevel" "1"
 		"proportionaltoparent"	"1"
-				
+		
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
 		"paintbackground"	"0"
@@ -1252,9 +1255,9 @@
 				"enabled"		"1"
 				"image"			"close_button"
 				"scaleImage"	"1"
-			}				
-		}		
-	
+			}
+		}
+		
 		"Notifications_TitleLabel"
 		{
 			"ControlName"	"CExLabel"
@@ -1376,6 +1379,102 @@
 				"scaleImage"	"1"
 			}		
 		}
+	}
+	
+	"ConsolePanelBGL"
+	{
+		"ControlName"	"EditablePanel"
+		"fieldName"		"ConsolePanelBGL"
+		"xpos"			"c-290"
+		"ypos"			"359"
+		"zpos"			"-1"
+		"wide"			"130"
+		"tall"			"38"
+		"visible"		"1"
+		"enabled"		"1"
+		"PaintBackgroundType"	"2"
+		"border"		"MainMenuBGBorder"
+	}
+	
+	"ShowConsoleButtonL"
+	{
+		"ControlName"	"CExImageButton"
+		"fieldName"		"ShowConsoleButtonL"
+		"xpos"			"c-285"
+		"ypos"			"365"
+		"zpos"			"0"
+		"wide"			"120"
+		"tall"			"26"
+		"autoResize"	"0"
+		"pinCorner"		"3"
+		"visible"		"1"
+		"enabled"		"1"
+		"tabPosition"	"0"
+		"font"			"HudFontSmallBold"
+		"labelText"		"Console"
+		"textAlignment"	"center"
+		"dulltext"		"0"
+		"brighttext"	"0"
+		"default"		"1"
+		"sound_depressed"	"UI/buttonclick.wav"
+		"sound_released"	"UI/buttonclickrelease.wav"
+		"command"			"engine showconsole"
+		
+		"border_default"	"MainMenuButtonDefault"
+		"border_armed"		"MainMenuButtonArmed"
+		"paintbackground"	"0"
+		
+		"defaultFgColor_override" "46 43 42 255"
+		"armedFgColor_override" "235 226 202 255"
+		"depressedFgColor_override" "46 43 42 255"
+	}
+	
+	"DemoUIPanelBGL"
+	{
+		"ControlName"	"EditablePanel"
+		"fieldName"		"DemoUIPanelBGL"
+		"xpos"			"c-160"
+		"ypos"			"359"
+		"zpos"			"-1"
+		"wide"			"130"
+		"tall"			"38"
+		"visible"		"1"
+		"enabled"		"1"
+		"PaintBackgroundType"	"2"
+		"border"		"MainMenuBGBorder"
+	}
+	
+	"ShowDemoUIButtonL"
+	{
+		"ControlName"	"CExImageButton"
+		"fieldName"		"ShowDemoUIButtonL"
+		"xpos"			"c-155"
+		"ypos"			"365"
+		"zpos"			"0"
+		"wide"			"120"
+		"tall"			"26"
+		"autoResize"	"0"
+		"pinCorner"		"3"
+		"visible"		"1"
+		"enabled"		"1"
+		"tabPosition"	"0"
+		"font"			"HudFontSmallBold"
+		"labelText"		"Demo Playback"
+		"textAlignment"	"center"
+		"dulltext"		"0"
+		"brighttext"	"0"
+		"default"		"1"
+		"sound_depressed"	"UI/buttonclick.wav"
+		"sound_released"	"UI/buttonclickrelease.wav"
+		"command"		"engine demoui; demoui2"
+		
+		"border_default"	"MainMenuButtonDefault"
+		"border_armed"		"MainMenuButtonArmed"
+		"paintbackground"	"0"
+		
+		"defaultFgColor_override" "46 43 42 255"
+		"armedFgColor_override" "235 226 202 255"
+		"depressedFgColor_override" "46 43 42 255"
 	}
 
 	"CompetitiveAccessInfoPanel"
@@ -1514,54 +1613,6 @@
 
 			"bgcolor_override"	"0 0 0 100"
 		}
-	}
-	
-	"DemoUIPanelBGL"
-	{
-		"ControlName"	"EditablePanel"
-		"fieldName"		"DemoUIPanelBGL"
-		"xpos"			"c-290"
-		"ypos"			"359"
-		"zpos"			"-1"
-		"wide"			"260"
-		"tall"			"39"
-		"visible"		"1"
-		"enabled"		"1"
-		"PaintBackgroundType"	"2"
-		"border"		"MainMenuBGBorder"
-	}
-	
-	"ShowDemoUIButtonL"
-	{
-		"ControlName"	"CExImageButton"
-		"fieldName"		"ShowDemoUIButtonL"
-		"xpos"			"c-285"
-		"ypos"			"365"
-		"zpos"			"0"
-		"wide"			"250"
-		"tall"			"26"
-		"autoResize"	"0"
-		"pinCorner"		"3"
-		"visible"		"1"
-		"enabled"		"1"
-		"tabPosition"	"0"
-		"font"			"HudFontSmallBold"
-		"labelText"		"Demo Playback"
-		"textAlignment"	"center"
-		"dulltext"		"0"
-		"brighttext"	"0"
-		"default"		"1"
-		"sound_depressed"	"UI/buttonclick.wav"
-		"sound_released"	"UI/buttonclickrelease.wav"
-		"command"		"engine demoui; demoui2"
-		
-		"border_default"	"MainMenuButtonDefault"
-		"border_armed"		"MainMenuButtonArmed"
-		"paintbackground"	"0"
-		
-		"defaultFgColor_override" "46 43 42 255"
-		"armedFgColor_override" "235 226 202 255"
-		"depressedFgColor_override" "46 43 42 255"
 	}
 	
 	"EventPromo"
@@ -2059,7 +2110,7 @@
 				"image"			"glyph_create"
 				"scaleImage"	"1"
 				"proportionaltoparent"	"1"
-			}				
+			}
 		}
 	}
 
@@ -2127,9 +2178,10 @@
 				"image"			"glyph_create"
 				"scaleImage"	"1"
 				"proportionaltoparent"	"1"
-			}				
+			}
 		}
 	}
+
 	"MutePlayersButton"
 	{
 		"ControlName"	"EditablePanel"
@@ -2262,7 +2314,7 @@
 				"image"			"glyph_create"
 				"scaleImage"	"1"
 				"proportionaltoparent"	"1"
-			}				
+			}
 		}
 	}
 	
@@ -2339,7 +2391,7 @@
 			"image"			"glyph_items"
 		}		
 	}
-
+	
 	"StoreHasNewItemsImage"
 	{
 		"ControlName"	"ImagePanel"
@@ -2495,9 +2547,9 @@
 			"scaleImage"	"1"
 			"image"			"glyph_options"
 			"scaleImage"	"1"
-		}				
+		}
 	}
-	
+
 	"NewUserForumsButton"
 	{
 		"ControlName"	"CExImageButton"
@@ -2543,9 +2595,9 @@
 			"enabled"		"1"
 			"image"			"glyph_tutorial"
 			"scaleImage"	"1"
-		}				
-	}		
-	
+		}
+	}
+
 	"AchievementsButton"
 	{
 		"ControlName"	"CExImageButton"
@@ -2638,8 +2690,8 @@
 			"image"			"glyph_forums"
 			"scaleImage"	"1"
 		}				
-	}		
-	
+	}
+
 	"CoachPlayersButton"
 	{
 		"ControlName"	"CExImageButton"
@@ -2684,8 +2736,8 @@
 			"enabled"		"1"
 			"image"			"glyph_commentary"
 			"scaleImage"	"1"
-		}				
-	}		
+		}
+	}
 
 	"WorkshopButton"
 	{
@@ -2824,10 +2876,9 @@
 			"enabled"		"1"
 			"image"			"glyph_bug"
 			"scaleImage"	"1"
-		}				
-	}			
-				
-	
+		}
+	}
+
 	"BackToReplaysButton"
 	{
 		"ControlName"	"CExImageButton"
@@ -2868,8 +2919,8 @@
 			"enabled"		"1"
 			"scaleImage"	"1"
 			"image"			"glyph_quit"
-		}				
-	}			
+		}
+	}
 
 	"icon_generator"
 	{
