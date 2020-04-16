@@ -5,112 +5,12 @@ Scheme
 		// fonts are used in order that they are listed
 		// fonts listed later in the order will only be used if they fulfill a range not already filled
 		// if a font fails to load then the subsequent fonts will replace
-		"RobotoBold8"
+		"RobotoBold55"
 		{
 			"1"
 			{
-				"name"		"Open Sans Bold"
-				"tall"		"8"
-				"additive"	"0"
-				"antialias" "1"
-			}
-		}
-		"RobotoBold9"
-		{
-			"1"
-			{
-				"name"		"Open Sans Bold"
-				"tall"		"9"
-				"additive"	"0"
-				"antialias" "1"
-			}
-		}
-		"RobotoBold10"
-		{
-			"1"
-			{
-				"name"		"Open Sans Bold"
-				"tall"		"10"
-				"additive"	"0"
-				"antialias" "1"
-			}
-		}
-		"RobotoBold11"
-		{
-			"1"
-			{
-				"name"		"Open Sans Bold"
-				"tall"		"11"
-				"additive"	"0"
-				"antialias" "1"
-			}
-		}
-		"RobotoBold12"
-		{
-			"1"
-			{
-				"name"		"Open Sans Bold"
-				"tall"		"12"
-				"additive"	"0"
-				"antialias" "1"
-			}
-		}
-		"RobotoBold14"
-		{
-			"1"
-			{
-				"name"		"Open Sans Bold"
-				"tall"		"14"
-				"additive"	"0"
-				"antialias" "1"
-			}
-		}
-		"RobotoBold16"
-		{
-			"1"
-			{
-				"name"		"Open Sans Bold"
-				"tall"		"16"
-				"additive"	"0"
-				"antialias" "1"
-			}
-		}
-		"RobotoBold18"
-		{
-			"1"
-			{
-				"name"		"Open Sans Bold"
-				"tall"		"18"
-				"additive"	"0"
-				"antialias" "1"
-			}
-		}
-		"RobotoBold20"
-		{
-			"1"
-			{
-				"name"		"Open Sans Bold"
-				"tall"		"20"
-				"additive"	"0"
-				"antialias" "1"
-			}
-		}
-		"RobotoBold24"
-		{
-			"1"
-			{
-				"name"		"Open Sans Bold"
-				"tall"		"24"
-				"additive"	"0"
-				"antialias" "1"
-			}
-		}
-		"RobotoBold26"
-		{
-			"1"
-			{
-				"name"		"Open Sans Bold"
-				"tall"		"26"
+				"name"		"Roboto Condensed Bold"
+				"tall"		"55"
 				"additive"	"0"
 				"antialias" "1"
 			}
@@ -119,128 +19,159 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Open Sans Bold"
+				"name"		"Roboto Condensed Bold"
 				"tall"		"34"
 				"additive"	"0"
 				"antialias" "1"
 			}
 		}
-		"RobotoBold55"
+		"RobotoBold30"
 		{
 			"1"
 			{
-				"name"		"Open Sans Bold"
-				"tall"		"55"
+				"name"		"Roboto Condensed Bold"
+				"tall"		"30"
 				"additive"	"0"
 				"antialias" "1"
 			}
 		}
-		"Roboto8"
+		"RobotoBold28"
 		{
 			"1"
 			{
-				"name"		"Open Sans SemiBold"
-				"tall"		"8"
+				"name"		"Roboto Condensed Bold"
+				"tall"		"28"
 				"additive"	"0"
 				"antialias" "1"
 			}
 		}
-		"Roboto9"
+		"RobotoBold26"
 		{
 			"1"
 			{
-				"name"		"Open Sans SemiBold"
-				"tall"		"9"
+				"name"		"Roboto Condensed Bold"
+				"tall"		"26"
 				"additive"	"0"
 				"antialias" "1"
 			}
 		}
-		"Roboto10"
+		"RobotoBold24"
 		{
 			"1"
 			{
-				"name"		"Open Sans SemiBold"
-				"tall"		"10"
-				"additive"	"0"
-				"antialias" "1"
-			}
-		}
-		"Roboto11"
-		{
-			"1"
-			{
-				"name"		"Open Sans SemiBold"
-				"tall"		"11"
-				"additive"	"0"
-				"antialias" "1"
-			}
-		}
-		"Roboto12"
-		{
-			"1"
-			{
-				"name"		"Open Sans SemiBold"
-				"tall"		"12"
-				"additive"	"0"
-				"antialias" "1"
-			}
-		}
-		"Roboto14"
-		{
-			"1"
-			{
-				"name"		"Open Sans SemiBold"
-				"tall"		"14"
-				"additive"	"0"
-				"antialias" "1"
-			}
-		}
-		"Roboto16"
-		{
-			"1"
-			{
-				"name"		"Open Sans SemiBold"
-				"tall"		"16"
-				"additive"	"0"
-				"antialias" "1"
-			}
-		}
-		"Roboto18"
-		{
-			"1"
-			{
-				"name"		"Open Sans SemiBold"
-				"tall"		"18"
-				"additive"	"0"
-				"antialias" "1"
-			}
-		}
-		"Roboto20"
-		{
-			"1"
-			{
-				"name"		"Open Sans SemiBold"
-				"tall"		"20"
-				"additive"	"0"
-				"antialias" "1"
-			}
-		}
-		"Roboto24"
-		{
-			"1"
-			{
-				"name"		"Open Sans SemiBold"
+				"name"		"Roboto Condensed Bold"
 				"tall"		"24"
 				"additive"	"0"
 				"antialias" "1"
 			}
 		}
-		"Roboto26"
+		"RobotoBold22"
 		{
 			"1"
 			{
-				"name"		"Open Sans SemiBold"
-				"tall"		"26"
+				"name"		"Roboto Condensed Bold"
+				"tall"		"22"
+				"additive"	"0"
+				"antialias" "1"
+			}
+		}
+		"RobotoBold20"
+		{
+			"1"
+			{
+				"name"		"Roboto Condensed Bold"
+				"tall"		"20"
+				"additive"	"0"
+				"antialias" "1"
+			}
+		}
+		"RobotoBold18"
+		{
+			"1"
+			{
+				"name"		"Roboto Condensed Bold"
+				"tall"		"18"
+				"additive"	"0"
+				"antialias" "1"
+			}
+		}
+		"RobotoBold16"
+		{
+			"1"
+			{
+				"name"		"Roboto Condensed Bold"
+				"tall"		"16"
+				"additive"	"0"
+				"antialias" "1"
+			}
+		}
+		"RobotoBold14"
+		{
+			"1"
+			{
+				"name"		"Roboto Condensed Bold"
+				"tall"		"14"
+				"additive"	"0"
+				"antialias" "1"
+			}
+		}
+		"RobotoBold12"
+		{
+			"1"
+			{
+				"name"		"Roboto Condensed Bold"
+				"tall"		"12"
+				"additive"	"0"
+				"antialias" "1"
+			}
+		}
+		"RobotoBold11"
+		{
+			"1"
+			{
+				"name"		"Roboto Condensed Bold"
+				"tall"		"11"
+				"additive"	"0"
+				"antialias" "1"
+			}
+		}
+		"RobotoBold10"
+		{
+			"1"
+			{
+				"name"		"Roboto Condensed Bold"
+				"tall"		"10"
+				"additive"	"0"
+				"antialias" "1"
+			}
+		}
+		"RobotoBold9"
+		{
+			"1"
+			{
+				"name"		"Roboto Condensed Bold"
+				"tall"		"9"
+				"additive"	"0"
+				"antialias" "1"
+			}
+		}
+		"RobotoBold8"
+		{
+			"1"
+			{
+				"name"		"Roboto Condensed Bold"
+				"tall"		"8"
+				"additive"	"0"
+				"antialias" "1"
+			}
+		}
+		
+		"Roboto55"
+		{
+			"1"
+			{
+				"name"		"Roboto Condensed Regular"
+				"tall"		"55"
 				"additive"	"0"
 				"antialias" "1"
 			}
@@ -249,18 +180,148 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Open Sans SemiBold"
+				"name"		"Roboto Condensed Regular"
 				"tall"		"34"
 				"additive"	"0"
 				"antialias" "1"
 			}
 		}
-		"Roboto55"
+		"Roboto30"
 		{
 			"1"
 			{
-				"name"		"Open Sans SemiBold"
-				"tall"		"55"
+				"name"		"Roboto Condensed Regular"
+				"tall"		"30"
+				"additive"	"0"
+				"antialias" "1"
+			}
+		}
+		"Roboto28"
+		{
+			"1"
+			{
+				"name"		"Roboto Condensed Regular"
+				"tall"		"28"
+				"additive"	"0"
+				"antialias" "1"
+			}
+		}
+		"Roboto26"
+		{
+			"1"
+			{
+				"name"		"Roboto Condensed Regular"
+				"tall"		"26"
+				"additive"	"0"
+				"antialias" "1"
+			}
+		}
+		"Roboto24"
+		{
+			"1"
+			{
+				"name"		"Roboto Condensed Regular"
+				"tall"		"24"
+				"additive"	"0"
+				"antialias" "1"
+			}
+		}
+		"Roboto22"
+		{
+			"1"
+			{
+				"name"		"Roboto Condensed Regular"
+				"tall"		"22"
+				"additive"	"0"
+				"antialias" "1"
+			}
+		}
+		"Roboto20"
+		{
+			"1"
+			{
+				"name"		"Roboto Condensed Regular"
+				"tall"		"20"
+				"additive"	"0"
+				"antialias" "1"
+			}
+		}
+		"Roboto18"
+		{
+			"1"
+			{
+				"name"		"Roboto Condensed Regular"
+				"tall"		"18"
+				"additive"	"0"
+				"antialias" "1"
+			}
+		}
+		"Roboto16"
+		{
+			"1"
+			{
+				"name"		"Roboto Condensed Regular"
+				"tall"		"16"
+				"additive"	"0"
+				"antialias" "1"
+			}
+		}
+		"Roboto14"
+		{
+			"1"
+			{
+				"name"		"Roboto Condensed Regular"
+				"tall"		"14"
+				"additive"	"0"
+				"antialias" "1"
+			}
+		}
+		"Roboto12"
+		{
+			"1"
+			{
+				"name"		"Roboto Condensed Regular"
+				"tall"		"12"
+				"additive"	"0"
+				"antialias" "1"
+			}
+		}
+		"Roboto11"
+		{
+			"1"
+			{
+				"name"		"Roboto Condensed Regular"
+				"tall"		"11"
+				"additive"	"0"
+				"antialias" "1"
+			}
+		}
+		"Roboto10"
+		{
+			"1"
+			{
+				"name"		"Roboto Condensed Regular"
+				"tall"		"10"
+				"additive"	"0"
+				"antialias" "1"
+			}
+		}
+		"Roboto9"
+		{
+			"1"
+			{
+				"name"		"Roboto Condensed Regular"
+				"tall"		"9"
+				"additive"	"0"
+				"antialias" "1"
+			}
+		}
+		"Roboto8"
+		{
+			"1"
+			{
+				"name"		"Roboto Condensed Regular"
+				"tall"		"8"
 				"additive"	"0"
 				"antialias" "1"
 			}
@@ -2732,6 +2793,84 @@ Scheme
 				"additive"	"0"
 				"antialias" "1"
 			}
+		}
+	}
+	
+	BitmapFontFiles
+	{
+		// UI buttons, custom font, (256x64)
+		"Buttons"		"materials/vgui/fonts/buttons_32.vbf"
+	}
+	
+	CustomFontFiles
+	{
+		"1" "resource/tf.ttf"
+		"2" "resource/tfd.ttf"
+		"3"
+		{
+			"font"	"resource/TF2.ttf"
+			"name"	"TF2"
+			"russian"
+			{
+				"range" "0x0000 0xFFFF"
+			}
+			"polish"
+			{
+				"range" "0x0000 0xFFFF"
+			}
+		}
+		"4" 
+		{
+			"font"	"resource/TF2Secondary.ttf"
+			"name"	"TF2 Secondary"
+			"russian"
+			{
+				"range" "0x0000 0xFFFF"
+			}
+			"polish"
+			{
+				"range" "0x0000 0xFFFF"
+			}
+		}
+		"5" 
+		{
+			"font"	"resource/TF2Professor.ttf"
+			"name"	"TF2 Professor"
+			"russian"
+			{
+				"range" "0x0000 0x00FF"
+			}
+			"polish"
+			{
+				"range" "0x0000 0x00FF"
+			}
+		}	
+		"6" 
+		{
+			"font"	"resource/TF2Build.ttf"
+			"name"	"TF2 Build"
+			"russian"
+			{
+				"range" "0x0000 0xFFFF"
+			}
+			"polish"
+			{
+				"range" "0x0000 0xFFFF"
+			}
+			"turkish"
+			{
+				"range" "0x0000 0xFFFF"
+			}
+		}
+		"7"
+		{
+			"font"	"resource/fonts/RobotoCondensed-Bold.ttf"
+			"name"	"Roboto Condensed Bold"
+		}
+		"8"
+		{
+			"font"	"resource/fonts/RobotoCondensed-Regular.ttf"
+			"name"	"Roboto Condensed Regular"
 		}
 	}
 }

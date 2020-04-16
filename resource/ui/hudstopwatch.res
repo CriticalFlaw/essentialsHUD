@@ -47,7 +47,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"TimePanelValue"
-			"font"			"RobotoBold11"
+			"font"			"RobotoBold12"
 			"fgcolor"		"TanLight"
 			"xpos"			"0"
 			"ypos"			"0"
@@ -64,7 +64,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"StopWatchScoreToBeat"
-		"font"			"RobotoBold11"
+		"font"			"RobotoBold12"
 		"labelText"		"%scoretobeat%"
 		"textAlignment"	"west"
 		"xpos"			"5"
@@ -81,7 +81,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"StopWatchPointsLabel"
-		"font"			"RobotoBold11"
+		"font"			"RobotoBold12"
 		"labelText"		"POINTS IN"
 		"textAlignment"	"west"
 		"xpos"			"16"
@@ -100,7 +100,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"StopWatchLabel"
-		"font"			"Roboto8"
+		"font"			"Roboto10"
 		"labelText"		"%stopwatchlabel%"
 		"textAlignment"	"center"
 		"xpos"			"0"

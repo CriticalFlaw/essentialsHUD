@@ -1,3 +1,5 @@
+#base "../../resource/preload.res"
+
 "Resource/UI/MainMenuOverride.res"
 {
 	MainMenuOverride
@@ -1516,15 +1518,63 @@
 		}
 	}
 	
+	"ConsolePanelBGL"
+	{
+		"ControlName"	"EditablePanel"
+		"fieldName"		"ConsolePanelBGL"
+		"xpos"			"c-290"
+		"ypos"			"359"
+		"zpos"			"-1"
+		"wide"			"130"
+		"tall"			"38"
+		"visible"		"1"
+		"enabled"		"1"
+		"PaintBackgroundType"	"2"
+		"border"		"MainMenuBGBorder"
+	}
+	
+	"ShowConsoleButtonL"
+	{
+		"ControlName"	"CExImageButton"
+		"fieldName"		"ShowConsoleButtonL"
+		"xpos"			"c-285"
+		"ypos"			"365"
+		"zpos"			"0"
+		"wide"			"120"
+		"tall"			"26"
+		"autoResize"	"0"
+		"pinCorner"		"3"
+		"visible"		"1"
+		"enabled"		"1"
+		"tabPosition"	"0"
+		"font"			"HudFontSmallBold"
+		"labelText"		"Console"
+		"textAlignment"	"center"
+		"dulltext"		"0"
+		"brighttext"	"0"
+		"default"		"1"
+		"sound_depressed"	"UI/buttonclick.wav"
+		"sound_released"	"UI/buttonclickrelease.wav"
+		"command"			"engine showconsole"
+		
+		"border_default"	"MainMenuButtonDefault"
+		"border_armed"		"MainMenuButtonArmed"
+		"paintbackground"	"0"
+		
+		"defaultFgColor_override" "46 43 42 255"
+		"armedFgColor_override" "235 226 202 255"
+		"depressedFgColor_override" "46 43 42 255"
+	}
+	
 	"DemoUIPanelBGL"
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"DemoUIPanelBGL"
-		"xpos"			"c-290"
+		"xpos"			"c-160"
 		"ypos"			"359"
 		"zpos"			"-1"
-		"wide"			"260"
-		"tall"			"39"
+		"wide"			"130"
+		"tall"			"38"
 		"visible"		"1"
 		"enabled"		"1"
 		"PaintBackgroundType"	"2"
@@ -1535,10 +1585,10 @@
 	{
 		"ControlName"	"CExImageButton"
 		"fieldName"		"ShowDemoUIButtonL"
-		"xpos"			"c-285"
+		"xpos"			"c-155"
 		"ypos"			"365"
 		"zpos"			"0"
-		"wide"			"250"
+		"wide"			"120"
 		"tall"			"26"
 		"autoResize"	"0"
 		"pinCorner"		"3"

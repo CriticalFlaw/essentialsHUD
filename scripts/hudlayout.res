@@ -199,7 +199,6 @@
 		"PaintBackgroundType"	"2"
 	}
 	
-	
 	DisguiseStatus
 	{
 		"fieldName" "DisguiseStatus"
@@ -260,7 +259,6 @@
 			"ypos"		"330"
 			"x_offset"	"20"
 		}
-		
 	}
 	
 	BuildingStatus_Spy
@@ -968,7 +966,7 @@
 		"wide"			"100"
 		"tall"			"50"
 	}
-
+	
 	HudTeamGoal
 	{
 		"fieldName"				"HudTeamGoal"
@@ -979,8 +977,7 @@
 		"wide"					"320"
 		"tall"					"100"
 	}
-
-
+	
 	HudTeamGoalTournament
 	{
 		"fieldName"				"HudTeamGoalTournament"
@@ -991,7 +988,7 @@
 		"wide"					"320"
 		"tall"					"300"
 	}
-
+	
 	HudTeamSwitch
 	{
 		"fieldName"				"HudTeamSwitch"
@@ -1002,7 +999,7 @@
 		"wide"					"320"
 		"tall"					"100"
 	}
-
+	
 	HudArenaNotification
 	{
 		"fieldName"				"HudArenaNotification"
@@ -1013,7 +1010,7 @@
 		"wide"					"320"
 		"tall"					"150"
 	}
-
+	
 	HudArenaCapPointCountdown
 	{
 		"fieldName"				"HudArenaCapPointCountdown"
@@ -1025,7 +1022,7 @@
 		"tall"					"30"
 		"zpos"					"99"
 	}
-
+	
 	HudStalemate
 	{
 		"fieldName"				"HudStalemate"
@@ -1047,7 +1044,7 @@
 		"wide"					"250"
 		"tall"					"80"
 	}
-
+	
 	HudTournamentSetup
 	{
 		"fieldName"				"HudTournamentSetup"
@@ -1058,7 +1055,7 @@
 		"wide"					"180"
 		"tall"					"65"
 	}
-
+	
 	HudStopWatch
 	{
 		"fieldName"				"HudStopWatch"
@@ -1081,7 +1078,7 @@
 		"wide"					"640"
 		"tall"					"100"
 	}
-
+	
 	AchievementNotificationPanel	
 	{
 		"fieldName"				"AchievementNotificationPanel"
@@ -1092,10 +1089,10 @@
 		"wide"					"f10"
 		"tall"					"100"
 	}
-
+	
 	CriticalPanel [$WIN32]
 	{
-		"fieldName"				"CriticalPanel"		
+		"fieldName"				"CriticalPanel"
 		"visible"				"1"
 		"enabled"				"1"
 		"xpos"					"r155"
@@ -1106,7 +1103,7 @@
 	
 	HudArenaClassLayout [$WIN32]
 	{
-		"fieldName"				"HudArenaClassLayout"		
+		"fieldName"				"HudArenaClassLayout"
 		"visible"				"1"
 		"enabled"				"1"
 		"xpos"					"0"
@@ -1117,7 +1114,7 @@
 	
 	HudArenaVsPanel [$WIN32]
 	{
-		"fieldName"				"HudArenaVsPanel"		
+		"fieldName"				"HudArenaVsPanel"
 		"visible"				"1"
 		"enabled"				"1"
 		"xpos"					"0"
@@ -1128,14 +1125,14 @@
 	
 	HudArenaPlayerCount [$WIN32]
 	{
-		"fieldName"				"HudArenaPlayerCount"		
+		"fieldName"				"HudArenaPlayerCount"
 		"visible"				"1"
 		"enabled"				"1"
 		"xpos"					"0"
 		"ypos"					"0"
 		"wide"					"f0"
 		"tall"					"50"
-	}	
+	}
 	
 	"HudAchievementTracker"
 	{
@@ -1269,7 +1266,7 @@
 		"bgcolor_override"	"0 0 0 0"
 		"PaintBackgroundType"	"0" // rounded corners
 	}
-
+	
 	"HudAlert"
 	{
 		"fieldName"		"HudAlert"
@@ -1281,7 +1278,6 @@
 		"tall"			"150"
 	}
 	
-
 	"CTFStreakNotice"
 	{
 		"fieldName"		"CTFStreakNotice"
@@ -1294,7 +1290,7 @@
 		"bgcolor_override"	"0 0 0 0"
 		"PaintBackgroundType"	"0" // rounded corners
 	}
-
+	
 	CTFFlagCalloutPanel
 	{
 		"fieldName"		"CTFFlagCalloutPanel"
@@ -1306,7 +1302,7 @@
 		"tall"	 		"40"
 		"priority"		"40"
 	}
-
+	
 	"HudMenuTauntSelection"
 	{
 		"fieldName" 	"HudMenuTauntSelection"
@@ -1318,7 +1314,7 @@
 		"tall"			"200"
 		"PaintBackgroundType"	"0"
 	}
-
+	
 	"ItemAttributeTracker"
 	{
 		"fieldName" 	"ItemAttributeTracker"
@@ -1330,7 +1326,7 @@
 		"tall"			"f0"
 		"PaintBackgroundType"	"0"
 	}
-
+	
 	HudMiniGame
 	{
 		"fieldName" "HudMiniGame"
@@ -1341,7 +1337,7 @@
 		"wide"	"f0"
 		"tall"	"480"
 	}
-
+	
 	"QuestNotificationPanel"
 	{
 		"fieldName"	"QuestNotificationPanel"

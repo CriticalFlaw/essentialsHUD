@@ -48,7 +48,7 @@
 		"dulltext"			"0"
 		"brighttext"		"0"
 		"wrap"				"0"
-		"font"				"Roboto8"
+		"font"				"Roboto10"
 	}			
 	"WaitingForPlayersBG"
 	{
@@ -80,7 +80,7 @@
 		"dulltext"			"0"
 		"brighttext"		"0"
 		"wrap"				"0"
-		"font"				"Roboto8"
+		"font"				"Roboto10"
 	}			
 	"OvertimeBG"
 	{
@@ -112,7 +112,7 @@
 		"dulltext"			"0"
 		"brighttext"		"0"
 		"wrap"				"0"
-		"font"				"Roboto8"
+		"font"				"Roboto10"
 	}			
 	"SuddenDeathBG"
 	{
@@ -144,7 +144,7 @@
 		"dulltext"			"0"
 		"brighttext"		"0"
 		"wrap"				"0"
-		"font"				"RobotoBold10"
+		"font"				"RobotoBold12"
 	}	
 	"SetupBG"
 	{
@@ -176,7 +176,7 @@
 		"dulltext"			"0"
 		"brighttext"		"0"
 		"wrap"				"0"
-		"font"				"RobotoBold16"
+		"font"				"RobotoBold14"
 	}	
 	"ServerTimeLimitLabelBG"
 	{

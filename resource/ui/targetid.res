@@ -72,7 +72,7 @@
 	{	
 		"ControlName"	"Label"
 		"fieldName"		"TargetNameLabel"
-		"font"			"RobotoBold18"
+		"font"			"RobotoBold20"
 		"xpos"			"0"
 		"ypos"			"15"
 		"zpos"			"1"
@@ -92,9 +92,9 @@
 	{	
 		"ControlName"	"Label"
 		"fieldName"		"TargetNameLabelShadow"
-		"font"			"RobotoBold18"
-		"xpos"			"-1"
-		"ypos"			"-1"
+		"font"			"RobotoBold20"
+		"xpos"			"-2"
+		"ypos"			"-2"
 		"zpos"			"1"
 		"wide"			"640"
 		"tall"			"30"
@@ -116,7 +116,7 @@
 	{	
 		"ControlName"	"Label"
 		"fieldName"		"TargetDataLabel"
-		"font"			"Roboto10"
+		"font"			"RobotoBold12"
 		"xpos"			"0"
 		"ypos"			"3"
 		"zpos"			"1"
