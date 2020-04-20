@@ -132,7 +132,7 @@
 	{
 		"ControlName"			"EditablePanel"
 		"fieldName"				"CenterAnchor"
-		"xpos"					"cs-0.5"
+		"xpos"					"cs-0.485"
 		"ypos"					"-13"
 		"wide"					"100"
 		"tall"					"0"
