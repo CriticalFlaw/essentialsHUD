@@ -105,6 +105,7 @@
 		"fgcolor"		"Black"
 		"proportionaltoparent"	"1"
 		
+		
 		if_readymode
 		{
 			"xpos"			"300"
@@ -129,10 +130,10 @@
 			"0"
 			{
 				"particle_xpos"		"c0"
-				"particle_ypos"		"c0"
+				"particle_ypos" 	"c0"
 				"particle_scale"	"2"
 				"particleName"		"versus_door_slam"
-				"start_activated"	"0"
+				"start_activated" 	"0"
 				"loop"				"0"
 			}
 		}
@@ -146,7 +147,7 @@
 		"fieldName"		"MatchDoors"
 		"xpos"			"0"
 		"ypos"			"0"
-		"zpos"			"2"
+		"zpos"			"2"		
 		"wide"			"f0"
 		"tall"			"f0"
 		"autoResize"	"0"
@@ -192,7 +193,7 @@
 				"sequence"	"idle_closed"
 			}
 		}
-	}
+	}	
 
 	"RoundCounter"
 	{
@@ -271,10 +272,10 @@
 	{
 		"ControlName"		"EditablePanel"
 		"fieldName"			"ObjectiveStatusTimePanel"
-		"xpos"				"c-44"
+		"xpos"				"c-43"
 		"ypos"				"0"
 		"zpos"				"2"
-		"wide"				"85"
+		"wide"				"86"
 		"tall"				"150"
 		"visible"			"0"
 		"enabled"			"1"
@@ -295,7 +296,7 @@
 			"xpos"			"0"
 			"ypos"			"1"
 			"zpos"			"3"
-			"wide"			"85"
+			"wide"			"86"
 			"tall"			"31"
 			"visible"		"1"
 			"enabled"		"1"
@@ -309,7 +310,7 @@
 			"fieldName"			"TimePanelBG"
 			"xpos"				"0"
 			"ypos"				"0"
-			"wide"				"85"
+			"wide"				"86"
 			"tall"				"25"
 			"visible"			"1"
 			"enabled"			"1"
@@ -329,6 +330,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 
+
 		"max_size"		"19"
 
 		"6v6_gap"		"4"
@@ -338,7 +340,7 @@
 		"team1_base_x"		"c-45"
 		"team1_max_expand"	"133"
 
-		"team2_grow_dir"	"east"
+		"team2_grow_dir" 	"east"
 		"team2_base_x"		"c47"
 		"team2_max_expand"	"133"
 
@@ -405,7 +407,7 @@
 				"proportionaltoparent"	"1"
 			}
 			"healthbar"
-			{
+			{	
 				"ControlName"	"ContinuousProgressBar"
 				"fieldName"		"healthbar"
 				"font"			"Default"
@@ -425,7 +427,7 @@
 				"proportionaltoparent"	"1"
 			}
 			"overhealbar"
-			{
+			{	
 				"ControlName"	"ContinuousProgressBar"
 				"fieldName"		"overhealbar"
 				"font"			"Default"
