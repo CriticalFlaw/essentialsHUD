@@ -79,7 +79,7 @@
 	{
 		"ControlName"			"ImagePanel"
 		"fieldName"				"TeamScoreBluBG"
-		"xpos"					"19"
+		"xpos"					"20"
 		"ypos"					"-13"
 		"zpos"					"0"
 		"wide"					"25"
@@ -132,7 +132,7 @@
 	{
 		"ControlName"			"EditablePanel"
 		"fieldName"				"CenterAnchor"
-		"xpos"					"cs-0.485"
+		"xpos"					"c-47"
 		"ypos"					"-13"
 		"wide"					"100"
 		"tall"					"0"

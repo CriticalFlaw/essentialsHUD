@@ -72,7 +72,7 @@
 	{	
 		"ControlName"	"Label"
 		"fieldName"		"TargetNameLabel"
-		"font"			"RobotoBold20"
+		"font"			"RobotoBold18"
 		"xpos"			"0"
 		"ypos"			"15"
 		"zpos"			"1"
@@ -92,7 +92,7 @@
 	{	
 		"ControlName"	"Label"
 		"fieldName"		"TargetNameLabelShadow"
-		"font"			"RobotoBold20"
+		"font"			"RobotoBold18"
 		"xpos"			"-2"
 		"ypos"			"-2"
 		"zpos"			"1"
