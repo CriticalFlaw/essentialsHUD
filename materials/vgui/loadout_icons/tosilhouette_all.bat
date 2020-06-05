@@ -9,12 +9,7 @@ SET TMPPNG=%TMPVAL%.png
 echo Generating silhouettes...
 for /r %%X IN (*.png) DO (
 
-  magick convert "%%X" -background black -alpha remove -trim -colorspace Gray -auto-level -alpha copy -resize 256x128 -gravity center -background transparent -extent 256x128 -channel RGB -fill white +opaque white "%TMPPNG%"
+  magick convert "%%X" -background black -alpha remove -trim -colorspace Gray -auto-level -alpha copy -resize 256x128 -gravity center -background transparent -extent 256x128 -channel RGB -fill white +opaque white "%cd%/pngs/misc/export/%%~nX.png"
 
-  vtfcmd -silent -file "%TMPPNG%" -mfilter CUBIC -msharpen SHARPENSOFT -alphaformat IA88 -format IA88 -flag CLAMPS -flag CLAMPT -flag NOLOD -flag TRILINEAR -output "%cd%" 2>nul
-
-  del "%TMPPNG%"
-
-  echo     %%~nX.vtf
-  move "%TMPVAL%.vtf" "%%~nX.vtf" >nul
+  echo Generated %%~nX.vtf
 )
