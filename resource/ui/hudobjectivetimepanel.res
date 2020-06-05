@@ -48,7 +48,7 @@
 		"dulltext"			"0"
 		"brighttext"		"0"
 		"wrap"				"0"
-		"font"				"Roboto10"
+		"font"				"RobotoBold11"
 	}			
 	"WaitingForPlayersBG"
 	{
@@ -80,7 +80,7 @@
 		"dulltext"			"0"
 		"brighttext"		"0"
 		"wrap"				"0"
-		"font"				"Roboto10"
+		"font"				"RobotoBold11"
 	}			
 	"OvertimeBG"
 	{
@@ -112,7 +112,7 @@
 		"dulltext"			"0"
 		"brighttext"		"0"
 		"wrap"				"0"
-		"font"				"Roboto10"
+		"font"				"RobotoBold11"
 	}			
 	"SuddenDeathBG"
 	{
@@ -144,7 +144,7 @@
 		"dulltext"			"0"
 		"brighttext"		"0"
 		"wrap"				"0"
-		"font"				"RobotoBold12"
+		"font"				"RobotoBold11"
 	}	
 	"SetupBG"
 	{
