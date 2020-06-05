@@ -2,17 +2,17 @@
 {
 	"TimePanelBG"
 	{
-		"ControlName"		"ImagePanel"
+		"ControlName"		"EditablePanel"
 		"fieldName"			"TimePanelBG"
-		"xpos"				"16"
-		"ypos"				"9"
+		"xpos"				"0"
+		"ypos"				"0"
 		"zpos"				"2"
-		"wide"				"78"
-		"tall"				"33"
-		"visible"			"0"
+		"wide"				"87"
+		"tall"				"25"
+		"visible"			"1"
 		"enabled"			"1"
-		"image"				""
-		"scaleImage"		"1"
+		"bgcolor_override"	"0 0 0 230"
+		"PaintBackgroundType"	"0"
 	}
 	"TimePanelProgressBar"
 	{

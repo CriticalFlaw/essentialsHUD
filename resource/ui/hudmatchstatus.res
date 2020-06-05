@@ -274,7 +274,7 @@
 		"fieldName"			"ObjectiveStatusTimePanel"
 		"xpos"				"c-43"
 		"ypos"				"0"
-		"zpos"				"2"
+		"zpos"				"-100"
 		"wide"				"87"
 		"tall"				"150"
 		"visible"			"0"
@@ -302,20 +302,6 @@
 			"enabled"		"1"
 			"textAlignment"	"north"
 			"labelText"		"0:00"
-		}	
-		
-		"TimePanelBG"
-		{
-			"ControlName"		"ImagePanel"
-			"fieldName"			"TimePanelBG"
-			"xpos"				"0"
-			"ypos"				"0"
-			"wide"				"87"
-			"tall"				"25"
-			"visible"			"1"
-			"enabled"			"1"
-			"fillcolor"			"0 0 0 220"
-			
 		}
 	}
 	"TeamStatus"
