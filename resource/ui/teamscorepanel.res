@@ -223,7 +223,7 @@
 	{
 		"ControlName"			"ImagePanel"
 		"fieldName"				"TeamScoreRedBG"
-		"xpos"					"16"
+		"xpos"					"15"
 		"ypos"					"-13"
 		"zpos"					"0"
 		"wide"					"25"

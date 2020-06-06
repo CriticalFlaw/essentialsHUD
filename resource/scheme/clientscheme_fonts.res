@@ -165,6 +165,16 @@ Scheme
 				"antialias" "1"
 			}
 		}
+		"RobotoBold7"
+		{
+			"1"
+			{
+				"name"		"Roboto Bold"
+				"tall"		"7"
+				"additive"	"0"
+				"antialias" "1"
+			}
+		}
 		
 		"Roboto55"
 		{
@@ -332,7 +342,7 @@ Scheme
 			"1"
 			{
 				"name"		"Roboto Regular"
-				"tall"		"17"
+				"tall"		"14"
 				"weight"	"900"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
 				"yres"		"480 599"
@@ -340,7 +350,7 @@ Scheme
 			"2"
 			{
 				"name"		"Roboto Regular"
-				"tall"		"18"
+				"tall"		"15"
 				"weight"	"900"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
 				"yres"		"600 767"
@@ -348,7 +358,7 @@ Scheme
 			"3"
 			{
 				"name"		"Roboto Regular"
-				"tall"		"19"
+				"tall"		"16"
 				"weight"	"900"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
 				"yres"		"768 1023"
@@ -357,7 +367,7 @@ Scheme
 			"4"
 			{
 				"name"		"Roboto Regular"
-				"tall"		"25"
+				"tall"		"22"
 				"weight"	"900"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
 				"yres"		"1024 1199"
@@ -366,7 +376,7 @@ Scheme
 			"5"
 			{
 				"name"		"Roboto Regular"
-				"tall"		"29"
+				"tall"		"26"
 				"weight"	"900"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
 				"yres"		"1200 6000"
@@ -375,14 +385,14 @@ Scheme
 			"6"
 			{
 				"name"		"Roboto Regular"
-				"tall"		"17"
+				"tall"		"14"
 				"range" 	"0x0000 0x00FF"
 				"weight"	"900"
 			}
 			"7"
 			{
 				"name"		"Roboto Regular"
-				"tall"		"17"
+				"tall"		"14"
 				"range" 	"0x0000 0x00FF"
 				"weight"	"800"
 			}

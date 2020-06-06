@@ -442,7 +442,7 @@
 		"CornerRadius"	  "0"
 		"RightJustify"	  "1"	// If 1, draw notices from the right
 		
-		"TextFont"				"Default"
+		"TextFont"				"RobotoBold11"
 		
 		"TeamBlue"				"HUDBlueTeamSolid"
 		"TeamRed"				"HUDRedTeamSolid"
@@ -677,8 +677,8 @@
 		"enabled" "0"
 		"xpos" "r145"
 		"ypos" "0"
-		"wide" "145"
-		"tall" "400"
+		"wide" "0"
+		"tall" "0"
 		
 		"item_wide"	"135"
 		
