@@ -45,7 +45,7 @@
 	{	
 		"ControlName"	"Label"
 		"fieldName"		"CapNumPlayers"
-		"font"			"RobotoBold12"
+		"font"			"RobotoBold14"
 		"xpos"			"15"
 		"ypos"			"0"
 		"zpos"			"4"

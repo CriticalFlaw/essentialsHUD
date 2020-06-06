@@ -9,6 +9,7 @@
 		"fieldName"				"TeamScorePanel"
 		"xpos"					"0"
 		"ypos"					"0"
+		"zpos"					"10"
 		"wide"					"f0"
 		"tall"					"100"
 		"autoResize"			"0"
@@ -79,7 +80,7 @@
 	{
 		"ControlName"			"ImagePanel"
 		"fieldName"				"TeamScoreBluBG"
-		"xpos"					"19"
+		"xpos"					"20"
 		"ypos"					"-13"
 		"zpos"					"0"
 		"wide"					"25"
@@ -132,7 +133,7 @@
 	{
 		"ControlName"			"EditablePanel"
 		"fieldName"				"CenterAnchor"
-		"xpos"					"cs-0.485"
+		"xpos"					"c-47"
 		"ypos"					"-13"
 		"wide"					"100"
 		"tall"					"0"
@@ -222,7 +223,7 @@
 	{
 		"ControlName"			"ImagePanel"
 		"fieldName"				"TeamScoreRedBG"
-		"xpos"					"16"
+		"xpos"					"15"
 		"ypos"					"-13"
 		"zpos"					"0"
 		"wide"					"25"

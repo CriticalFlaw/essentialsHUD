@@ -2,17 +2,17 @@
 {
 	"TimePanelBG"
 	{
-		"ControlName"		"ImagePanel"
+		"ControlName"		"EditablePanel"
 		"fieldName"			"TimePanelBG"
-		"xpos"				"16"
-		"ypos"				"9"
+		"xpos"				"0"
+		"ypos"				"0"
 		"zpos"				"2"
-		"wide"				"78"
-		"tall"				"33"
-		"visible"			"0"
+		"wide"				"87"
+		"tall"				"25"
+		"visible"			"1"
 		"enabled"			"1"
-		"image"				""
-		"scaleImage"		"1"
+		"bgcolor_override"	"0 0 0 230"
+		"PaintBackgroundType"	"0"
 	}
 	"TimePanelProgressBar"
 	{
@@ -39,7 +39,7 @@
 		"xpos"				"0"
 		"ypos"				"8"
 		"zpos"				"5"
-		"wide"				"85"
+		"wide"				"87"
 		"tall"				"20"
 		"visible"			"0"
 		"enabled"			"1"
@@ -48,7 +48,7 @@
 		"dulltext"			"0"
 		"brighttext"		"0"
 		"wrap"				"0"
-		"font"				"Roboto10"
+		"font"				"RobotoBold11"
 	}			
 	"WaitingForPlayersBG"
 	{
@@ -71,7 +71,7 @@
 		"xpos"				"17"
 		"ypos"				"10"
 		"zpos"				"5"
-		"wide"				"85"
+		"wide"				"87"
 		"tall"				"20"
 		"visible"			"0"
 		"enabled"			"1"
@@ -80,7 +80,7 @@
 		"dulltext"			"0"
 		"brighttext"		"0"
 		"wrap"				"0"
-		"font"				"Roboto10"
+		"font"				"RobotoBold11"
 	}			
 	"OvertimeBG"
 	{
@@ -103,7 +103,7 @@
 		"xpos"				"0"
 		"ypos"				"8"
 		"zpos"				"5"
-		"wide"				"85"
+		"wide"				"87"
 		"tall"				"20"
 		"visible"			"0"
 		"enabled"			"1"
@@ -112,7 +112,7 @@
 		"dulltext"			"0"
 		"brighttext"		"0"
 		"wrap"				"0"
-		"font"				"Roboto10"
+		"font"				"RobotoBold11"
 	}			
 	"SuddenDeathBG"
 	{
@@ -135,7 +135,7 @@
 		"xpos"				"0"
 		"ypos"				"8"
 		"zpos"				"5"
-		"wide"				"85"
+		"wide"				"87"
 		"tall"				"20"
 		"visible"			"0"
 		"enabled"			"1"
@@ -144,7 +144,7 @@
 		"dulltext"			"0"
 		"brighttext"		"0"
 		"wrap"				"0"
-		"font"				"RobotoBold12"
+		"font"				"RobotoBold11"
 	}	
 	"SetupBG"
 	{
@@ -167,7 +167,7 @@
 		"xpos"				"0"
 		"ypos"				"8"
 		"zpos"				"5"
-		"wide"				"85"
+		"wide"				"87"
 		"tall"				"20"
 		"visible"			"0"
 		"enabled"			"1"
@@ -176,7 +176,7 @@
 		"dulltext"			"0"
 		"brighttext"		"0"
 		"wrap"				"0"
-		"font"				"RobotoBold14"
+		"font"				"RobotoBold12"
 	}	
 	"ServerTimeLimitLabelBG"
 	{

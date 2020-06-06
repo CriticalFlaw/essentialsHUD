@@ -439,17 +439,17 @@
 		"IconScale"	  "0.35"
 		"LineHeight"	  "16"
 		"LineSpacing"	  "1"
-		"CornerRadius"	  "2"
+		"CornerRadius"	  "0"
 		"RightJustify"	  "1"	// If 1, draw notices from the right
 		
-		"TextFont"				"Default"
+		"TextFont"				"RobotoBold11"
 		
 		"TeamBlue"				"HUDBlueTeamSolid"
 		"TeamRed"				"HUDRedTeamSolid"
 		"IconColor"				"HudWhite"
 		"LocalPlayerColor"		"HUDBlack"
 		
-		"BaseBackgroundColor"	"0 0 0 255"
+		"BaseBackgroundColor"	"0 0 0 200"
 		"LocalBackgroundColor"	"245 229 196 200"
 	}
 	
@@ -677,8 +677,8 @@
 		"enabled" "0"
 		"xpos" "r145"
 		"ypos" "0"
-		"wide" "145"
-		"tall" "400"
+		"wide" "0"
+		"tall" "0"
 		
 		"item_wide"	"135"
 		
@@ -1061,10 +1061,10 @@
 		"fieldName"				"HudStopWatch"
 		"visible"				"1"
 		"enabled"				"1"
-		"xpos"					"c-44"
+		"xpos"					"c-43"
 		"ypos"					"24"
 		"zpos"					"5"
-		"wide"					"85"
+		"wide"					"87"
 		"tall"					"15"
 	}
 	

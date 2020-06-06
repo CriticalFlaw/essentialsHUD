@@ -9,7 +9,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Roboto Condensed Bold"
+				"name"		"Roboto Bold"
 				"tall"		"55"
 				"additive"	"0"
 				"antialias" "1"
@@ -19,7 +19,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Roboto Condensed Bold"
+				"name"		"Roboto Bold"
 				"tall"		"34"
 				"additive"	"0"
 				"antialias" "1"
@@ -29,7 +29,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Roboto Condensed Bold"
+				"name"		"Roboto Bold"
 				"tall"		"30"
 				"additive"	"0"
 				"antialias" "1"
@@ -39,7 +39,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Roboto Condensed Bold"
+				"name"		"Roboto Bold"
 				"tall"		"28"
 				"additive"	"0"
 				"antialias" "1"
@@ -49,7 +49,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Roboto Condensed Bold"
+				"name"		"Roboto Bold"
 				"tall"		"26"
 				"additive"	"0"
 				"antialias" "1"
@@ -59,7 +59,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Roboto Condensed Bold"
+				"name"		"Roboto Bold"
 				"tall"		"24"
 				"additive"	"0"
 				"antialias" "1"
@@ -69,7 +69,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Roboto Condensed Bold"
+				"name"		"Roboto Bold"
 				"tall"		"22"
 				"additive"	"0"
 				"antialias" "1"
@@ -79,7 +79,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Roboto Condensed Bold"
+				"name"		"Roboto Bold"
 				"tall"		"20"
 				"additive"	"0"
 				"antialias" "1"
@@ -89,7 +89,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Roboto Condensed Bold"
+				"name"		"Roboto Bold"
 				"tall"		"18"
 				"additive"	"0"
 				"antialias" "1"
@@ -99,7 +99,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Roboto Condensed Bold"
+				"name"		"Roboto Bold"
 				"tall"		"16"
 				"additive"	"0"
 				"antialias" "1"
@@ -109,7 +109,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Roboto Condensed Bold"
+				"name"		"Roboto Bold"
 				"tall"		"14"
 				"additive"	"0"
 				"antialias" "1"
@@ -119,7 +119,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Roboto Condensed Bold"
+				"name"		"Roboto Bold"
 				"tall"		"12"
 				"additive"	"0"
 				"antialias" "1"
@@ -129,7 +129,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Roboto Condensed Bold"
+				"name"		"Roboto Bold"
 				"tall"		"11"
 				"additive"	"0"
 				"antialias" "1"
@@ -139,7 +139,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Roboto Condensed Bold"
+				"name"		"Roboto Bold"
 				"tall"		"10"
 				"additive"	"0"
 				"antialias" "1"
@@ -149,7 +149,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Roboto Condensed Bold"
+				"name"		"Roboto Bold"
 				"tall"		"9"
 				"additive"	"0"
 				"antialias" "1"
@@ -159,8 +159,18 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Roboto Condensed Bold"
+				"name"		"Roboto Bold"
 				"tall"		"8"
+				"additive"	"0"
+				"antialias" "1"
+			}
+		}
+		"RobotoBold7"
+		{
+			"1"
+			{
+				"name"		"Roboto Bold"
+				"tall"		"7"
 				"additive"	"0"
 				"antialias" "1"
 			}
@@ -170,7 +180,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Roboto Condensed Regular"
+				"name"		"Roboto Regular"
 				"tall"		"55"
 				"additive"	"0"
 				"antialias" "1"
@@ -180,7 +190,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Roboto Condensed Regular"
+				"name"		"Roboto Regular"
 				"tall"		"34"
 				"additive"	"0"
 				"antialias" "1"
@@ -190,7 +200,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Roboto Condensed Regular"
+				"name"		"Roboto Regular"
 				"tall"		"30"
 				"additive"	"0"
 				"antialias" "1"
@@ -200,7 +210,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Roboto Condensed Regular"
+				"name"		"Roboto Regular"
 				"tall"		"28"
 				"additive"	"0"
 				"antialias" "1"
@@ -210,7 +220,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Roboto Condensed Regular"
+				"name"		"Roboto Regular"
 				"tall"		"26"
 				"additive"	"0"
 				"antialias" "1"
@@ -220,7 +230,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Roboto Condensed Regular"
+				"name"		"Roboto Regular"
 				"tall"		"24"
 				"additive"	"0"
 				"antialias" "1"
@@ -230,7 +240,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Roboto Condensed Regular"
+				"name"		"Roboto Regular"
 				"tall"		"22"
 				"additive"	"0"
 				"antialias" "1"
@@ -240,7 +250,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Roboto Condensed Regular"
+				"name"		"Roboto Regular"
 				"tall"		"20"
 				"additive"	"0"
 				"antialias" "1"
@@ -250,7 +260,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Roboto Condensed Regular"
+				"name"		"Roboto Regular"
 				"tall"		"18"
 				"additive"	"0"
 				"antialias" "1"
@@ -260,7 +270,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Roboto Condensed Regular"
+				"name"		"Roboto Regular"
 				"tall"		"16"
 				"additive"	"0"
 				"antialias" "1"
@@ -270,7 +280,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Roboto Condensed Regular"
+				"name"		"Roboto Regular"
 				"tall"		"14"
 				"additive"	"0"
 				"antialias" "1"
@@ -280,7 +290,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Roboto Condensed Regular"
+				"name"		"Roboto Regular"
 				"tall"		"12"
 				"additive"	"0"
 				"antialias" "1"
@@ -290,7 +300,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Roboto Condensed Regular"
+				"name"		"Roboto Regular"
 				"tall"		"11"
 				"additive"	"0"
 				"antialias" "1"
@@ -300,7 +310,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Roboto Condensed Regular"
+				"name"		"Roboto Regular"
 				"tall"		"10"
 				"additive"	"0"
 				"antialias" "1"
@@ -310,7 +320,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Roboto Condensed Regular"
+				"name"		"Roboto Regular"
 				"tall"		"9"
 				"additive"	"0"
 				"antialias" "1"
@@ -320,7 +330,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Roboto Condensed Regular"
+				"name"		"Roboto Regular"
 				"tall"		"8"
 				"additive"	"0"
 				"antialias" "1"
@@ -331,24 +341,24 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Verdana"
-				"tall"		"12"
+				"name"		"Roboto Regular"
+				"tall"		"14"
 				"weight"	"900"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
 				"yres"		"480 599"
 			}
 			"2"
 			{
-				"name"		"Verdana"
-				"tall"		"13"
+				"name"		"Roboto Regular"
+				"tall"		"15"
 				"weight"	"900"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
 				"yres"		"600 767"
 			}
 			"3"
 			{
-				"name"		"Verdana"
-				"tall"		"14"
+				"name"		"Roboto Regular"
+				"tall"		"16"
 				"weight"	"900"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
 				"yres"		"768 1023"
@@ -356,8 +366,8 @@ Scheme
 			}
 			"4"
 			{
-				"name"		"Verdana"
-				"tall"		"20"
+				"name"		"Roboto Regular"
+				"tall"		"22"
 				"weight"	"900"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
 				"yres"		"1024 1199"
@@ -365,8 +375,8 @@ Scheme
 			}
 			"5"
 			{
-				"name"		"Verdana"
-				"tall"		"24"
+				"name"		"Roboto Regular"
+				"tall"		"26"
 				"weight"	"900"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
 				"yres"		"1200 6000"
@@ -374,15 +384,15 @@ Scheme
 			}
 			"6"
 			{
-				"name"		"Verdana"
-				"tall"		"12"
+				"name"		"Roboto Regular"
+				"tall"		"14"
 				"range" 	"0x0000 0x00FF"
 				"weight"	"900"
 			}
 			"7"
 			{
-				"name"		"Arial"
-				"tall"		"12"
+				"name"		"Roboto Regular"
+				"tall"		"14"
 				"range" 	"0x0000 0x00FF"
 				"weight"	"800"
 			}
@@ -2864,13 +2874,13 @@ Scheme
 		}
 		"7"
 		{
-			"font"	"resource/fonts/RobotoCondensed-Bold.ttf"
-			"name"	"Roboto Condensed Bold"
+			"font"	"resource/fonts/Roboto-Bold.ttf"
+			"name"	"Roboto Bold"
 		}
 		"8"
 		{
-			"font"	"resource/fonts/RobotoCondensed-Regular.ttf"
-			"name"	"Roboto Condensed Regular"
+			"font"	"resource/fonts/Roboto-Black.ttf"
+			"name"	"Roboto Regular"
 		}
 	}
 }
