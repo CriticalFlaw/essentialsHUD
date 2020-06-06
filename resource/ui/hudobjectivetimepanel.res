@@ -68,10 +68,10 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"			"OvertimeLabel"
-		"xpos"				"17"
+		"xpos"				"7"
 		"ypos"				"10"
 		"zpos"				"5"
-		"wide"				"87"
+		"wide"				"43"
 		"tall"				"20"
 		"visible"			"0"
 		"enabled"			"1"
@@ -80,7 +80,7 @@
 		"dulltext"			"0"
 		"brighttext"		"0"
 		"wrap"				"0"
-		"font"				"RobotoBold11"
+		"font"				"RobotoBold9"
 	}			
 	"OvertimeBG"
 	{
