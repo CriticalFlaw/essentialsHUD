@@ -88,7 +88,7 @@
 				"ControlName"	"EditablePanel"
 				"fieldName"		"HealthIcon"
 				"xpos"			"0"
-				"ypos"			"-3"
+				"ypos"			"0"
 				"zpos"			"3"
 				"wide"			"f0"
 				"tall"			"24"
@@ -495,7 +495,7 @@
 			{
 				"ControlName"		"CExLabel"
 				"fieldName"			"WeaponChargeNameBlue"
-				"xpos"				"210"
+				"xpos"				"212"
 				"ypos"				"29"
 				"zpos"				"201"
 				"wide"				"80"
@@ -511,7 +511,7 @@
 			{
 				"ControlName"		"CExLabel"
 				"fieldName"			"WeaponChargeAmountBlue"
-				"xpos"				"325"
+				"xpos"				"312"
 				"ypos"				"29"
 				"zpos"				"201"
 				"wide"				"25"
@@ -519,7 +519,7 @@
 				"font"				"RobotoBold10"
 				"fgcolor"			"Black"
 				"labelText"			"%weaponchargeamount%"
-				"textAlignment"		"west"
+				"textAlignment"		"east"
 				"visible"			"1"
 				"proportionaltoparent"	"1"
 			}

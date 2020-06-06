@@ -72,7 +72,7 @@
 		"enabled"		"1"
 		"labelText"		"%Health%"
 		"textAlignment"	"center"	
-		"font"			"RobotoBold24"
+		"font"			"RobotoBold22"
 		"fgcolor"		"HUDWhite"
 	}
 	"PlayerStatusHealthValueShadow"
@@ -88,7 +88,7 @@
 		"enabled"		"1"
 		"labelText"		"%Health%"
 		"textAlignment"	"center"
-		"font"			"RobotoBold24"
+		"font"			"RobotoBold22"
 		"fgcolor"		"Black"
 		"proportionaltoparent"	"1"
 
