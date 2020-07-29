@@ -31,9 +31,9 @@
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"			"TimePanelValue"
-			"font"				"RobotoBold18"
+			"font"				"RobotoBold16"
 			"fgcolor"			"85 141 181 255"
-			"xpos"				"0"
+			"xpos"				"5"
 			"ypos"				"0"
 			"zpos"				"3"
 			"wide"				"43"
@@ -68,9 +68,9 @@
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"			"TimePanelValue"
-			"font"				"RobotoBold18"
+			"font"				"RobotoBold16"
 			"fgcolor"			"227 49 47 255"
-			"xpos"				"0"
+			"xpos"				"-5"
 			"ypos"				"0"
 			"zpos"				"3"
 			"wide"				"43"

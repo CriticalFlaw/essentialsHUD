@@ -413,11 +413,11 @@
 				"zpos"					"200"
 				"wide"					"18"
 				"tall"					"18"
-				"visible"				"1"
+				"visible"				"0"
 				"enabled"				"1"
 				"scaleImage"			"1"
 				"proportionalToParent"	"1"
-				"image"					"../castingessentials/statuseffects/marked_for_death_red"
+				"image"					""
 			}
 			
 			"StatusEffectIconBlue"
@@ -429,11 +429,11 @@
 				"zpos"					"200"
 				"wide"					"18"
 				"tall"					"18"
-				"visible"				"1"
+				"visible"				"0"
 				"enabled"				"1"
 				"scaleImage"			"1"
 				"proportionalToParent" 	"1"
-				"image"					"../castingessentials/statuseffects/marked_for_death_blue"
+				"image"					""
 			}
 			
 			"WeaponChargeNameRed"
