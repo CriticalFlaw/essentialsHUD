@@ -18,22 +18,18 @@
 		"enabled"				"1"
 		"tabPosition"			"0"
 	}
-	"TeamNameBluBG"
+	"TeamNameBG"
 	{
 		"ControlName"			"ImagePanel"
-		"fieldName"				"TeamNameBluBG"
-		"xpos"					"377"
-		"ypos"					"-13"
+		"fieldName"				"TeamNameBG"
+		"xpos"					"0"
+		"ypos"					"0"
 		"zpos"					"0"
 		"wide"					"f0"
 		"tall"					"25"
 		"visible"				"1"
 		"enabled"				"1"
 		"fillcolor"				"0 0 0 0"
-		
-		"pin_to_sibling"		"CenterAnchor"
-		"pin_corner_to_sibling"	"PIN_TOPLEFT"
-		"pin_to_sibling_corner"	"PIN_TOPLEFT"
 	}
 	"TeamNameBlu"
 	{
@@ -80,16 +76,16 @@
 	{
 		"ControlName"			"ImagePanel"
 		"fieldName"				"TeamScoreBluBG"
-		"xpos"					"20"
-		"ypos"					"-13"
+		"xpos"					"-44"
+		"ypos"					"0"
 		"zpos"					"0"
 		"wide"					"25"
 		"tall"					"25"
 		"fillcolor"				"HUDBlueTeam"
 		
 		"pin_to_sibling"		"CenterAnchor"
-		"pin_corner_to_sibling"	"PIN_TOPLEFT"
-		"pin_to_sibling_corner"	"PIN_TOPLEFT"
+		"pin_corner_to_sibling"	"PIN_TOPRIGHT"
+		"pin_to_sibling_corner"	"PIN_TOPRIGHT"
 	}
 	"TeamScoreBlu"
 	{
@@ -133,9 +129,9 @@
 	{
 		"ControlName"			"EditablePanel"
 		"fieldName"				"CenterAnchor"
-		"xpos"					"c-47"
-		"ypos"					"-13"
-		"wide"					"100"
+		"xpos"					"c0"
+		"ypos"					"0"
+		"wide"					"0"
 		"tall"					"0"
 		"visible"				"1"
 	}
@@ -223,15 +219,15 @@
 	{
 		"ControlName"			"ImagePanel"
 		"fieldName"				"TeamScoreRedBG"
-		"xpos"					"15"
-		"ypos"					"-13"
+		"xpos"					"-44"
+		"ypos"					"0"
 		"zpos"					"0"
 		"wide"					"25"
 		"tall"					"25"
 		"fillcolor"				"HUDRedTeam"
 		"pin_to_sibling"		"CenterAnchor"
-		"pin_corner_to_sibling"	"PIN_TOPRIGHT"
-		"pin_to_sibling_corner"	"PIN_TOPRIGHT"
+		"pin_corner_to_sibling"	"PIN_TOPLEFT"
+		"pin_to_sibling_corner"	"PIN_TOPLEFT"
 	}
 	
 	"MessageLabel1"

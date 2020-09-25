@@ -375,7 +375,7 @@
 			{
 				"ControlName"		"CExLabel"
 				"fieldName"			"RedRespawnTime"
-				"xpos"				"40"
+				"xpos"				"20"
 				"ypos"				"0"
 				"zpos"				"24"
 				"wide"				"22"
@@ -543,7 +543,7 @@
 				"xpos"				"55"
 				"ypos"				"0"
 				"zpos"				"-5"
-				"wide"				"220"
+				"wide"				"221"
 				"tall"				"22"
 				"fillcolor"			"0 0 0 220"
 				"proportionaltoparent"	"1"

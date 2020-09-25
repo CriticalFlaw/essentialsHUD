@@ -299,10 +299,10 @@
 	{
 		"ControlName"		"EditablePanel"
 		"fieldName"			"ServerBackground"
-		"xpos"				"258"
+		"xpos"				"257"
 		"ypos"				"0"
 		"zpos"				"-10"
-		"wide"				"86"
+		"wide"				"88"
 		"tall"				"25"
 		"visible"			"1"
 		"enabled"			"1"
