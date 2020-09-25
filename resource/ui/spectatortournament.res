@@ -11,13 +11,13 @@
 		"enabled"		"1"
 		
 		"team1_player_base_offset_x"	"0"
-		"team1_player_base_x"			"-135"
+		"team1_player_base_x"			"-155"
 		"team1_player_base_y"			"250"
 		"team1_player_delta_x"			"0"
 		"team1_player_delta_y"			"23"
 		
 		"team2_player_base_offset_x"	"0"
-		"team2_player_base_x"			"698"
+		"team2_player_base_x"			"678"
 		"team2_player_base_y"			"250"
 		"team2_player_delta_x"			"0"
 		"team2_player_delta_y"			"23"
@@ -25,7 +25,7 @@
 		"playerpanels_kv"
 		{
 			"visible"			"0"
-			"wide"				"290"
+			"wide"				"f0"
 			"tall"				"22"
 			"zpos"				"1"
 			"color_ready"		"0 255 0 220"
@@ -33,29 +33,11 @@
 			"paintborder" 		"0"
 			"paintbackground"	"0"
 			
-			"playername"
-			{
-				"ControlName"	"CExLabel"
-				"fieldName"		"playername"
-				"font"			"DefaultVerySmall"
-				"xpos"			"5"
-				"ypos"			"24"
-				"zpos"			"5"
-				"wide"			"50"
-				"tall"			"8"
-				"autoResize"	"0"
-				"pinCorner"		"0"
-				"visible"		"0"
-				"labelText"		"%playername%"
-				"textAlignment"	"north-west"
-				//"fgcolor"		"235 226 202 255"
-			}
-			
 			"classimage"
 			{
 				"ControlName"	"CTFClassImage"
 				"fieldName"		"classimage"
-				"xpos"			"cs-0.5"
+				"xpos"			"154"
 				"ypos"			"0"
 				"zpos"			"2"
 				"wide"			"22"
@@ -64,14 +46,13 @@
 				"enabled"		"1"
 				"image"			"../hud/class_scoutred"
 				"scaleImage"	"1"
-				"proportionaltoparent"	"1"
 			}
 			
 			"classimagebg"
 			{
 				"ControlName"	"Panel"
 				"fieldName"		"classimagebg"
-				"xpos"			"cs-0.5"
+				"xpos"			"154"
 				"ypos"			"0"
 				"zpos"			"2"
 				"wide"			"22"
@@ -80,14 +61,13 @@
 				"enabled"		"1"
 				"bgcolor_override"		"TransparentBlack"
 				"PaintBackgroundType"	"0"
-				"proportionaltoparent"	"1"
 			}
 			
 			"HealthIcon"
 			{
 				"ControlName"	"EditablePanel"
 				"fieldName"		"HealthIcon"
-				"xpos"			"35"
+				"xpos"			"55"
 				"ypos"			"0"
 				"zpos"			"3"
 				"wide"			"f0"
@@ -198,8 +178,8 @@
 			{
 				"ControlName"		"ImagePanel"
 				"fieldName"			"LoadoutIconsActiveItemRed"
-				"xpos"				"1"
-				"ypos"				"4"
+				"xpos"				"35"
+				"ypos"				"0"
 				"zpos"				"200"
 				"wide"				"30"
 				"tall"				"14"
@@ -208,13 +188,17 @@
 				"scaleImage"		"1"
 				"proportionalToParent" "1"
 				//fillcolor_override "255 0 0 32"
+				
+				"pin_to_sibling"		"StatusEffectIconRed"
+				"pin_corner_to_sibling"	"PIN_TOPRIGHT"
+				"pin_to_sibling_corner"	"PIN_TOPRIGHT"
 			}
 			"LoadoutIconsActiveItemBlue"
 			{
 				"ControlName"		"ImagePanel"
 				"fieldName"			"LoadoutIconsActiveItemBlue"
-				"xpos"				"259"
-				"ypos"				"4"
+				"xpos"				"35"
+				"ypos"				"0"
 				"zpos"				"200"
 				"wide"				"30"
 				"tall"				"14"
@@ -223,6 +207,10 @@
 				"scaleImage"		"1"
 				"proportionalToParent" "1"
 				//fillcolor_override "255 0 0 32"
+				
+				"pin_to_sibling"		"StatusEffectIconBlue"
+				"pin_corner_to_sibling"	"PIN_TOPLEFT"
+				"pin_to_sibling_corner"	"PIN_TOPLEFT"
 			}
 
 			"BluePlayerName"
@@ -310,7 +298,7 @@
 			{
 				"ControlName"		"ContinuousProgressBar"
 				"fieldName"			"PlayerHealthRed"
-				"xpos"				"35"
+				"xpos"				"55"
 				"ypos"				"0"
 				"zpos"				"-2"
 				"wide"				"100"
@@ -324,7 +312,7 @@
 			{
 				"ControlName"		"ContinuousProgressBar"
 				"fieldName"			"PlayerHealthOverhealRed"
-				"xpos"				"35"
+				"xpos"				"55"
 				"ypos"				"0"
 				"zpos"				"-2"
 				"wide"				"100"
@@ -338,7 +326,7 @@
 			{
 				"ControlName"		"ContinuousProgressBar"
 				"fieldName"			"PlayerHealthBlue"
-				"xpos"				"156"
+				"xpos"				"176"
 				"ypos"				"0"
 				"zpos"				"-2"
 				"wide"				"100"
@@ -352,7 +340,7 @@
 			{
 				"ControlName"		"ContinuousProgressBar"
 				"fieldName"			"PlayerHealthOverhealBlue"
-				"xpos"				"156"
+				"xpos"				"176"
 				"ypos"				"0"
 				"zpos"				"-2"
 				"wide"				"100"
@@ -387,7 +375,7 @@
 			{
 				"ControlName"		"CExLabel"
 				"fieldName"			"RedRespawnTime"
-				"xpos"				"20"
+				"xpos"				"40"
 				"ypos"				"0"
 				"zpos"				"24"
 				"wide"				"22"
@@ -408,45 +396,39 @@
 			{
 				"ControlName"			"ImagePanel"
 				"fieldName"				"StatusEffectIconRed"
-				"xpos"					"21"
-				"ypos"					"-2"
+				"xpos"					"0"
+				"ypos"					"0"
 				"zpos"					"200"
-				"wide"					"8"
-				"tall"					"8"
+				"wide"					"16"
+				"tall"					"16"
 				"visible"				"0"
 				"enabled"				"1"
 				"scaleImage"			"1"
 				"proportionalToParent"	"1"
 				"image"					""
-				"pin_to_sibling"		"RedPlayerName"
-				"pin_corner_to_sibling"	"PIN_TOPRIGHT"
-				"pin_to_sibling_corner"	"PIN_TOPRIGHT"
 			}
 			
 			"StatusEffectIconBlue"
 			{
 				"ControlName"			"ImagePanel"
 				"fieldName"				"StatusEffectIconBlue"
-				"xpos"					"21"
-				"ypos"					"-2"
+				"xpos"					"315"
+				"ypos"					"0"
 				"zpos"					"200"
-				"wide"					"8"
-				"tall"					"8"
+				"wide"					"16"
+				"tall"					"16"
 				"visible"				"0"
 				"enabled"				"1"
 				"scaleImage"			"1"
 				"proportionalToParent" 	"1"
 				"image"					""
-				"pin_to_sibling"		"BluePlayerName"
-				"pin_corner_to_sibling"	"PIN_TOPLEFT"
-				"pin_to_sibling_corner"	"PIN_TOPLEFT"
 			}
 			
 			"WeaponChargeNameRed"
 			{
 				"ControlName"		"CExLabel"
 				"fieldName"			"WeaponChargeNameRed"
-				"xpos"				"65"
+				"xpos"				"85"
 				"ypos"				"15"
 				"zpos"				"201"
 				"wide"				"70"
@@ -463,7 +445,7 @@
 			{
 				"ControlName"		"CExLabel"
 				"fieldName"			"WeaponChargeAmountRed"
-				"xpos"				"37"
+				"xpos"				"57"
 				"ypos"				"15"
 				"zpos"				"200"
 				"wide"				"25"
@@ -480,7 +462,7 @@
 				"ControlName"		"ContinuousProgressBar"
 				"fieldName"			"WeaponChargeRed"
 				"font"				"Default"
-				"xpos"				"35"
+				"xpos"				"55"
 				"ypos"				"15"
 				"zpos" 				"-2"
 				"wide"				"100"
@@ -502,7 +484,7 @@
 			{
 				"ControlName"		"CExLabel"
 				"fieldName"			"WeaponChargeNameBlue"
-				"xpos"				"155"
+				"xpos"				"175"
 				"ypos"				"15"
 				"zpos"				"201"
 				"wide"				"70"
@@ -519,7 +501,7 @@
 			{
 				"ControlName"		"CExLabel"
 				"fieldName"			"WeaponChargeAmountBlue"
-				"xpos"				"238"
+				"xpos"				"258"
 				"ypos"				"15"
 				"zpos"				"200"
 				"wide"				"25"
@@ -536,7 +518,7 @@
 				"ControlName"		"ContinuousProgressBar"
 				"fieldName"			"WeaponChargeBlue"
 				"font"				"Default"
-				"xpos"				"156"
+				"xpos"				"176"
 				"ypos"				"15"
 				"zpos" 				"-2"
 				"wide"				"100"
@@ -558,10 +540,10 @@
 			{
 				"ControlName"		"ImagePanel"
 				"fieldName"			"PanelBottom"
-				"xpos"				"35"
+				"xpos"				"55"
 				"ypos"				"0"
 				"zpos"				"-5"
-				"wide"				"221"
+				"wide"				"220"
 				"tall"				"22"
 				"fillcolor"			"0 0 0 220"
 				"proportionaltoparent"	"1"
