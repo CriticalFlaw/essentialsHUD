@@ -562,8 +562,8 @@
 	{
 		"ControlName"	"Frame"
 		"fieldName"		"BottomBar"
-		"visible"		"0"
 		"ypos"			"100"
+		"visible"		"0"
 		"tall"			"0"
 	}
 	"bottombarblank"
@@ -624,7 +624,6 @@
 		"ControlName"	"CExLabel"
 		"fieldName"		"SwitchCamModeKeyLabel"
 		"visible"		"0"
-		
 	}
 	"SwitchCamModeLabel"
 	{
@@ -662,6 +661,7 @@
 		"fieldName"		"TipLabel"
 		"visible"		"0"
 	}
+	
 	"itempanel"
 	{
 		"ControlName"	"CItemModelPanel"
@@ -737,6 +737,7 @@
 			"centerwrap"	"1"
 		}
 	}
+	
 	"spectator_extras"
 	{
 		"ControlName"	"EditablePanel"
@@ -749,5 +750,5 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-	}		
+	}
 }

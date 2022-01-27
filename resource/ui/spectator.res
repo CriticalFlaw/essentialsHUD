@@ -18,50 +18,30 @@
 	{
 		"ControlName"	"Panel"
 		"fieldName"		"TopBar"
-		"xpos"			"0"
-		"ypos"			"0"
-		"tall"			"84"
-		"wide"			"f0"
-		"autoResize"	"0"
-		"pinCorner"		"0"
-		"visible"		"1"
-		"enabled"		"1"
-		"tabPosition"	"0"
+		"visible"		"0"
+		"tall"			"0"
 	}
 	"BottomBar"
 	{
 		"ControlName"	"Frame"
 		"fieldName"		"BottomBar"
-		"xpos"			"0"
-		"ypos"			"r70"
-		"tall"			"70"	
-		"autoResize"	"0"
-		"pinCorner"		"0"
-		"visible"		"1"
-		"enabled"		"0"
-		"tabPosition"	"0"
+		"visible"		"0"
+		"tall"			"0"
 	}
 	"bottombarblank"
 	{
 		"ControlName"	"Panel"
 		"fieldName"		"bottombarblank"
-		"xpos"			"0"
-		"ypos"			"r70"
-		"tall"			"70"			// this needs to match the size of BottomBar
-		"wide"			"f0"
-		"autoResize"	"0"
-		"pinCorner"		"0"
-		"visible"		"1"
-		"enabled"		"1"
-		"tabPosition"	"0"
+		"visible"		"0"
+		"ypos"			"480"
 	}
 	"ReinforcementsLabel"
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"ReinforcementsLabel"
-		"xpos"			"c-300"
-		"ypos"			"50"
-		"wide"			"600"
+		"xpos"			"c-150"
+		"ypos"			"32"
+		"wide"			"300"
 		"tall"			"18"
 		"autoResize"	"0"
 		"pinCorner"		"0"
@@ -69,16 +49,16 @@
 		"enabled"		"1"
 		"labelText"		"#game_respawntime_in_secs"
 		"textAlignment"	"center"
-		"font"			"HudFontMediumSmallSecondary"
+		"font"			"HudFontSmall"
 	}
 	"BuyBackLabel"
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"BuyBackLabel"
-		"xpos"			"0"
-		"ypos"			"0"
-		"wide"			"400"
-		"tall"			"f0"
+		"xpos"			"c-190"
+		"ypos"			"16"
+		"wide"			"380"
+		"tall"			"14"
 		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"0"
@@ -89,153 +69,70 @@
 		"wrap"			"1"
 		"centerwrap"	"1"
 	}
+	
 	"MapLabel"
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"MapLabel"
-		"font"			"HudFontSmall"
-		"xpos"			"r260"
-		"ypos"			"16"
-		"wide"			"240"
-		"tall"			"20"
-		"autoResize"	"0"
-		"pinCorner"		"0"
-		"visible"		"1"
-		"enabled"		"1"
-		"labelText"		"map: cp_bridge"
-		"textAlignment"	"east"
+		"tall"			"0"
 	}
+	
 	"ClassOrTeamLabel"
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"ClassOrTeamLabel"
-		"xpos"			"c-85"
-		"ypos"			"68"	
-		"wide"			"170"
-		"tall"			"15"
-		"zpos"			"2"
-		"autoResize"	"0"
-		"pinCorner"		"0"
-		"visible"		"1"
-		"enabled"		"1"
-		"labelText"		"#TF_Spectator_ChangeTeam"
-		"textAlignment"		"center"
-		"font"			"SpectatorKeyHints"
+		"tall"			"0"
 	}
+	
 	"SwitchCamModeKeyLabel"
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"SwitchCamModeKeyLabel"
-		"xpos"			"5"
-		"ypos"			"10"
-		"wide"			"60"
-		"tall"			"20"
-		"autoResize"	"0"
-		"pinCorner"		"0"
-		"visible"		"1"
-		"enabled"		"1"
-		"labelText"		"#TF_Spectator_ChangeTeam"
-		"textAlignment"	"east"
-		"font"			"SpectatorKeyHints"
-		
+		"tall"			"0"
 	}
+	
 	"SwitchCamModeLabel"
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"SwitchCamModeLabel"
-		"xpos"			"80"
-		"ypos"			"10"	
-		"wide"			"125"	
-		"tall"			"20"
-		"autoResize"	"0"
-		"pinCorner"		"0"
-		"visible"		"1"
-		"enabled"		"1"
-		"labelText"		"#TF_Spectator_SwitchCamMode"
-		"textAlignment"	"west"
-		"font"			"SpectatorKeyHints"
+		"tall"			"0"
 	}
+	
 	"CycleTargetFwdKeyLabel"
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"CycleTargetFwdKeyLabel"
-		"xpos"			"5"
-		"ypos"			"20"	
-		"wide"			"60"
-		"tall"			"20"
-		"autoResize"	"0"
-		"pinCorner"		"0"
-		"visible"		"1"
-		"enabled"		"1"
-		"labelText"		"#TF_Spectator_ClassOrTeamKey"
-		"textAlignment"	"east"
-		"font"			"SpectatorKeyHints"
+		"tall"			"0"
 	}
+	
 	"CycleTargetFwdLabel"
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"CycleTargetFwdLabel"
-		"xpos"			"80"
-		"ypos"			"20"	
-		"wide"			"125"
-		"tall"			"20"
-		"autoResize"		"0"
-		"pinCorner"		"0"
-		"visible"		"1"
-		"enabled"		"1"
-		"labelText"		"#TF_Spectator_CycleTargetFwd"
-		"textAlignment"	"west"
-		"font"			"SpectatorKeyHints"
+		"tall"			"0"
 	}
+	
 	"CycleTargetRevKeyLabel"
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"CycleTargetRevKeyLabel"
-		"xpos"			"5"
-		"ypos"			"30"	
-		"wide"			"60"	
-		"tall"			"20"
-		"autoResize"	"0"
-		"pinCorner"		"0"
-		"visible"		"1"
-		"enabled"		"1"
-		"labelText"		"#TF_Spectator_ClassOrTeamKey"
-		"textAlignment"	"east"
-		"font"			"SpectatorKeyHints"
+		"tall"			"0"
 	}
+	
 	"CycleTargetRevLabel"
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"CycleTargetRevLabel"
-		"xpos"			"80"
-		"ypos"			"30"	
-		"wide"			"125"
-		"tall"			"20"
-		"autoResize"	"0"
-		"pinCorner"		"0"
-		"visible"		"1"
-		"enabled"		"1"
-		"labelText"		"#TF_Spectator_CycleTargetRev"
-		"textAlignment"	"west"
-		"font"			"SpectatorKeyHints"
+		"tall"			"0"
 	}
+	
 	"TipLabel"
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"TipLabel"
-		"xpos"			"15"
-		"ypos"			"r67"
-		"wide"			"145"
-		"tall"			"64"
-		"autoResize"	"0"
-		"pinCorner"		"0"
-		"visible"		"1"
-		"enabled"		"1"
-		"labelText"		"%tip%"
-		"textAlignment"	"center"
-		"font"			"SpectatorKeyHints"
-		"wrap"			"1"
+		"tall"			"0"
 	}
+	
 	"itempanel"
 	{
 		"ControlName"	"CItemModelPanel"
@@ -290,7 +187,8 @@
 			"dulltext"		"0"
 			"brighttext"	"0"
 		}
-	}	
+	}
+	
 	"spectator_extras"
 	{
 		"ControlName"	"EditablePanel"
@@ -303,5 +201,5 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-	}		
+	}
 }

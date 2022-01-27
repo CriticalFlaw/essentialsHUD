@@ -29,7 +29,7 @@
 		"tall"					"25"
 		"visible"				"1"
 		"enabled"				"1"
-		"fillcolor"				"0 0 0 0"
+		"fillcolor"				"0 0 0 220"
 	}
 	"TeamNameBlu"
 	{
