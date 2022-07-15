@@ -143,7 +143,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"OnYourWayLabel"
-		"font"			"RobotoBold14"
+		"font"			"HudFontSmallBold"
 		"labelText"		"#LoadingMap"
 		"textAlignment"	"center"
 		"xpos"			"9999"
@@ -161,7 +161,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"LoadingLabel"
-		"font"			"RobotoBold22"
+		"font"			"EconFontSmall"
 		"labelText"		"#LoadingMap"
 		"textAlignment"	"west"
 		"xpos"			"10"
@@ -179,7 +179,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"MapLabel"
-		"font"			"RobotoBold34"
+		"font"			"HudFontMediumBigBold"
 		"labelText"		"%maplabel%"
 		"textAlignment"	"center"
 		"xpos"			"0"
@@ -197,7 +197,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"MapType"
-		"font"			"RobotoBold14"
+		"font"			"HudFontSmallBold"
 		"labelText"		"%maptype%"
 		"textAlignment"	"center"
 		"xpos"			"0"
@@ -308,7 +308,7 @@
 		{
 			"ControlName"	"Label"
 			"fieldName"		"AveragesLabel"
-			"font"			"RobotoBold22"
+			"font"			"ScoreboardMedium"
 			"labelText"		"#StatSummary_Label_PerformanceReport"
 			"textAlignment"	"west"
 			"xpos"			"c-285"
@@ -1410,7 +1410,7 @@
 		{
 			"ControlName"	"Label"
 			"fieldName"		"RecordsLabel1"
-			"font"			"RobotoBold14"
+			"font"			"ScoreboardMediumSmall"
 			"labelText"		"#StatSummary_Label_BestMoments"
 			"textAlignment"	"west"
 			"xpos"			"c+124"

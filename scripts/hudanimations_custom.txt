@@ -1,10 +1,10 @@
 event HudHealthBonusPulse
 {
-	Animate RedPlayerHealth				FgColor		"HealthBuff"	Linear 0.0 0.0
-	Animate BluePlayerHealth			FgColor		"HealthBuff"	Linear 0.0 0.0
+	Animate RedPlayerHealth				FgColor		"TanLight"	Linear 0.0 0.0
+	Animate BluePlayerHealth			FgColor		"TanLight"	Linear 0.0 0.0
 	
-	Animate PlayerStatusHealthValue		FgColor		"HealthBuff"	Linear 0.0 0.0
-	Animate PlayerStatusHealthValue		FgColor		"HealthBuff"	Linear 0.0 0.0
+	Animate PlayerStatusHealthValue		FgColor		"TanLight"	Linear 0.0 0.0
+	Animate PlayerStatusHealthValue		FgColor		"TanLight"	Linear 0.0 0.0
 	
 	RunEvent HudHealthBonusPulseLoop	0.4
 }

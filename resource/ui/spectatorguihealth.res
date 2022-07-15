@@ -72,8 +72,8 @@
 		"enabled"		"1"
 		"labelText"		"%Health%"
 		"textAlignment"	"center"	
-		"font"			"RobotoBold20"
-		"fgcolor"		"HUDWhite"
+		"font"			"ItemFontNameLarger"
+		"fgcolor"		"TanLight"
 	}
 	"PlayerStatusPlayerLevel"
 	{

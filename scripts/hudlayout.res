@@ -442,7 +442,7 @@
 		"CornerRadius"	  "0"
 		"RightJustify"	  "1"	// If 1, draw notices from the right
 		
-		"TextFont"				"RobotoBold11"
+		"TextFont"				"HudFontSmallest"
 		
 		"TeamBlue"				"HUDBlueTeamSolid"
 		"TeamRed"				"HUDRedTeamSolid"
@@ -1271,7 +1271,7 @@
 	{
 		"fieldName"		"HudAlert"
 		"visible"		"0"
-		"enable"		"1"
+		"enabled"		"1"
 		"xpos"			"c-160"
 		"ypos"			"100"
 		"wide"			"320"

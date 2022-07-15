@@ -38,7 +38,7 @@
 		"pinCorner"		"0"
 		"visible"		"0"
 		"enabled"		"1"
-		"fillcolor"		"HUDBlueTeam"
+		"fillcolor"		"184 128 53 255"
 		
 		"src_corner_height"		"23"			// pixels inside the image
 		"src_corner_width"		"23"
@@ -59,7 +59,7 @@
 		"pinCorner"		"0"
 		"visible"		"0"
 		"enabled"		"1"
-		"fillcolor"		"HUDRedTeam"
+		"fillcolor"		"195 108 45 255"
 		
 		"src_corner_height"		"23"			// pixels inside the image
 		"src_corner_width"		"23"
@@ -72,9 +72,9 @@
 	{	
 		"ControlName"	"Label"
 		"fieldName"		"TargetNameLabel"
-		"font"			"RobotoBold18"
+		"font"			"HudFontSmallishBold"
 		"xpos"			"0"
-		"ypos"			"15"
+		"ypos"			"10"
 		"zpos"			"1"
 		"wide"			"640"
 		"tall"			"30"
@@ -83,7 +83,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"labelText"		"%targetname%"
-		"textAlignment"	"North-West"
+		"textAlignment"	"Center-West"
 		"dulltext"		"0"
 		"brighttext"	"0"
 	}
@@ -92,7 +92,7 @@
 	{	
 		"ControlName"	"Label"
 		"fieldName"		"TargetNameLabelShadow"
-		"font"			"RobotoBold18"
+		"font"			"HudFontSmallishBold"
 		"xpos"			"-2"
 		"ypos"			"-2"
 		"zpos"			"1"
@@ -103,7 +103,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"labelText"		"%targetname%"
-		"textAlignment"	"North-West"
+		"textAlignment"	"Center-West"
 		"dulltext"		"0"
 		"brighttext"	"0"
 		"fgcolor_override"		"Black"
@@ -116,7 +116,7 @@
 	{	
 		"ControlName"	"Label"
 		"fieldName"		"TargetDataLabel"
-		"font"			"RobotoBold12"
+		"font"			"HudFontSmallest"
 		"xpos"			"0"
 		"ypos"			"2"
 		"zpos"			"1"
