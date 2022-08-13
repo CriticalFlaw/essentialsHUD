@@ -39,7 +39,7 @@
 		"tall"				"35"
 		"visible"			"1"
 		"enabled"			"1"
-		"bgcolor_override"	"HUDBlueTeam"
+		"bgcolor_override"	"BlueTeam"
 		"PaintBackgroundType"	"2"
 		
 		 if_mvm
@@ -168,7 +168,7 @@
 		"tall"				"35"
 		"visible"			"1"
 		"enabled"			"1"
-		"bgcolor_override"	"HUDRedTeam"
+		"bgcolor_override"	"RedTeam"
 		"PaintBackgroundType"	"2"
 		
 		"pin_to_sibling"		"BlueBG"
@@ -394,7 +394,7 @@
 		"ypos"				"167"
 		"zpos"				"20"
 		"wide"				"202"
-		"tall"				"105"
+		"tall"				"100"
 		"pinCorner"			"0"
 		"visible"			"1"
 		"enabled"			"1"
@@ -416,7 +416,7 @@
 		"ypos"				"167"
 		"zpos"				"20"
 		"wide"				"202"
-		"tall"				"105"
+		"tall"				"100"
 		"pinCorner"			"0"
 		"visible"			"1"
 		"enabled"			"1"
@@ -481,7 +481,7 @@
 	{
 		"ControlName"		"ImagePanel"
 		"fieldName"			"ClassImage"
-		"xpos"				"-10"
+		"xpos"				"9999"
 		"ypos"				"-5"
 		"zpos"				"3"
 		"wide"				"45"
@@ -490,11 +490,6 @@
 		"enabled"			"0"
 		"image"				"../hud/class_scoutred"
 		"scaleImage"		"1"
-		
-		if_mvm
-		{
-			"xpos"				"9999"
-		}
 	}
 	
 	"classmodelpanel"

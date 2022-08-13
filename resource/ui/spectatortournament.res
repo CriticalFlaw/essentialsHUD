@@ -112,7 +112,7 @@
 				"wide"				"70"
 				"tall"				"20"
 				"visible"			"1"
-				"font"				"HudFontSmall"
+				"font"				"HudFontSmallest"
 				"fgcolor"			"TanLight"
 				"labelText"			"%playername%"
 				"textAlignment"		"west"
@@ -132,7 +132,7 @@
 				"wide"				"70"
 				"tall"				"20"
 				"visible"			"0"
-				"font"				"HudFontSmall"
+				"font"				"HudFontSmallest"
 				"fgcolor"			"TransparentBlack"
 				"labelText"			"%playername%"
 				"textinsetx"		"6"
@@ -152,7 +152,7 @@
 				"wide"				"70"
 				"tall"				"20"
 				"visible"			"1"
-				"font"				"HudFontSmall"
+				"font"				"HudFontSmallest"
 				"fgcolor"			"TanLight"
 				"labelText"			"%playername%"
 				"textinsetx"		"6"
@@ -172,7 +172,7 @@
 				"wide"				"70"
 				"tall"				"20"
 				"visible"			"0"
-				"font"				"HudFontSmall"
+				"font"				"HudFontSmallest"
 				"fgcolor"			"TransparentBlack"
 				"labelText"			"%playername%"
 				"textinsetx"		"6"
@@ -230,8 +230,8 @@
 				"tall"				"20"
 				"progress"			"1"
 				"direction"			"west"
-				"bgcolor_override"	"195 108 45 255"
-				"fgcolor_override"	"195 108 45 255"
+				"bgcolor_override"	"RedTeam"
+				"fgcolor_override"	"RedTeam"
 			}
 			"PlayerHealthOverhealRed"
 			{
@@ -245,7 +245,7 @@
 				"progress"			"1"
 				"direction"			"west"
 				"bgcolor_override"	"0 0 0 0"
-				"fgcolor_override"	"195 108 45 255"
+				"fgcolor_override"	"RedTeam"
 			}
 			"PlayerHealthBlue"
 			{
@@ -258,8 +258,8 @@
 				"tall"				"20"
 				"progress"			"1"
 				"direction"			"east"
-				"bgcolor_override"	"184 128 53 255"
-				"fgcolor_override"	"184 128 53 255"
+				"bgcolor_override"	"BlueTeam"
+				"fgcolor_override"	"BlueTeam"
 			}
 			"PlayerHealthOverhealBlue"
 			{
@@ -273,7 +273,7 @@
 				"progress"			"1"
 				"direction"			"east"
 				"bgcolor_override"	"0 0 0 0"
-				"fgcolor_override"	"184 128 53 255"
+				"fgcolor_override"	"BlueTeam"
 			}
 			
 			"BlueRespawnTime"
@@ -285,7 +285,7 @@
 				"zpos"				"24"
 				"wide"				"22"
 				"tall"				"22"
-				"font"				"HudFontSmallestBold"
+				"font"				"StorePromotionsTitle"
 				"fgcolor"			"White"
 				"labelText"			"%respawntime%"
 				"textAlignment"		"east"
@@ -305,7 +305,7 @@
 				"zpos"				"24"
 				"wide"				"22"
 				"tall"				"22"
-				"font"				"HudFontSmallestBold"
+				"font"				"StorePromotionsTitle"
 				"fgcolor"			"White"
 				"labelText"			"%respawntime%"
 				"textAlignment"		"east"
@@ -562,8 +562,8 @@
 	{
 		"ControlName"	"Frame"
 		"fieldName"		"BottomBar"
-		"ypos"			"100"
 		"visible"		"0"
+		"ypos"			"100"
 		"tall"			"0"
 	}
 	"bottombarblank"
@@ -588,6 +588,14 @@
 		"labelText"		"#game_respawntime_in_secs"
 		"textAlignment"	"center"
 		"font"			"HudFontSmall"
+		
+		if_mvm
+		{
+			"xpos"			"c-190"
+			"ypos"			"1"
+			"wide"			"380"
+			"textAlignment"		"center"
+		}
 	}
 	"BuyBackLabel"
 	{
@@ -606,6 +614,11 @@
 		"font"			"HudFontSmall"
 		"wrap"			"1"
 		"centerwrap"	"1"
+	
+		if_mvm
+		{
+			"visible"		"1"
+		}
 	}
 	"MapLabel"
 	{
@@ -661,7 +674,6 @@
 		"fieldName"		"TipLabel"
 		"visible"		"0"
 	}
-	
 	"itempanel"
 	{
 		"ControlName"	"CItemModelPanel"
@@ -737,7 +749,6 @@
 			"centerwrap"	"1"
 		}
 	}
-	
 	"spectator_extras"
 	{
 		"ControlName"	"EditablePanel"

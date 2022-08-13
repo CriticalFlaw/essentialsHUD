@@ -46,7 +46,7 @@
 		"textAlignment"			"east"
 		"visible"				"1"
 		"auto_wide_tocontents"	"1"
-		"fgcolor_override"		"184 128 53 255"
+		"fgcolor_override"		"BlueTeam"
 		
 		"pin_to_sibling"		"TeamScoreBluBG"
 		"pin_corner_to_sibling"	"PIN_TOPRIGHT"
@@ -81,7 +81,7 @@
 		"zpos"					"0"
 		"wide"					"25"
 		"tall"					"25"
-		"fillcolor"				"184 128 53 255"
+		"fillcolor"				"BlueTeam"
 		
 		"pin_to_sibling"		"CenterAnchor"
 		"pin_corner_to_sibling"	"PIN_TOPRIGHT"
@@ -188,7 +188,7 @@
 		"textinsetx"			"20"
 		"textAlignment"			"west"
 		"visible"				"1"
-		"fgcolor_override"		"195 108 45 255"
+		"fgcolor_override"		"RedTeam"
 		"auto_wide_tocontents"	"1"
 
 		"pin_to_sibling"		"TeamScoreRedBG"
@@ -224,7 +224,7 @@
 		"zpos"					"0"
 		"wide"					"25"
 		"tall"					"25"
-		"fillcolor"				"195 108 45 255"
+		"fillcolor"				"RedTeam"
 		"pin_to_sibling"		"CenterAnchor"
 		"pin_corner_to_sibling"	"PIN_TOPLEFT"
 		"pin_to_sibling_corner"	"PIN_TOPLEFT"
