@@ -37,7 +37,7 @@
 		"ControlName"		"CExLabel"
 		"fieldName"			"WaitingForPlayersLabel"
 		"xpos"				"0"
-		"ypos"				"8"
+		"ypos"				"20"
 		"zpos"				"5"
 		"wide"				"88"
 		"tall"				"20"
@@ -48,7 +48,7 @@
 		"dulltext"			"0"
 		"brighttext"		"0"
 		"wrap"				"0"
-		"font"				"ClockSubTextTiny"
+		"font"				"HudFontSmallest"
 	}			
 	"WaitingForPlayersBG"
 	{
@@ -69,7 +69,7 @@
 		"ControlName"		"CExLabel"
 		"fieldName"			"OvertimeLabel"
 		"xpos"				"7"
-		"ypos"				"10"
+		"ypos"				"20"
 		"zpos"				"5"
 		"wide"				"43"
 		"tall"				"20"
@@ -80,7 +80,7 @@
 		"dulltext"			"0"
 		"brighttext"		"0"
 		"wrap"				"0"
-		"font"				"ClockSubText"
+		"font"				"HudFontSmallest"
 	}			
 	"OvertimeBG"
 	{
@@ -101,7 +101,7 @@
 		"ControlName"		"CExLabel"
 		"fieldName"			"SuddenDeathLabel"
 		"xpos"				"0"
-		"ypos"				"8"
+		"ypos"				"20"
 		"zpos"				"5"
 		"wide"				"88"
 		"tall"				"20"
@@ -112,7 +112,7 @@
 		"dulltext"			"0"
 		"brighttext"		"0"
 		"wrap"				"0"
-		"font"				"ClockSubTextSuddenDeath"
+		"font"				"HudFontSmallest"
 	}			
 	"SuddenDeathBG"
 	{
@@ -133,7 +133,7 @@
 		"ControlName"		"CExLabel"
 		"fieldName"			"SetupLabel"
 		"xpos"				"0"
-		"ypos"				"8"
+		"ypos"				"20"
 		"zpos"				"5"
 		"wide"				"87"
 		"tall"				"20"
@@ -144,7 +144,7 @@
 		"dulltext"			"0"
 		"brighttext"		"0"
 		"wrap"				"0"
-		"font"				"ClockSubText"
+		"font"				"HudFontSmallest"
 	}	
 	"SetupBG"
 	{
@@ -165,7 +165,7 @@
 		"ControlName"		"CExLabel"
 		"fieldName"			"ServerTimeLimitLabel"
 		"xpos"				"0"
-		"ypos"				"8"
+		"ypos"				"20"
 		"zpos"				"5"
 		"wide"				"88"
 		"tall"				"20"
@@ -176,7 +176,7 @@
 		"dulltext"			"0"
 		"brighttext"		"0"
 		"wrap"				"0"
-		"font"				"ClockSubText"
+		"font"				"HudFontSmallest"
 	}	
 	"ServerTimeLimitLabelBG"
 	{
