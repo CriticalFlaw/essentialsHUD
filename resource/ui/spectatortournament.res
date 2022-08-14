@@ -63,117 +63,6 @@
 				"PaintBackgroundType"	"0"
 			}
 			
-			"HealthIcon"
-			{
-				"ControlName"	"EditablePanel"
-				"fieldName"		"HealthIcon"
-				"xpos"			"55"
-				"ypos"			"0"
-				"zpos"			"3"
-				"wide"			"f0"
-				"tall"			"12"
-				"visible"		"1"
-				"enabled"		"1"	
-				"HealthBonusPosAdj"			"10"
-				"HealthDeathWarning"		"0.49"
-				"HealthDeathWarningColor"	"HUDDeathWarning"
-				"TFFont"					"HudFontSmallest"
-				"TextColor"					"HudOffWhite"
-			}
-			
-			"ReadyBG"
-			{
-				"ControlName"	"ScalableImagePanel"
-				"fieldName"		"ReadyBG"
-				"xpos"			"30"
-				"ypos"			"6"
-				"zpos"			"-1"
-				"wide"			"16"
-				"tall"			"16"
-				"autoResize"	"0"
-				"pinCorner"		"0"
-				"visible"		"0"
-				"enabled"		"1"
-				"image"			"../HUD/tournament_panel_brown"
-
-				"src_corner_height"	"22"				// pixels inside the image
-				"src_corner_width"	"22"
-			
-				"draw_corner_width"	"3"				// screen size of the corners ( and sides ), proportional
-				"draw_corner_height" 	"3"
-			}
-			
-			"ReadyImage"
-			{
-				"ControlName"	"ImagePanel"
-				"fieldName"		"ReadyImage"
-				"xpos"			"32"
-				"ypos"			"8"
-				"zpos"			"0"
-				"wide"			"12"
-				"tall"			"12"
-				"autoResize"	"0"
-				"pinCorner"		"0"
-				"visible"		"0"
-				"enabled"		"1"
-				"image"			"hud/checkmark"
-				"scaleImage"	"1"
-			}
-			
-			"respawntime"
-			{
-				"ControlName"	"CExLabel"
-				"fieldName"		"respawntime"
-				"font"			"DefaultSmall"
-				"xpos"			"30"
-				"ypos"			"18"
-				"zpos"			"5"
-				"wide"			"23"
-				"tall"			"10"
-				"autoResize"	"0"
-				"pinCorner"		"0"
-				"visible"		"0"
-				"labelText"		"%respawntime%"
-				"textAlignment"	"west"
-				//"fgcolor"		"235 226 202 255"
-			}
-			
-			"chargeamount"
-			{
-				"ControlName"	"CExLabel"
-				"fieldName"		"chargeamount"
-				"font"			"DefaultSmall"
-				"xpos"			"25"
-				"ypos"			"17"
-				"zpos"			"6"
-				"wide"			"25"
-				"tall"			"15"
-				"autoResize"	"0"
-				"pinCorner"		"0"
-				"visible"		"0"
-				"labelText"		"%chargeamount%"
-				"textAlignment"	"north"
-				"fgcolor"		"0 255 0 255"
-			}
-			
-			"specindex"
-			{
-				"ControlName"	"CExLabel"
-				"fieldName"		"specindex"
-				"font"			"DefaultVerySmall"
-				"xpos"			"4"
-				"ypos"			"2"
-				"zpos"			"5"
-				"wide"			"50"
-				"tall"			"8"
-				"autoResize"	"0"
-				"pinCorner"		"0"
-				"visible"		"0"
-				"labelText"		"%specindex%"
-				"textAlignment"	"north-west"
-				//"fgcolor"		"235 226 202 255"
-			}
-			
 			"LoadoutIconsActiveItemRed"
 			{
 				"ControlName"		"ImagePanel"
@@ -294,6 +183,42 @@
 				"pin_to_sibling_corner" "PIN_TOPLEFT"
 			}
 			
+			"HealthIcon"
+			{
+				"ControlName"	"EditablePanel"
+				"fieldName"		"HealthIcon"
+				"xpos"			"55"
+				"ypos"			"0"
+				"zpos"			"3"
+				"wide"			"f0"
+				"tall"			"12"
+				"visible"		"1"
+				"enabled"		"1"	
+				"HealthBonusPosAdj"			"10"
+				"HealthDeathWarning"		"0.49"
+				"HealthDeathWarningColor"	"HUDDeathWarning"
+				"TFFont"					"HudFontSmallest"
+				"TextColor"					"HudOffWhite"
+			}
+			
+			"specindex"
+			{
+				"ControlName"	"CExLabel"
+				"fieldName"		"specindex"
+				"font"			"DefaultVerySmall"
+				"xpos"			"4"
+				"ypos"			"2"
+				"zpos"			"5"
+				"wide"			"50"
+				"tall"			"8"
+				"autoResize"	"0"
+				"pinCorner"		"0"
+				"visible"		"0"
+				"labelText"		"%specindex%"
+				"textAlignment"	"north-west"
+				//"fgcolor"		"235 226 202 255"
+			}
+			
 			"PlayerHealthRed"
 			{
 				"ControlName"		"ContinuousProgressBar"
@@ -390,6 +315,81 @@
 				"pin_to_sibling"		"RedPlayerName"
 				"pin_corner_to_sibling"	"PIN_TOPRIGHT"
 				"pin_to_sibling_corner"	"PIN_TOPRIGHT"
+			}
+			
+			"ReadyBG"
+			{
+				"ControlName"	"ScalableImagePanel"
+				"fieldName"		"ReadyBG"
+				"xpos"			"30"
+				"ypos"			"6"
+				"zpos"			"-1"
+				"wide"			"16"
+				"tall"			"16"
+				"autoResize"	"0"
+				"pinCorner"		"0"
+				"visible"		"0"
+				"enabled"		"1"
+				"image"			"../HUD/tournament_panel_brown"
+
+				"src_corner_height"	"22"				// pixels inside the image
+				"src_corner_width"	"22"
+			
+				"draw_corner_width"	"3"				// screen size of the corners ( and sides ), proportional
+				"draw_corner_height" 	"3"
+			}
+			
+			"ReadyImage"
+			{
+				"ControlName"	"ImagePanel"
+				"fieldName"		"ReadyImage"
+				"xpos"			"32"
+				"ypos"			"8"
+				"zpos"			"0"
+				"wide"			"12"
+				"tall"			"12"
+				"autoResize"	"0"
+				"pinCorner"		"0"
+				"visible"		"0"
+				"enabled"		"1"
+				"image"			"hud/checkmark"
+				"scaleImage"	"1"
+			}
+			
+			"respawntime"
+			{
+				"ControlName"	"CExLabel"
+				"fieldName"		"respawntime"
+				"font"			"DefaultSmall"
+				"xpos"			"30"
+				"ypos"			"18"
+				"zpos"			"5"
+				"wide"			"23"
+				"tall"			"10"
+				"autoResize"	"0"
+				"pinCorner"		"0"
+				"visible"		"0"
+				"labelText"		"%respawntime%"
+				"textAlignment"	"west"
+				//"fgcolor"		"235 226 202 255"
+			}
+			
+			"chargeamount"
+			{
+				"ControlName"	"CExLabel"
+				"fieldName"		"chargeamount"
+				"font"			"DefaultSmall"
+				"xpos"			"25"
+				"ypos"			"17"
+				"zpos"			"6"
+				"wide"			"25"
+				"tall"			"15"
+				"autoResize"	"0"
+				"pinCorner"		"0"
+				"visible"		"0"
+				"labelText"		"%chargeamount%"
+				"textAlignment"	"north"
+				"fgcolor"		"0 255 0 255"
 			}
 			
 			"StatusEffectIconRed"
@@ -588,6 +588,14 @@
 		"labelText"		"#game_respawntime_in_secs"
 		"textAlignment"	"center"
 		"font"			"HudFontSmall"
+		
+		if_mvm
+		{
+			"xpos"			"c-190"
+			"ypos"			"1"
+			"wide"			"380"
+			"textAlignment"		"center"
+		}
 	}
 	"BuyBackLabel"
 	{
@@ -606,6 +614,11 @@
 		"font"			"HudFontSmall"
 		"wrap"			"1"
 		"centerwrap"	"1"
+	
+		if_mvm
+		{
+			"visible"		"1"
+		}
 	}
 	"MapLabel"
 	{
@@ -624,7 +637,6 @@
 		"ControlName"	"CExLabel"
 		"fieldName"		"SwitchCamModeKeyLabel"
 		"visible"		"0"
-		
 	}
 	"SwitchCamModeLabel"
 	{

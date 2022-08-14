@@ -89,6 +89,7 @@
 		"wrap"			"1"
 		"centerwrap"	"1"
 	}
+	
 	"MapLabel"
 	{
 		"ControlName"	"CExLabel"
@@ -105,6 +106,7 @@
 		"labelText"		"map: cp_bridge"
 		"textAlignment"	"east"
 	}
+	
 	"ClassOrTeamLabel"
 	{
 		"ControlName"	"CExLabel"
@@ -122,6 +124,7 @@
 		"textAlignment"		"center"
 		"font"			"SpectatorKeyHints"
 	}
+	
 	"SwitchCamModeKeyLabel"
 	{
 		"ControlName"	"CExLabel"
@@ -139,6 +142,7 @@
 		"font"			"SpectatorKeyHints"
 		
 	}
+	
 	"SwitchCamModeLabel"
 	{
 		"ControlName"	"CExLabel"
@@ -155,6 +159,7 @@
 		"textAlignment"	"west"
 		"font"			"SpectatorKeyHints"
 	}
+	
 	"CycleTargetFwdKeyLabel"
 	{
 		"ControlName"	"CExLabel"
@@ -171,6 +176,7 @@
 		"textAlignment"	"east"
 		"font"			"SpectatorKeyHints"
 	}
+	
 	"CycleTargetFwdLabel"
 	{
 		"ControlName"	"CExLabel"
@@ -187,6 +193,7 @@
 		"textAlignment"	"west"
 		"font"			"SpectatorKeyHints"
 	}
+	
 	"CycleTargetRevKeyLabel"
 	{
 		"ControlName"	"CExLabel"
@@ -203,6 +210,7 @@
 		"textAlignment"	"east"
 		"font"			"SpectatorKeyHints"
 	}
+	
 	"CycleTargetRevLabel"
 	{
 		"ControlName"	"CExLabel"
@@ -219,6 +227,7 @@
 		"textAlignment"	"west"
 		"font"			"SpectatorKeyHints"
 	}
+	
 	"TipLabel"
 	{
 		"ControlName"	"CExLabel"
@@ -236,6 +245,7 @@
 		"font"			"SpectatorKeyHints"
 		"wrap"			"1"
 	}
+	
 	"itempanel"
 	{
 		"ControlName"	"CItemModelPanel"
@@ -291,6 +301,7 @@
 			"brighttext"	"0"
 		}
 	}	
+	
 	"spectator_extras"
 	{
 		"ControlName"	"EditablePanel"

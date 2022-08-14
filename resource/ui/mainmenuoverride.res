@@ -220,7 +220,7 @@
 		}
 		if_christmas
 		{
-			"image"		"../console/background_xmas2011_widescreen"
+			"image"		"../console/background_xmas2020_widescreen"
 		}		
 	}
 					
@@ -645,24 +645,6 @@
 				"keyboardinputenabled" "0"
 			}		
 		}
-	}
-
-	"StreamListPanel"
-	{
-		"ControlName"	"CTFStreamListPanel"
-		"fieldName"		"StreamListPanel"
-		"xpos"			"c5"
-		"ypos"			"65"
-		"zpos"			"1"
-		"wide"			"300"
-		"tall"			"350"
-		"visible"		"0"
-		"PaintBackgroundType"	"2"
-		"paintbackground"	"0"
-		"border"		"MainMenuHighlightBorder"
-
-		"navDown"		"SettingsButton"		// when a sub element can't nav down it will pass through this
-		"navLeft"		"WatchStreamButton"	// when a sub element can't nav left it will pass through this
 	}
 
 	"QuestLogButton"
@@ -1823,23 +1805,28 @@
 				{
 					"0"
 					{
-						"item"		"Winter 2019 Cosmetic Key"
+						"item"		"Winter 2021 Cosmetic Key"
 						"show_market"	"0"
 					}
 					"1"
 					{
-						"item"		"Winter 2019 Cosmetic Case"
+						"item"		"Winter 2021 Cosmetic Case"
 						"show_market"	"1"
 					}
 					"2"
 					{
-						"item"		"Winter 2019 War Paint Key"
+						"item"		"Taunt: Doctor's Defibrillators"
 						"show_market"	"0"
 					}
 					"3"
 					{
-						"item"		"Winter 2019 War Paint Case"
-						"show_market"	"1"
+						"item"		"Taunt: Shooter's Stakeout"
+						"show_market"	"0"
+					}
+					"4"
+					{
+						"item"		"Taunt: The Hot Wheeler"
+						"show_market"	"0"
 					}
 				}
 			}
@@ -2015,7 +2002,7 @@
 		"fieldName"		"ShowPromoCodesButton"
 		"xpos"			"c30"
 		"ypos"			"385"
-		"zpos"			"5"
+		"zpos"			"0"
 		"wide"			"250"
 		"tall"			"26"
 		"autoResize"	"0"
