@@ -81,7 +81,7 @@
 		"zpos"					"0"
 		"wide"					"25"
 		"tall"					"25"
-		"fillcolor"				"BlueTeam"
+		"fillcolor"				"Transparent"
 		
 		"pin_to_sibling"		"CenterAnchor"
 		"pin_corner_to_sibling"	"PIN_TOPRIGHT"
@@ -100,7 +100,7 @@
 		"labelText"				"%blueteamscore%"
 		"textAlignment"			"center"
 		"visible"				"1"
-		"fgcolor_override"		"White"
+		"fgcolor_override"		"BlueTeam"
 
 		"pin_to_sibling"		"TeamScoreBluBG"
 		"pin_corner_to_sibling"	"PIN_CENTER_TOP"
@@ -149,7 +149,7 @@
 		"labelText"				"%redteamscore%"
 		"textAlignment"			"center"
 		"visible"				"1"
-		"fgcolor_override"		"White"
+		"fgcolor_override"		"RedTeam"
 
 		"pin_to_sibling"		"TeamScoreRedBG"
 		"pin_corner_to_sibling"	"PIN_CENTER_TOP"
@@ -224,7 +224,7 @@
 		"zpos"					"0"
 		"wide"					"25"
 		"tall"					"25"
-		"fillcolor"				"RedTeam"
+		"fillcolor"				"Transparent"
 		"pin_to_sibling"		"CenterAnchor"
 		"pin_corner_to_sibling"	"PIN_TOPLEFT"
 		"pin_to_sibling_corner"	"PIN_TOPLEFT"
@@ -243,7 +243,7 @@
 		"labelText"				"%customtext1%"
 		"textAlignment"			"center"
 		"visible"				"0"
-		"fgcolor_override"		"White"
+		"fgcolor_override"		"RedTeam"
 		
 		"pin_to_sibling"		"CenterAnchor"
 		"pin_corner_to_sibling"	"PIN_BOTTOMLEFT"

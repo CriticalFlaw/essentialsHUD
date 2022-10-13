@@ -38,7 +38,7 @@
 		"pinCorner"		"0"
 		"visible"		"0"
 		"enabled"		"1"
-		"fillcolor"		"184 128 53 255"
+		"fillcolor"		"BlueTeam"
 		
 		"src_corner_height"		"23"			// pixels inside the image
 		"src_corner_width"		"23"
@@ -59,7 +59,7 @@
 		"pinCorner"		"0"
 		"visible"		"0"
 		"enabled"		"1"
-		"fillcolor"		"195 108 45 255"
+		"fillcolor"		"RedTeam"
 		
 		"src_corner_height"		"23"			// pixels inside the image
 		"src_corner_width"		"23"
@@ -138,7 +138,7 @@
 		"xpos"			"0"
 		"ypos"			"15"
 		"zpos"			"5"
-		"wide"			"35"
+		"wide"			"50"
 		"tall"			"30"
 		"visible"		"0"
 		"enabled"		"0"	
