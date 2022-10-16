@@ -19,8 +19,8 @@ Scheme
 	Colors
 	{
 		// theme colors
-		"BlueTeam"			"184 128 53 255"
-		"RedTeam"			"195 108 45 255"
+		"BlueTeam"			"123 87 168 255"
+		"RedTeam"			"132 168 87 255"
 		
 		// base colors
 		"Orange"			"178 82 22 255"
