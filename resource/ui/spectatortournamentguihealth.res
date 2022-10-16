@@ -75,7 +75,7 @@
 		"labelText"		"%Health%"
 		"textAlignment"	"center"
 		"textinsetx"	"4"
-		"fgcolor"		"White"
+		"fgcolor"		"TanLight"
 		"proportionaltoparent"	"1"
 	}
 	"RedPlayerHealthShadow"
@@ -114,7 +114,7 @@
 		"labelText"		"%Health%"
 		"textAlignment"	"center"
 		"textinsetx"	"4"
-		"fgcolor"		"White"
+		"fgcolor"		"TanLight"
 		"proportionaltoparent"	"1"
 	}
 	"BluePlayerHealthShadow"
