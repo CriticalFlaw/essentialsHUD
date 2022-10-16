@@ -64,19 +64,19 @@
 		"image"				"../hud/objectives_timepanel_suddendeath"	
 		"scaleImage"		"1"
 	}
-	"OvertimeLabel"
+	"OvertimeLabel" // disabled for now, weirdly positioned for 5CP and doesn't appear on the KOTH HUD currently anyway.
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"			"OvertimeLabel"
-		"xpos"				"0"
-		"ypos"				"34"
+		"xpos"				"7"
+		"ypos"				"20"
 		"zpos"				"5"
-		"wide"				"88"
-		"tall"				"20"
+		"wide"				"0" // was 43
+		"tall"				"0" // was 20
 		"visible"			"0"
-		"enabled"			"1"
+		"enabled"			"0"
 		"labelText"			"#game_Overtime"
-		"textAlignment"		"center"
+		"textAlignment"		"west"
 		"dulltext"			"0"
 		"brighttext"		"0"
 		"wrap"				"0"
