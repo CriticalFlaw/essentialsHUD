@@ -32,7 +32,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"xpos"			"0"
-		"ypos"			"0"
+		"ypos"			"0" // "0" for standard CP icon placement, "-44" for lower third sponsor placement
 		"wide"			"f0"
 		"tall"			"480"
 	}
@@ -42,14 +42,14 @@
 		"fieldName"		"HudKothTimeStatus"
 		"visible"		"1"
 		"enabled"		"1"
-		"xpos"			"c-43"
+		"xpos"			"c-44"
 		"ypos"			"0"
 		"zpos"			"5"
 		"wide"			"200"
 		"tall"			"160"
 		
 		"blue_active_xpos"	"0"
-		"red_active_xpos"	"43"
+		"red_active_xpos"	"44"
 	}
 	
 	HudItemEffectMeter
@@ -492,12 +492,12 @@
 		
 		"TextFont"				"HudFontSmallest"
 		
-		"TeamBlue"				"HUDBlueTeamSolid"
-		"TeamRed"				"HUDRedTeamSolid"
+		"TeamBlue"				"BlueTeam"
+		"TeamRed"				"RedTeam"
 		"IconColor"				"HudWhite"
 		"LocalPlayerColor"		"HUDBlack"
 		
-		"BaseBackgroundColor"	"0 0 0 200"
+		"BaseBackgroundColor"	"0 0 0 255"
 		"LocalBackgroundColor"	"245 229 196 200"
 	}
 	
