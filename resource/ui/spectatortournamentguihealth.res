@@ -111,7 +111,7 @@
 		"wide"			"25"
 		"tall"			"20"
 		"font"			"HudFontSmallestBold"
-		"labelText"		"1500"
+		"labelText"		"%Health%"
 		"textAlignment"	"east"
 		"textinsetx"	"4"
 		"fgcolor"		"White"
