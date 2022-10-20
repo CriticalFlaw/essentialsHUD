@@ -487,17 +487,17 @@
 		"IconScale"	  "0.35"
 		"LineHeight"	  "16"
 		"LineSpacing"	  "1"
-		"CornerRadius"	  "0"
+		"CornerRadius"	  "2"
 		"RightJustify"	  "1"	// If 1, draw notices from the right
 		
 		"TextFont"				"RobotoBold11"
 		
-		"TeamBlue"				"HUDBlueTeamSolid"
-		"TeamRed"				"HUDRedTeamSolid"
+		"TeamBlue"				"HUDBlueTeam"
+		"TeamRed"				"HUDRedTeam"
 		"IconColor"				"HudWhite"
 		"LocalPlayerColor"		"HUDBlack"
 		
-		"BaseBackgroundColor"	"0 0 0 200"
+		"BaseBackgroundColor"	"0 0 0 255"
 		"LocalBackgroundColor"	"245 229 196 200"
 	}
 	

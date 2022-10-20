@@ -383,7 +383,7 @@
 			"enabled"		"1"
 			"image"			"capture_icon_white"
 			"scaleImage"	"1"
-			"fgcolor"		"White"
+			"fgcolor"		"TanLight"
 			
 			"pin_to_sibling"		"CapNumPlayers"
 			"pin_corner_to_sibling"	"PIN_CENTER_RIGHT"

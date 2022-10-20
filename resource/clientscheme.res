@@ -22,8 +22,10 @@ Scheme
 		//---------------------------------------------
 		"HealthBuff"				"58 225 25 255"
 		"HealthLow"					"223 142 0 255"
-		"BlueTeam"			"184 128 53 255"
-		"RedTeam"			"195 108 45 255"
+		"BlueTeam"					"57 92 120 255"
+		"RedTeam"					"157 49 47 255"
+		"BlueTeamBuff"				"87 145 191 255"
+		"RedTeamBuff"				"209 73 71 255"
 		
 		// base colors
 		"Orange"					"178 82 22 255"
@@ -71,8 +73,8 @@ Scheme
 		"HUDBlueTeam"				"57 92 120 255"
 		"HUDRedTeam"				"157 49 47 255"
 		"HUDSpectator"				"124 124 124 127"
-		"HUDBlueTeamSolid"			"57 92 120 255"
-		"HUDRedTeamSolid"			"157 47 49 255"
+		"HUDBlueTeamSolid"			"38 55 63 255"
+		"HUDRedTeamSolid"			"89 24 23 255"
 		"HUDDeathWarning"			"255 0 0 255"
 		"HudWhite"					"255 255 255 255"
 		"HudOffWhite"				"200 187 161 255"

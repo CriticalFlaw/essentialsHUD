@@ -86,7 +86,7 @@
 		"pinCorner"			"0"
 		"visible"			"1"
 		"enabled"			"1"
-		"fgcolor"			"White"
+		"fgcolor"			"TanLight"
 		"TextInsetX"		"100"
 		
 		"pin_to_sibling"		"BlueBG"
@@ -115,7 +115,7 @@
 		"pinCorner"			"0"
 		"visible"			"1"
 		"enabled"			"1"
-		"fgcolor"			"White"
+		"fgcolor"			"TanLight"
 		"TextInsetX"		"20"
 		
 		"pin_to_sibling"		"BlueBG"
@@ -219,7 +219,7 @@
 		"pinCorner"			"0"
 		"visible"			"1"
 		"enabled"			"1"
-		"fgcolor"			"White"
+		"fgcolor"			"TanLight"
 		"TextInsetX"		"100"
 		
 		"pin_to_sibling"		"RedBG"
@@ -248,7 +248,7 @@
 		"pinCorner"			"0"
 		"visible"			"1"
 		"enabled"			"1"
-		"fgcolor"			"White"
+		"fgcolor"			"TanLight"
 		"TextInsetX"		"20"
 		
 		"pin_to_sibling"		"RedBG"
@@ -581,7 +581,7 @@
 		"pinCorner"			"0"
 		"visible"			"0"
 		"enabled"			"0"
-		"fgcolor"			"White"
+		"fgcolor"			"TanLight"
 		
 		if_mvm
 		{
@@ -873,7 +873,7 @@
 			"pinCorner"			"0"
 			"visible"			"1"
 			"enabled"			"1"
-			"fgcolor"			"White"
+			"fgcolor"			"TanLight"
 		}
 		
 		"DeathsLabel"
@@ -949,7 +949,7 @@
 			"pinCorner"			"0"
 			"visible"			"0"
 			"enabled"			"0"
-			"fgcolor"			"White"
+			"fgcolor"			"TanLight"
 		
 			"pin_to_sibling"		"KillsLabel"
 			"pin_corner_to_sibling"	"PIN_TOPRIGHT"
@@ -971,7 +971,7 @@
 			"pinCorner"			"0"
 			"visible"			"0"
 			"enabled"			"0"
-			"fgcolor"			"White"
+			"fgcolor"			"TanLight"
 		
 			"pin_to_sibling"		"KillsLabel"
 			"pin_corner_to_sibling"	"PIN_TOPRIGHT"
@@ -994,7 +994,7 @@
 			"pinCorner"			"0"
 			"visible"			"0"
 			"enabled"			"0"
-			"fgcolor"			"White"
+			"fgcolor"			"TanLight"
 		}
 		"Assists"
 		{
