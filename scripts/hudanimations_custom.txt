@@ -1,8 +1,8 @@
 //Health Bonus Pulse
 event HudHealthBonusPulse
 {
-	Animate RedPlayerHealth				FgColor		"TanLight"	Linear 0.0 0.0
-	Animate BluePlayerHealth			FgColor		"TanLight"	Linear 0.0 0.0
+	Animate RedPlayerHealth				FgColor		"HealthBuff"	Linear 0.0 0.0
+	Animate BluePlayerHealth			FgColor		"HealthBuff"	Linear 0.0 0.0
 	
 	Animate PlayerStatusHealthValue		FgColor		"HealthBuff"	Linear 0.0 0.0
 	Animate PlayerStatusHealthValue		FgColor		"HealthBuff"	Linear 0.0 0.0
@@ -27,8 +27,8 @@ event HudHealthBonusPulseStop
 //Health Dying Pulse
 event HudHealthDyingPulse
 {
-	Animate RedPlayerHealth				FgColor		"TanLight"		Linear 0.0 0.0
-	Animate BluePlayerHealth			FgColor		"TanLight"		Linear 0.0 0.0
+	Animate RedPlayerHealth				FgColor		"HealthLow"		Linear 0.0 0.0
+	Animate BluePlayerHealth			FgColor		"HealthLow"		Linear 0.0 0.0
 
 	Animate PlayerStatusHealthValue		FgColor		"HealthLow"		Linear 0.0 0.0
 	Animate PlayerStatusHealthValue		FgColor		"HealthLow"		Linear 0.0 0.0
