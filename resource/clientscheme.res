@@ -18,9 +18,16 @@ Scheme
 	//////////////////////// COLORS ///////////////////////////
 	Colors
 	{
-		// theme colors
-		"BlueTeam"			"123 87 168 255"
-		"RedTeam"			"132 168 87 255"
+		// HUD COLORS
+		//---------------------------------------------
+		"HealthBuff"				"58 225 25 255"
+		"HealthLow"					"223 142 0 255"
+		"BlueTeam"					"123 87 168 255"
+		"RedTeam"					"132 168 87 255"
+		"BlueTeamLight"				"157 112 216 255"
+		"RedTeamLight"				"171 216 112 255"
+		"BlueTeamDark"				"46 33 63 255"
+		"RedTeamDark"				"50 63 23 255"
 		
 		// base colors
 		"Orange"			"178 82 22 255"
@@ -60,15 +67,16 @@ Scheme
 		"GreenSolid"		 "76 107 34 255"
 
 		"Black"				"46 43 42 255"
+		"Transparent"		"0 0 0 0"
 		"TransparentBlack"	"0 0 0 196"
 		"TransparentLightBlack"	"0 0 0 90"
 		"FooterBGBlack"		"52 48 55 255"
 
-		"HUDBlueTeam"		"104 124 155 127"
-		"HUDRedTeam"		"180 92 77 127"
+		"HUDBlueTeam"		"57 92 120 255"
+		"HUDRedTeam"		"157 49 47 255"
 		"HUDSpectator"		"124 124 124 127"
-		"HUDBlueTeamSolid"	"104 124 155 255"
-		"HUDRedTeamSolid"	"180 92 77 255"
+		"HUDBlueTeamSolid"	"38 55 63 255"
+		"HUDRedTeamSolid"	"89 24 23 255"
 		"HUDDeathWarning"	"255 0 0 255"
 		"HudWhite"			"255 255 255 255"
 		"HudOffWhite"		"200 187 161 255"
