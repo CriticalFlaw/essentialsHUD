@@ -226,7 +226,7 @@
 	{
 		"ControlName"			"CExLabel"
 		"fieldName"				"WinReasonLabel"
-		"font"					"HudFontMediumSecondary"
+		"font"					"HudFontMediumSmallSecondary"
 		"xpos"					"0"
 		"ypos"					"30"
 		"zpos"					"1"
@@ -254,7 +254,7 @@
 	{
 		"ControlName"			"CExLabel"
 		"fieldName"				"WinReasonLabelShadow"
-		"font"					"HudFontMediumSecondary"
+		"font"					"HudFontMediumSmallSecondary"
 		"xpos"					"-2"
 		"ypos"					"-2"
 		"zpos"					"1"
@@ -282,7 +282,7 @@
 	{
 		"ControlName"			"CExLabel"
 		"fieldName"				"DetailsLabel"
-		"font"					"HudFontMediumSecondary"
+		"font"					"HudFontMediumSmallSecondary"
 		"xpos"					"0"
 		"ypos"					"0"
 		"zpos"					"1"

@@ -243,7 +243,7 @@
 		"labelText"				"%customtext1%"
 		"textAlignment"			"center"
 		"visible"				"0"
-		"fgcolor_override"		"RedTeam"
+		"fgcolor_override"		"TanLight"
 		
 		"pin_to_sibling"		"CenterAnchor"
 		"pin_corner_to_sibling"	"PIN_BOTTOMLEFT"
@@ -263,7 +263,7 @@
 		"labelText"				"%customtext2%"
 		"textAlignment"			"center"
 		"visible"				"0"
-		"fgcolor_override"		"White"
+		"fgcolor_override"		"TanLight"
 		
 		"pin_to_sibling"		"CenterAnchor"
 		"pin_corner_to_sibling"	"PIN_BOTTOMLEFT"
@@ -283,7 +283,7 @@
 		"labelText"				"%customtext3%"
 		"textAlignment"			"center"
 		"visible"				"0"
-		"fgcolor_override"		"White"
+		"fgcolor_override"		"TanLight"
 		
 		"pin_to_sibling"		"CenterAnchor"
 		"pin_corner_to_sibling"	"PIN_BOTTOMLEFT"
@@ -303,7 +303,7 @@
 		"labelText"				"%customtext4%"
 		"textAlignment"			"center"
 		"visible"				"0"
-		"fgcolor_override"		"White"
+		"fgcolor_override"		"TanLight"
 		
 		"pin_to_sibling"		"CenterAnchor"
 		"pin_corner_to_sibling"	"PIN_BOTTOMLEFT"

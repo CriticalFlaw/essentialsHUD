@@ -285,22 +285,22 @@
 		"PositiveColor"			"0 255 0 255"
 		"NegativeColor"			"255 0 0 255"
 		"delta_lifetime"		"1.5"
-		"delta_item_font"		"HudFontMedium"
+		"delta_item_font"		"HudFontMediumSmallSecondary"
 		
 		"TimePanelValue"
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"TimePanelValue"
-			"font"			"HudFontMediumSmall"
+			"font"			"HudFontMediumSmallSecondary"
 			"fgcolor"		"TanLight"
 			"xpos"			"0"
-			"ypos"			"0"
+			"ypos"			"1"
 			"zpos"			"3"
 			"wide"			"88"
 			"tall"			"25"
 			"visible"		"1"
 			"enabled"		"1"
-			"textAlignment"	"center"
+			"textAlignment"	"north"
 			"labelText"		"0:00"
 		}
 	}

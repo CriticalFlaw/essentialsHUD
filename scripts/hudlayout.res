@@ -733,7 +733,7 @@
 		"ypos" "0" [$WIN32]
 		"xpos" "r210" [$X360]
 		"ypos" "0" [$X360]
-		"wide" "145"
+		"wide" "0"
 		"tall" "400"
 		
 		"item_wide"	"135"
