@@ -482,7 +482,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Roboto Bold"
+				"name"		"DAGGERSQUARE"
 				"tall"		"55"
 				"additive"	"0"
 				"antialias" "1"
@@ -492,7 +492,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Roboto Bold"
+				"name"		"DAGGERSQUARE"
 				"tall"		"34"
 				"additive"	"0"
 				"antialias" "1"
@@ -502,7 +502,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Roboto Bold"
+				"name"		"DAGGERSQUARE"
 				"tall"		"30"
 				"additive"	"0"
 				"antialias" "1"
@@ -512,7 +512,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Roboto Bold"
+				"name"		"DAGGERSQUARE"
 				"tall"		"28"
 				"additive"	"0"
 				"antialias" "1"
@@ -522,7 +522,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Roboto Bold"
+				"name"		"DAGGERSQUARE"
 				"tall"		"26"
 				"additive"	"0"
 				"antialias" "1"
@@ -532,7 +532,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Roboto Bold"
+				"name"		"DAGGERSQUARE"
 				"tall"		"24"
 				"additive"	"0"
 				"antialias" "1"
@@ -542,7 +542,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Roboto Bold"
+				"name"		"DAGGERSQUARE"
 				"tall"		"22"
 				"additive"	"0"
 				"antialias" "1"
@@ -552,7 +552,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Roboto Bold"
+				"name"		"DAGGERSQUARE"
 				"tall"		"20"
 				"additive"	"0"
 				"antialias" "1"
@@ -562,7 +562,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Roboto Bold"
+				"name"		"DAGGERSQUARE"
 				"tall"		"18"
 				"additive"	"0"
 				"antialias" "1"
@@ -572,7 +572,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Roboto Bold"
+				"name"		"DAGGERSQUARE"
 				"tall"		"16"
 				"additive"	"0"
 				"antialias" "1"
@@ -582,7 +582,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Roboto Bold"
+				"name"		"DAGGERSQUARE"
 				"tall"		"14"
 				"additive"	"0"
 				"antialias" "1"
@@ -592,7 +592,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Roboto Bold"
+				"name"		"DAGGERSQUARE"
 				"tall"		"12"
 				"additive"	"0"
 				"antialias" "1"
@@ -602,7 +602,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Roboto Bold"
+				"name"		"DAGGERSQUARE"
 				"tall"		"11"
 				"additive"	"0"
 				"antialias" "1"
@@ -612,7 +612,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Roboto Bold"
+				"name"		"DAGGERSQUARE"
 				"tall"		"10"
 				"additive"	"0"
 				"antialias" "1"
@@ -622,7 +622,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Roboto Bold"
+				"name"		"DAGGERSQUARE"
 				"tall"		"9"
 				"additive"	"0"
 				"antialias" "1"
@@ -632,7 +632,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Roboto Bold"
+				"name"		"DAGGERSQUARE"
 				"tall"		"8"
 				"additive"	"0"
 				"antialias" "1"
@@ -642,7 +642,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Roboto Bold"
+				"name"		"DAGGERSQUARE"
 				"tall"		"7"
 				"additive"	"0"
 				"antialias" "1"
@@ -653,7 +653,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Roboto Regular"
+				"name"		"DAGGERSQUARE OBLIQUE"
 				"tall"		"55"
 				"additive"	"0"
 				"antialias" "1"
@@ -663,7 +663,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Roboto Regular"
+				"name"		"DAGGERSQUARE OBLIQUE"
 				"tall"		"34"
 				"additive"	"0"
 				"antialias" "1"
@@ -673,7 +673,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Roboto Regular"
+				"name"		"DAGGERSQUARE OBLIQUE"
 				"tall"		"30"
 				"additive"	"0"
 				"antialias" "1"
@@ -683,7 +683,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Roboto Regular"
+				"name"		"DAGGERSQUARE OBLIQUE"
 				"tall"		"28"
 				"additive"	"0"
 				"antialias" "1"
@@ -693,7 +693,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Roboto Regular"
+				"name"		"DAGGERSQUARE OBLIQUE"
 				"tall"		"26"
 				"additive"	"0"
 				"antialias" "1"
@@ -703,7 +703,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Roboto Regular"
+				"name"		"DAGGERSQUARE OBLIQUE"
 				"tall"		"24"
 				"additive"	"0"
 				"antialias" "1"
@@ -713,7 +713,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Roboto Regular"
+				"name"		"DAGGERSQUARE OBLIQUE"
 				"tall"		"22"
 				"additive"	"0"
 				"antialias" "1"
@@ -723,7 +723,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Roboto Regular"
+				"name"		"DAGGERSQUARE OBLIQUE"
 				"tall"		"20"
 				"additive"	"0"
 				"antialias" "1"
@@ -733,7 +733,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Roboto Regular"
+				"name"		"DAGGERSQUARE OBLIQUE"
 				"tall"		"18"
 				"additive"	"0"
 				"antialias" "1"
@@ -743,7 +743,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Roboto Regular"
+				"name"		"DAGGERSQUARE OBLIQUE"
 				"tall"		"16"
 				"additive"	"0"
 				"antialias" "1"
@@ -753,7 +753,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Roboto Regular"
+				"name"		"DAGGERSQUARE OBLIQUE"
 				"tall"		"14"
 				"additive"	"0"
 				"antialias" "1"
@@ -763,7 +763,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Roboto Regular"
+				"name"		"DAGGERSQUARE OBLIQUE"
 				"tall"		"12"
 				"additive"	"0"
 				"antialias" "1"
@@ -773,7 +773,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Roboto Regular"
+				"name"		"DAGGERSQUARE OBLIQUE"
 				"tall"		"11"
 				"additive"	"0"
 				"antialias" "1"
@@ -783,7 +783,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Roboto Regular"
+				"name"		"DAGGERSQUARE OBLIQUE"
 				"tall"		"10"
 				"additive"	"0"
 				"antialias" "1"
@@ -793,7 +793,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Roboto Regular"
+				"name"		"DAGGERSQUARE OBLIQUE"
 				"tall"		"9"
 				"additive"	"0"
 				"antialias" "1"
@@ -803,7 +803,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Roboto Regular"
+				"name"		"DAGGERSQUARE OBLIQUE"
 				"tall"		"8"
 				"additive"	"0"
 				"antialias" "1"
@@ -814,7 +814,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Roboto Regular"
+				"name"		"DAGGERSQUARE OBLIQUE"
 				"tall"		"14"
 				"weight"	"900"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
@@ -822,7 +822,7 @@ Scheme
 			}
 			"2"
 			{
-				"name"		"Roboto Regular"
+				"name"		"DAGGERSQUARE OBLIQUE"
 				"tall"		"15"	[$WIN32]
 				"tall"		"20"	[$X360]
 				"weight"	"900"
@@ -831,7 +831,7 @@ Scheme
 			}
 			"3"
 			{
-				"name"		"Roboto Regular"
+				"name"		"DAGGERSQUARE OBLIQUE"
 				"tall"		"16"
 				"weight"	"900"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
@@ -840,7 +840,7 @@ Scheme
 			}
 			"4"
 			{
-				"name"		"Roboto Regular"
+				"name"		"DAGGERSQUARE OBLIQUE"
 				"tall"		"22"
 				"weight"	"900"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
@@ -849,7 +849,7 @@ Scheme
 			}
 			"5"
 			{
-				"name"		"Roboto Regular"
+				"name"		"DAGGERSQUARE OBLIQUE"
 				"tall"		"26"
 				"weight"	"900"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
@@ -858,14 +858,14 @@ Scheme
 			}
 			"6"
 			{
-				"name"		"Roboto Regular"
+				"name"		"DAGGERSQUARE OBLIQUE"
 				"tall"		"14"
 				"range" 	"0x0000 0x00FF"
 				"weight"	"900"
 			}
 			"7"
 			{
-				"name"		"Roboto Regular"
+				"name"		"DAGGERSQUARE OBLIQUE"
 				"tall"		"14"
 				"range" 	"0x0000 0x00FF"
 				"weight"	"800"
@@ -6259,13 +6259,13 @@ Scheme
 		}
 		"8"
 		{
-			"font"	"resource/fonts/Roboto-Bold.ttf"
-			"name"	"Roboto Bold"
+			"font"	"resource/fonts/DAGGERSQUARE.otf"
+			"name"	"DAGGERSQUARE"
 		}
 		"9"
 		{
-			"font"	"resource/fonts/Roboto-Black.ttf"
-			"name"	"Roboto Regular"
+			"font"	"resource/fonts/DAGGERSQUARE_OBLIQUE.otf"
+			"name"	"DAGGERSQUARE OBLIQUE"
 		}
 	}
 }
