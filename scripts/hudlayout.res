@@ -43,7 +43,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"xpos"			"c-44"
-		"ypos"			"0"
+		"ypos"			"30"
 		"zpos"			"5"
 		"wide"			"200"
 		"tall"			"160"
@@ -479,7 +479,7 @@
 		"visible" "1"
 		"enabled" "1"
 		"xpos"	 "r630"
-		"ypos"	 "30"
+		"ypos"	 "55"
 		"wide"	 "628"
 		"tall"	 "468"
 		
@@ -492,8 +492,8 @@
 		
 		"TextFont"				"RobotoBold10"
 		
-		"TeamBlue"				"BlueTeam"
-		"TeamRed"				"RedTeam"
+		"TeamBlue"				"BlueTeamBuff"
+		"TeamRed"				"RedTeamBuff"
 		"IconColor"				"HudWhite"
 		"LocalPlayerColor"		"HUDBlack"
 		
@@ -1140,7 +1140,7 @@
 		"visible"				"1"
 		"enabled"				"1"
 		"xpos"					"c-44"
-		"ypos"					"25"
+		"ypos"					"55"
 		"zpos"					"5"
 		"wide"					"88"
 		"tall"					"25"
@@ -1471,7 +1471,7 @@
 		"visible"				"1"
 		"enabled"				"1"
 		"xpos"					"0"
-		"ypos"					"0"
+		"ypos"					"30"
 		"zpos"					"3"
 		"wide"					"f0"
 		"tall"					"f0"

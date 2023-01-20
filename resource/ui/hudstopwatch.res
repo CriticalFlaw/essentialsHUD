@@ -8,7 +8,7 @@
 		"ypos"				"0"
 		"zpos"				"0"
 		"wide"				"88"
-		"tall"				"25"
+		"tall"				"0"
 		"visible"			"1"
 		"enabled"			"1"
 		"bgcolor_override"	"0 0 0 230"
