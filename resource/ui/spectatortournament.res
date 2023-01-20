@@ -205,10 +205,10 @@
 				"ypos"				"0"
 				"zpos"				"-2"
 				"wide"				"98"
-				"tall"				"0"		// Change to "16" to enable.
+				"tall"				"16"		// Change to "16" to enable.
 				"progress"			"1"
 				"direction"			"west"
-				"bgcolor_override"	"0 0 0 0"
+				"bgcolor_override"	"RedTeam"
 				"fgcolor_override"	"RedTeamBuff"
 				"pin_to_sibling"		"PlayerHealthRed"
 				"pin_corner_to_sibling"	"PIN_TOPRIGHT"
@@ -239,10 +239,10 @@
 				"ypos"				"0"
 				"zpos"				"-2"
 				"wide"				"98"
-				"tall"				"0"		// Change to "16" to enable.
+				"tall"				"16"		// Change to "16" to enable.
 				"progress"			"1"
 				"direction"			"east"
-				"bgcolor_override"	"0 0 0 0"
+				"bgcolor_override"	"BlueTeam"
 				"fgcolor_override"	"BlueTeamBuff"
 				"pin_to_sibling"		"PlayerHealthBlue"
 				"pin_corner_to_sibling"	"PIN_TOPLEFT"
