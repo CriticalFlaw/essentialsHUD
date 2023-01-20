@@ -49,7 +49,7 @@
 			"ControlName"	"CExLabel"
 			"fieldName"		"TimePanelValue"
 			"font"			"RobotoBold11"
-			"fgcolor"		"TanLight"
+			"fgcolor"		"White"
 			"xpos"			"58"
 			"ypos"			"0"
 			"zpos"			"3"

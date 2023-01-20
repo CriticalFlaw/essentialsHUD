@@ -191,7 +191,7 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"fgcolor_override" "TanLight"
+		"fgcolor_override" "White"
 	}
 	"MapType"
 	{
@@ -209,7 +209,7 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"fgcolor_override" "TanLight"
+		"fgcolor_override" "White"
 	}
 	
 	"StatData"

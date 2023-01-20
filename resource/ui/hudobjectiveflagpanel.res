@@ -59,7 +59,7 @@
 		"tall"			"34"
 		"visible"		"1"
 		"enabled"		"1"
-		"bgcolor_override"		"HUDBlueTeam"
+		"bgcolor_override"		"BlueTeam"
 		"PaintBackgroundType"	"2"
 		
 		"pin_to_sibling"		"LeftSideBG"
@@ -127,7 +127,7 @@
 		"tall"			"34"
 		"visible"		"1"
 		"enabled"		"1"
-		"bgcolor_override"		"HUDRedTeam"
+		"bgcolor_override"		"RedTeam"
 		"PaintBackgroundType"	"2"
 		
 		"pin_to_sibling"		"RightSideBG"
@@ -171,7 +171,7 @@
 		"textAlignment"	"west"
 		"labelText"		"%bluescore%"
 		"font"			"RobotoBold30"
-		"fgcolor"		"TanLight"
+		"fgcolor"		"White"
 		
 		"pin_to_sibling"		"LeftSideBG2"
 		"pin_corner_to_sibling"	"PIN_TOPLEFT"
@@ -243,7 +243,7 @@
 		"textAlignment"	"east"
 		"labelText"		"%redscore%"
 		"font"			"RobotoBold30"
-		"fgcolor"		"TanLight"
+		"fgcolor"		"White"
 		
 		"pin_to_sibling"		"RightSideBG2"
 		"pin_corner_to_sibling"	"PIN_TOPRIGHT"
@@ -357,7 +357,7 @@
 		"dulltext"		"0"
 		"brighttext"	"0"
 		"font"			"HudFontSmallest"
-		"fgcolor"		"TanLight"
+		"fgcolor"		"White"
 		
 		"pin_to_sibling"		"PlayingToBG"
 		"pin_corner_to_sibling"	"PIN_TOPLEFT"
@@ -542,7 +542,7 @@
 		"textAlignment"	"center"	
 		"labelText"		"%redscore%"
 		"font"			"HudFontMediumBold"
-		"fgcolor"		"TanLight"
+		"fgcolor"		"White"
 	}
 	
 	"SpecCarriedImage"

@@ -380,7 +380,7 @@
 		"textinsety"	"10"
 
 		"font"			"HudFontSmallestBold"
-		"fgcolor_override"	"TanLight"
+		"fgcolor_override"	"White"
 		"labelText"		"#TF_MM_NoGC_Rank"
 		"textAlignment"	"north-west"
 		"use_proportional_insets"	"1"

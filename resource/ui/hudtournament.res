@@ -735,7 +735,7 @@
 		"ControlName"		"CExLabel"
 		"fieldName"		"TournamentConditionLabel"
 		"font"			"TFFontSmall"
-		"fgcolor"		"TanLight"
+		"fgcolor"		"White"
 		"xpos"			"8"
 		"ypos"			"42"
 		"zpos"			"1"
@@ -1012,7 +1012,7 @@
 		{
 			"xpos"			"cs-0.5"
 			"ypos"			"cs-0.1"
-			"fgcolor"		"TanLight"
+			"fgcolor"		"White"
 			"font"			"HudFontGiant"
 		}
 

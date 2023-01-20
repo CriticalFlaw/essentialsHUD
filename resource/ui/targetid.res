@@ -38,7 +38,7 @@
 		"pinCorner"		"0"
 		"visible"		"0"
 		"enabled"		"1"
-		"fillcolor"		"HUDBlueTeam"
+		"fillcolor"		"BlueTeam"
 		
 		"src_corner_height"		"23"			// pixels inside the image
 		"src_corner_width"		"23"
@@ -59,7 +59,7 @@
 		"pinCorner"		"0"
 		"visible"		"0"
 		"enabled"		"1"
-		"fillcolor"		"HUDRedTeam"
+		"fillcolor"		"RedTeam"
 		
 		"src_corner_height"		"23"			// pixels inside the image
 		"src_corner_width"		"23"
@@ -74,7 +74,7 @@
 		"fieldName"		"TargetNameLabel"
 		"font"			"RobotoBold18"
 		"xpos"			"0"
-		"ypos"			"15"
+		"ypos"			"16"
 		"zpos"			"2"
 		"wide"			"640"
 		"tall"			"30"

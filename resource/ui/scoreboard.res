@@ -39,7 +39,7 @@
 		"tall"				"35"
 		"visible"			"1"
 		"enabled"			"1"
-		"bgcolor_override"	"HUDBlueTeam"
+		"bgcolor_override"	"BlueTeam"
 		"PaintBackgroundType"	"2"
 		
 		 if_mvm
@@ -86,7 +86,7 @@
 		"pinCorner"			"0"
 		"visible"			"1"
 		"enabled"			"1"
-		"fgcolor"			"TanLight"
+		"fgcolor"			"White"
 		"TextInsetX"		"100"
 		
 		"pin_to_sibling"		"BlueBG"
@@ -115,7 +115,7 @@
 		"pinCorner"			"0"
 		"visible"			"1"
 		"enabled"			"1"
-		"fgcolor"			"TanLight"
+		"fgcolor"			"White"
 		"TextInsetX"		"20"
 		
 		"pin_to_sibling"		"BlueBG"
@@ -143,7 +143,7 @@
 		"pinCorner"			"0"
 		"visible"			"0"
 		"enabled"			"0"
-		"fgcolor"			"HUDBlueTeam"
+		"fgcolor"			"BlueTeam"
 		"TextInsetX"		"15"
 		"TextInsetY"		"-4"
 		
@@ -168,7 +168,7 @@
 		"tall"				"35"
 		"visible"			"1"
 		"enabled"			"1"
-		"bgcolor_override"	"HUDRedTeam"
+		"bgcolor_override"	"RedTeam"
 		"PaintBackgroundType"	"2"
 		
 		"pin_to_sibling"		"BlueBG"
@@ -219,7 +219,7 @@
 		"pinCorner"			"0"
 		"visible"			"1"
 		"enabled"			"1"
-		"fgcolor"			"TanLight"
+		"fgcolor"			"White"
 		"TextInsetX"		"100"
 		
 		"pin_to_sibling"		"RedBG"
@@ -248,7 +248,7 @@
 		"pinCorner"			"0"
 		"visible"			"1"
 		"enabled"			"1"
-		"fgcolor"			"TanLight"
+		"fgcolor"			"White"
 		"TextInsetX"		"20"
 		
 		"pin_to_sibling"		"RedBG"
@@ -276,7 +276,7 @@
 		"pinCorner"			"0"
 		"visible"			"0"
 		"enabled"			"0"
-		"fgcolor"			"HUDRedTeam"
+		"fgcolor"			"RedTeam"
 		"TextInsetX"		"20"
 		"TextInsetY"		"-4"
 		
@@ -581,7 +581,7 @@
 		"pinCorner"			"0"
 		"visible"			"0"
 		"enabled"			"0"
-		"fgcolor"			"TanLight"
+		"fgcolor"			"White"
 		
 		if_mvm
 		{
@@ -721,7 +721,7 @@
 			{
 				"ControlName"	"CExLabel"
 				"fieldName"		"AvatarTextLabel"
-				"fgcolor"		"TanLight"
+				"fgcolor"		"White"
 				"xpos"			"50"
 				"ypos"			"7"
 				"zpos"			"2"
@@ -800,7 +800,7 @@
 			{
 				"ControlName"	"CExLabel"
 				"fieldName"		"AvatarTextLabel"
-				"fgcolor"		"TanLight"
+				"fgcolor"		"White"
 				"xpos"			"50"
 				"ypos"			"7"
 				"zpos"			"2"
@@ -873,7 +873,7 @@
 			"pinCorner"			"0"
 			"visible"			"1"
 			"enabled"			"1"
-			"fgcolor"			"TanLight"
+			"fgcolor"			"White"
 		}
 		
 		"DeathsLabel"
@@ -949,7 +949,7 @@
 			"pinCorner"			"0"
 			"visible"			"0"
 			"enabled"			"0"
-			"fgcolor"			"TanLight"
+			"fgcolor"			"White"
 		
 			"pin_to_sibling"		"KillsLabel"
 			"pin_corner_to_sibling"	"PIN_TOPRIGHT"
@@ -971,7 +971,7 @@
 			"pinCorner"			"0"
 			"visible"			"0"
 			"enabled"			"0"
-			"fgcolor"			"TanLight"
+			"fgcolor"			"White"
 		
 			"pin_to_sibling"		"KillsLabel"
 			"pin_corner_to_sibling"	"PIN_TOPRIGHT"
@@ -994,7 +994,7 @@
 			"pinCorner"			"0"
 			"visible"			"0"
 			"enabled"			"0"
-			"fgcolor"			"TanLight"
+			"fgcolor"			"White"
 		}
 		"Assists"
 		{

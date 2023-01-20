@@ -20,7 +20,7 @@ Scheme
 	{
 		// HUD COLORS
 		//---------------------------------------------
-		"HealthBuff"				"58 225 25 255"
+		"HealthBuff"				"0 191 121 255"
 		"HealthLow"					"223 142 0 255"
 		"BlueTeam"					"57 92 120 255"
 		"RedTeam"					"157 49 47 255"
@@ -240,15 +240,15 @@ Scheme
 		
 		Econ.Dialog.BgColor									"Blank"
 		Econ.Button.BgColor									"TanDark"
-		Econ.Button.FgColor									"TanLight"
+		Econ.Button.FgColor									"White"
 		Econ.Button.ArmedBgColor							"TFOrange"
-		Econ.Button.ArmedFgColor							"TanLight"
+		Econ.Button.ArmedFgColor							"White"
 		Econ.Button.DepressedBgColor						"TFOrange"
 		Econ.Button.DepressedFgColor						"Black"
 		
-		Econ.Button.PresetDefaultColorFg					"TanLight"
-		Econ.Button.PresetArmedColorFg						"TanLight"
-		Econ.Button.PresetDepressedColorFg					"TanLight"
+		Econ.Button.PresetDefaultColorFg					"White"
+		Econ.Button.PresetArmedColorFg						"White"
+		Econ.Button.PresetDepressedColorFg					"White"
 		
 		Econ.Button.PresetDefaultColorBg					"LighterRed"
 		Econ.Button.PresetArmedColorBg						"LightRed"
@@ -258,11 +258,11 @@ Scheme
 		Border.Dark						"Black"		// the dark/unlit side of a control
 		Border.Selection				"Gray"			// the additional border color for displaying the default/selected button
 
-		Button.TextColor				"TanLight"
+		Button.TextColor				"White"
 		Button.BgColor					"TanDark"
-		Button.ArmedTextColor			"TanLight"
+		Button.ArmedTextColor			"White"
 		Button.ArmedBgColor				"TFOrange"
-		Button.SelectedTextColor		"TanLight"
+		Button.SelectedTextColor		"White"
 		Button.SelectedBgColor			"TFOrange"
 		Button.DepressedTextColor		"Black"
 		Button.DepressedBgColor			"TFOrange"
@@ -275,8 +275,8 @@ Scheme
 		CheckButton.Check				"Yellow"		// color of the check itself
 		CheckButton.HighlightFgColor	"Yellow"
 		
-		ComboBoxButton.ArrowColor		"TanLight"
-		ComboBoxButton.ArmedArrowColor	"TanLight"
+		ComboBoxButton.ArrowColor		"White"
+		ComboBoxButton.ArmedArrowColor	"White"
 		ComboBoxButton.BgColor			"Blank"
 		ComboBoxButton.DisabledBgColor	"Blank"
 
@@ -306,8 +306,8 @@ Scheme
 		GraphPanel.BgColor				"TransparentBlack"
 
 		Label.TextDullColor				"TanDark"
-		Label.TextColor					"TanLight"
-		Label.TextBrightColor			"TanLight"
+		Label.TextColor					"White"
+		Label.TextBrightColor			"White"
 		Label.SelectedTextColor			"White"
 		Label.BgColor					"Blank"
 		Label.DisabledFgColor1			"Blank"
@@ -320,10 +320,10 @@ Scheme
 		ListPanel.SelectedOutOfFocusBgColor	"Red"
 		ListPanel.EmptyListInfoTextColor	"Orange"
 
-		Menu.TextColor					"TanLight"
+		Menu.TextColor					"White"
 		Menu.BgColor					"TransparentBlack"
 		Menu.ArmedTextColor				"TanDark"
-		Menu.ArmedBgColor				"TanLight"
+		Menu.ArmedBgColor				"White"
 		Menu.TextInset					"6"
 
 		Chat.TypingText					"Orange"
@@ -387,7 +387,7 @@ Scheme
 		TextEntry.CursorColor		"Gray"
 		TextEntry.DisabledTextColor	"Gray"
 		TextEntry.DisabledBgColor	"Blank"
-		TextEntry.SelectedTextColor	"TanLight"
+		TextEntry.SelectedTextColor	"White"
 		TextEntry.SelectedBgColor	"Gray"
 		TextEntry.OutOfFocusSelectedBgColor	"Blank"
 		TextEntry.FocusEdgeColor	"Blank"
@@ -3592,7 +3592,7 @@ Scheme
 			{
 				"1"
 				{
-					"color" "TanLight"
+					"color" "White"
 					"offset" "0 1"
 				}
 			}
@@ -3601,7 +3601,7 @@ Scheme
 			{
 				"1"
 				{
-					"color" "TanLight"
+					"color" "White"
 					"offset" "1 0"
 				}
 			}
@@ -3610,7 +3610,7 @@ Scheme
 			{
 				"1"
 				{
-					"color" "TanLight"
+					"color" "White"
 					"offset" "0 0"
 				}
 			}
@@ -3619,7 +3619,7 @@ Scheme
 			{
 				"1"
 				{
-					"color" "TanLight"
+					"color" "White"
 					"offset" "0 0"
 				}
 			}
@@ -3928,7 +3928,7 @@ Scheme
 			{
 				"1"
 				{
-					"color" "TanLight"
+					"color" "White"
 					"offset" "0 0"
 				}
 			}
@@ -5270,7 +5270,7 @@ Scheme
 			{
 				"1"
 				{
-					"color" "TanLight"
+					"color" "White"
 					"offset" "0 1"
 				}
 			}
@@ -5279,7 +5279,7 @@ Scheme
 			{
 				"1"
 				{
-					"color" "TanLight"
+					"color" "White"
 					"offset" "1 0"
 				}
 			}
@@ -5288,7 +5288,7 @@ Scheme
 			{
 				"1"
 				{
-					"color" "TanLight"
+					"color" "White"
 					"offset" "0 0"
 				}
 			}
@@ -5297,7 +5297,7 @@ Scheme
 			{
 				"1"
 				{
-					"color" "TanLight"
+					"color" "White"
 					"offset" "0 0"
 				}
 			}

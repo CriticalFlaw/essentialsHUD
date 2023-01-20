@@ -76,7 +76,7 @@
 		"labelText"		"%countdown%"
 		"textAlignment"	"center"
 		"proportionaltoparent"	"1"
-		"fgcolor"		"TanLight"
+		"fgcolor"		"White"
 
 		if_readymode
 		{
@@ -242,7 +242,7 @@
 		"labelText"		"%rank_possibility%"
 		"textAlignment"	"center"
 		"proportionaltoparent"	"1"
-		"fgcolor"		"TanLight"
+		"fgcolor"		"White"
 	}
 
 	"RankUpShadowLabel"
@@ -292,7 +292,7 @@
 			"ControlName"	"CExLabel"
 			"fieldName"		"TimePanelValue"
 			"font"			"RobotoBold12"
-			"fgcolor"		"TanLight"
+			"fgcolor"		"White"
 			"xpos"			"0"
 			"ypos"			"1"
 			"zpos"			"3"
