@@ -300,7 +300,7 @@
 			"tall"			"25"
 			"visible"		"1"
 			"enabled"		"1"
-			"textAlignment"	"center"
+			"textAlignment"	"north"
 			"labelText"		"0:00"
 		}
 	}
