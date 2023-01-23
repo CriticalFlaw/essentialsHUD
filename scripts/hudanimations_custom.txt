@@ -49,3 +49,9 @@ event HudTournamentSetupPanelClose
 	Animate HudTournamentSetup	Position	"c-90 90"	Linear 0.0 0.001
 	Animate HudTournamentSetup	Position	"c-90 -70"	Spline 0.001 0.2
 }
+
+//==================================================================================
+
+event CompetitiveGame_LowerChatWindow { }
+event CompetitiveGame_RestoreChatWindow { }
+event HudTournament_MoveChatWindow { }

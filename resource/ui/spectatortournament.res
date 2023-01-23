@@ -17,7 +17,7 @@
 		"team1_player_delta_y"			"22"
 		
 		"team2_player_base_offset_x"	"0"
-		"team2_player_base_x"			"679"
+		"team2_player_base_x"			"679"	// Adjust accordingly.
 		"team2_player_base_y"			"250"
 		"team2_player_delta_x"			"0"
 		"team2_player_delta_y"			"22"
@@ -330,7 +330,7 @@
 				"ControlName"		"ImagePanel"
 				"fieldName"			"LoadoutIconsActiveItemRed"
 				"xpos"				"34"
-				"ypos"				"0"
+				"ypos"				"-4"
 				"zpos"				"200"
 				"wide"				"30"
 				"tall"				"14"
@@ -349,7 +349,7 @@
 				"ControlName"		"ImagePanel"
 				"fieldName"			"LoadoutIconsActiveItemBlue"
 				"xpos"				"34"
-				"ypos"				"0"
+				"ypos"				"-4"
 				"zpos"				"200"
 				"wide"				"30"
 				"tall"				"14"

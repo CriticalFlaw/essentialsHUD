@@ -483,7 +483,7 @@
 		"wide"	 "628"
 		"tall"	 "468"
 		
-		"MaxDeathNotices" "4"
+		"MaxDeathNotices" "5"
 		"IconScale"	  "0.35"
 		"LineHeight"	  "16"
 		"LineSpacing"	  "1"
@@ -851,7 +851,7 @@
 		"visible"				"1"
 		"enabled"				"1"
 		"xpos"					"cs-0.5"
-		"ypos"					"0"
+		"ypos"					"10"
 		"wide"					"f0"
 		"tall"					"f0"
 		"zpos"					"4"
