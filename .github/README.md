@@ -12,4 +12,4 @@ Spectator HUD for Team Fortress 2, created by [EssentialsTF](https://essentials.
 - To get the most out of this HUD's features, install the latest [CastingEssentials](https://github.com/dalegaard/CastingEssentials/releases) by [dalegaard](https://github.com/dalegaard).
    - A list of CastingEssentials commands used with this HUD can be found [here](https://github.com/CriticalFlaw/essentialsHUD/wiki/Common-Commands).
    - Delete the `resource` folder from your CastingEssentials installation. Not doing so will cause an incorrect team score panel to display.
-- For customization requests (such as those done for Seasonalander and Fortress Face-Off) please contact CriticalFlaw on Discord.
+- For customization requests (such as those done for Seasonalander and Fortress Faceoffs) please contact CriticalFlaw on Discord.
