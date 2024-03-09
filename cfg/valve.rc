@@ -18,7 +18,6 @@ sv_unlockedchapters 99
 // Apply HUD settings
 cl_hud_minmode 0
 tf_use_match_hud 0
-vgui_cache_res_files 0
 //ce_teamscores_enabled 1					// Team score panels
 //ce_loadout_enabled 1						// Loadout icons
 //ce_hud_player_status_effects 1			// Player status effects (bleed, on-fire, etc.)
