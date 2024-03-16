@@ -62,7 +62,7 @@
 				"bgcolor_override"		"TransparentBlack"
 				"PaintBackgroundType"	"0"
 			}
-
+			
 			"BluePlayerName"
 			{
 				"ControlName"		"CExLabel"
@@ -70,7 +70,7 @@
 				"xpos"				"0"
 				"ypos"				"0"
 				"zpos"				"10"
-				"wide"				"70"
+				"wide"				"80"
 				"tall"				"20"
 				"visible"			"1"
 				"font"				"HudFontSmallest"
@@ -90,7 +90,7 @@
 				"xpos"				"-1"
 				"ypos"				"-1"
 				"zpos"				"10"
-				"wide"				"70"
+				"wide"				"80"
 				"tall"				"20"
 				"visible"			"1"
 				"font"				"HudFontSmallest"
@@ -110,7 +110,7 @@
 				"xpos"				"0"
 				"ypos"				"0"
 				"zpos"				"10"
-				"wide"				"70"
+				"wide"				"80"
 				"tall"				"20"
 				"visible"			"1"
 				"font"				"HudFontSmallest"
@@ -130,7 +130,7 @@
 				"xpos"				"-1"
 				"ypos"				"-1"
 				"zpos"				"10"
-				"wide"				"70"
+				"wide"				"80"
 				"tall"				"20"
 				"visible"			"1"
 				"font"				"HudFontSmallest"
