@@ -503,7 +503,7 @@
 		"IconScale"	  "0.35"
 		"LineHeight"	  "16"
 		"LineSpacing"	  "1"
-		"CornerRadius"	  "2"
+		"CornerRadius"	  "0"
 		"RightJustify"	  "1"	// If 1, draw notices from the right
 		
 		"TextFont"				"RobotoBold11"
@@ -513,7 +513,7 @@
 		"IconColor"				"HudWhite"
 		"LocalPlayerColor"		"HUDBlack"
 		
-		"BaseBackgroundColor"	"0 0 0 255"
+		"BaseBackgroundColor"	"0 0 0 220"
 		"LocalBackgroundColor"	"245 229 196 200"
 	}
 	
