@@ -4,7 +4,7 @@ Spectator HUD for Team Fortress 2, created by [EssentialsTF](https://essentials.
 
 #### Acknowledgements
 - Original layout design by [WolfMachina](https://twitter.com/WolfMachina), [BlackOutJon](https://twitter.com/BlackOutJon) and [ArchRhythm](https://twitter.com/ArchRhythm).
-- HUD developed and maintained by [CriticalFlaw](https://twitter.com/CriticalFlaw_).
+- HUD developed and maintained by [CriticalFlaw](https://twitter.com/CriticalFlaw_) and [core](https://github.com/coreobs).
 - Loadout Icons by [Telepotato](https://twitter.com/telepotato).
 
 #### Notes
