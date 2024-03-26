@@ -8,10 +8,10 @@
 		"ypos"				"0"
 		"zpos"				"0"
 		"wide"				"88"
-		"tall"				"25"
-		"visible"			"1"
-		"enabled"			"1"
-		"bgcolor_override"	"0 0 0 230"
+		"tall"				"0" // "25"
+		"visible"			"0"
+		"enabled"			"0"
+		"bgcolor_override"	"0 0 0 220"
 		"PaintBackgroundType"	"0"
 	}
 

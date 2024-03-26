@@ -205,7 +205,7 @@
 				"ypos"				"0"
 				"zpos"				"-2"
 				"wide"				"100"
-				"tall"				"0"		// Change to "15" to enable.
+				"tall"				"15"		// Change to "15" to enable.
 				"progress"			"1"
 				"direction"			"west"
 				"bgcolor_override"	"0 0 0 0"
@@ -239,7 +239,7 @@
 				"ypos"				"0"
 				"zpos"				"-2"
 				"wide"				"100"
-				"tall"				"0"		// Change to "15" to enable.
+				"tall"				"15"		// Change to "15" to enable.
 				"progress"			"1"
 				"direction"			"east"
 				"bgcolor_override"	"0 0 0 0"

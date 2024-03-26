@@ -11,7 +11,7 @@
 		"tall"				"25"
 		"visible"			"1"
 		"enabled"			"1"
-		"bgcolor_override"	"0 0 0 230"
+		"bgcolor_override"	"0 0 0 220"
 		"PaintBackgroundType"	"0"
 	}
 	"TimePanelProgressBar"

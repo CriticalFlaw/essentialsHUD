@@ -56,8 +56,8 @@
 	{
 		"ControlName"			"VariableLabel"
 		"fieldName"				"TeamNameBluShadow"
-		"xpos"					"-2"
-		"ypos"					"-2"
+		"xpos"					"-1"
+		"ypos"					"-1"
 		"wide"					"100"
 		"tall"					"18"
 		"font"					"RobotoBold22"
@@ -110,8 +110,8 @@
 	{
 		"ControlName"			"VariableLabel"
 		"fieldName"				"TeamScoreBluShadow"
-		"xpos"					"-2"
-		"ypos"					"-2"
+		"xpos"					"-1"
+		"ypos"					"-1"
 		"wide"					"25"
 		"tall"					"25"
 		"font"					"RobotoBold26"
@@ -159,8 +159,8 @@
 	{
 		"ControlName"			"VariableLabel"
 		"fieldName"				"TeamScoreRedShadow"
-		"xpos"					"2"
-		"ypos"					"-2"
+		"xpos"					"1"
+		"ypos"					"-1"
 		"zpos"					"1"
 		"wide"					"35"
 		"tall"					"25"
@@ -199,8 +199,8 @@
 	{
 		"ControlName"			"VariableLabel"
 		"fieldName"				"TeamNameRedShadow"
-		"xpos"					"-2"
-		"ypos"					"-2"
+		"xpos"					"-1"
+		"ypos"					"-1"
 		"wide"					"100"
 		"tall"					"18"
 		"font"					"RobotoBold22"
