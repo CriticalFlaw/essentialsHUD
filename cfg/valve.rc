@@ -1,24 +1,29 @@
-// Load the base configuration
+// load the base configuration
 //exec default.cfg
 r_decal_cullsize 1
 
 // Setup custom controller
 exec joystick.cfg
 
-// Run a user script file if present
+// run a user script file if present
 exec autoexec.cfg
+exec hud_customizations.cfg
+exec hud_crosshair.cfg
 
-// Stuff command line statements
+//
+// stuff command line statements
+//
 stuffcmds
 
-// Display the startup level
+// display the startup level
 startupmenu
-sv_unlockedchapters 99
 
-// Apply HUD settings
+// FOR XBOX CERT
+//sv_unlockedchapters 99
+
+// apply HUD settings
 cl_hud_minmode 0
 tf_use_match_hud 0
-vgui_cache_res_files 0
 //ce_teamscores_enabled 1					// Team score panels
 //ce_loadout_enabled 1						// Loadout icons
 //ce_hud_player_status_effects 1			// Player status effects (bleed, on-fire, etc.)
