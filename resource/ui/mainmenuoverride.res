@@ -15,8 +15,8 @@
 		
 //		"bgcolor_override"	"0 0 0 240"
 		
-		"update_url"	"http://store.steampowered.com/news/?filter=updates&appids=440"
-		"blog_url"		"http://www.teamfortress.com/"
+		"update_url"	"https://store.steampowered.com/news/?filter=updates&appids=440"
+		"blog_url"		"https://www.teamfortress.com/"
 		
 		"button_x_offset"	"-285"
 		"button_y"			"120"
@@ -218,9 +218,13 @@
 		{
 			"image"		"../console/title_fullmoon_widescreen"
 		}
-		if_christmas
+		if_christmas_0
 		{
 			"image"		"../console/background_xmas2020_widescreen"
+		}
+		if_christmas_1
+		{
+			"image"		"../console/background_xmas2023_widescreen"
 		}		
 	}
 					
@@ -1805,27 +1809,127 @@
 				{
 					"0"
 					{
-						"item"		"Winter 2021 Cosmetic Key"
+						"item"		"Winter 2023 Cosmetic Key"
 						"show_market"	"0"
 					}
 					"1"
 					{
-						"item"		"Winter 2021 Cosmetic Case"
+						"item"		"Winter 2023 Cosmetic Case"
 						"show_market"	"1"
 					}
 					"2"
 					{
-						"item"		"Taunt: Doctor's Defibrillators"
+						"item"		"Taunt: Cheers!"
 						"show_market"	"0"
 					}
 					"3"
 					{
-						"item"		"Taunt: Shooter's Stakeout"
+						"item"		"Taunt: Mourning Mercs"
 						"show_market"	"0"
 					}
 					"4"
 					{
-						"item"		"Taunt: The Hot Wheeler"
+						"item"		"Taunt: Foul Play"
+						"show_market"	"0"
+					}
+					"5"
+					{
+						"item"		"Map Token Snowtower"
+						"show_market"	"0"
+					}
+					"6"
+					{
+						"item"		"Map Token Krampus"
+						"show_market"	"0"
+					}
+					"7"
+					{
+						"item"		"Map Token Haarp"
+						"show_market"	"0"
+					}
+					"8"
+					{
+						"item"		"Map Token Brew"
+						"show_market"	"0"
+					}
+					"9"
+					{
+						"item"		"Map Token Hacksaw"
+						"show_market"	"0"
+					}
+					"10"
+					{
+						"item"		"Map Token Turbine Event"
+						"show_market"	"0"
+					}
+					"11"
+					{
+						"item"		"Map Token Carrier"
+						"show_market"	"0"
+					}
+					"12"
+					{
+						"item"		"Map Token Galleria"
+						"show_market"	"0"
+					}
+					"13"
+					{
+						"item"		"Map Token Emerge"
+						"show_market"	"0"
+					}
+					"14"
+					{
+						"item"		"Map Token Camber"
+						"show_market"	"0"
+					}
+					"15"
+					{
+						"item"		"Strange Filter: Snowtower (Community)"
+						"show_market"	"0"
+					}
+					"16"
+					{
+						"item"		"Strange Filter: Krampus (Community)"
+						"show_market"	"0"
+					}
+					"17"
+					{
+						"item"		"Strange Filter: Haarp (Community)"
+						"show_market"	"0"
+					}
+					"18"
+					{
+						"item"		"Strange Filter: Brew (Community)"
+						"show_market"	"0"
+					}
+					"19"
+					{
+						"item"		"Strange Filter: Hacksaw (Community)"
+						"show_market"	"0"
+					}
+					"20"
+					{
+						"item"		"Strange Filter: Turbine Event (Community)"
+						"show_market"	"0"
+					}
+					"21"
+					{
+						"item"		"Strange Filter: Carrier (Community)"
+						"show_market"	"0"
+					}
+					"22"
+					{
+						"item"		"Strange Filter: Galleria (Community)"
+						"show_market"	"0"
+					}
+					"23"
+					{
+						"item"		"Strange Filter: Emerge (Community)"
+						"show_market"	"0"
+					}
+					"24"
+					{
+						"item"		"Strange Filter: Camber (Community)"
 						"show_market"	"0"
 					}
 				}
@@ -2437,6 +2541,103 @@
 			"scaleImage"	"1"
 			"image" "glyph_store"
 		}		
+	}
+
+	"SettingsButtonSDK"
+	{
+		"ControlName"	"CExImageButton"
+		"fieldName"		"SettingsButtonSDK"
+		"xpos"			"c-34+273"
+		"ypos"			"437"
+		"zpos"			"4"
+		"wide"			"25"
+		"tall"			"25"
+		"autoResize"	"0"
+		"pinCorner"		"3"
+		"visible"		"1"
+		"enabled"		"1"
+		"tabPosition"	"0"
+		"labelText"		""
+		"font"			"HudFontSmallBold"
+		"textAlignment"	"west"
+		"textinsetx"	"25"
+		"use_proportional_insets" "1"
+		"dulltext"		"0"
+		"brighttext"	"0"
+		"default"		"1"
+		"Command"		"OpenOptionsDialog"
+
+		"navUp"			"TF2SettingsButtonSDK"
+		"navLeft"		"TF2SettingsButtonSDK"
+		"navRight"		"TF2SettingsButtonSDK"
+
+		"sound_depressed"	"UI/buttonclick.wav"
+		"sound_released"	"UI/buttonclickrelease.wav"
+		
+		"image_drawcolor"	"235 226 202 255"
+		"SubImage"
+		{
+			"ControlName"	"ImagePanel"
+			"fieldName"		"SubImage"
+			"xpos"			"6"
+			"ypos"			"6"
+			"zpos"			"1"
+			"wide"			"14"
+			"tall"			"14"
+			"visible"		"1"
+			"enabled"		"1"
+			"scaleImage"	"1"
+			"image"			"glyph_options"
+		}			
+	}
+
+	"TF2SettingsButtonSDK"
+	{
+		"ControlName"	"CExImageButton"
+		"fieldName"		"TF2SettingsButtonSDK"
+		"xpos"			"c-0+273"
+		"ypos"			"437"
+		"zpos"			"5"
+		"wide"			"25"
+		"tall"			"25"
+		"autoResize"	"0"
+		"pinCorner"		"3"
+		"visible"		"1"
+		"enabled"		"1"
+		"tabPosition"	"0"
+		"labelText"		""
+		"font"			"HudFontSmallBold"
+		"textAlignment"	"east"
+		"dulltext"		"0"
+		"brighttext"	"0"
+		"default"		"1"
+		"Command"		"opentf2options"
+		"use_proportional_insets"	"1"
+		"textinsetx"	"25"
+
+		"navUp"			"SettingsButtonSDK"
+		"navLeft"		"SettingsButtonSDK"
+		"navRight"		"SettingsButtonSDK"
+
+		"sound_depressed"	"UI/buttonclick.wav"
+		"sound_released"	"UI/buttonclickrelease.wav"
+		
+		"image_drawcolor"	"235 226 202 255"
+		"SubImage"
+		{
+			"ControlName"	"ImagePanel"
+			"fieldName"		"SubImage"
+			"xpos"			"6"
+			"ypos"			"6"
+			"zpos"			"1"
+			"wide"			"14"
+			"tall"			"14"
+			"visible"		"1"
+			"enabled"		"1"
+			"scaleImage"	"1"
+			"image"			"glyph_options"
+			"scaleImage"	"1"
+		}				
 	}
 
 	"SettingsButton"
