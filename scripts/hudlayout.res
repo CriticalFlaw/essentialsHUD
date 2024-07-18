@@ -1471,6 +1471,8 @@
 		"ypos"	"0"
 		"wide"	"f0"
 		"tall"	"f0"
+		
+		"player_name_font"	""	// Removes Overhead Player Names - Declutters HUD a little, and they are often unreadable on stream and in motion. You can comment this change out to restore names.
 	}
 	
 	MatchSummary
