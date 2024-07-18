@@ -33,7 +33,8 @@ ce_hud_player_status_effects 1						// Player status effects (bleed, on-fire, et
 ce_hud_player_health_progressbars 1					// Player health bars.
 ce_hud_progressbar_directions 		1 				// Enable for health/weapon progress bars
 ce_hud_chargebars_enabled 1							// Player charge meters (ubercharge, banner etc.)
-ce_localplayer_track_spec_target 1					// Highlighted "Local Player" of spec target in the killfeed. Like if you were playing yourself.
+ce_localplayer_enabled 1							// Highlighted "Local Player" of spec target in the killfeed. Like if you were playing yourself.
+ce_localplayer_track_spec_target 1					// 
 ce_hud_statistics_target_id_enabled 1				// TargetID Kills/Assists/Deaths
 ce_mediguninfo_separate_enabled 0					// Separate Medigun Info Panel - this doesn't exist for the Essentials HUD as we use HUD chargebars!
 ce_hud_find_parent_elements 		0 				// 
