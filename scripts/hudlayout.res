@@ -281,7 +281,7 @@
 		"xpos"		"c-126"
 		"ypos"		"360"
 		"wide"	 	"252"
-		"tall"	 	"35"
+		"tall"	 	"49"
 		"priority"	"40"
 		
 		"x_offset" "20"
@@ -1471,6 +1471,7 @@
 		"ypos"	"0"
 		"wide"	"f0"
 		"tall"	"f0"
+		"player_name_font"	""	// Remove Overhead Player Names - Declutter HUD a little, and they are often unreadable on stream and in motion.
 	}
 	
 	MatchSummary
