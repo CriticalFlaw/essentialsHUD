@@ -1,4 +1,4 @@
-"resource/ui/#customizations/hud_customization_menu.res"
+"Resource/UI/MainMenuOverride.res"
 {
 	"SafeMode"
 	{
@@ -8,7 +8,7 @@
 		"ypos"						"cs-0.5"
 		"wide"						"507"
 		"tall"						"320"
-		"zpos"						"50"
+		"zpos"						"200"
 		"visible"					"1"
 		"enabled"					"1"
 		"proportionaltoparent"		"1"
@@ -59,39 +59,6 @@
 			"sound_depressed"				"UI/buttonclick.wav"
 		}
 		
-		"Customizations_Scroller"
-		{
-			"ControlName"					"CScrollableList"
-			"fieldName"						"Customizations_Scroller"
-			"xpos"							"cs-0.5"
-			"ypos"							"26"
-			"zpos"							"-1"
-			"wide"							"f2"
-			"tall"							"239"
-			"visible"						"1"
-			"enabled"						"1"
-			"proportionaltoparent"			"1"
-			"paintBackground"				"0"
-			"bgcolor_override"				"Gray"
-			
-			"Scrollbar"
-			{
-				"xpos"							"rs1+1"
-				"ypos"							"0"
-				"wide"							"6"
-				"tall"							"f0"
-				"zpos"							"1000"
-				"proportionaltoparent"			"1"
-				"nobuttons"						"1"
-				
-				"Slider"
-				{
-					"PaintBackgroundType"		"0"
-					"fgcolor_override"			"Gray"
-				}
-			}
-		}
-		
 		"ApplyButton"
 		{
 			"ControlName"					"CExButton"
@@ -104,10 +71,10 @@
 			"visible"						"1"
 			"enabled"						"1"
 			"proportionaltoparent"			"1"
-			"labelText"						"#IT_Apply"
+			"labelText"						"Reload HUD"
 			"font"							"HudFontSmallBold"
 			"textAlignment"					"center"
-			"Command"						"engine cl_mainmenu_safemode 0; mat_queue_mode -1; hud_reloadscheme"
+			"Command"						"engine vgui_cache_res_files 0;hud_reloadscheme;toggle mat_aaquality;vgui_cache_res_files 1"
 			"actionsignallevel"				"2"
 			"sound_depressed"				"UI/buttonclick.wav"
 
@@ -210,9 +177,80 @@
 		
 		///---
 		
-		"Customizations_Scroller"
+		"SampleButton"
 		{
+			"ControlName"					"CExButton"
+			"fieldname"						"SampleButton"
+			"xpos"							"5"
+			"ypos"							"30"
+			"zpos"							"16"
+			"wide"							"150"
+			"tall"							"26"
+			"visible"						"1"
+			"enabled"						"1"
+			"labeltext"						"Sample Button"
+			"command"						"engine vgui_cache_res_files 0;hud_reloadscheme;toggle mat_aaquality;vgui_cache_res_files 1"
+			"actionsignallevel"				"2"
+			"font"							"RobotoBold12"
+			"textAlignment"					"center"
+			"sound_depressed"				"UI/buttonclick.wav"
+			"sound_released"				"UI/buttonclickrelease.wav"
+		}
+		
+		"SampleToggle"
+		{
+			"ControlName"					"EditablePanel"
+			"fieldName"						"SampleToggle"
+			"xpos"							"0"
+			"ypos"							"5"
+			"zpos"							"120"
+			"wide"							"150"
+			"tall"							"26"
+			"visible"						"1"
+			"enabled"						"1"
+			"proportionaltoparent"			"1"
+
+			"pin_to_sibling"				"SampleButton"
+			"pin_corner_to_sibling"			"PIN_TOPLEFT"
+			"pin_to_sibling_corner"			"PIN_BOTTOMLEFT"
 			
+			"SampleButton"
+			{
+				"controlName"					"CExButton"
+				"fieldName"						"SampleButton"
+				"xpos"							"0"
+				"ypos"							"0"
+				"wide"							"150"
+				"tall"							"26"
+				"visible"						"1"
+				"enabled"						"1"
+				"labelText"						""
+				"command"						"engine toggle tf_use_min_viewmodels"
+				"actionsignallevel"				"3"
+				"paintbackground"				"1"
+				"font"							"RobotoBold12"
+				"textAlignment"					"center"
+				"sound_depressed"				"UI/buttonclick.wav"
+				"sound_released"				"UI/buttonclickrelease.wav"
+			}
+				
+			"SampleCheckbox"
+			{
+				"ControlName"					"CvarToggleCheckButton"
+				"fieldName"						"SampleCheckbox"
+				"xpos"							"0"
+				"ypos"							"0"
+				"wide"							"150"
+				"tall"							"26"
+				"proportionaltoparent"			"1"
+				"font"							"RobotoBold12"
+				"labeltext"						"Sample Checkbox"
+				"textAlignment"					"west"
+				"smallcheckimage"				"1"
+				"button_activation_type"		"1"
+				"cvar_name"						"tf_use_min_viewmodels"
+				"mouseinputenabled"				"0"
+			}
 		}
 	}
 }
