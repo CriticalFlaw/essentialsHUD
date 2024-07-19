@@ -480,7 +480,7 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"Notifications_ShowButtonPanel"
-		"xpos"			"r215"
+		"xpos"			"c148"
 		"ypos"			"28"
 		"zpos"			"10"
 		"wide"			"32"
@@ -583,7 +583,7 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"WatchStreamButton"
-		"xpos"			"r175"
+		"xpos"			"c188"
 		"ypos"			"28"
 		"zpos"			"1"
 		"wide"			"32"
@@ -656,7 +656,7 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"QuestLogButton"
-		"xpos"			"r135"
+		"xpos"			"c228"
 		"ypos"			"28"
 		"zpos"			"1"
 		"wide"			"32"
@@ -729,7 +729,7 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"MOTD_ShowButtonPanel"
-		"xpos"			"r95"
+		"xpos"			"c268"
 		"ypos"			"28"
 		"zpos"			"1"
 		"wide"			"32"
@@ -1583,14 +1583,14 @@
 		"enabled"		"1"
 		"tabPosition"	"0"
 		"font"			"HudFontSmallBold"
-		"labelText"		"Demo Playback"
+		"labelText"		"#TF_OptionCategory_HUD"
 		"textAlignment"	"center"
 		"dulltext"		"0"
 		"brighttext"	"0"
 		"default"		"1"
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
-		"command"		"engine demoui; demoui2"
+		"command"		"engine toggle cl_mainmenu_safemode; mat_queue_mode 0"
 		
 		"border_default"	"MainMenuButtonDefault"
 		"border_armed"		"MainMenuButtonArmed"
@@ -2978,67 +2978,6 @@
 			"angles_x"		"10"
 			"angles_y"		"130"
 			"angles_z"		"0"
-		}
-	}
-	
-	"ShowHUDOptonsButton"
-	{
-		"ControlName"	"EditablePanel"
-		"fieldName"		"ShowHUDOptonsButton"
-		"xpos"			"r55"
-		"ypos"			"28"
-		"zpos"			"1"
-		"wide"			"32"
-		"tall"			"32"
-		"autoResize"	"0"
-		"pinCorner"		"3"
-		"visible"		"1"
-		"enabled"		"1"
-
-		"ShowHUDOptonsButton2_SB"
-		{
-			"ControlName"	"CExImageButton"
-			"fieldName"		"ShowHUDOptonsButton2_SB"
-			"xpos"			"0"
-			"ypos"			"0"
-			"zpos"			"1"
-			"wide"			"32"
-			"tall"			"32"
-			"autoResize"	"0"
-			"pinCorner"		"3"
-			"visible"		"1"
-			"enabled"		"1"
-			"tabPosition"	"0"
-			"labelText"		""
-			"font"			"HudFontSmallestBold"
-			"textAlignment"	"center"
-			"dulltext"		"0"
-			"brighttext"	"0"
-			"default"		"1"
-
-			"actionsignallevel" "2"
-			"Command"		"engine toggle cl_mainmenu_safemode; mat_queue_mode 0"
-
-			"sound_depressed"	"UI/buttonclick.wav"
-			"sound_released"	"UI/buttonclickrelease.wav"
-			"paintbackground" "0"
-			"image_drawcolor"	"235 226 202 255"
-			"image_armedcolor"	"255 255 255 255"
-
-			"SubImage"
-			{
-				"ControlName"	"ImagePanel"
-				"fieldName"		"SubImage"
-				"xpos"			"0"
-				"ypos"			"0"
-				"zpos"			"1"
-				"wide"			"32"
-				"tall"			"32"
-				"visible"		"1"
-				"enabled"		"1"
-				"image"			"../vgui/replay/thumbnails/button_hud"
-				"scaleImage"	"1"
-			}
 		}
 	}
 }
