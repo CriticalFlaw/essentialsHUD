@@ -810,6 +810,17 @@ Scheme
 			}
 		}
 		
+		"MenuText"
+		{
+			"1"
+			{
+				"name"		"TF2 Professor"
+				"tall"		"16"
+				"additive"	"0"
+				"antialias" "1"
+			}
+		}
+		
 		"Default"
 		{
 			"1"
