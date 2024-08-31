@@ -5,7 +5,7 @@
 		"ControlName"		"EditablePanel"
 		"fieldName"			"TimePanelBG"
 		"xpos"				"0"
-		"ypos"				"0"
+		"ypos"				"20"
 		"zpos"				"2"
 		"wide"				"88"
 		"tall"				"25"

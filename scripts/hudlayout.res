@@ -43,7 +43,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"xpos"			"c-44"
-		"ypos"			"0"
+		"ypos"			"20"
 		"zpos"			"5"
 		"wide"			"200"
 		"tall"			"160"
@@ -495,7 +495,7 @@
 		"visible" "1"
 		"enabled" "1"
 		"xpos"	 "r630"
-		"ypos"	 "30"
+		"ypos"	 "20"
 		"wide"	 "628"
 		"tall"	 "468"
 		
@@ -1224,7 +1224,7 @@
 		"visible"				"1"
 		"enabled"				"1"
 		"xpos"					"0"
-		"ypos"					"0"
+		"ypos"					"20"
 		"wide"					"f0"
 		"tall"					"50"
 	}

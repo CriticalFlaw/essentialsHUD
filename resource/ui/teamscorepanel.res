@@ -8,7 +8,7 @@
 		"ControlName"			"EditablePanel"
 		"fieldName"				"TeamScorePanel"
 		"xpos"					"0"
-		"ypos"					"0"
+		"ypos"					"20"
 		"zpos"					"-10"
 		"wide"					"f0"
 		"tall"					"100"
