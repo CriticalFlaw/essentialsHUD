@@ -495,7 +495,7 @@
 		"visible" "1"
 		"enabled" "1"
 		"xpos"	 "r630"
-		"ypos"	 "20"
+		"ypos"	 "50"
 		"wide"	 "628"
 		"tall"	 "468"
 		
