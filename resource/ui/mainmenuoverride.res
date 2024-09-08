@@ -1,4 +1,5 @@
 #base "../../resource/preload.res"
+#base "../../resource/tools.res"
 
 "Resource/UI/MainMenuOverride.res"
 {
@@ -13,7 +14,7 @@
 		"wide"			"f0"
 		"tall"			"480"
 		
-//		"bgcolor_override"	"0 0 0 240"
+		"bgcolor_override"	"19 23 27 255"
 		
 		"update_url"	"https://store.steampowered.com/news/?filter=updates&appids=440"
 		"blog_url"		"https://www.teamfortress.com/"
@@ -225,7 +226,7 @@
 		if_christmas_1
 		{
 			"image"		"../console/background_xmas2023_widescreen"
-		}		
+		}	
 	}
 					
 	"TFLogoImage"
@@ -1582,14 +1583,14 @@
 		"enabled"		"1"
 		"tabPosition"	"0"
 		"font"			"HudFontSmallBold"
-		"labelText"		"Demo Playback"
+		"labelText"		"#TF_OptionCategory_HUD"
 		"textAlignment"	"center"
 		"dulltext"		"0"
 		"brighttext"	"0"
 		"default"		"1"
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
-		"command"		"engine demoui; demoui2"
+		"command"		"engine toggle cl_mainmenu_safemode; mat_queue_mode 0"
 		
 		"border_default"	"MainMenuButtonDefault"
 		"border_armed"		"MainMenuButtonArmed"
@@ -1599,7 +1600,7 @@
 		"armedFgColor_override" "235 226 202 255"
 		"depressedFgColor_override" "46 43 42 255"
 	}
-	
+
 	"EventPromo"
 	{
 		"ControlName"	"EditablePanel"
@@ -1938,167 +1939,6 @@
 		} // Background
 
 	} // EventPromo
-
-	"SafeMode"
-	{
-		"ControlName"	"EditablePanel"
-		"fieldname"		"SafeMode"
-		"xpos"			"c-290"
-		"ypos"			"210"
-		"zpos"			"-50"
-		"wide"			"270"
-		"tall"			"190"
-		"visible"		"0"
-
-		"Background"
-		{
-			"ControlName"	"EditablePanel"
-			"fieldname"		"Background"
-			"xpos"			"0"
-			"ypos"			"20"
-			"zpos"			"0"
-			"wide"			"260"
-			"tall"			"p0.88"
-			"visible"		"1"
-			"PaintBackgroundType"	"0"
-			"proportionaltoparent"	"1"
-
-			"paintborder"	"1"
-			"border"		"MainMenuBGBorder"
-
-			"TitleLabel"
-			{
-				"ControlName"	"CExLabel"
-				"fieldName"		"TitleLabel"
-				"font"			"HudFontSmallBold"
-				"labelText"		"#MMenu_SafeMode_Title"
-				"textAlignment"	"west"
-				"xpos"			"0"
-				"ypos"			"0"
-				"wide"			"f0"
-				"tall"			"30"
-				"autoResize"	"0"
-				"pinCorner"		"0"
-				"visible"		"1"
-				"enabled"		"1"
-				"textinsetx"	"20"
-				"fgcolor_override"	"235 227 203 255"
-			}
-	
-			"SaveSettingsButton"
-			{
-				"ControlName"	"CExButton"
-				"fieldName"		"SaveSettingsButton"
-				"xpos"			"p0.02"
-				"ypos"			"rs1-30"
-				"zpos"			"11"
-				"wide"			"250"
-				"tall"			"26"
-				"autoResize"	"0"
-				"pinCorner"		"3"
-				"visible"		"1"
-				"enabled"		"1"
-				"tabPosition"	"0"
-				"use_proportional_insets" "1"
-				"font"			"HudFontSmallBold"
-				"textAlignment"	"west"
-				"dulltext"		"0"
-				"brighttext"	"0"
-				"default"		"1"
-				"sound_depressed"	"UI/buttonclick.wav"
-				"sound_released"	"UI/buttonclickrelease.wav"
-				"labeltext"		"#MMenu_SafeMode_SaveSettings"
-				"proportionaltoparent"	"1"
-				"command"		"safemode_save_settings"
-				"actionsignallevel"	"3"
-			
-				"border_default"	"MainMenuButtonDefault"
-				"border_armed"		"MainMenuButtonArmed"
-				"paintbackground"	"0"
-			
-				"defaultFgColor_override" "46 43 42 255"
-				"armedFgColor_override" "235 226 202 255"
-				"depressedFgColor_override" "46 43 42 255"
-			}
-
-	
-			"LeaveSafeModeButton"
-			{
-				"ControlName"	"CExButton"
-				"fieldName"		"SubButton"
-				"xpos"			"p0.02"
-				"ypos"			"rs1-5"
-				"zpos"			"11"
-				"wide"			"250"
-				"tall"			"26"
-				"autoResize"	"0"
-				"pinCorner"		"3"
-				"visible"		"1"
-				"enabled"		"1"
-				"tabPosition"	"0"
-				"use_proportional_insets" "1"
-				"font"			"HudFontSmallBold"
-				"textAlignment"	"west"
-				"dulltext"		"0"
-				"brighttext"	"0"
-				"default"		"1"
-				"sound_depressed"	"UI/buttonclick.wav"
-				"sound_released"	"UI/buttonclickrelease.wav"
-				"labeltext"		"#MMenu_SafeMode_LeaveSafeMode"
-				"proportionaltoparent"	"1"
-				"command"		"safemode_leave"
-				"actionsignallevel"	"3"
-			
-				"border_default"	"MainMenuButtonDefault"
-				"border_armed"		"MainMenuButtonArmed"
-				"paintbackground"	"0"
-			
-				"defaultFgColor_override" "46 43 42 255"
-				"armedFgColor_override" "235 226 202 255"
-				"depressedFgColor_override" "46 43 42 255"
-			}
-
-			"Explanation"
-			{
-				"ControlName"			"Label"
-				"fieldName"				"Explanation"
-				"xpos"					"cs-0.5"
-				"ypos"					"30"
-				"zpos"					"100"
-				"wide"					"p0.92"
-				"tall"					"p0.5"
-				"textAlignment"			"north-west"
-				"visible"				"1"
-				"enabled"				"1"
-				"scaleImage"			"1"
-				"proportionaltoparent"	"1"
-				"wrap"					"1"
-				"labelText"				"#MMenu_SafeMode_Explanation"
-				"proportionaltoparent"	"1"
-				"font"					"HudFontSmallest"
-			}
-
-		} // Background
-
-		"InfoImage"
-		{
-			"ControlName"			"ImagePanel"
-			"fieldName"				"InfoImage"
-			"xpos"					"rs1-5"
-			"ypos"					"5"
-			"zpos"					"100"
-			"wide"					"40"
-			"tall"					"o1"
-			"visible"				"1"
-			"enabled"				"1"
-			"image"					"info"
-			"scaleImage"			"1"
-			"proportionaltoparent"	"1"
-			"mouseinputenabled"		"0"
-		}
-
-	} // SafeMode
-	
 
 	"ShowPromoCodesButton"
 	{
@@ -2639,7 +2479,7 @@
 			"scaleImage"	"1"
 		}				
 	}
-
+	
 	"SettingsButton"
 	{
 		"ControlName"	"CExImageButton"
