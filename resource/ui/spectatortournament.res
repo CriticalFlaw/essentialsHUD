@@ -28,6 +28,7 @@
 			"wide"				"f0"
 			"tall"				"22"
 			"zpos"				"1"
+			
 			"color_ready"		"0 255 0 220"
 			"color_notready"	"0 0 0 220"
 			"paintborder" 		"0"
@@ -157,27 +158,9 @@
 				"enabled"		"1"	
 				"HealthBonusPosAdj"			"10"
 				"HealthDeathWarning"		"0.49"
-				"HealthDeathWarningColor"	"HUDDeathWarning"
 				"TFFont"					"HudFontSmallest"
+				"HealthDeathWarningColor"	"HUDDeathWarning"
 				"TextColor"					"HudOffWhite"
-			}
-			
-			"specindex"
-			{
-				"ControlName"	"CExLabel"
-				"fieldName"		"specindex"
-				"font"			"DefaultVerySmall"
-				"xpos"			"4"
-				"ypos"			"2"
-				"zpos"			"5"
-				"wide"			"50"
-				"tall"			"8"
-				"autoResize"	"0"
-				"pinCorner"		"0"
-				"visible"		"0"
-				"labelText"		"%specindex%"
-				"textAlignment"	"north-west"
-				//"fgcolor"		"235 226 202 255"
 			}
 			
 			"PlayerHealthRed"
@@ -249,26 +232,6 @@
 				"pin_to_sibling_corner"	"PIN_TOPLEFT"
 			}
 			
-			"RespawnTime"
-			{
-				"ControlName"		"CExLabel"
-				"fieldName"			"RespawnTime"
-				"xpos"				"0"
-				"ypos"				"0"
-				"zpos"				"24"
-				"wide"				"22"
-				"tall"				"22"
-				"font"				"RobotoBold11"
-				"fgcolor"			"TanLight"
-				"labelText"			"%respawntime%"
-				"textAlignment"		"center"
-				"textinsetx"		"0"
-				"visible"			"1"
-				"proportionaltoparent"	"1"
-				"pin_to_sibling"		"classimagebg"
-				"pin_corner_to_sibling"	"PIN_TOPLEFT"
-				"pin_to_sibling_corner"	"PIN_TOPLEFT"
-			}
 			"ReadyBG"
 			{
 				"ControlName"	"ScalableImagePanel"
@@ -306,7 +269,29 @@
 				"enabled"		"1"
 				"image"			"hud/checkmark"
 				"scaleImage"	"1"
-			}		
+			}
+			
+			"respawntime"
+			{
+				"ControlName"		"CExLabel"
+				"fieldName"			"respawntime"
+				"font"				"RobotoBold11"
+				"xpos"				"0"
+				"ypos"				"0"
+				"zpos"				"24"
+				"wide"				"22"
+				"tall"				"22"
+				"visible"			"1"
+				"labelText"			"%respawntime%"
+				"textAlignment"		"center"
+				"fgcolor"			"TanLight"
+				"textinsetx"		"0"
+				"proportionaltoparent"	"1"
+				"pin_to_sibling"		"classimagebg"
+				"pin_corner_to_sibling"	"PIN_TOPLEFT"
+				"pin_to_sibling_corner"	"PIN_TOPLEFT"
+			}
+				
 			"chargeamount"
 			{
 				"ControlName"	"CExLabel"
@@ -323,6 +308,24 @@
 				"labelText"		"%chargeamount%"
 				"textAlignment"	"north"
 				"fgcolor"		"0 255 0 255"
+			}
+			
+			"specindex"
+			{
+				"ControlName"	"CExLabel"
+				"fieldName"		"specindex"
+				"font"			"DefaultVerySmall"
+				"xpos"			"4"
+				"ypos"			"2"
+				"zpos"			"5"
+				"wide"			"50"
+				"tall"			"8"
+				"autoResize"	"0"
+				"pinCorner"		"0"
+				"visible"		"0"
+				"labelText"		"%specindex%"
+				"textAlignment"	"north-west"
+				//"fgcolor"		"235 226 202 255"
 			}
 			
 			"LoadoutIconsActiveItemRed"
@@ -694,10 +697,10 @@
 		"bgcolor_override"		"255 255 255 0"
 		"PaintBackgroundType"	"0"
 		
-		"model_ypos"		"10"
+		"model_ypos"		"20"
 		"model_center_x"	"1"
-		"model_wide"		"90"
-		"model_tall"		"60"
+		"model_wide"		"80"
+		"model_tall"		"50"
 		
 		"text_xpos"			"10"
 		"text_ypos"			"10"
@@ -714,13 +717,14 @@
 			"fieldName"			"itemmodelpanel"
 			"use_item_rendertarget" "0"
 			"useparentbg"		"1"
+			"inventory_image_type"	"1"
 		}
 		
 		"ItemLabel"
 		{	
 			"ControlName"	"Label"
 			"fieldName"		"ItemLabel"
-			"font"			"DefaultSmall"
+			"font"			"ItemFontAttribSmall"
 			"xpos"			"10"
 			"ypos"			"3"
 			"zpos"			"1"

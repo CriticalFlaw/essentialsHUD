@@ -1,6 +1,6 @@
 ---
 name: Change Request
-about: Request a change to the HUD.
+about: Request a change to the mod.
 title: "[REQUEST] ..."
 labels: request
 assignees: 
@@ -8,4 +8,4 @@ assignees:
 ---
 
 **Describe the change request.**
-A clear and concise description of the requested change.
+A clear and concise description of the requested change. Please include links or screenshots, if applicable.

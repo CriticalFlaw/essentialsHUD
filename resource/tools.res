@@ -59,10 +59,10 @@
 			"sound_depressed"				"UI/buttonclick.wav"
 		}
 		
-		"ApplyButton"
+		"ReloadButton"
 		{
 			"ControlName"					"CExButton"
-			"fieldname"						"ApplyButton"
+			"fieldname"						"ReloadButton"
 			"xpos"							"7"
 			"ypos"							"rs1-4"
 			"zpos"							"20"
@@ -77,44 +77,61 @@
 			"Command"						"engine vgui_cache_res_files 0;hud_reloadscheme;toggle mat_aaquality;vgui_cache_res_files 1"
 			"actionsignallevel"				"2"
 			"sound_depressed"				"UI/buttonclick.wav"
-
-			"defaultBgColor_override"		"CreditsGreen"
+			
 			"armedBgColor_override"			"GreenSolid"
 			"depressedBgColor_override"		"GreenSolid"
-
-			"defaultFgColor_override"		"White"
-			"armedFgColor_override"			"White"
-			"depressedFgColor_override"		"White"
 		}
 		
-		"ResetAllButton"
+		"DemoUiButton"
 		{
 			"ControlName"					"CExButton"
-			"fieldName"						"ResetAllButton"
+			"fieldName"						"DemoUiButton"
 			"xpos"							"3"
 			"ypos"							"0"
 			"zpos"							"20"
-			"wide"							"130"
+			"wide"							"120"
 			"tall"							"20"
 			"visible"						"1"
 			"enabled"						"1"
 			"proportionaltoparent"			"1"
-			"labelText"						"#TF_ClassMenu_Reset"
+			"labelText"						"Demo UI"
 			"font"							"HudFontSmallBold"
 			"textAlignment"					"center"
-			"Command"						"engine customization_reset; hudcrosshair_reset"
+			"Command"						"engine demoui; demoui2"
 			"actionsignallevel"				"2"
 			"sound_depressed"				"UI/buttonclick.wav"
-
-			"defaultBgColor_override"		"200 170 65 255"
+			
 			"armedBgColor_override"			"150 120 50 255"
 			"depressedBgColor_override"		"150 120 50 255"
 
-			"defaultFgColor_override"		"White"
-			"armedFgColor_override"			"White"
-			"depressedFgColor_override"		"White"
+			"pin_to_sibling"				"ReloadButton"
+			"pin_corner_to_sibling"			"PIN_TOPLEFT"
+			"pin_to_sibling_corner"			"PIN_TOPRIGHT"
+		}
+		
+		"ConsoleButton"
+		{
+			"ControlName"					"CExButton"
+			"fieldname"						"ConsoleButton"
+			"xpos"							"3"
+			"ypos"							"0"
+			"zpos"							"20"
+			"wide"							"120"
+			"tall"							"20"
+			"visible"						"1"
+			"enabled"						"1"
+			"proportionaltoparent"			"1"
+			"labelText"						"#GameUI_Console"
+			"font"							"HudFontSmallBold"
+			"textAlignment"					"center"
+			"Command"						"engine toggleconsole"
+			"actionsignallevel"				"2"
+			"sound_depressed"				"UI/buttonclick.wav"
+			
+			"armedBgColor_override"			"63 100 127 255"
+			"depressedBgColor_override"		"63 100 127 255"
 
-			"pin_to_sibling"				"ApplyButton"
+			"pin_to_sibling"				"DemoUiButton"
 			"pin_corner_to_sibling"			"PIN_TOPLEFT"
 			"pin_to_sibling_corner"			"PIN_TOPRIGHT"
 		}
@@ -137,40 +154,11 @@
 			"Command"						"engine gamemenucommand RestartWithNewLanguage; mat_queue_mode -1"
 			"actionsignallevel"				"2"
 			"sound_depressed"				"UI/buttonclick.wav"
-
-			"defaultBgColor_override"		"190 60 60 255"
+			
 			"armedBgColor_override"			"100 30 30 255"
 			"depressedBgColor_override"		"100 30 30 255"
 
-			"defaultFgColor_override"		"White"
-			"armedFgColor_override"			"White"
-			"depressedFgColor_override"		"White"
-
-			"pin_to_sibling"				"ResetAllButton"
-			"pin_corner_to_sibling"			"PIN_TOPLEFT"
-			"pin_to_sibling_corner"			"PIN_TOPRIGHT"
-		}
-		
-		"ConsoleButton"
-		{
-			"ControlName"					"CExButton"
-			"fieldname"						"ConsoleButton"
-			"xpos"							"3"
-			"ypos"							"0"
-			"zpos"							"20"
-			"wide"							"110"
-			"tall"							"20"
-			"visible"						"1"
-			"enabled"						"1"
-			"proportionaltoparent"			"1"
-			"labelText"						"#GameUI_Console"
-			"font"							"HudFontSmallBold"
-			"textAlignment"					"center"
-			"Command"						"engine toggleconsole"
-			"actionsignallevel"				"2"
-			"sound_depressed"				"UI/buttonclick.wav"
-
-			"pin_to_sibling"				"ReloadGameButton"
+			"pin_to_sibling"				"ConsoleButton"
 			"pin_corner_to_sibling"			"PIN_TOPLEFT"
 			"pin_to_sibling_corner"			"PIN_TOPRIGHT"
 		}
