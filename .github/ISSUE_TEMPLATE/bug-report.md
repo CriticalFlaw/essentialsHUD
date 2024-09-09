@@ -1,6 +1,6 @@
 ---
 name: Bug Report
-about: Report an issue with the HUD.
+about: Report an issue with the mod.
 title: "[BUG] ..."
 labels: bug
 assignees: 
