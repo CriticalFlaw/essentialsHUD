@@ -149,6 +149,33 @@
 		"enabled"		"1"
 		"image"			"../sprites/obj_icons/icon_obj_cap_mask"
 	}
+	"assistsicon"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"assistsicon"
+		"xpos"			"9999"
+		"visible"		"1"
+		"enabled"		"1"
+		"image"			"../vgui/stats_icons/assists"
+	}
+	"deathsicon"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"deathsicon"
+		"xpos"			"9999"
+		"visible"		"1"
+		"enabled"		"1"
+		"image"			"../vgui/stats_icons/deaths"
+	}
+	"killsicon"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"killsicon"
+		"xpos"			"9999"
+		"visible"		"1"
+		"enabled"		"1"
+		"image"			"../vgui/stats_icons/kills"
+	}
 	"MenuThumbMissing"
 	{
 		"ControlName"	"ImagePanel"

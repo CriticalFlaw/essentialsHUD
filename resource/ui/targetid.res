@@ -1,3 +1,6 @@
+#base "TargetID_Stats_Icons.res" // TargetID Stats with icons for K A D.
+//#base "TargetID_Stats_Letters.res" // TargetID Stats with letters (K: A: D:) for K A D.
+
 "Resource/UI/TargetID.res"
 {
 	"TargetIDBG"
@@ -25,11 +28,12 @@
 		"draw_corner_width"		"5"				// screen size of the corners ( and sides ), proportional
 		"draw_corner_height" 	"5"
 	}
+	
 	"TargetIDBG_Spec_Blue"
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"TargetIDBG_Spec_Blue"
-		"xpos"			"35"
+		"xpos"			"0"
 		"ypos"			"15"
 		"zpos"			"-1"
 		"wide"			"252"
@@ -46,11 +50,12 @@
 		"draw_corner_width"		"5"				// screen size of the corners ( and sides ), proportional
 		"draw_corner_height" 	"5"
 	}
+	
 	"TargetIDBG_Spec_Red"
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"TargetIDBG_Spec_Red"
-		"xpos"			"35"
+		"xpos"			"0"
 		"ypos"			"15"
 		"zpos"			"-1"
 		"wide"			"252"
@@ -112,6 +117,7 @@
 		"pin_corner_to_sibling" "PIN_TOPLEFT"
 		"pin_to_sibling_corner" "PIN_TOPLEFT"
 	}
+	
 	"TargetDataLabel"
 	{	
 		"ControlName"	"Label"
@@ -131,6 +137,7 @@
 		"dulltext"		"0"
 		"brighttext"	"0"
 	}
+	
 	"SpectatorGUIHealth"
 	{
 		"ControlName"	"EditablePanel"
@@ -175,6 +182,7 @@
 		"visible"		"1"
 		"enabled" 		"1"
 	}
+	
 	"KillStreakIcon"
 	{
 		"ControlName"	"ImagePanel"
@@ -192,6 +200,19 @@
 		"pin_to_sibling" 		"KillstreakIconAnchor"
 		"pin_corner_to_sibling" "1"
 		"pin_to_sibling_corner" "1"
+	}
+	
+	"PanelBottom"
+	{
+		"ControlName"		"ImagePanel"
+		"fieldName"			"PanelBottomRed"
+		"xpos"				"0"
+		"ypos"				"35"
+		"zpos"				"9"
+		"wide"				"252"
+		"tall"				"16"
+		"fillcolor"			"0 0 0 180"
+		"proportionaltoparent"	"1"
 	}
 	
 	"MoveableSubPanel"
@@ -271,6 +292,7 @@
 			"brighttext"	"0"
 		}	
 	}
+	
 	"AvatarImage"
 	{
 		"ControlName"	"CAvatarImagePanel"
