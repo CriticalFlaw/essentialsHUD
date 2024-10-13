@@ -5,7 +5,6 @@ event HudHealthBonusPulse
 	Animate BluePlayerHealth			FgColor		"HealthBuff"	Linear 0.0 0.0
 	
 	Animate PlayerStatusHealthValue		FgColor		"HealthBuff"	Linear 0.0 0.0
-	Animate PlayerStatusHealthValue		FgColor		"HealthBuff"	Linear 0.0 0.0
 	
 	RunEvent HudHealthBonusPulseLoop	0.4
 }
@@ -15,7 +14,6 @@ event HudHealthBonusPulseStop
 	Animate RedPlayerHealth				FgColor		"TanLight"		Linear 0.0 0.0
 	Animate BluePlayerHealth			FgColor		"TanLight"		Linear 0.0 0.0
 	
-	Animate PlayerStatusHealthValue		FgColor		"TanLight"		Linear 0.0 0.0
 	Animate PlayerStatusHealthValue		FgColor		"TanLight"		Linear 0.0 0.0
 	
 	StopEvent HudHealthBonusPulse		0.0
@@ -30,8 +28,7 @@ event HudHealthDyingPulse
 	Animate RedPlayerHealth				FgColor		"HealthLow"		Linear 0.0 0.0
 	Animate BluePlayerHealth			FgColor		"HealthLow"		Linear 0.0 0.0
 
-	Animate PlayerStatusHealthValue			FgColor		"HealthLow"		Linear 0.0 0.0
-	Animate PlayerStatusHealthValue			FgColor		"HealthLow"		Linear 0.0 0.0
+	Animate PlayerStatusHealthValue		FgColor		"HealthLow"		Linear 0.0 0.0
 	
 	RunEvent HudHealthDyingPulseLoop	0.1
 }
@@ -41,8 +38,7 @@ event HudHealthDyingPulseStop
 	Animate RedPlayerHealth				FgColor		"TanLight"		Linear 0.0 0.0
 	Animate BluePlayerHealth			FgColor		"TanLight"		Linear 0.0 0.0
 
-	Animate PlayerStatusHealthValue			FgColor		"TanLight"		Linear 0.0 0.0
-	Animate PlayerStatusHealthValue			FgColor		"TanLight"		Linear 0.0 0.0
+	Animate PlayerStatusHealthValue		FgColor		"TanLight"		Linear 0.0 0.0
 	
 	StopEvent HudHealthDyingPulse		0.0
 	StopEvent HudHealthDyingPulseLoop	0.0
