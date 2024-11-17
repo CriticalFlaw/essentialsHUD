@@ -511,8 +511,8 @@
 		
 		"TextFont"				"RobotoBold11"
 		
-		"TeamBlue"				"HUDBlueTeam"
-		"TeamRed"				"HUDRedTeam"
+		"TeamBlue"				"BlueTeamBuff"
+		"TeamRed"				"RedTeamBuff"
 		"IconColor"				"HudWhite"
 		"LocalPlayerColor"		"HUDBlack"
 		
