@@ -4,7 +4,7 @@
 	{
 		"ControlName"	"Frame"
 		"fieldName"		"MedigunPanel"
-		"wide"			"121"
+		"wide"			"122"
 		"tall"			"15"
 		"autoResize"	"0"
 		"pinCorner"		"0"
@@ -58,7 +58,7 @@
 		"src_corner_width"		"22"
 		"draw_corner_width"		"0"		// screen size of the corners ( and sides ), proportional
 		"draw_corner_height"	"0"
-
+		
 		"player-alive"
 		{
 			"team-red"  {
@@ -85,6 +85,7 @@
 		"image"			"replay/thumbnails/uber"
 
 		"team-red" {
+			"xpos"		"104"
 			"drawcolor"	"RedTeamBuff"
 		}
 		"team-blu" {
@@ -158,6 +159,10 @@
         "font"			"RobotoBold11"
         "fgcolor"		"TanLight"
 
+		"team-red" {
+			"xpos"		"0"
+		}
+		
         "medigun-vaccinator" {
             "labelText"	"%charges%"
         }
@@ -202,7 +207,7 @@
         "xpos"				"21"
         "ypos"				"0"
         "zpos"				"2"
-		"wide"				"114"
+		"wide"				"100"
 		"tall"				"f0"
         "autoResize"		"0"
         "pinCorner"			"0"
@@ -211,11 +216,11 @@
         "textAlignment"		"Left"
         "dulltext"			"0"
         "brighttext"		"0"
-		"bgcolor_override"	"HUDBlueTeamSolid"
-		"fgcolor_override"	"BlueTeam"
+		"bgcolor_override"	"BlueTeam"
+		"fgcolor_override"	"BlueTeamBuff"
         "direction"			"east"
         "variable"			"charge"
-
+		
         "medigun-vaccinator" {
             "visible"       "0"
         }
@@ -223,8 +228,10 @@
             "visible"       "0"
         }
 		"team-red" {
-			"bgcolor_override"	"HUDRedTeamSolid"
-			"fgcolor_override"	"RedTeam"
+			"xpos"		"0"
+			"direction"	"west"
+			"bgcolor_override"	"RedTeam"
+			"fgcolor_override"	"RedTeamBuff"
 		}
     }
 
@@ -232,7 +239,7 @@
 	{
 		"ControlName"	"VariableLabel"
 		"fieldName"		"MedigunPanelNameLabel"
-		"xpos"			"18"
+		"xpos"			"24"
 		"ypos"			"0"
 		"zpos"			"3"
 		"wide"			"f0"
@@ -245,11 +252,14 @@
 		"textAlignment"	"west"
 		"dulltext"		"0"
 		"brighttext"	"0"
-		"textinsetx"	"10"
 		"font"			"RobotoBold11"
 		"fgcolor_override"		"TanLight"
 		"proportionaltoparent"	"1"
 
+		"team-red" {
+			"xpos"			"-26"
+			"textAlignment"	"east"
+		}
 		"medigun-medigun" {
 			"labelText"	"#TF_Weapon_Medigun"
 		}
@@ -284,7 +294,6 @@
 		"textAlignment"	"west"
 		"dulltext"		"0"
 		"brighttext"	"0"
-		"textinsetx"	"6"
 		"font"			"RobotoBold11"
 		"fgcolor_override"		"TransparentBlack"
 		"proportionaltoparent"	"1"
@@ -293,6 +302,9 @@
 		"pin_corner_to_sibling" "PIN_TOPLEFT"
 		"pin_to_sibling_corner" "PIN_TOPLEFT"
 
+		"team-red" {
+			"textAlignment"	"east"
+		}
 		"medigun-medigun" {
 			"labelText"	"#TF_Weapon_Medigun"
 		}
