@@ -307,7 +307,7 @@
 				
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
-		"paintbackground"	"0"
+		"paintbackground"	"1"
 		"paintborder"		"0"
 		"image_drawcolor"	"235 226 202 255"
 		"image_armedcolor"	"255 255 255 255"
@@ -480,7 +480,7 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"Notifications_ShowButtonPanel"
-		"xpos"			"c148"
+		"xpos"			"r215"
 		"ypos"			"28"
 		"zpos"			"10"
 		"wide"			"32"
@@ -583,7 +583,7 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"WatchStreamButton"
-		"xpos"			"c188"
+		"xpos"			"r175"
 		"ypos"			"28"
 		"zpos"			"1"
 		"wide"			"32"
@@ -656,7 +656,7 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"QuestLogButton"
-		"xpos"			"c228"
+		"xpos"			"r135"
 		"ypos"			"28"
 		"zpos"			"1"
 		"wide"			"32"
@@ -729,7 +729,7 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"MOTD_ShowButtonPanel"
-		"xpos"			"c268"
+		"xpos"			"r95"
 		"ypos"			"28"
 		"zpos"			"1"
 		"wide"			"32"
@@ -1384,10 +1384,10 @@
 		"ControlName"	"EditablePanel"
 		"fieldname"		"FriendsContainer"
 		"xpos"			"c-290"
-		"ypos"			"160"
+		"ypos"			"260"
 		"zpos"			"5"
 		"wide"			"260"
-		"tall"			"200"
+		"tall"			"150"
 		"visible"		"1"
 
 		"border"		"MainMenuBGBorder"
@@ -1416,10 +1416,10 @@
 			"ControlName"	"EditablePanel"
 			"fieldname"		"InnerShadow"
 			"xpos"			"cs-0.5"
-			"ypos"			"rs1-6"
+			"ypos"			"rs1-10"
 			"zpos"			"501"
 			"wide"			"f10"
-			"tall"			"171"
+			"tall"			"110"
 			"visible"		"1"	
 			"PaintBackgroundType"	"0"
 			"proportionaltoparent"	"1"
@@ -1434,10 +1434,10 @@
 			"ControlName"	"CSteamFriendsListPanel"
 			"fieldname"		"SteamFriendsList"
 			"xpos"			"cs-0.5"
-			"ypos"			"rs1-6"
+			"ypos"			"rs1-10"
 			"zpos"			"500"
 			"wide"			"f10"
-			"tall"			"171"
+			"tall"			"110"
 			"visible"		"1"
 			"proportionaltoparent"	"1"
 
@@ -1492,10 +1492,10 @@
 			"ControlName"	"EditablePanel"
 			"fieldname"		"BelowDarken"
 			"xpos"			"cs-0.5"
-			"ypos"			"rs1-6"
+			"ypos"			"rs1-10"
 			"zpos"			"499"
 			"wide"			"f10"
-			"tall"			"171"
+			"tall"			"110"
 			"visible"		"1"	
 			"PaintBackgroundType"	"0"
 			"proportionaltoparent"	"1"
@@ -1503,102 +1503,6 @@
 
 			"bgcolor_override"	"0 0 0 100"
 		}
-	}
-	
-	"ConsolePanelBGL"
-	{
-		"ControlName"	"EditablePanel"
-		"fieldName"		"ConsolePanelBGL"
-		"xpos"			"c-290"
-		"ypos"			"359"
-		"zpos"			"-1"
-		"wide"			"130"
-		"tall"			"38"
-		"visible"		"1"
-		"enabled"		"1"
-		"PaintBackgroundType"	"2"
-		"border"		"MainMenuBGBorder"
-	}
-	
-	"ShowConsoleButtonL"
-	{
-		"ControlName"	"CExImageButton"
-		"fieldName"		"ShowConsoleButtonL"
-		"xpos"			"c-285"
-		"ypos"			"365"
-		"zpos"			"0"
-		"wide"			"120"
-		"tall"			"26"
-		"autoResize"	"0"
-		"pinCorner"		"3"
-		"visible"		"1"
-		"enabled"		"1"
-		"tabPosition"	"0"
-		"font"			"HudFontSmallBold"
-		"labelText"		"Console"
-		"textAlignment"	"center"
-		"dulltext"		"0"
-		"brighttext"	"0"
-		"default"		"1"
-		"sound_depressed"	"UI/buttonclick.wav"
-		"sound_released"	"UI/buttonclickrelease.wav"
-		"command"			"engine showconsole"
-		
-		"border_default"	"MainMenuButtonDefault"
-		"border_armed"		"MainMenuButtonArmed"
-		"paintbackground"	"0"
-		
-		"defaultFgColor_override" "46 43 42 255"
-		"armedFgColor_override" "235 226 202 255"
-		"depressedFgColor_override" "46 43 42 255"
-	}
-	
-	"DemoUIPanelBGL"
-	{
-		"ControlName"	"EditablePanel"
-		"fieldName"		"DemoUIPanelBGL"
-		"xpos"			"c-160"
-		"ypos"			"359"
-		"zpos"			"-1"
-		"wide"			"130"
-		"tall"			"38"
-		"visible"		"1"
-		"enabled"		"1"
-		"PaintBackgroundType"	"2"
-		"border"		"MainMenuBGBorder"
-	}
-	
-	"ShowDemoUIButtonL"
-	{
-		"ControlName"	"CExImageButton"
-		"fieldName"		"ShowDemoUIButtonL"
-		"xpos"			"c-155"
-		"ypos"			"365"
-		"zpos"			"0"
-		"wide"			"120"
-		"tall"			"26"
-		"autoResize"	"0"
-		"pinCorner"		"3"
-		"visible"		"1"
-		"enabled"		"1"
-		"tabPosition"	"0"
-		"font"			"HudFontSmallBold"
-		"labelText"		"#TF_OptionCategory_HUD"
-		"textAlignment"	"center"
-		"dulltext"		"0"
-		"brighttext"	"0"
-		"default"		"1"
-		"sound_depressed"	"UI/buttonclick.wav"
-		"sound_released"	"UI/buttonclickrelease.wav"
-		"command"		"engine toggle cl_mainmenu_safemode; mat_queue_mode 0"
-		
-		"border_default"	"MainMenuButtonDefault"
-		"border_armed"		"MainMenuButtonArmed"
-		"paintbackground"	"0"
-		
-		"defaultFgColor_override" "46 43 42 255"
-		"armedFgColor_override" "235 226 202 255"
-		"depressedFgColor_override" "46 43 42 255"
 	}
 
 	"EventPromo"
@@ -1810,112 +1714,87 @@
 				{
 					"0"
 					{
-						"item"		"Halloween 2024 Key"
+						"item"		"Winter 2024 Cosmetic Key" 
 						"show_market"	"0"
 					}
 					"1"
 					{
-						"item"		"Halloween 2024 Case"
+						"item"		"Winter 2024 Cosmetic Case"
 						"show_market"	"1"
 					}
 					"2"
 					{
-						"item"		"Scream Fortress 2024 War Paint Key"
+						"item"		"Taunt: Curtain Call"
 						"show_market"	"0"
 					}
 					"3"
 					{
-						"item"		"Scream Fortress 2024 War Paint Case"
-						"show_market"	"1"
+						"item"		"Taunt: Peace!"
+						"show_market"	"0"
 					}
 					"4"
 					{
-						"item"		"Taunt: Crushing Headache"
+						"item"		"Taunt: Fore-Head Slice"
 						"show_market"	"0"
 					}
 					"5"
 					{
-						"item"		"Taunt: Peace Out"
+						"item"		"Map Token Overcast"
 						"show_market"	"0"
 					}
 					"6"
 					{
-						"item"		"Taunt: Commending Clap"
+						"item"		"Map Token Fortezza"
 						"show_market"	"0"
 					}
 					"7"
 					{
-						"item"		"Taunt: The Punchline"
+						"item"		"Map Token Penguin Peak"
 						"show_market"	"0"
 					}
 					"8"
 					{
-						"item"		"Map Token Toxic"
+						"item"		"Map Token Patagonia"
 						"show_market"	"0"
 					}
 					"9"
 					{
-						"item"		"Map Token Darkmarsh"	
+						"item"		"Map Token Cutter"
 						"show_market"	"0"
 					}
 					"10"
 					{
-						"item"		"Map Token Freaky Fair"
+						"item"		"Map Token Maul"
 						"show_market"	"0"
 					}
 					"11"
 					{
-						"item"		"Map Token Dynamite"
+						"item"		"Strange Filter: Overcast (Community)"
 						"show_market"	"0"
 					}
 					"12"
 					{
-						"item"		"Map Token Circus"
+						"item"		"Strange Filter: Fortezza (Community)"
 						"show_market"	"0"
 					}
 					"13"
 					{
-						"item"		"Map Token Outburst"
+						"item"		"Strange Filter: Penguin Peak (Community)"
 						"show_market"	"0"
 					}
 					"14"
 					{
-						"item"		"Map Token Blazehattan"
+						"item"		"Strange Filter: Patagonia (Community)"
 						"show_market"	"0"
 					}
 					"15"
 					{
-						"item"		"Strange Filter: Toxic (Community)"
+						"item"		"Strange Filter: Cutter (Community)"
 						"show_market"	"0"
 					}
 					"16"
 					{
-						"item"		"Strange Filter: Darkmarsh (Community)"
-						"show_market"	"0"
-					}
-					"17"
-					{
-						"item"		"Strange Filter: Freaky Fair (Community)"
-						"show_market"	"0"
-					}
-					"18"
-					{
-						"item"		"Strange Filter: Dynamite (Community)"
-						"show_market"	"0"
-					}
-					"19"
-					{
-						"item"		"Strange Filter: Circus (Community)"
-						"show_market"	"0"
-					}
-					"20"
-					{
-						"item"		"Strange Filter: Outburst (Community)"
-						"show_market"	"0"
-					}
-					"21"
-					{
-						"item"		"Strange Filter: Blazehattan (Community)"
+						"item"		"Strange Filter: Maul (Community)"
 						"show_market"	"0"
 					}
 				}
@@ -2265,10 +2144,10 @@
 	{
 		"ControlName"	"CExImageButton"
 		"fieldName"		"CharacterSetupButton"
-		"xpos"			"c-295"
-		"ypos"			"437"
+		"xpos"			"c-288"
+		"ypos"			"rs1-18"
 		"wide"			"100"
-		"tall"			"25"
+		"tall"			"26"
 		"autoResize"	"0"
 		"pinCorner"		"3"
 		"visible"		"1"
@@ -2326,10 +2205,10 @@
 	{
 		"ControlName"	"CExImageButton"
 		"fieldName"		"GeneralStoreButton"
-		"xpos"			"c-172"
-		"ypos"			"437"
+		"xpos"			"c-165"
+		"ypos"			"rs1-18"
 		"wide"			"100"
-		"tall"			"25"
+		"tall"			"26"
 		"autoResize"	"0"
 		"pinCorner"		"3"
 		"visible"		"1"
@@ -2963,6 +2842,67 @@
 			"angles_x"		"10"
 			"angles_y"		"130"
 			"angles_z"		"0"
+		}
+	}
+	
+	"ShowHUDOptonsButton"
+	{
+		"ControlName"	"EditablePanel"
+		"fieldName"		"ShowHUDOptonsButton"
+		"xpos"			"r55"
+		"ypos"			"28"
+		"zpos"			"1"
+		"wide"			"32"
+		"tall"			"32"
+		"autoResize"	"0"
+		"pinCorner"		"3"
+		"visible"		"1"
+		"enabled"		"1"
+
+		"ShowHUDOptonsButton2_SB"
+		{
+			"ControlName"	"CExImageButton"
+			"fieldName"		"ShowHUDOptonsButton2_SB"
+			"xpos"			"0"
+			"ypos"			"0"
+			"zpos"			"1"
+			"wide"			"32"
+			"tall"			"32"
+			"autoResize"	"0"
+			"pinCorner"		"3"
+			"visible"		"1"
+			"enabled"		"1"
+			"tabPosition"	"0"
+			"labelText"		""
+			"font"			"HudFontSmallestBold"
+			"textAlignment"	"center"
+			"dulltext"		"0"
+			"brighttext"	"0"
+			"default"		"1"
+
+			"actionsignallevel" "2"
+			"Command"		"engine toggle cl_mainmenu_safemode; mat_queue_mode 0"
+
+			"sound_depressed"	"UI/buttonclick.wav"
+			"sound_released"	"UI/buttonclickrelease.wav"
+			"paintbackground" "0"
+			"image_drawcolor"	"235 226 202 255"
+			"image_armedcolor"	"255 255 255 255"
+
+			"SubImage"
+			{
+				"ControlName"	"ImagePanel"
+				"fieldName"		"SubImage"
+				"xpos"			"0"
+				"ypos"			"0"
+				"zpos"			"1"
+				"wide"			"32"
+				"tall"			"32"
+				"visible"		"1"
+				"enabled"		"1"
+				"image"			"../vgui/replay/thumbnails/button_hud"
+				"scaleImage"	"1"
+			}
 		}
 	}
 }

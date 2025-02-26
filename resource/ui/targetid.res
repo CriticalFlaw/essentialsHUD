@@ -242,6 +242,7 @@
 			"iconColor"		"HudBlack"
 			"scaleImage"	"1"
 		}
+		
 		"MoveableIcon"
 		{
 			"ControlName"	"CIconPanel"
@@ -257,6 +258,7 @@
 			"drawcolor"		"ProgressOffWhite"
 			"scaleImage"	"1"
 		}
+		
 		"MoveableSymbolIcon"
 		{
 			"ControlName"	"ImagePanel"
@@ -272,6 +274,7 @@
 			"drawcolor"		"ProgressOffWhite"
 			"scaleImage"	"1"
 		}
+		
 		"MoveableKeyLabel"
 		{	
 			"ControlName"	"Label"
