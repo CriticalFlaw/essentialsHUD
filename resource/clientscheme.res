@@ -482,7 +482,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Roboto Bold"
+				"name"		"Roboto"
 				"tall"		"55"
 				"additive"	"0"
 				"antialias" "1"
@@ -492,7 +492,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Roboto Bold"
+				"name"		"Roboto"
 				"tall"		"34"
 				"additive"	"0"
 				"antialias" "1"
@@ -502,7 +502,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Roboto Bold"
+				"name"		"Roboto"
 				"tall"		"30"
 				"additive"	"0"
 				"antialias" "1"
@@ -512,7 +512,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Roboto Bold"
+				"name"		"Roboto"
 				"tall"		"28"
 				"additive"	"0"
 				"antialias" "1"
@@ -522,7 +522,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Roboto Bold"
+				"name"		"Roboto"
 				"tall"		"26"
 				"additive"	"0"
 				"antialias" "1"
@@ -532,7 +532,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Roboto Bold"
+				"name"		"Roboto"
 				"tall"		"24"
 				"additive"	"0"
 				"antialias" "1"
@@ -542,7 +542,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Roboto Bold"
+				"name"		"Roboto"
 				"tall"		"22"
 				"additive"	"0"
 				"antialias" "1"
@@ -552,7 +552,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Roboto Bold"
+				"name"		"Roboto"
 				"tall"		"20"
 				"additive"	"0"
 				"antialias" "1"
@@ -562,7 +562,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Roboto Bold"
+				"name"		"Roboto"
 				"tall"		"18"
 				"additive"	"0"
 				"antialias" "1"
@@ -572,7 +572,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Roboto Bold"
+				"name"		"Roboto"
 				"tall"		"16"
 				"additive"	"0"
 				"antialias" "1"
@@ -582,7 +582,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Roboto Bold"
+				"name"		"Roboto"
 				"tall"		"14"
 				"additive"	"0"
 				"antialias" "1"
@@ -592,7 +592,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Roboto Bold"
+				"name"		"Roboto"
 				"tall"		"12"
 				"additive"	"0"
 				"antialias" "1"
@@ -602,7 +602,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Roboto Bold"
+				"name"		"Roboto"
 				"tall"		"11"
 				"additive"	"0"
 				"antialias" "1"
@@ -612,7 +612,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Roboto Bold"
+				"name"		"Roboto"
 				"tall"		"10"
 				"additive"	"0"
 				"antialias" "1"
@@ -622,7 +622,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Roboto Bold"
+				"name"		"Roboto"
 				"tall"		"9"
 				"additive"	"0"
 				"antialias" "1"
@@ -632,7 +632,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Roboto Bold"
+				"name"		"Roboto"
 				"tall"		"8"
 				"additive"	"0"
 				"antialias" "1"
@@ -642,7 +642,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Roboto Bold"
+				"name"		"Roboto"
 				"tall"		"7"
 				"additive"	"0"
 				"antialias" "1"
@@ -653,7 +653,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Roboto Regular"
+				"name"		"Roboto Black"
 				"tall"		"55"
 				"additive"	"0"
 				"antialias" "1"
@@ -663,7 +663,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Roboto Regular"
+				"name"		"Roboto Black"
 				"tall"		"34"
 				"additive"	"0"
 				"antialias" "1"
@@ -673,7 +673,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Roboto Regular"
+				"name"		"Roboto Black"
 				"tall"		"30"
 				"additive"	"0"
 				"antialias" "1"
@@ -683,7 +683,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Roboto Regular"
+				"name"		"Roboto Black"
 				"tall"		"28"
 				"additive"	"0"
 				"antialias" "1"
@@ -693,7 +693,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Roboto Regular"
+				"name"		"Roboto Black"
 				"tall"		"26"
 				"additive"	"0"
 				"antialias" "1"
@@ -703,7 +703,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Roboto Regular"
+				"name"		"Roboto Black"
 				"tall"		"24"
 				"additive"	"0"
 				"antialias" "1"
@@ -713,7 +713,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Roboto Regular"
+				"name"		"Roboto Black"
 				"tall"		"22"
 				"additive"	"0"
 				"antialias" "1"
@@ -723,7 +723,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Roboto Regular"
+				"name"		"Roboto Black"
 				"tall"		"20"
 				"additive"	"0"
 				"antialias" "1"
@@ -733,7 +733,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Roboto Regular"
+				"name"		"Roboto Black"
 				"tall"		"18"
 				"additive"	"0"
 				"antialias" "1"
@@ -743,7 +743,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Roboto Regular"
+				"name"		"Roboto Black"
 				"tall"		"16"
 				"additive"	"0"
 				"antialias" "1"
@@ -753,7 +753,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Roboto Regular"
+				"name"		"Roboto Black"
 				"tall"		"14"
 				"additive"	"0"
 				"antialias" "1"
@@ -763,7 +763,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Roboto Regular"
+				"name"		"Roboto Black"
 				"tall"		"12"
 				"additive"	"0"
 				"antialias" "1"
@@ -773,7 +773,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Roboto Regular"
+				"name"		"Roboto Black"
 				"tall"		"11"
 				"additive"	"0"
 				"antialias" "1"
@@ -783,7 +783,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Roboto Regular"
+				"name"		"Roboto Black"
 				"tall"		"10"
 				"additive"	"0"
 				"antialias" "1"
@@ -793,7 +793,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Roboto Regular"
+				"name"		"Roboto Black"
 				"tall"		"9"
 				"additive"	"0"
 				"antialias" "1"
@@ -803,7 +803,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Roboto Regular"
+				"name"		"Roboto Black"
 				"tall"		"8"
 				"additive"	"0"
 				"antialias" "1"
@@ -825,7 +825,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Roboto Regular"
+				"name"		"Roboto Black"
 				"tall"		"14"
 				"weight"	"900"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
@@ -833,7 +833,7 @@ Scheme
 			}
 			"2"
 			{
-				"name"		"Roboto Regular"
+				"name"		"Roboto Black"
 				"tall"		"15"	[$WIN32]
 				"tall"		"20"	[$X360]
 				"weight"	"900"
@@ -842,7 +842,7 @@ Scheme
 			}
 			"3"
 			{
-				"name"		"Roboto Regular"
+				"name"		"Roboto Black"
 				"tall"		"16"
 				"weight"	"900"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
@@ -851,16 +851,16 @@ Scheme
 			}
 			"4"
 			{
-				"name"		"Roboto Regular"
+				"name"		"Roboto Black"
 				"tall"		"22"
 				"weight"	"900"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
 				"yres"		"1024 1199"
 				"antialias"	"1"
 			}
-			"5"
+			"5" // Misyl: Proportional
 			{
-				"name"		"Roboto Regular"
+				"name"		"Roboto Black"
 				"tall"		"11"
 				"weight"	"900"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
@@ -868,14 +868,14 @@ Scheme
 			}
 			"6"
 			{
-				"name"		"Roboto Regular"
+				"name"		"Roboto Black"
 				"tall"		"14"
 				"range" 	"0x0000 0x00FF"
 				"weight"	"900"
 			}
 			"7"
 			{
-				"name"		"Roboto Regular"
+				"name"		"Roboto Black"
 				"tall"		"14"
 				"range" 	"0x0000 0x00FF"
 				"weight"	"800"
@@ -937,7 +937,7 @@ Scheme
 				"yres"		"1024 1199"
 				"antialias"	"1"
 			}
-			"5"
+			"5" // Misyl: Proportional
 			{
 				"name"		"Verdana"
 				"tall"		"9"
@@ -991,7 +991,7 @@ Scheme
 				"yres"		"1024 1199"
 				"antialias"	"1"
 			}
-			"5"
+			"5" // Misyl: Proportional
 			{
 				"name"		"Verdana"
 				"tall"		"9"
@@ -1036,7 +1036,7 @@ Scheme
 				"yres"		"1024 1199"
 				"antialias"	"1"
 			}
-			"5"
+			"5" // Misyl: Proportional
 			{
 				"name"		"Verdana"
 				"tall"		"18"
@@ -1115,7 +1115,7 @@ Scheme
 				"weight"	"700"
 				"yres"		"1024 1199"
 			}
-			"5"
+			"5" // Misyl: Proportional
 			{
 				"name"		"Verdana"
 				"tall"		"12"
@@ -1255,7 +1255,7 @@ Scheme
 				"additive"	"0"
 				"antialias" "1"
 			}
-			"2"
+			"2" // Misyl: Proportional
 			{
 				"name"		"TF2 Secondary"
 				"tall"		"10"
@@ -3658,13 +3658,14 @@ Scheme
 				
 		MainMenuSubButtonBorder
 		{
-			"inset" "0 0 1 1"
+			"inset" "0 0 1 0"
+			"proportional_scalar" "0.667"
 			Left
 			{
 				"1"
 				{
 					"color" "TanDarker"
-					"offset" "0 1"
+					"offset" "0 0"
 				}
 			}
 
@@ -3673,7 +3674,7 @@ Scheme
 				"1"
 				{
 					"color" "TanDarker"
-					"offset" "1 0"
+					"offset" "0 0"
 				}
 			}
 		}
@@ -6212,13 +6213,13 @@ Scheme
 		}
 		"8"
 		{
-			"font"	"resource/fonts/Roboto-Bold.ttf"
-			"name"	"Roboto Bold"
+			"font"	"resource/fonts/roboto.ttf"
+			"name"	"Roboto"
 		}
 		"9"
 		{
-			"font"	"resource/fonts/Roboto-Black.ttf"
-			"name"	"Roboto Regular"
+			"font"	"resource/fonts/roboto-black.ttf"
+			"name"	"Roboto Black"
 		}
 		"10"		"resource/linux_fonts/DejaVuSans.ttf"
 		"11"		"resource/linux_fonts/DejaVuSans-Bold.ttf"
