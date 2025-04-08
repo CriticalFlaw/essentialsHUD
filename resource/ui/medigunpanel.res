@@ -156,7 +156,7 @@
         "textAlignment"	"center"
         "dulltext"		"0"
         "brighttext"	"0"
-        "font"			"RobotoBold11"
+        "font"			"Barlow12"
         "fgcolor"		"TanLight"
 
 		"team-red" {
@@ -187,7 +187,7 @@
         "textAlignment"	"center"
         "dulltext"		"0"
         "brighttext"	"0"
-        "font"			"RobotoBold11"
+        "font"			"Barlow12"
 		"fgcolor_override"	"TransparentBlack"
 
 		"pin_to_sibling" 		"MedigunPanelChargeLabel"
@@ -252,7 +252,7 @@
 		"textAlignment"	"west"
 		"dulltext"		"0"
 		"brighttext"	"0"
-		"font"			"RobotoBold11"
+		"font"			"Barlow12"
 		"fgcolor_override"		"TanLight"
 		"proportionaltoparent"	"1"
 
@@ -294,7 +294,7 @@
 		"textAlignment"	"west"
 		"dulltext"		"0"
 		"brighttext"	"0"
-		"font"			"RobotoBold11"
+		"font"			"Barlow12"
 		"fgcolor_override"		"TransparentBlack"
 		"proportionaltoparent"	"1"
 

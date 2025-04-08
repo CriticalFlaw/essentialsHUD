@@ -77,7 +77,7 @@
 	{	
 		"ControlName"	"Label"
 		"fieldName"		"TargetNameLabel"
-		"font"			"RobotoBold18"
+		"font"			"Barlow18"
 		"xpos"			"0"
 		"ypos"			"15"
 		"zpos"			"2"
@@ -97,7 +97,7 @@
 	{	
 		"ControlName"	"Label"
 		"fieldName"		"TargetNameLabelShadow"
-		"font"			"RobotoBold18"
+		"font"			"Barlow18"
 		"xpos"			"-1"
 		"ypos"			"-1"
 		"zpos"			"1"
@@ -122,7 +122,7 @@
 	{	
 		"ControlName"	"Label"
 		"fieldName"		"TargetDataLabel"
-		"font"			"RobotoBold12"
+		"font"			"Barlow12"
 		"xpos"			"0"
 		"ypos"			"2"
 		"zpos"			"2"

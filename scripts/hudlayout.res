@@ -506,10 +506,10 @@
 		"IconScale"	  "0.35"
 		"LineHeight"	  "16"
 		"LineSpacing"	  "1"
-		"CornerRadius"	  "0"
+		"CornerRadius"	  "2"
 		"RightJustify"	  "1"	// If 1, draw notices from the right
 		
-		"TextFont"				"RobotoBold11"
+		"TextFont"				"Barlow20"
 		
 		"TeamBlue"				"BlueTeamBuff"
 		"TeamRed"				"RedTeamBuff"

@@ -28,7 +28,7 @@ exec joystick.cfg									// Setup Custom Controller.
 // Base HUD convars
 cl_hud_minmode 0									// Turns HUD minmode off/to zero.
 tf_use_match_hud 0									// Turns off casual match HUD up the top.
-ce_loadout_enabled 1								// Loadout icons
+ce_loadout_enabled 0								// Loadout icons
 ce_hud_player_status_effects 1						// Player status effects (bleed, on-fire, etc.)
 ce_hud_player_health_progressbars 1					// Player health bars.
 ce_hud_progressbar_directions 		1 				// Enable for health/weapon progress bars
@@ -42,7 +42,7 @@ ce_hud_forward_playerpanel_border 	1				//
 ce_antifreeze_enabled 1								// Fixes the HUD and prevents the HUD from breaking during pauses.
 ce_freezeinfo_enabled 1								// Shows currently paused for x time timer.
 //ce_teamscores_enabled 1							// Team score panels
-ce_hud_statistics_enabled 0							// Shows the KDA stats on each player panel
+ce_hud_statistics_enabled 1							// Shows the KDA stats on each player panel
 
 //Chargebar Settings (hiding and priorities, 0 = hidden, 1 = high priority, 2 = higher priority, etc.)
 ce_hud_chargebars_priority_baby_face 0 				// Baby Face's Blaster

@@ -50,7 +50,7 @@
 		"textAlignment"		"west"
 		"dulltext"		"0"
 		"brighttext"		"0"
-		"font"			"RobotoBold14"
+		"font"			"Barlow14"
 		"fgcolor"		"White"
 		"proportionaltoparent"	"1"
 

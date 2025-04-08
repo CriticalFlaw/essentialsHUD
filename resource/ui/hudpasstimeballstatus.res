@@ -32,7 +32,7 @@
 		"ControlName"	"CExLabel"
 		"fieldName"		"EventTitleLabel"
 		"dropshadow"	"1"
-		"font"			"RobotoBold30"
+		"font"			"Barlow30"
 		"xpos"			"0"
 		"ypos"			"c-98"
 		"zpos"			"3"
@@ -70,7 +70,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"EventDetailLabel"
-		"font"			"RobotoBold14"
+		"font"			"Barlow14"
 		"dropshadow"	"1"
 		"xpos"			"0"
 		"ypos"			"0"

@@ -73,7 +73,7 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"			"BlueTeamName"
-		"font"				"RobotoBold30"
+		"font"				"Barlow30"
 		"labelText"			"%blueteamname%"
 		"textAlignment"		"east"
 		"xpos"				"0"
@@ -101,7 +101,7 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"			"BlueTeamScore"
-		"font"				"RobotoBold34"
+		"font"				"Barlow34"
 		"labelText"			"%blueteamscore%"
 		"textAlignment"		"east"
 		"xpos"				"0"
@@ -130,7 +130,7 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"			"BlueTeamPlayerCount"
-		"font"				"roboto10"
+		"font"				"Barlow10"
 		"labelText"			"%blueteamplayercount%"
 		"textAlignment"		"west"
 		"xpos"				"0"
@@ -206,7 +206,7 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"			"RedTeamName"
-		"font"				"RobotoBold30"
+		"font"				"Barlow30"
 		"labelText"			"%redteamname%"
 		"textAlignment"		"west"
 		"xpos"				"0"
@@ -234,7 +234,7 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"			"RedTeamScore"
-		"font"				"RobotoBold34"
+		"font"				"Barlow34"
 		"labelText"			"%redteamscore%"
 		"textAlignment"		"west"
 		"xpos"				"0"
@@ -263,7 +263,7 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"			"RedTeamPlayerCount"
-		"font"				"roboto10"
+		"font"				"Barlow10"
 		"labelText"			"%redteamplayercount%"
 		"textAlignment"		"east"
 		"xpos"				"0"
@@ -312,7 +312,7 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"			"ServerLabel"
-		"font"				"RobotoBold12"
+		"font"				"Barlow12"
 		"labelText"			"%server%"
 		"textAlignment"		"center"
 		"xpos"				"5"
@@ -362,7 +362,7 @@
 		"ControlName"		"CExLabel"
 		"fieldName"			"ServerTimeLeftLabel"
 		"labelText"			"%servertimeleft%"
-		"font"				"RobotoBold11"
+		"font"				"Barlow12"
 		"textAlignment"		"center"
 		"xpos"				"-5"
 		"ypos"				"0"
@@ -532,7 +532,7 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"			"PlayerNameLabel"
-		"font"				"roboto10"
+		"font"				"Barlow10"
 		"labelText"			"%playername%"
 		"textAlignment"		"west"
 		"xpos"				"0"
@@ -567,7 +567,7 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"			"mapname"
-		"font"				"roboto10"
+		"font"				"Barlow10"
 		"labelText"			"%mapname%"
 		"textAlignment"		"center"
 		"xpos"				"-55"
@@ -732,7 +732,7 @@
 				"wrap"			"0"
 				"labelText"		"%playername%"
 				"textAlignment"	"east"
-				"font"			"roboto10"
+				"font"			"Barlow10"
 			}
 			"Score"
 			{
@@ -811,7 +811,7 @@
 				"wrap"			"0"
 				"labelText"		"%playername%"
 				"textAlignment"	"west"
-				"font"			"roboto10"
+				"font"			"Barlow10"
 			}
 			"Score"
 			{
@@ -859,7 +859,7 @@
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"			"KillsLabel"
-			"font"				"RobotoBold30"
+			"font"				"Barlow30"
 			"labelText"			":"
 			"textAlignment"		"center"
 			"xpos"				"55"
@@ -878,7 +878,7 @@
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"			"DeathsLabel"
-			"font"				"roboto10"
+			"font"				"Barlow10"
 			"labelText"			"#TF_ScoreBoard_DeathsLabel"
 			"textAlignment"		"east"
 			"xpos"				"0"
@@ -896,7 +896,7 @@
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"			"AssistsLabel"
-			"font"				"roboto10"
+			"font"				"Barlow10"
 			"labelText"			"#TF_ScoreBoard_AssistsLabel"
 			"textAlignment"		"east"
 			"xpos"				"120"
@@ -914,7 +914,7 @@
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"			"DestructionLabel"
-			"font"				"roboto10"
+			"font"				"Barlow10"
 			"labelText"			"#TF_ScoreBoard_DestructionLabel"
 			"textAlignment"		"east"
 			"xpos"				"0"
@@ -935,7 +935,7 @@
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"			"Kills"
-			"font"				"RobotoBold30"
+			"font"				"Barlow30"
 			"labelText"			"%kills%"
 			"textAlignment"		"east"
 			"xpos"				"-20"
@@ -957,7 +957,7 @@
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"			"Deaths"
-			"font"				"RobotoBold30"
+			"font"				"Barlow30"
 			"labelText"			"%deaths%"
 			"textAlignment"		"west"
 			"xpos"				"-15"
@@ -998,7 +998,7 @@
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"			"Assists"
-			"font"				"roboto10"
+			"font"				"Barlow10"
 			"labelText"			"%assists%"
 			"textAlignment"		"west"
 			"xpos"				"35"
@@ -1019,7 +1019,7 @@
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"			"Destruction"
-			"font"				"roboto10"
+			"font"				"Barlow10"
 			"labelText"			"%destruction%"
 			"textAlignment"		"west"
 			"xpos"				"35"
@@ -1041,7 +1041,7 @@
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"			"CapturesLabel"
-			"font"				"roboto10"
+			"font"				"Barlow10"
 			"labelText"			"#TF_ScoreBoard_CapturesLabel"
 			"textAlignment"		"east"
 			"xpos"				"0"
@@ -1063,7 +1063,7 @@
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"			"DefensesLabel"
-			"font"				"roboto10"
+			"font"				"Barlow10"
 			"labelText"			"#TF_ScoreBoard_DefensesLabel"
 			"textAlignment"		"east"
 			"xpos"				"80"
@@ -1085,7 +1085,7 @@
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"			"DominationLabel"
-			"font"				"roboto10"
+			"font"				"Barlow10"
 			"labelText"			"#TF_ScoreBoard_DominationLabel"
 			"textAlignment"		"east"
 			"xpos"				"0"
@@ -1107,7 +1107,7 @@
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"			"RevengeLabel"
-			"font"				"roboto10"
+			"font"				"Barlow10"
 			"labelText"			"#TF_ScoreBoard_RevengeLabel"
 			"textAlignment"		"east"
 			"xpos"				"0"
@@ -1128,7 +1128,7 @@
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"			"Captures"
-			"font"				"roboto10"
+			"font"				"Barlow10"
 			"labelText"			"%captures%"
 			"textAlignment"		"west"
 			"xpos"				"35"
@@ -1149,7 +1149,7 @@
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"			"Defenses"
-			"font"				"roboto10"
+			"font"				"Barlow10"
 			"labelText"			"%defenses%"
 			"textAlignment"		"west"
 			"xpos"				"35"
@@ -1170,7 +1170,7 @@
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"			"Domination"
-			"font"				"roboto10"
+			"font"				"Barlow10"
 			"labelText"			"%dominations%"
 			"textAlignment"		"west"
 			"xpos"				"35"
@@ -1191,7 +1191,7 @@
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"			"Revenge"
-			"font"				"roboto10"
+			"font"				"Barlow10"
 			"labelText"			"%Revenge%"
 			"textAlignment"		"west"
 			"xpos"				"35"
@@ -1213,7 +1213,7 @@
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"			"HealingLabel"
-			"font"				"roboto10"
+			"font"				"Barlow10"
 			"labelText"			"#TF_ScoreBoard_HealingLabel"
 			"textAlignment"		"east"
 			"xpos"				"80"
@@ -1235,7 +1235,7 @@
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"			"InvulnLabel"
-			"font"				"roboto10"
+			"font"				"Barlow10"
 			"labelText"			"#TF_ScoreBoard_InvulnLabel"
 			"textAlignment"		"east"
 			"xpos"				"0"
@@ -1256,7 +1256,7 @@
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"			"TeleportsLabel"
-			"font"				"roboto10"
+			"font"				"Barlow10"
 			"labelText"			"#TF_ScoreBoard_TeleportsLabel"
 			"textAlignment"		"east"
 			"xpos"				"0"
@@ -1278,7 +1278,7 @@
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"			"HeadshotsLabel"
-			"font"				"roboto10"
+			"font"				"Barlow10"
 			"labelText"			"#TF_ScoreBoard_HeadshotsLabel"
 			"textAlignment"		"east"
 			"xpos"				"80"
@@ -1300,7 +1300,7 @@
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"			"Healing"
-			"font"				"roboto10"
+			"font"				"Barlow10"
 			"labelText"			"%healing%"
 			"textAlignment"		"west"
 			"xpos"				"35"
@@ -1321,7 +1321,7 @@
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"			"Invuln"
-			"font"				"roboto10"
+			"font"				"Barlow10"
 			"labelText"			"%invulns%"
 			"textAlignment"		"west"
 			"xpos"				"35"
@@ -1343,7 +1343,7 @@
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"			"Teleports"
-			"font"				"roboto10"
+			"font"				"Barlow10"
 			"labelText"			"%teleports%"
 			"textAlignment"		"west"
 			"xpos"				"35"
@@ -1364,7 +1364,7 @@
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"			"Headshots"
-			"font"				"roboto10"
+			"font"				"Barlow10"
 			"labelText"			"%headshots%"
 			"textAlignment"		"west"
 			"xpos"				"35"
@@ -1386,7 +1386,7 @@
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"			"BackstabsLabel"
-			"font"				"roboto10"
+			"font"				"Barlow10"
 			"labelText"			"#TF_ScoreBoard_BackstabsLabel"
 			"textAlignment"		"east"
 			"xpos"				"0"
@@ -1407,7 +1407,7 @@
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"			"Backstabs"
-			"font"				"roboto10"
+			"font"				"Barlow10"
 			"labelText"			"%backstabs%"
 			"textAlignment"		"west"
 			"xpos"				"35"
@@ -1429,7 +1429,7 @@
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"			"BonusLabel"
-			"font"				"roboto10"
+			"font"				"Barlow10"
 			"labelText"			"#TF_ScoreBoard_BonusLabel"
 			"textAlignment"		"east"
 			"xpos"				"0"
@@ -1450,7 +1450,7 @@
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"			"Bonus"
-			"font"				"roboto10"
+			"font"				"Barlow10"
 			"labelText"			"%bonus%"
 			"textAlignment"		"west"
 			"xpos"				"35"
@@ -1472,7 +1472,7 @@
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"			"SupportLabel"
-			"font"				"roboto10"
+			"font"				"Barlow10"
 			"labelText"			"#TF_Scoreboard_Support"
 			"textAlignment"		"east"
 			"xpos"				"80"
@@ -1493,7 +1493,7 @@
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"			"Support"
-			"font"				"roboto10"
+			"font"				"Barlow10"
 			"labelText"			"%support%"
 			"textAlignment"		"west"
 			"xpos"				"35"
@@ -1515,7 +1515,7 @@
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"			"DamageLabel"
-			"font"				"roboto10"
+			"font"				"Barlow10"
 			"labelText"			"#TF_Scoreboard_Damage"
 			"textAlignment"		"east"
 			"xpos"				"0"
@@ -1536,7 +1536,7 @@
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"			"Damage"
-			"font"				"roboto10"
+			"font"				"Barlow10"
 			"labelText"			"%damage%"
 			"textAlignment"		"west"
 			"xpos"				"35"

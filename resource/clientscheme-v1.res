@@ -478,131 +478,332 @@ Scheme
 		// fonts are used in order that they are listed
 		// fonts listed later in the order will only be used if they fulfill a range not already filled
 		// if a font fails to load then the subsequent fonts will replace
-		"Barlow50"
+		"RobotoBold55"
 		{
 			"1"
 			{
-				"name"		"Barlow Semi Condensed"
-				"tall"		"50"
+				"name"		"Roboto"
+				"tall"		"55"
 				"additive"	"0"
 				"antialias" "1"
 			}
 		}
-		"Barlow30"
+		"RobotoBold34"
 		{
 			"1"
 			{
-				"name"		"Barlow Semi Condensed"
+				"name"		"Roboto"
 				"tall"		"34"
 				"additive"	"0"
 				"antialias" "1"
 			}
 		}
-		"Barlow28"
+		"RobotoBold30"
 		{
 			"1"
 			{
-				"name"		"Barlow Semi Condensed"
+				"name"		"Roboto"
+				"tall"		"30"
+				"additive"	"0"
+				"antialias" "1"
+			}
+		}
+		"RobotoBold28"
+		{
+			"1"
+			{
+				"name"		"Roboto"
 				"tall"		"28"
 				"additive"	"0"
 				"antialias" "1"
 			}
 		}
-		"Barlow26"
+		"RobotoBold26"
 		{
 			"1"
 			{
-				"name"		"Barlow Semi Condensed"
+				"name"		"Roboto"
 				"tall"		"26"
 				"additive"	"0"
 				"antialias" "1"
 			}
 		}
-		"Barlow24"
+		"RobotoBold24"
 		{
 			"1"
 			{
-				"name"		"Barlow Semi Condensed"
+				"name"		"Roboto"
 				"tall"		"24"
 				"additive"	"0"
 				"antialias" "1"
 			}
 		}
-		"Barlow22"
+		"RobotoBold22"
 		{
 			"1"
 			{
-				"name"		"Barlow Semi Condensed"
+				"name"		"Roboto"
 				"tall"		"22"
 				"additive"	"0"
 				"antialias" "1"
 			}
 		}
-		"Barlow20"
+		"RobotoBold20"
 		{
 			"1"
 			{
-				"name"		"Barlow Semi Condensed"
+				"name"		"Roboto"
 				"tall"		"20"
 				"additive"	"0"
 				"antialias" "1"
 			}
 		}
-		"Barlow18"
+		"RobotoBold18"
 		{
 			"1"
 			{
-				"name"		"Barlow Semi Condensed"
+				"name"		"Roboto"
 				"tall"		"18"
 				"additive"	"0"
 				"antialias" "1"
 			}
 		}
-		"Barlow16"
+		"RobotoBold16"
 		{
 			"1"
 			{
-				"name"		"Barlow Semi Condensed"
+				"name"		"Roboto"
 				"tall"		"16"
 				"additive"	"0"
 				"antialias" "1"
 			}
 		}
-		"Barlow14"
+		"RobotoBold14"
 		{
 			"1"
 			{
-				"name"		"Barlow Semi Condensed"
+				"name"		"Roboto"
 				"tall"		"14"
 				"additive"	"0"
 				"antialias" "1"
 			}
 		}
-		"Barlow12"
+		"RobotoBold12"
 		{
 			"1"
 			{
-				"name"		"Barlow Semi Condensed"
+				"name"		"Roboto"
 				"tall"		"12"
 				"additive"	"0"
 				"antialias" "1"
 			}
 		}
-		"Barlow10"
+		"RobotoBold11"
 		{
 			"1"
 			{
-				"name"		"Barlow Semi Condensed"
+				"name"		"Roboto"
+				"tall"		"11"
+				"additive"	"0"
+				"antialias" "1"
+			}
+		}
+		"RobotoBold10"
+		{
+			"1"
+			{
+				"name"		"Roboto"
 				"tall"		"10"
 				"additive"	"0"
 				"antialias" "1"
 			}
 		}
-		"Barlow8"
+		"RobotoBold9"
 		{
 			"1"
 			{
-				"name"		"Barlow Semi Condensed"
+				"name"		"Roboto"
+				"tall"		"9"
+				"additive"	"0"
+				"antialias" "1"
+			}
+		}
+		"RobotoBold8"
+		{
+			"1"
+			{
+				"name"		"Roboto"
+				"tall"		"8"
+				"additive"	"0"
+				"antialias" "1"
+			}
+		}
+		"RobotoBold7"
+		{
+			"1"
+			{
+				"name"		"Roboto"
+				"tall"		"7"
+				"additive"	"0"
+				"antialias" "1"
+			}
+		}
+		
+		"Roboto55"
+		{
+			"1"
+			{
+				"name"		"Roboto Black"
+				"tall"		"55"
+				"additive"	"0"
+				"antialias" "1"
+			}
+		}
+		"Roboto34"
+		{
+			"1"
+			{
+				"name"		"Roboto Black"
+				"tall"		"34"
+				"additive"	"0"
+				"antialias" "1"
+			}
+		}
+		"Roboto30"
+		{
+			"1"
+			{
+				"name"		"Roboto Black"
+				"tall"		"30"
+				"additive"	"0"
+				"antialias" "1"
+			}
+		}
+		"Roboto28"
+		{
+			"1"
+			{
+				"name"		"Roboto Black"
+				"tall"		"28"
+				"additive"	"0"
+				"antialias" "1"
+			}
+		}
+		"Roboto26"
+		{
+			"1"
+			{
+				"name"		"Roboto Black"
+				"tall"		"26"
+				"additive"	"0"
+				"antialias" "1"
+			}
+		}
+		"Roboto24"
+		{
+			"1"
+			{
+				"name"		"Roboto Black"
+				"tall"		"24"
+				"additive"	"0"
+				"antialias" "1"
+			}
+		}
+		"Roboto22"
+		{
+			"1"
+			{
+				"name"		"Roboto Black"
+				"tall"		"22"
+				"additive"	"0"
+				"antialias" "1"
+			}
+		}
+		"Roboto20"
+		{
+			"1"
+			{
+				"name"		"Roboto Black"
+				"tall"		"20"
+				"additive"	"0"
+				"antialias" "1"
+			}
+		}
+		"Roboto18"
+		{
+			"1"
+			{
+				"name"		"Roboto Black"
+				"tall"		"18"
+				"additive"	"0"
+				"antialias" "1"
+			}
+		}
+		"Roboto16"
+		{
+			"1"
+			{
+				"name"		"Roboto Black"
+				"tall"		"16"
+				"additive"	"0"
+				"antialias" "1"
+			}
+		}
+		"Roboto14"
+		{
+			"1"
+			{
+				"name"		"Roboto Black"
+				"tall"		"14"
+				"additive"	"0"
+				"antialias" "1"
+			}
+		}
+		"Roboto12"
+		{
+			"1"
+			{
+				"name"		"Roboto Black"
+				"tall"		"12"
+				"additive"	"0"
+				"antialias" "1"
+			}
+		}
+		"Roboto11"
+		{
+			"1"
+			{
+				"name"		"Roboto Black"
+				"tall"		"11"
+				"additive"	"0"
+				"antialias" "1"
+			}
+		}
+		"Roboto10"
+		{
+			"1"
+			{
+				"name"		"Roboto Black"
+				"tall"		"10"
+				"additive"	"0"
+				"antialias" "1"
+			}
+		}
+		"Roboto9"
+		{
+			"1"
+			{
+				"name"		"Roboto Black"
+				"tall"		"9"
+				"additive"	"0"
+				"antialias" "1"
+			}
+		}
+		"Roboto8"
+		{
+			"1"
+			{
+				"name"		"Roboto Black"
 				"tall"		"8"
 				"additive"	"0"
 				"antialias" "1"
@@ -624,7 +825,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Akshar"
+				"name"		"Roboto Black"
 				"tall"		"14"
 				"weight"	"900"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
@@ -632,7 +833,7 @@ Scheme
 			}
 			"2"
 			{
-				"name"		"Akshar"
+				"name"		"Roboto Black"
 				"tall"		"15"	[$WIN32]
 				"tall"		"20"	[$X360]
 				"weight"	"900"
@@ -641,7 +842,7 @@ Scheme
 			}
 			"3"
 			{
-				"name"		"Akshar"
+				"name"		"Roboto Black"
 				"tall"		"16"
 				"weight"	"900"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
@@ -650,7 +851,7 @@ Scheme
 			}
 			"4"
 			{
-				"name"		"Akshar"
+				"name"		"Roboto Black"
 				"tall"		"22"
 				"weight"	"900"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
@@ -659,7 +860,7 @@ Scheme
 			}
 			"5" // Misyl: Proportional
 			{
-				"name"		"Akshar"
+				"name"		"Roboto Black"
 				"tall"		"11"
 				"weight"	"900"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
@@ -667,14 +868,14 @@ Scheme
 			}
 			"6"
 			{
-				"name"		"Akshar"
+				"name"		"Roboto Black"
 				"tall"		"14"
 				"range" 	"0x0000 0x00FF"
 				"weight"	"900"
 			}
 			"7"
 			{
-				"name"		"Akshar"
+				"name"		"Roboto Black"
 				"tall"		"14"
 				"range" 	"0x0000 0x00FF"
 				"weight"	"800"
@@ -6010,6 +6211,16 @@ Scheme
 				"range" "0x0000 0x007E"
 			}
 		}
+		"8"
+		{
+			"font"	"resource/fonts/roboto.ttf"
+			"name"	"Roboto"
+		}
+		"9"
+		{
+			"font"	"resource/fonts/roboto-black.ttf"
+			"name"	"Roboto Black"
+		}
 		"10"		"resource/linux_fonts/DejaVuSans.ttf"
 		"11"		"resource/linux_fonts/DejaVuSans-Bold.ttf"
 		"12"		"resource/linux_fonts/DejaVuSans-BoldOblique.ttf"
@@ -6018,10 +6229,5 @@ Scheme
 		"15"		"resource/linux_fonts/LiberationSans-Bold.ttf"
 		"16"		"resource/linux_fonts/LiberationMono-Regular.ttf"
 		"17"		"resource/linux_fonts/FiraSans-Regular.ttf"
-		"100"
-		{
-			"font"	"resource/fonts/barlow-semi-condensed-bold.ttf"
-			"name"	"Barlow Semi Condensed"
-		}
 	}
 }
