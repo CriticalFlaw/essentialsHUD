@@ -1,5 +1,5 @@
-#base "TargetID_Stats_Icons.res" // TargetID Stats with icons for K A D.
-//#base "TargetID_Stats_Letters.res" // TargetID Stats with letters (K: A: D:) for K A D.
+#base "TargetID_Stats_Icons.res"
+//#base "TargetID_Stats_Letters.res"
 
 "Resource/UI/TargetID.res"
 {
@@ -77,7 +77,7 @@
 	{	
 		"ControlName"	"Label"
 		"fieldName"		"TargetNameLabel"
-		"font"			"Barlow18"
+		"font"			"Barlow20"
 		"xpos"			"0"
 		"ypos"			"15"
 		"zpos"			"2"
@@ -90,14 +90,15 @@
 		"labelText"		"%targetname%"
 		"textAlignment"	"North-West"
 		"dulltext"		"0"
-		"brighttext"	"0"
+		"brighttext"	"1"
+		"allcaps"		"1"
 	}
-	
+
 	"TargetNameLabelShadow"
 	{	
 		"ControlName"	"Label"
 		"fieldName"		"TargetNameLabelShadow"
-		"font"			"Barlow18"
+		"font"			"Barlow20"
 		"xpos"			"-1"
 		"ypos"			"-1"
 		"zpos"			"1"
@@ -111,7 +112,8 @@
 		"textAlignment"	"North-West"
 		"dulltext"		"0"
 		"brighttext"	"0"
-		"fgcolor_override"		"Black"
+		"allcaps"		"1"
+		"fgcolor_override"		"5 8 15 255"
 
 		"pin_to_sibling" 		"TargetNameLabel"
 		"pin_corner_to_sibling" "PIN_TOPLEFT"
@@ -122,9 +124,9 @@
 	{	
 		"ControlName"	"Label"
 		"fieldName"		"TargetDataLabel"
-		"font"			"Barlow12"
+		"font"			"Barlow14"
 		"xpos"			"0"
-		"ypos"			"2"
+		"ypos"			"0"
 		"zpos"			"2"
 		"wide"			"f0"
 		"tall"			"15"
@@ -175,8 +177,8 @@
 	{
 		"ControlName" 	"EditablePanel"
 		"fieldName" 	"KillstreakIconAnchor"
-		"xpos" 			"9"
-		"ypos"			"1"
+		"xpos" 			"5"
+		"ypos"			"0"
 		"wide"			"0"
 		"tall" 			"0"
 		"visible"		"1"
@@ -211,7 +213,7 @@
 		"zpos"				"9"
 		"wide"				"252"
 		"tall"				"16"
-		"fillcolor"			"0 0 0 180"
+		"fillcolor"			"5 8 15 255"
 		"proportionaltoparent"	"1"
 	}
 	

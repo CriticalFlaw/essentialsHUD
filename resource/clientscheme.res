@@ -70,11 +70,11 @@ Scheme
 		"TransparentLightBlack"		"0 0 0 90"
 		"FooterBGBlack"				"52 48 55 255"
 
-		"HUDBlueTeam"				"57 92 120 255"
-		"HUDRedTeam"				"157 49 47 255"
+		"HUDBlueTeam"				"44 167 189 255"
+		"HUDRedTeam"				"189 44 68 255"
 		"HUDSpectator"				"124 124 124 127"
-		"HUDBlueTeamSolid"			"38 55 63 255"
-		"HUDRedTeamSolid"			"89 24 23 255"
+		"HUDBlueTeamSolid"			"5 58 68 255"
+		"HUDRedTeamSolid"			"65 5 15 255"
 		"HUDDeathWarning"			"255 0 0 255"
 		"HudWhite"					"255 255 255 255"
 		"HudOffWhite"				"200 187 161 255"
@@ -624,16 +624,16 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Akshar"
-				"tall"		"14"
+				"name"		"Verdana"
+				"tall"		"12"
 				"weight"	"900"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
 				"yres"		"480 599"
 			}
 			"2"
 			{
-				"name"		"Akshar"
-				"tall"		"15"	[$WIN32]
+				"name"		"Verdana"
+				"tall"		"13"	[$WIN32]
 				"tall"		"20"	[$X360]
 				"weight"	"900"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
@@ -641,8 +641,8 @@ Scheme
 			}
 			"3"
 			{
-				"name"		"Akshar"
-				"tall"		"16"
+				"name"		"Verdana"
+				"tall"		"14"
 				"weight"	"900"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
 				"yres"		"768 1023"
@@ -650,8 +650,8 @@ Scheme
 			}
 			"4"
 			{
-				"name"		"Akshar"
-				"tall"		"22"
+				"name"		"Verdana"
+				"tall"		"20"
 				"weight"	"900"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
 				"yres"		"1024 1199"
@@ -659,23 +659,23 @@ Scheme
 			}
 			"5" // Misyl: Proportional
 			{
-				"name"		"Akshar"
-				"tall"		"11"
+				"name"		"Verdana"
+				"tall"		"9"
 				"weight"	"900"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
 				"antialias"	"1"
 			}
 			"6"
 			{
-				"name"		"Akshar"
-				"tall"		"14"
+				"name"		"Verdana"
+				"tall"		"12"
 				"range" 	"0x0000 0x00FF"
 				"weight"	"900"
 			}
 			"7"
 			{
-				"name"		"Akshar"
-				"tall"		"14"
+				"name"		"Arial"
+				"tall"		"12"
 				"range" 	"0x0000 0x00FF"
 				"weight"	"800"
 			}

@@ -43,6 +43,7 @@ ce_antifreeze_enabled 1								// Fixes the HUD and prevents the HUD from breaki
 ce_freezeinfo_enabled 1								// Shows currently paused for x time timer.
 //ce_teamscores_enabled 1							// Team score panels
 ce_hud_statistics_enabled 1							// Shows the KDA stats on each player panel
+tf_hud_target_id_alpha 220							// Controls the TargetID background transparency
 
 //Chargebar Settings (hiding and priorities, 0 = hidden, 1 = high priority, 2 = higher priority, etc.)
 ce_hud_chargebars_priority_baby_face 0 				// Baby Face's Blaster
@@ -85,6 +86,9 @@ ce_hud_chargebars_text_banner_battalions "Battalion's"
 ce_hud_chargebars_text_banner_buff "#TF_Unique_Achievement_SoldierBuff"
 ce_hud_chargebars_text_banner_conch "#TF_SoldierSashimono"
 ce_hud_chargebars_text_cloak_and_dagger "Cloak & Dagger"
+ce_hud_chargebars_text_medigun_uber "UBER"
+ce_hud_chargebars_text_medigun_kritz "KRITZ"
+ce_hud_chargebars_text_medigun_quickfix "QUICK"
 
 // Medigun Text
 ce_mediguninfo_embedded_medigun_text "#TF_Weapon_Medigun"

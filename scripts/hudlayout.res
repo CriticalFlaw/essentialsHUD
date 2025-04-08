@@ -279,7 +279,7 @@
 		"visible" 	"0"
 		"enabled" 	"1"
 		"xpos"		"c-126"
-		"ypos"		"360"
+		"ypos"		"r100"
 		"wide"	 	"252"
 		"tall"	 	"49"
 		"priority"	"40"
@@ -509,7 +509,7 @@
 		"CornerRadius"	  "2"
 		"RightJustify"	  "1"	// If 1, draw notices from the right
 		
-		"TextFont"				"Barlow20"
+		"TextFont"				"Barlow16"
 		
 		"TeamBlue"				"BlueTeamBuff"
 		"TeamRed"				"RedTeamBuff"
