@@ -1553,13 +1553,12 @@ Scheme
 				"antialias"	"1"
 			}
 		}
-		"CloseCaption_Normal"
+		"CloseCaption"
 		{
 			"1"
 			{
 				"name"		"Tahoma"
-				"tall"		"24"
-				"tall_hidef"	"32"
+				"tall"		"8"
 				"weight"	"500"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
 			}
@@ -1569,8 +1568,7 @@ Scheme
 			"1"
 			{
 				"name"		"Tahoma"
-				"tall"		"24"
-				"tall_hidef"	"32"
+				"tall"		"8"
 				"weight"	"500"
 				"italic"	"1"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
@@ -1581,8 +1579,7 @@ Scheme
 			"1"
 			{
 				"name"		"Tahoma"
-				"tall"		"24"
-				"tall_hidef"	"32"
+				"tall"		"8"
 				"weight"	"900"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
 			}
@@ -1592,8 +1589,7 @@ Scheme
 			"1"
 			{
 				"name"		"Tahoma"
-				"tall"		"24"
-				"tall_hidef"	"32"
+				"tall"		"8"
 				"weight"	"900"
 				"italic"	"1"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
