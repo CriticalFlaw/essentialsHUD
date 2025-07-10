@@ -1,4 +1,4 @@
-![image](https://user-images.githubusercontent.com/6818236/213952900-0986baec-88e7-436e-9ec8-1f414fdac69e.png)
+![image](https://github.com/user-attachments/assets/a3a5ce81-4ff8-4d02-a9cd-c3b693c24c82)
 
 Spectator HUD for Team Fortress 2, created by [EssentialsTF](https://essentials.tf/).
 
