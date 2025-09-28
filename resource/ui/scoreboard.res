@@ -73,7 +73,7 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"			"BlueTeamName"
-		"font"				"Barlow30"
+		"font"				"Barlow34"
 		"labelText"			"%blueteamname%"
 		"textAlignment"		"east"
 		"xpos"				"0"
@@ -206,7 +206,7 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"			"RedTeamName"
-		"font"				"Barlow30"
+		"font"				"Barlow34"
 		"labelText"			"%redteamname%"
 		"textAlignment"		"west"
 		"xpos"				"0"
@@ -859,7 +859,7 @@
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"			"KillsLabel"
-			"font"				"Barlow30"
+			"font"				"Barlow34"
 			"labelText"			":"
 			"textAlignment"		"center"
 			"xpos"				"55"
@@ -935,7 +935,7 @@
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"			"Kills"
-			"font"				"Barlow30"
+			"font"				"Barlow34"
 			"labelText"			"%kills%"
 			"textAlignment"		"east"
 			"xpos"				"-20"
@@ -957,7 +957,7 @@
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"			"Deaths"
-			"font"				"Barlow30"
+			"font"				"Barlow34"
 			"labelText"			"%deaths%"
 			"textAlignment"		"west"
 			"xpos"				"-15"

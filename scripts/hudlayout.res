@@ -32,7 +32,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"xpos"			"0"
-		"ypos"			"0" // "0" for standard CP icon placement, "-44" for lower third sponsor placement
+		"ypos"			"-400" // "0" for standard CP icon placement, "-44" for lower third sponsor placement
 		"wide"			"f0"
 		"tall"			"480"
 	}

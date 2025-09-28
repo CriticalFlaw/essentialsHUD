@@ -279,12 +279,12 @@
 		"tall"				"150"
 		"visible"			"0"
 		"enabled"			"1"
-		"delta_item_x"			"22"
-		"delta_item_start_y"	"20"
-		"delta_item_end_y"		"50"
-		"PositiveColor"			"0 255 0 255"
-		"NegativeColor"			"255 0 0 255"
-		"delta_lifetime"		"1.5"
+		"delta_item_x"			"60"
+		"delta_item_start_y"	"0"
+		"delta_item_end_y"		"0"
+		"PositiveColor"			"HealthBuff"
+		"NegativeColor"			"HealthLow"
+		"delta_lifetime"		"2.0"
 		"delta_item_font"		"Barlow14"
 		
 		"TimePanelValue"
@@ -315,7 +315,6 @@
 		"tall"			"75"
 		"visible"		"1"
 		"enabled"		"1"
-
 
 		"max_size"		"19"
 

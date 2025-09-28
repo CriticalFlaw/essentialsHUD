@@ -32,7 +32,7 @@
 		"ControlName"	"CExLabel"
 		"fieldName"		"EventTitleLabel"
 		"dropshadow"	"1"
-		"font"			"Barlow30"
+		"font"			"Barlow34"
 		"xpos"			"0"
 		"ypos"			"c-98"
 		"zpos"			"3"

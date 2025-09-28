@@ -81,6 +81,27 @@
 		"xpos"			"0"
 		"ypos"			"15"
 		"zpos"			"2"
+		"wide"			"0"	//640
+		"tall"			"30"
+		"autoResize"	"0"
+		"pinCorner"		"0"
+		"visible"		"0"
+		"enabled"		"0"
+		"labelText"		"%targetname%"
+		"textAlignment"	"North-West"
+		"dulltext"		"0"
+		"brighttext"	"1"
+		"allcaps"		"1"
+	}
+	
+	"TargetNameLabel2"
+	{	
+		"ControlName"	"Label"
+		"fieldName"		"TargetNameLabel2"
+		"font"			"Barlow20"
+		"xpos"			"0"
+		"ypos"			"0"
+		"zpos"			"2"
 		"wide"			"640"
 		"tall"			"30"
 		"autoResize"	"0"
@@ -92,6 +113,8 @@
 		"dulltext"		"0"
 		"brighttext"	"1"
 		"allcaps"		"1"
+		"fgcolor_override"		"255 255 255 255"
+		"pin_to_sibling" 		"TargetNameLabel"
 	}
 
 	"TargetNameLabelShadow"
@@ -114,10 +137,7 @@
 		"brighttext"	"0"
 		"allcaps"		"1"
 		"fgcolor_override"		"5 8 15 255"
-
 		"pin_to_sibling" 		"TargetNameLabel"
-		"pin_corner_to_sibling" "PIN_TOPLEFT"
-		"pin_to_sibling_corner" "PIN_TOPLEFT"
 	}
 	
 	"TargetDataLabel"
@@ -135,7 +155,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"labelText"		"%targetdata%"
-		"textAlignment"	"Left"
+		"textAlignment"	"west"
 		"dulltext"		"0"
 		"brighttext"	"0"
 	}

@@ -26,6 +26,7 @@ Scheme
 		"RedTeam"					"157 49 47 255"
 		"BlueTeamBuff"				"87 145 191 255"
 		"RedTeamBuff"				"209 73 71 255"
+		"BlackBg"					"28 34 48 225"
 		
 		// base colors
 		"Orange"					"178 82 22 255"
@@ -488,7 +489,7 @@ Scheme
 				"antialias" "1"
 			}
 		}
-		"Barlow30"
+		"Barlow34"
 		{
 			"1"
 			{
