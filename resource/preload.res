@@ -1,5 +1,6 @@
 "Resource/UI/MainMenuOverride.res"
 {
+	// NOTE: This file is incomplete but since streams are done on non-official servers this is fine.
 	"cpiconbluunlock"
 	{
 		"ControlName"	"ImagePanel"
@@ -156,7 +157,7 @@
 		"xpos"			"9999"
 		"visible"		"1"
 		"enabled"		"1"
-		"image"			"../vgui/stats_icons/assists"
+		"image"			"replay/thumbnails/stats_icons/assists"
 	}
 	"deathsicon"
 	{
@@ -165,7 +166,7 @@
 		"xpos"			"9999"
 		"visible"		"1"
 		"enabled"		"1"
-		"image"			"../vgui/stats_icons/deaths"
+		"image"			"replay/thumbnails/stats_icons/deaths"
 	}
 	"killsicon"
 	{
@@ -174,7 +175,7 @@
 		"xpos"			"9999"
 		"visible"		"1"
 		"enabled"		"1"
-		"image"			"../vgui/stats_icons/kills"
+		"image"			"replay/thumbnails/stats_icons/kills"
 	}
 	"MenuThumbMissing"
 	{
@@ -183,6 +184,6 @@
 		"xpos"			"9999"
 		"visible"		"1"
 		"enabled"		"1"
-		"image"			"../vgui/maps/menu_thumb_Missing"
+		"image"			"maps/menu_thumb_Missing"
 	}
 }

@@ -517,7 +517,7 @@
 		"LocalPlayerColor"		"HudWhite"
 		
 		"BaseBackgroundColor"	"BlackBg"
-		"LocalBackgroundColor"	"BlackBg"
+		"LocalBackgroundColor"	"245 229 196 200"
 	}
 	
 	HudVehicle

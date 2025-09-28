@@ -1,7 +1,8 @@
 "UnlitGeneric"
 {
 	"$translucent"		"1"
-	"$basetexture"		"vgui/replay/thumbnails/button_hud"
+	"$basetexture"		"vgui/replay/thumbnails/stats_icons/uber"
 	"$vertexcolor"		"1"
 	"$ignorez"			"1"
+	"%keywords"			"tf"
 }
