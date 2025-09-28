@@ -42,7 +42,7 @@
 		"fieldName"		"HudKothTimeStatus"
 		"visible"		"1"
 		"enabled"		"1"
-		"xpos"			"c-44"
+		"xpos"			"c-40"
 		"ypos"			"0"
 		"zpos"			"5"
 		"wide"			"200"
@@ -51,8 +51,8 @@
 		"blue_active_xpos"			"0"
 		"blue_active_xpos_minmode"	"0"
 	
-		"red_active_xpos"			"44"
-		"red_active_xpos_minmode"	"44"
+		"red_active_xpos"			"40"
+		"red_active_xpos_minmode"	"40"
 	}
 	
 	HudItemEffectMeter
@@ -509,15 +509,15 @@
 		"CornerRadius"	  "2"
 		"RightJustify"	  "1"	// If 1, draw notices from the right
 		
-		"TextFont"				"Barlow16"
+		"TextFont"				"Barlow14"
 		
 		"TeamBlue"				"BlueTeamBuff"
 		"TeamRed"				"RedTeamBuff"
 		"IconColor"				"HudWhite"
-		"LocalPlayerColor"		"HUDBlack"
+		"LocalPlayerColor"		"HudWhite"
 		
-		"BaseBackgroundColor"	"0 0 0 220"
-		"LocalBackgroundColor"	"245 229 196 200"
+		"BaseBackgroundColor"	"BlackBg"
+		"LocalBackgroundColor"	"BlackBg"
 	}
 	
 	HudVehicle

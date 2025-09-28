@@ -76,7 +76,7 @@
 		"labelText"		"%countdown%"
 		"textAlignment"	"center"
 		"proportionaltoparent"	"1"
-		"fgcolor"		"TanLight"
+		"fgcolor"		"White"
 
 		if_readymode
 		{
@@ -279,9 +279,9 @@
 		"tall"				"150"
 		"visible"			"0"
 		"enabled"			"1"
-		"delta_item_x"			"60"
-		"delta_item_start_y"	"0"
-		"delta_item_end_y"		"0"
+		"delta_item_x"			"35"
+		"delta_item_start_y"	"30"
+		"delta_item_end_y"		"30"
 		"PositiveColor"			"HealthBuff"
 		"NegativeColor"			"HealthLow"
 		"delta_lifetime"		"2.0"
@@ -291,16 +291,16 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"TimePanelValue"
-			"font"			"Barlow12"
-			"fgcolor"		"TanLight"
+			"font"			"Barlow20"
+			"fgcolor"		"HudWhite"
 			"xpos"			"0"
-			"ypos"			"1"
+			"ypos"			"2"
 			"zpos"			"3"
 			"wide"			"88"
-			"tall"			"31"
+			"tall"			"26"
 			"visible"		"1"
 			"enabled"		"1"
-			"textAlignment"	"north"
+			"textAlignment"	"south"
 			"labelText"		"0:00"
 		}
 	}

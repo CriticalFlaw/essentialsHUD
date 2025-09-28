@@ -73,7 +73,7 @@
 		"labelText"		"%Health%"
 		"textAlignment"	"center"	
 		"font"			"Barlow20"
-		"fgcolor"		"TanLight"
+		"fgcolor"		"HudWhite"
 	}
 	"PlayerStatusPlayerLevel"
 	{

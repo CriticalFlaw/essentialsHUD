@@ -191,7 +191,7 @@
 		"textAlignment"	"west"
 		"labelText"		"%bluescore%"
 		"font"			"Barlow34"
-		"fgcolor"		"TanLight"
+		"fgcolor"		"HudWhite"
 		
 		"pin_to_sibling"		"LeftSideBG2"
 		"pin_corner_to_sibling"	"PIN_TOPLEFT"
@@ -273,7 +273,7 @@
 		"textAlignment"	"east"
 		"labelText"		"%redscore%"
 		"font"			"Barlow34"
-		"fgcolor"		"TanLight"
+		"fgcolor"		"HudWhite"
 		
 		"pin_to_sibling"		"RightSideBG2"
 		"pin_corner_to_sibling"	"PIN_TOPRIGHT"
@@ -397,7 +397,7 @@
 		"dulltext"		"0"
 		"brighttext"	"0"
 		"font"			"HudFontSmallest"
-		"fgcolor"		"TanLight"
+		"fgcolor"		"HudWhite"
 		
 		"pin_to_sibling"		"PlayingToBG"
 		"pin_corner_to_sibling"	"PIN_TOPLEFT"

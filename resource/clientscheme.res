@@ -27,6 +27,7 @@ Scheme
 		"BlueTeamBuff"				"87 145 191 255"
 		"RedTeamBuff"				"209 73 71 255"
 		"BlackBg"					"28 34 48 225"
+		"HudOrange"					"255 139 35 255"
 		
 		// base colors
 		"Orange"					"178 82 22 255"
@@ -625,7 +626,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Verdana"
+				"name"		"Barlow Semi Condensed"
 				"tall"		"12"
 				"weight"	"900"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
@@ -633,7 +634,7 @@ Scheme
 			}
 			"2"
 			{
-				"name"		"Verdana"
+				"name"		"Barlow Semi Condensed"
 				"tall"		"13"	[$WIN32]
 				"tall"		"20"	[$X360]
 				"weight"	"900"
@@ -642,7 +643,7 @@ Scheme
 			}
 			"3"
 			{
-				"name"		"Verdana"
+				"name"		"Barlow Semi Condensed"
 				"tall"		"14"
 				"weight"	"900"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
@@ -651,7 +652,7 @@ Scheme
 			}
 			"4"
 			{
-				"name"		"Verdana"
+				"name"		"Barlow Semi Condensed"
 				"tall"		"20"
 				"weight"	"900"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
@@ -660,7 +661,7 @@ Scheme
 			}
 			"5" // Misyl: Proportional
 			{
-				"name"		"Verdana"
+				"name"		"Barlow Semi Condensed"
 				"tall"		"9"
 				"weight"	"900"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
@@ -668,14 +669,14 @@ Scheme
 			}
 			"6"
 			{
-				"name"		"Verdana"
+				"name"		"Barlow Semi Condensed"
 				"tall"		"12"
 				"range" 	"0x0000 0x00FF"
 				"weight"	"900"
 			}
 			"7"
 			{
-				"name"		"Arial"
+				"name"		"Barlow Semi Condensed"
 				"tall"		"12"
 				"range" 	"0x0000 0x00FF"
 				"weight"	"800"

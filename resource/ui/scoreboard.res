@@ -3,7 +3,7 @@
 	"scores"
 	{
 		"ControlName"		"CTFClientScoreBoardDialog"
-		"fieldName"			"scoreinfo"
+		"fieldName"			"scores"
 		"xpos"				"cs-0.5"
 		"ypos"				"0"
 		"wide"				"600"
@@ -78,18 +78,47 @@
 		"textAlignment"		"east"
 		"xpos"				"0"
 		"ypos"				"0"
+		"zpos"				"1"
 		"wide"				"203"
 		"tall"				"35"
 		"autoResize"		"0"
 		"pinCorner"			"0"
 		"visible"			"1"
 		"enabled"			"1"
-		"fgcolor"			"TanLight"
+		"fgcolor"			"HudWhite"
 		"TextInsetX"		"100"
+		"allcaps"			"1"
 		
 		"pin_to_sibling"		"BlueBG"
 		"pin_corner_to_sibling"	"PIN_TOPLEFT"
 		"pin_to_sibling_corner"	"PIN_TOPLEFT"
+		
+		if_mvm
+		{
+			"visible"			"0"
+		}
+	}
+	
+	"BlueTeamNameShadow"
+	{
+		"ControlName"		"CExLabel"
+		"fieldName"			"BlueTeamNameShadow"
+		"font"				"Barlow34"
+		"labelText"			"%blueteamname%"
+		"textAlignment"		"east"
+		"xpos"				"-2"
+		"ypos"				"-2"
+		"zpos"				"0"	
+		"wide"				"203"
+		"tall"				"35"
+		"autoResize"		"0"
+		"pinCorner"			"0"
+		"visible"			"1"
+		"enabled"			"1"
+		"fgcolor"			"Black"
+		"TextInsetX"		"100"
+		"allcaps"			"1"
+		"pin_to_sibling"	"BlueTeamName"
 		
 		if_mvm
 		{
@@ -106,19 +135,45 @@
 		"textAlignment"		"east"
 		"xpos"				"0"
 		"ypos"				"0"
-		"zpos"				"4"
+		"zpos"				"1"
 		"wide"				"50"
 		"tall"				"35"
 		"autoResize"		"0"
 		"pinCorner"			"0"
 		"visible"			"1"
 		"enabled"			"1"
-		"fgcolor"			"TanLight"
+		"fgcolor"			"HudWhite"
 		"TextInsetX"		"20"
 		
 		"pin_to_sibling"		"BlueBG"
 		"pin_corner_to_sibling"	"PIN_TOPRIGHT"
 		"pin_to_sibling_corner"	"PIN_TOPRIGHT"
+		
+		if_mvm
+		{
+			"visible"			"0"
+		}
+	}
+
+	"BlueTeamScoreShadow"
+	{
+		"ControlName"		"CExLabel"
+		"fieldName"			"BlueTeamScoreShadow"
+		"font"				"Barlow34"
+		"labelText"			"%blueteamscore%"
+		"textAlignment"		"east"
+		"xpos"				"-2"
+		"ypos"				"-2"
+		"zpos"				"0"
+		"wide"				"50"
+		"tall"				"35"
+		"autoResize"		"0"
+		"pinCorner"			"0"
+		"visible"			"1"
+		"enabled"			"1"
+		"fgcolor"			"Black"
+		"TextInsetX"		"20"
+		"pin_to_sibling"	"BlueTeamScore"
 		
 		if_mvm
 		{
@@ -211,18 +266,47 @@
 		"textAlignment"		"west"
 		"xpos"				"0"
 		"ypos"				"0"
+		"zpos"				"1"
 		"wide"				"203"
 		"tall"				"35"
 		"autoResize"		"0"
 		"pinCorner"			"0"
 		"visible"			"1"
 		"enabled"			"1"
-		"fgcolor"			"TanLight"
+		"fgcolor"			"HudWhite"
 		"TextInsetX"		"100"
+		"allcaps"			"1"
 		
 		"pin_to_sibling"		"RedBG"
 		"pin_corner_to_sibling"	"PIN_TOPRIGHT"
 		"pin_to_sibling_corner"	"PIN_TOPRIGHT"
+		
+		if_mvm
+		{
+			"visible"			"0"
+		}
+	}
+	
+	"RedTeamNameShadow"
+	{
+		"ControlName"		"CExLabel"
+		"fieldName"			"RedTeamNameShadow"
+		"font"				"Barlow34"
+		"labelText"			"%redteamname%"
+		"textAlignment"		"west"
+		"xpos"				"-2"
+		"ypos"				"-2"
+		"zpos"				"0"
+		"wide"				"203"
+		"tall"				"35"
+		"autoResize"		"0"
+		"pinCorner"			"0"
+		"visible"			"1"
+		"enabled"			"1"
+		"fgcolor"			"Black"
+		"TextInsetX"		"100"
+		"allcaps"			"1"
+		"pin_to_sibling"	"RedTeamName"
 		
 		if_mvm
 		{
@@ -239,19 +323,45 @@
 		"textAlignment"		"west"
 		"xpos"				"0"
 		"ypos"				"0"
-		"zpos"				"4"
+		"zpos"				"1"
 		"wide"				"50"
 		"tall"				"35"
 		"autoResize"		"0"
 		"pinCorner"			"0"
 		"visible"			"1"
 		"enabled"			"1"
-		"fgcolor"			"TanLight"
+		"fgcolor"			"HudWhite"
 		"TextInsetX"		"20"
 		
 		"pin_to_sibling"		"RedBG"
 		"pin_corner_to_sibling"	"PIN_TOPLEFT"
 		"pin_to_sibling_corner"	"PIN_TOPLEFT"
+		
+		if_mvm
+		{
+			"visible"			"0"
+		}
+	}
+	
+	"RedTeamScoreShadow"
+	{
+		"ControlName"		"CExLabel"
+		"fieldName"			"RedTeamScoreShadow"
+		"font"				"Barlow34"
+		"labelText"			"%redteamscore%"
+		"textAlignment"		"west"
+		"xpos"				"-2"
+		"ypos"				"-2"
+		"zpos"				"0"
+		"wide"				"50"
+		"tall"				"35"
+		"autoResize"		"0"
+		"pinCorner"			"0"
+		"visible"			"1"
+		"enabled"			"1"
+		"fgcolor"			"Black"
+		"TextInsetX"		"20"
+		"pin_to_sibling"	"RedTeamScore"
 		
 		if_mvm
 		{
@@ -373,6 +483,7 @@
 		"pinCorner"			"0"
 		"visible"			"1"
 		"enabled"			"1"
+		"fgcolor_override"	"HudWhite"
 		
 		"pin_to_sibling"		"TimeBackground"
 		"pin_corner_to_sibling"	"PIN_BOTTOMRIGHT"
@@ -566,7 +677,7 @@
 	"MapName"
 	{
 		"ControlName"		"CExLabel"
-		"fieldName"			"mapname"
+		"fieldName"			"MapName"
 		"font"				"Barlow10"
 		"labelText"			"%mapname%"
 		"textAlignment"		"center"
@@ -579,7 +690,7 @@
 		"pinCorner"			"0"
 		"visible"			"0"
 		"enabled"			"0"
-		"fgcolor"			"TanLight"
+		"fgcolor"			"HudWhite"
 		
 		if_mvm
 		{
@@ -698,7 +809,7 @@
 				"tall"			"36"
 				"visible"		"1"
 				"PaintBackgroundType"	"2"
-				"bgcolor_override"		"TextColor"
+				"bgcolor_override"		"BlackBg"
 			}
 			"AvatarImage"
 			{
@@ -719,7 +830,7 @@
 			{
 				"ControlName"	"CExLabel"
 				"fieldName"		"AvatarTextLabel"
-				"fgcolor"		"TanLight"
+				"fgcolor"		"HudWhite"
 				"xpos"			"50"
 				"ypos"			"7"
 				"zpos"			"2"
@@ -777,7 +888,7 @@
 				"tall"			"36"
 				"visible"		"1"
 				"PaintBackgroundType"	"2"
-				"bgcolor_override"		"TextColor"
+				"bgcolor_override"		"BlackBg"
 			}
 			"AvatarImage"
 			{
@@ -798,7 +909,7 @@
 			{
 				"ControlName"	"CExLabel"
 				"fieldName"		"AvatarTextLabel"
-				"fgcolor"		"TanLight"
+				"fgcolor"		"HudWhite"
 				"xpos"			"50"
 				"ypos"			"7"
 				"zpos"			"2"
@@ -871,7 +982,7 @@
 			"pinCorner"			"0"
 			"visible"			"1"
 			"enabled"			"1"
-			"fgcolor"			"TanLight"
+			"fgcolor"			"HudWhite"
 		}
 		
 		"DeathsLabel"
@@ -947,7 +1058,7 @@
 			"pinCorner"			"0"
 			"visible"			"0"
 			"enabled"			"0"
-			"fgcolor"			"TanLight"
+			"fgcolor"			"HudWhite"
 		
 			"pin_to_sibling"		"KillsLabel"
 			"pin_corner_to_sibling"	"PIN_TOPRIGHT"
@@ -969,7 +1080,7 @@
 			"pinCorner"			"0"
 			"visible"			"0"
 			"enabled"			"0"
-			"fgcolor"			"TanLight"
+			"fgcolor"			"HudWhite"
 		
 			"pin_to_sibling"		"KillsLabel"
 			"pin_corner_to_sibling"	"PIN_TOPRIGHT"
@@ -979,7 +1090,7 @@
 		"GameType"
 		{
 			"ControlName"		"CExLabel"
-			"fieldName"			"gametype"
+			"fieldName"			"GameType"
 			"font"				"ScoreboardVerySmall"
 			"labelText"			"%gametype%"
 			"textAlignment"		"east"
@@ -992,7 +1103,7 @@
 			"pinCorner"			"0"
 			"visible"			"0"
 			"enabled"			"0"
-			"fgcolor"			"TanLight"
+			"fgcolor"			"HudWhite"
 		}
 		"Assists"
 		{

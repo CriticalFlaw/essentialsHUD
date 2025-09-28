@@ -7,8 +7,8 @@
 		"xpos"				"0"
 		"ypos"				"0"
 		"zpos"				"0"
-		"wide"				"88"
-		"tall"				"25"
+		"wide"				"f0"
+		"tall"				"30"
 		"visible"			"1"
 		"enabled"			"1"
 		"bgcolor_override"	"BlackBg"
@@ -49,6 +49,7 @@
 		"brighttext"		"0"
 		"wrap"				"0"
 		"font"				"Barlow12"
+		"fgcolor_override"	"HudOrange"
 	}			
 	"WaitingForPlayersBG"
 	{
@@ -81,6 +82,7 @@
 		"brighttext"		"0"
 		"wrap"				"0"
 		"font"				"Barlow10"
+		"fgcolor_override"	"HudOrange"
 		
 		"pin_to_sibling" 		"ServerTimeLimitLabel"
 		"pin_corner_to_sibling" "PIN_TOPLEFT"
@@ -117,6 +119,7 @@
 		"brighttext"		"0"
 		"wrap"				"0"
 		"font"				"Barlow12"
+		"fgcolor_override"	"HudOrange"
 	}			
 	"SuddenDeathBG"
 	{
@@ -149,6 +152,7 @@
 		"brighttext"		"0"
 		"wrap"				"0"
 		"font"				"Barlow12"
+		"fgcolor_override"	"HudOrange"
 	}	
 	"SetupBG"
 	{
@@ -169,10 +173,10 @@
 		"ControlName"		"CExLabel"
 		"fieldName"			"ServerTimeLimitLabel"
 		"xpos"				"0"
-		"ypos"				"8"
+		"ypos"				"0"
 		"zpos"				"5"
 		"wide"				"88"
-		"tall"				"20"
+		"tall"				"12"
 		"visible"			"0"
 		"enabled"			"1"
 		"labelText"			"%servertimeleft%"
@@ -180,7 +184,8 @@
 		"dulltext"			"0"
 		"brighttext"		"0"
 		"wrap"				"0"
-		"font"				"Barlow12"
+		"font"				"Barlow10"
+		"fgcolor_override"	"HudOrange"
 	}	
 	"ServerTimeLimitLabelBG"
 	{
