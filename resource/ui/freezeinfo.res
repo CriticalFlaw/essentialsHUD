@@ -49,7 +49,7 @@
 		"textAlignment"			"west"
 		"dulltext"				"0"
 		"brighttext"			"0"
-		"font"					"Barlow14"
+		"font"					"CustomFont14"
 		"fgcolor"				"White"
 		"pin_to_sibling"		"FreezeBG"
 		"proportionaltoparent"	"1"

@@ -175,7 +175,7 @@
 		"enabled"				"1"
 		"textAlignment"			"west"
 		"labelText"				"%bluescore%"
-		"font"					"Barlow34"
+		"font"					"CustomFont34"
 		"fgcolor"				"HudWhite"
 		"pin_to_sibling"		"LeftSideBG2"
 		
@@ -210,7 +210,7 @@
 		"enabled"				"1"
 		"textAlignment"			"west"
 		"labelText"				"%bluescore%"
-		"font"					"Barlow34"
+		"font"					"CustomFont34"
 		"fgcolor"				"Black"
 		"pin_to_sibling"		"BlueScore"
 		
@@ -245,7 +245,7 @@
 		"enabled"				"1"
 		"textAlignment"			"east"
 		"labelText"				"%redscore%"
-		"font"					"Barlow34"
+		"font"					"CustomFont34"
 		"fgcolor"				"HudWhite"
 		
 		"pin_to_sibling"		"RightSideBG2"
@@ -283,7 +283,7 @@
 		"enabled"				"1"
 		"textAlignment"			"east"
 		"labelText"				"%redscore%"
-		"font"					"Barlow34"
+		"font"					"CustomFont34"
 		"fgcolor"				"Black"
 		"pin_to_sibling"		"RedScore"
 		

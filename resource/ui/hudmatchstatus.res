@@ -277,13 +277,13 @@
 		"PositiveColor"			"HealthBuff"
 		"NegativeColor"			"HealthLow"
 		"delta_lifetime"		"2.0"
-		"delta_item_font"		"Barlow14"
+		"delta_item_font"		"CustomFont14"
 		
 		"TimePanelValue"
 		{
 			"ControlName"			"CExLabel"
 			"fieldName"				"TimePanelValue"
-			"font"					"Barlow20"
+			"font"					"CustomFont20"
 			"fgcolor"				"HudWhite"
 			"xpos"					"0"
 			"ypos"					"2"

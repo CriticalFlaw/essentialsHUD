@@ -20,7 +20,7 @@
 	{
 		"ControlName"			"CExLabel"
 		"fieldName"				"SplashLabel"
-		"font"					"Barlow20"
+		"font"					"CustomFont20"
 		"labelText"				""
 		"textAlignment"			"center"
 		"xpos"					"c-250"

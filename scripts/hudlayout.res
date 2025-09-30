@@ -439,7 +439,7 @@
 		"CornerRadius"			"2"
 		"RightJustify"			"1"	// If 1, draw notices from the right
 		
-		"TextFont"				"Barlow14"
+		"TextFont"				"CustomFont14"
 		
 		"TeamBlue"				"BlueTeamBuff"
 		"TeamRed"				"RedTeamBuff"

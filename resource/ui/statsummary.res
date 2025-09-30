@@ -37,7 +37,7 @@
 	{
 		"ControlName"			"CExLabel"
 		"fieldName"				"OnYourWayLabel"
-		"font"					"Barlow14"
+		"font"					"CustomFont14"
 		"labelText"				"#LoadingMap"
 		"textAlignment"			"center"
 		"xpos"					"9999"
@@ -56,7 +56,7 @@
 	{
 		"ControlName"			"CExLabel"
 		"fieldName"				"LoadingLabel"
-		"font"					"Barlow22"
+		"font"					"CustomFont22"
 		"labelText"				"#LoadingMap"
 		"textAlignment"			"west"
 		"xpos"					"10"
@@ -74,7 +74,7 @@
 	{
 		"ControlName"			"CExLabel"
 		"fieldName"				"MapLabel"
-		"font"					"Barlow34"
+		"font"					"CustomFont34"
 		"labelText"				"%maplabel%"
 		"textAlignment"			"center"
 		"xpos"					"0"
@@ -92,7 +92,7 @@
 	{
 		"ControlName"			"CExLabel"
 		"fieldName"				"MapType"
-		"font"					"Barlow14"
+		"font"					"CustomFont14"
 		"labelText"				"%maptype%"
 		"textAlignment"			"center"
 		"xpos"					"0"

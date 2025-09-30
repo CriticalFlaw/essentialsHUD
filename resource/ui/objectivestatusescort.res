@@ -181,7 +181,7 @@
 		{
 			"ControlName"			"CExLabel"
 			"fieldName"				"RecedeTime"
-			"font"					"Barlow10"
+			"font"					"CustomFont10"
 			"xpos"					"0"
 			"ypos"					"0"
 			"zpos"					"2"
@@ -395,7 +395,7 @@
 		{
 			"ControlName"			"CExLabel"
 			"fieldName"				"CapNumPlayers"
-			"font"					"Barlow10"
+			"font"					"CustomFont10"
 			"fgcolor"				"TanLight"
 			"xpos"					"-2"
 			"ypos"					"0"

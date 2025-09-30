@@ -118,7 +118,7 @@
 	{
 		"ControlName"			"CExLabel"
 		"fieldName"				"WinningTeamLabel"
-		"font"					"Barlow24"
+		"font"					"CustomFont24"
 		"xpos"					"0"
 		"ypos"					"50"
 		"zpos"					"1"
@@ -143,7 +143,7 @@
 	{
 		"ControlName"			"CExLabel"
 		"fieldName"				"WinningTeamLabelDropshadow"
-		"font"					"Barlow24"
+		"font"					"CustomFont24"
 		"xpos"					"-2"
 		"ypos"					"-2"
 		"zpos"					"1"
@@ -168,7 +168,7 @@
 	{
 		"ControlName"			"CExLabel"
 		"fieldName"				"AdvancingTeamLabel"
-		"font"					"Barlow24"
+		"font"					"CustomFont24"
 		"xpos"					"0"
 		"ypos"					"0"
 		"zpos"					"1"
@@ -194,7 +194,7 @@
 	{
 		"ControlName"			"CExLabel"
 		"fieldName"				"AdvancingTeamLabelDropshadow"
-		"font"					"Barlow24"
+		"font"					"CustomFont24"
 		"xpos"					"-2"
 		"ypos"					"-2"
 		"zpos"					"1"
@@ -220,7 +220,7 @@
 	{
 		"ControlName"			"CExLabel"
 		"fieldName"				"WinReasonLabel"
-		"font"					"Barlow16"
+		"font"					"CustomFont16"
 		"xpos"					"0"
 		"ypos"					"30"
 		"zpos"					"1"
@@ -248,7 +248,7 @@
 	{
 		"ControlName"			"CExLabel"
 		"fieldName"				"WinReasonLabelShadow"
-		"font"					"Barlow16"
+		"font"					"CustomFont16"
 		"xpos"					"-1"
 		"ypos"					"-1"
 		"zpos"					"1"
@@ -274,7 +274,7 @@
 	{
 		"ControlName"			"CExLabel"
 		"fieldName"				"DetailsLabel"
-		"font"					"Barlow16"
+		"font"					"CustomFont16"
 		"xpos"					"0"
 		"ypos"					"0"
 		"zpos"					"1"

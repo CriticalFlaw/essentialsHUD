@@ -76,7 +76,7 @@
 		"enabled"				"1"
 		"labelText"				"%Health%"
 		"textAlignment"			"center"
-		"font"					"Barlow20"
+		"font"					"CustomFont20"
 		"fgcolor"				"HudWhite"
 	}
 

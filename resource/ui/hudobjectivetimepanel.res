@@ -50,7 +50,7 @@
 		"dulltext"				"0"
 		"brighttext"			"0"
 		"wrap"					"0"
-		"font"					"Barlow12"
+		"font"					"CustomFont12"
 		"fgcolor_override"		"HudOrange"
 	}
 
@@ -85,7 +85,7 @@
 		"dulltext"				"0"
 		"brighttext"			"0"
 		"wrap"					"0"
-		"font"					"Barlow10"
+		"font"					"CustomFont10"
 		"fgcolor_override"		"HudOrange"
 		"pin_to_sibling" 		"ServerTimeLimitLabel"
 	}
@@ -121,7 +121,7 @@
 		"dulltext"				"0"
 		"brighttext"			"0"
 		"wrap"					"0"
-		"font"					"Barlow12"
+		"font"					"CustomFont12"
 		"fgcolor_override"		"HudOrange"
 	}
 
@@ -156,7 +156,7 @@
 		"dulltext"				"0"
 		"brighttext"			"0"
 		"wrap"					"0"
-		"font"					"Barlow12"
+		"font"					"CustomFont12"
 		"fgcolor_override"		"HudOrange"
 	}
 
@@ -191,7 +191,7 @@
 		"dulltext"				"0"
 		"brighttext"			"0"
 		"wrap"					"0"
-		"font"					"Barlow10"
+		"font"					"CustomFont10"
 		"fgcolor_override"		"HudOrange"
 	}
 

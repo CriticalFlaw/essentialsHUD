@@ -74,7 +74,7 @@
 	{	
 		"ControlName"			"Label"
 		"fieldName"				"TargetNameLabel"
-		"font"					"Barlow20"
+		"font"					"CustomFont20"
 		"xpos"					"0"
 		"ypos"					"15"
 		"zpos"					"2"
@@ -95,7 +95,7 @@
 	{
 		"ControlName"			"Label"
 		"fieldName"				"TargetNameLabel2"
-		"font"					"Barlow20"
+		"font"					"CustomFont20"
 		"xpos"					"0"
 		"ypos"					"0"
 		"zpos"					"2"
@@ -118,7 +118,7 @@
 	{
 		"ControlName"			"Label"
 		"fieldName"				"TargetNameLabelShadow"
-		"font"					"Barlow20"
+		"font"					"CustomFont20"
 		"xpos"					"-1"
 		"ypos"					"-1"
 		"zpos"					"1"
@@ -141,7 +141,7 @@
 	{
 		"ControlName"			"Label"
 		"fieldName"				"TargetDataLabel"
-		"font"					"Barlow14"
+		"font"					"CustomFont14"
 		"xpos"					"0"
 		"ypos"					"0"
 		"zpos"					"2"

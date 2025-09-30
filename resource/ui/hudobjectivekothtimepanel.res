@@ -31,7 +31,7 @@
 		{
 			"ControlName"			"CExLabel"
 			"fieldName"				"TimePanelValue"
-			"font"					"Barlow20"
+			"font"					"CustomFont20"
 			"fgcolor"				"BlueTeamBuff"
 			"xpos"					"0"
 			"ypos"					"0"
@@ -68,7 +68,7 @@
 		{
 			"ControlName"			"CExLabel"
 			"fieldName"				"TimePanelValue"
-			"font"					"Barlow20"
+			"font"					"CustomFont20"
 			"fgcolor"				"RedTeamBuff"
 			"xpos"					"0"
 			"ypos"					"0"

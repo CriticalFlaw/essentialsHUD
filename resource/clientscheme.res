@@ -480,7 +480,7 @@ Scheme
 		// fonts are used in order that they are listed
 		// fonts listed later in the order will only be used if they fulfill a range not already filled
 		// if a font fails to load then the subsequent fonts will replace
-		"Barlow50"
+		"CustomFont50"
 		{
 			"1"
 			{
@@ -490,7 +490,7 @@ Scheme
 				"antialias" "1"
 			}
 		}
-		"Barlow34"
+		"CustomFont34"
 		{
 			"1"
 			{
@@ -500,7 +500,7 @@ Scheme
 				"antialias" "1"
 			}
 		}
-		"Barlow28"
+		"CustomFont28"
 		{
 			"1"
 			{
@@ -510,7 +510,7 @@ Scheme
 				"antialias" "1"
 			}
 		}
-		"Barlow26"
+		"CustomFont26"
 		{
 			"1"
 			{
@@ -520,7 +520,7 @@ Scheme
 				"antialias" "1"
 			}
 		}
-		"Barlow24"
+		"CustomFont24"
 		{
 			"1"
 			{
@@ -530,7 +530,7 @@ Scheme
 				"antialias" "1"
 			}
 		}
-		"Barlow22"
+		"CustomFont22"
 		{
 			"1"
 			{
@@ -540,7 +540,7 @@ Scheme
 				"antialias" "1"
 			}
 		}
-		"Barlow20"
+		"CustomFont20"
 		{
 			"1"
 			{
@@ -550,7 +550,7 @@ Scheme
 				"antialias" "1"
 			}
 		}
-		"Barlow18"
+		"CustomFont18"
 		{
 			"1"
 			{
@@ -560,7 +560,7 @@ Scheme
 				"antialias" "1"
 			}
 		}
-		"Barlow16"
+		"CustomFont16"
 		{
 			"1"
 			{
@@ -570,7 +570,7 @@ Scheme
 				"antialias" "1"
 			}
 		}
-		"Barlow14"
+		"CustomFont14"
 		{
 			"1"
 			{
@@ -580,7 +580,7 @@ Scheme
 				"antialias" "1"
 			}
 		}
-		"Barlow12"
+		"CustomFont12"
 		{
 			"1"
 			{
@@ -590,7 +590,7 @@ Scheme
 				"antialias" "1"
 			}
 		}
-		"Barlow10"
+		"CustomFont10"
 		{
 			"1"
 			{
@@ -600,7 +600,7 @@ Scheme
 				"antialias" "1"
 			}
 		}
-		"Barlow8"
+		"CustomFont8"
 		{
 			"1"
 			{
