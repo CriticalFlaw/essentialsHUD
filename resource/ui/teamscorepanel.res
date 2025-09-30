@@ -33,7 +33,7 @@
 	}
 	"TeamNameBlu"
 	{
-		"ControlName"			"VariableLabel"
+		"ControlName"			"Label"
 		"fieldName"				"TeamNameBlu"
 		"xpos"					"0"
 		"ypos"					"-3"
@@ -54,7 +54,7 @@
 	}
 	"TeamNameBluShadow"
 	{
-		"ControlName"			"VariableLabel"
+		"ControlName"			"Label"
 		"fieldName"				"TeamNameBluShadow"
 		"xpos"					"-1"
 		"ypos"					"-1"
@@ -67,10 +67,7 @@
 		"visible"				"1"
 		"fgcolor_override"		"Black"
 		"auto_wide_tocontents"	"1"
-
 		"pin_to_sibling"		"TeamNameBlu"
-		"pin_corner_to_sibling"	"PIN_TOPLEFT"
-		"pin_to_sibling_corner"	"PIN_TOPLEFT"
 	}
 	"TeamScoreBluBG"
 	{
@@ -89,7 +86,7 @@
 	}
 	"TeamScoreBlu"
 	{
-		"ControlName"			"VariableLabel"
+		"ControlName"			"Label"
 		"fieldName"				"TeamScoreBlu"
 		"xpos"					"0"
 		"ypos"					"0"
@@ -108,7 +105,7 @@
 	}
 	"TeamScoreBluShadow"
 	{
-		"ControlName"			"VariableLabel"
+		"ControlName"			"Label"
 		"fieldName"				"TeamScoreBluShadow"
 		"xpos"					"-1"
 		"ypos"					"-1"
@@ -119,10 +116,7 @@
 		"textAlignment"			"center"
 		"visible"				"1"
 		"fgcolor_override"		"Black"
-
 		"pin_to_sibling"		"TeamScoreBlu"
-		"pin_corner_to_sibling"	"PIN_TOPLEFT"
-		"pin_to_sibling_corner"	"PIN_TOPLEFT"
 	}
 
 	"CenterAnchor"
@@ -138,7 +132,7 @@
 
 	"TeamScoreRed"
 	{
-		"ControlName"			"VariableLabel"
+		"ControlName"			"Label"
 		"fieldName"				"TeamScoreRed"
 		"xpos"					"0"
 		"ypos"					"0"
@@ -155,9 +149,10 @@
 		"pin_corner_to_sibling"	"PIN_CENTER_TOP"
 		"pin_to_sibling_corner"	"PIN_CENTER_TOP"
 	}
+
 	"TeamScoreRedShadow"
 	{
-		"ControlName"			"VariableLabel"
+		"ControlName"			"Label"
 		"fieldName"				"TeamScoreRedShadow"
 		"xpos"					"1"
 		"ypos"					"-1"
@@ -174,9 +169,10 @@
 		"pin_corner_to_sibling"	"PIN_CENTER_TOP"
 		"pin_to_sibling_corner"	"PIN_CENTER_TOP"
 	}
+
 	"TeamNameRed"
 	{
-		"ControlName"			"VariableLabel"
+		"ControlName"			"Label"
 		"fieldName"				"TeamNameRed"
 		"xpos"					"0"
 		"ypos"					"-3"
@@ -195,9 +191,10 @@
 		"pin_corner_to_sibling"	"PIN_TOPLEFT"
 		"pin_to_sibling_corner"	"PIN_TOPRIGHT"
 	}
+
 	"TeamNameRedShadow"
 	{
-		"ControlName"			"VariableLabel"
+		"ControlName"			"Label"
 		"fieldName"				"TeamNameRedShadow"
 		"xpos"					"-1"
 		"ypos"					"-1"
@@ -215,6 +212,7 @@
 		"pin_corner_to_sibling"	"PIN_TOPLEFT"
 		"pin_to_sibling_corner"	"PIN_TOPLEFT"
 	}
+
 	"TeamScoreRedBG"
 	{
 		"ControlName"			"ImagePanel"
@@ -232,7 +230,7 @@
 	
 	"MessageLabel1"
 	{
-		"ControlName"			"VariableLabel"
+		"ControlName"			"Label"
 		"fieldName"				"MessageLabel1"
 		"xpos"					"-7"
 		"ypos"					"46"
@@ -252,7 +250,7 @@
 	
 	"MessageLabel2"
 	{
-		"ControlName"			"VariableLabel"
+		"ControlName"			"Label"
 		"fieldName"				"MessageLabel2"
 		"xpos"					"-7"
 		"ypos"					"46"
@@ -272,7 +270,7 @@
 	
 	"MessageLabel3"
 	{
-		"ControlName"			"VariableLabel"
+		"ControlName"			"Label"
 		"fieldName"				"MessageLabel3"
 		"xpos"					"-7"
 		"ypos"					"46"
@@ -292,7 +290,7 @@
 	
 	"MessageLabel4"
 	{
-		"ControlName"			"VariableLabel"
+		"ControlName"			"Label"
 		"fieldName"				"MessageLabel4"
 		"xpos"					"-7"
 		"ypos"					"46"

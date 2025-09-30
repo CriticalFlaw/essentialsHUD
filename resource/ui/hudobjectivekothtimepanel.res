@@ -4,7 +4,7 @@
 	{
 		if_match
 		{
-			"zpos"		"5"
+			"zpos"				"5"
 		}
 	}
 	
@@ -29,19 +29,19 @@
 		
 		"TimePanelValue"
 		{
-			"ControlName"		"CExLabel"
-			"fieldName"			"TimePanelValue"
-			"font"				"Barlow20"
-			"fgcolor"			"BlueTeamBuff"
-			"xpos"				"0"
-			"ypos"				"0"
-			"zpos"				"3"
-			"wide"				"40"
-			"tall"				"20"
-			"visible"			"1"
-			"enabled"			"1"
-			"textAlignment"		"center"
-			"labelText"			"0:00"
+			"ControlName"			"CExLabel"
+			"fieldName"				"TimePanelValue"
+			"font"					"Barlow20"
+			"fgcolor"				"BlueTeamBuff"
+			"xpos"					"0"
+			"ypos"					"0"
+			"zpos"					"3"
+			"wide"					"40"
+			"tall"					"20"
+			"visible"				"1"
+			"enabled"				"1"
+			"textAlignment"			"center"
+			"labelText"				"0:00"
 		}
 	}
 
@@ -66,19 +66,19 @@
 		
 		"TimePanelValue"
 		{
-			"ControlName"		"CExLabel"
-			"fieldName"			"TimePanelValue"
-			"font"				"Barlow20"
-			"fgcolor"			"RedTeamBuff"
-			"xpos"				"0"
-			"ypos"				"0"
-			"zpos"				"3"
-			"wide"				"40"
-			"tall"				"20"
-			"visible"			"1"
-			"enabled"			"1"
-			"textAlignment"		"center"
-			"labelText"			"0:00"
+			"ControlName"			"CExLabel"
+			"fieldName"				"TimePanelValue"
+			"font"					"Barlow20"
+			"fgcolor"				"RedTeamBuff"
+			"xpos"					"0"
+			"ypos"					"0"
+			"zpos"					"3"
+			"wide"					"40"
+			"tall"					"20"
+			"visible"				"1"
+			"enabled"				"1"
+			"textAlignment"			"center"
+			"labelText"				"0:00"
 		}
 	}
 	
@@ -96,6 +96,7 @@
 		"fillcolor"				"255 255 255 140"
 		"scaleImage"			"0"
 	}
+	
 	"TimerBG"
 	{
 		"ControlName"			"ImagePanel"

@@ -8,8 +8,8 @@
 		"enabled" 				"1"
 		"xpos"					"0"
 		"ypos"					"0"
-		"wide"	 				"235"
-		"tall"	 				"95"
+		"wide"					"235"
+		"tall"					"95"
 		"PaintBackgroundType"	"0"
 	}
 
