@@ -63,29 +63,27 @@
 		{
 			"ControlName"					"CExButton"
 			"fieldname"						"ReloadButton"
-			"xpos"							"7"
+			"xpos"							"10"
 			"ypos"							"rs1-4"
-			"wide"							"130"
+			"wide"							"120"
 			"tall"							"20"
 			"visible"						"1"
 			"enabled"						"1"
 			"proportionaltoparent"			"1"
 			"labelText"						"Reload HUD"
-			"font"							"HudFontSmallBold"
+			"font"							"CustomFont20"
 			"textAlignment"					"center"
-			"Command"						"engine vgui_cache_res_files 0; hud_reloadscheme; toggle mat_aaquality; vgui_cache_res_files 1"
+			"Command"						"engine vgui_cache_res_files 0; hud_reloadscheme; vgui_cache_res_files 1"
 			"actionsignallevel"				"2"
 			"sound_depressed"				"UI/buttonclick.wav"
-			
-			"armedBgColor_override"			"GreenSolid"
-			"depressedBgColor_override"		"GreenSolid"
+			"DefaultBgColor_override"		"76 107 34 255"
 		}
 		
 		"DemoUiButton"
 		{
 			"ControlName"					"CExButton"
 			"fieldName"						"DemoUiButton"
-			"xpos"							"3"
+			"xpos"							"6"
 			"ypos"							"0"
 			"wide"							"120"
 			"tall"							"20"
@@ -98,9 +96,7 @@
 			"Command"						"engine demoui; demoui2"
 			"actionsignallevel"				"2"
 			"sound_depressed"				"UI/buttonclick.wav"
-			
-			"armedBgColor_override"			"150 120 50 255"
-			"depressedBgColor_override"		"150 120 50 255"
+			"DefaultBgColor_override"		"150 120 50 255"
 
 			"pin_to_sibling"				"ReloadButton"
 			"pin_corner_to_sibling"			"PIN_TOPLEFT"
@@ -111,7 +107,7 @@
 		{
 			"ControlName"					"CExButton"
 			"fieldname"						"ConsoleButton"
-			"xpos"							"3"
+			"xpos"							"6"
 			"ypos"							"0"
 			"wide"							"120"
 			"tall"							"20"
@@ -124,9 +120,7 @@
 			"Command"						"engine toggleconsole"
 			"actionsignallevel"				"2"
 			"sound_depressed"				"UI/buttonclick.wav"
-			
-			"armedBgColor_override"			"63 100 127 255"
-			"depressedBgColor_override"		"63 100 127 255"
+			"DefaultBgColor_override"		"63 100 127 255"
 
 			"pin_to_sibling"				"DemoUiButton"
 			"pin_corner_to_sibling"			"PIN_TOPLEFT"
@@ -137,9 +131,9 @@
 		{
 			"ControlName"					"CExButton"
 			"fieldName"						"ReloadGameButton"
-			"xpos"							"3"
+			"xpos"							"6"
 			"ypos"							"0"
-			"wide"							"130"
+			"wide"							"120"
 			"tall"							"20"
 			"visible"						"1"
 			"enabled"						"1"
@@ -150,9 +144,7 @@
 			"Command"						"engine gamemenucommand RestartWithNewLanguage; mat_queue_mode -1"
 			"actionsignallevel"				"2"
 			"sound_depressed"				"UI/buttonclick.wav"
-			
-			"armedBgColor_override"			"100 30 30 255"
-			"depressedBgColor_override"		"100 30 30 255"
+			"DefaultBgColor_override"		"100 30 30 255"
 
 			"pin_to_sibling"				"ConsoleButton"
 			"pin_corner_to_sibling"			"PIN_TOPLEFT"
@@ -685,13 +677,12 @@
 				}
 			}
 			
-			"ToggleWeaponInspection"
+			"ToggleCombatText"
 			{
 				"ControlName"					"EditablePanel"
-				"fieldName"						"ToggleWeaponInspection"
+				"fieldName"						"ToggleCombatText"
 				"xpos"							"0"
 				"ypos"							"2"
-				"zpos"							"120"
 				"wide"							"120"
 				"tall"							"25"
 				"visible"						"1"
@@ -701,6 +692,62 @@
 				"pin_to_sibling"				"TogglePlayerStats"
 				"pin_corner_to_sibling"			"PIN_TOPLEFT"
 				"pin_to_sibling_corner"			"PIN_BOTTOMLEFT"
+				
+				"Button"
+				{
+					"controlName"					"CExButton"
+					"fieldName"						"Button"
+					"xpos"							"0"
+					"ypos"							"0"
+					"wide"							"f0"
+					"tall"							"f0"
+					"visible"						"1"
+					"enabled"						"1"
+					"labelText"						""
+					"command"						"engine toggle hud_combattext"
+					"actionsignallevel"				"4"
+					"paintbackground"				"0"
+					"font"							"CustomFont18"
+					"textAlignment"					"center"
+					"sound_depressed"				"UI/buttonclick.wav"
+					"sound_released"				"UI/buttonclickrelease.wav"
+				}
+				
+				"Checkbox"
+				{
+					"ControlName"					"CvarToggleCheckButton"
+					"fieldName"						"Checkbox"
+					"xpos"							"0"
+					"ypos"							"0"
+					"wide"							"f0"
+					"tall"							"f0"
+					"proportionaltoparent"			"1"
+					"font"							"CustomFont18"
+					"labeltext"						"Combat Text"
+					"textAlignment"					"west"
+					"smallcheckimage"				"1"
+					"button_activation_type"		"1"
+					"cvar_name"						"hud_combattext"
+					"mouseinputenabled"				"0"
+				}
+			}
+			
+			"ToggleWeaponInspection"
+			{
+				"ControlName"					"EditablePanel"
+				"fieldName"						"ToggleWeaponInspection"
+				"xpos"							"2"
+				"ypos"							"0"
+				"zpos"							"120"
+				"wide"							"120"
+				"tall"							"25"
+				"visible"						"1"
+				"enabled"						"1"
+				"proportionaltoparent"			"1"
+
+				"pin_to_sibling"				"ToggleCombatText"
+				"pin_corner_to_sibling"			"PIN_TOPLEFT"
+				"pin_to_sibling_corner"			"PIN_TOPRIGHT"
 				
 				"Button"
 				{
@@ -762,7 +809,7 @@
 				"fgcolor"						"TanLight"
 				"paintBackground"				"0"
 
-				"pin_to_sibling"				"ToggleWeaponInspection"
+				"pin_to_sibling"				"ToggleCombatText"
 				"pin_corner_to_sibling"			"PIN_TOPLEFT"
 				"pin_to_sibling_corner"			"PIN_BOTTOMLEFT"
 			}
@@ -1014,10 +1061,10 @@
 			
 			///---
 
-			"TitleMisc"
+			"TitlePresets"
 			{
 				"ControlName"					"CExLabel"
-				"fieldName"						"TitleMisc"
+				"fieldName"						"TitlePresets"
 				"xpos"							"0"
 				"ypos"							"5"
 				"wide"							"f0"
@@ -1026,7 +1073,7 @@
 				"enabled"						"1"
 				"proportionaltoparent"			"1"
 				"use_proportional_insets"		"1"
-				"labelText"						"HUD Quick Settings"
+				"labelText"						"Presets"
 				"font"							"CustomFont20"
 				"textAlignment"					"west"
 				"allcaps"						"1"
@@ -1053,120 +1100,62 @@
 				"PaintBackgroundType"			"3"
 				"BGColor_Override"				"HudOrange"
 
-				"pin_to_sibling"				"TitleMisc"
+				"pin_to_sibling"				"TitlePresets"
 				"pin_corner_to_sibling"			"PIN_TOPLEFT"
 				"pin_to_sibling_corner"			"PIN_BOTTOMLEFT"
 			}
-			
-			"ToggleMatchHUD"
+
+			"ButtonCP"
 			{
-				"ControlName"					"EditablePanel"
-				"fieldName"						"ToggleMatchHUD"
+				"controlName"					"CExButton"
+				"fieldName"						"ButtonCP"
 				"xpos"							"0"
 				"ypos"							"5"
 				"wide"							"120"
-				"tall"							"25"
+				"tall"							"20"
 				"visible"						"1"
 				"enabled"						"1"
-				"proportionaltoparent"			"1"
+				"labelText"						"Control Point"
+				"command"						"engine hud_objective_bg_clear; hud_reloadscheme"
+				"actionsignallevel"				"3"
+				"paintBackground"				"1"
+				"font"							"CustomFont16"
+				"allcaps"						"1"
+				"textAlignment"					"center"
+				"sound_depressed"				"UI/buttonclick.wav"
+				"sound_released"				"UI/buttonclickrelease.wav"
 
 				"pin_to_sibling"				"Separator_3"
 				"pin_corner_to_sibling"			"PIN_TOPLEFT"
 				"pin_to_sibling_corner"			"PIN_BOTTOMLEFT"
-				
-				"Button"
-				{
-					"controlName"					"CExButton"
-					"fieldName"						"Button"
-					"xpos"							"0"
-					"ypos"							"0"
-					"wide"							"f0"
-					"tall"							"f0"
-					"visible"						"1"
-					"enabled"						"1"
-					"labelText"						""
-					"command"						"engine toggle tf_use_match_hud"
-					"actionsignallevel"				"4"
-					"paintbackground"				"0"
-					"font"							"CustomFont18"
-					"textAlignment"					"center"
-					"sound_depressed"				"UI/buttonclick.wav"
-					"sound_released"				"UI/buttonclickrelease.wav"
-				}
-				
-				"Checkbox"
-				{
-					"ControlName"					"CvarToggleCheckButton"
-					"fieldName"						"Checkbox"
-					"xpos"							"0"
-					"ypos"							"0"
-					"wide"							"f0"
-					"tall"							"f0"
-					"proportionaltoparent"			"1"
-					"font"							"CustomFont18"
-					"labeltext"						"Match HUD"
-					"textAlignment"					"west"
-					"smallcheckimage"				"1"
-					"button_activation_type"		"1"
-					"cvar_name"						"tf_use_match_hud"
-					"mouseinputenabled"				"0"
-				}
 			}
-			
-			"ToggleCombatText"
+
+			"ButtonKOTH"
 			{
-				"ControlName"					"EditablePanel"
-				"fieldName"						"ToggleCombatText"
-				"xpos"							"2"
+				"controlName"					"CExButton"
+				"fieldName"						"ButtonKOTH"
+				"xpos"							"6"
 				"ypos"							"0"
 				"wide"							"120"
-				"tall"							"25"
+				"tall"							"20"
 				"visible"						"1"
 				"enabled"						"1"
-				"proportionaltoparent"			"1"
+				"labelText"						"King of the Hill"
+				"command"						"engine hud_objective_bg_koth; hud_reloadscheme"
+				"actionsignallevel"				"3"
+				"paintBackground"				"1"
+				"font"							"CustomFont18"
+				"allcaps"						"1"
+				"textAlignment"					"center"
+				"sound_depressed"				"UI/buttonclick.wav"
+				"sound_released"				"UI/buttonclickrelease.wav"
 
-				"pin_to_sibling"				"ToggleMatchHUD"
+				"pin_to_sibling"				"ButtonCP"
 				"pin_corner_to_sibling"			"PIN_TOPLEFT"
 				"pin_to_sibling_corner"			"PIN_TOPRIGHT"
-				
-				"Button"
-				{
-					"controlName"					"CExButton"
-					"fieldName"						"Button"
-					"xpos"							"0"
-					"ypos"							"0"
-					"wide"							"f0"
-					"tall"							"f0"
-					"visible"						"1"
-					"enabled"						"1"
-					"labelText"						""
-					"command"						"engine toggle hud_combattext"
-					"actionsignallevel"				"4"
-					"paintbackground"				"0"
-					"font"							"CustomFont18"
-					"textAlignment"					"center"
-					"sound_depressed"				"UI/buttonclick.wav"
-					"sound_released"				"UI/buttonclickrelease.wav"
-				}
-				
-				"Checkbox"
-				{
-					"ControlName"					"CvarToggleCheckButton"
-					"fieldName"						"Checkbox"
-					"xpos"							"0"
-					"ypos"							"0"
-					"wide"							"f0"
-					"tall"							"f0"
-					"proportionaltoparent"			"1"
-					"font"							"CustomFont18"
-					"labeltext"						"Combat Text"
-					"textAlignment"					"west"
-					"smallcheckimage"				"1"
-					"button_activation_type"		"1"
-					"cvar_name"						"hud_combattext"
-					"mouseinputenabled"				"0"
-				}
 			}
+
+			// More presets can be added here in the future...
 		}
 	}
 }
