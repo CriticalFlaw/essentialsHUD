@@ -181,7 +181,7 @@
 					"ypos"			"4"
 					"wide"			"20"
 					"tall"			"20"
-					"image"			"../vgui/hud_connecting"
+					"image"			"hud_connecting"
 				}
 
 				if_competitive
@@ -190,7 +190,7 @@
 					"ypos"			"4"
 					"wide"			"p0.4"
 					"tall"			"p0.6"
-					"image"			"../vgui/hud_connecting"
+					"image"			"hud_connecting"
 					"proportionaltoparent" "1"
 				}
 
@@ -200,7 +200,7 @@
 					"ypos"			"4"
 					"wide"			"20"
 					"tall"			"20"
-					"image"			"../vgui/hud_connecting"
+					"image"			"hud_connecting"
 				}
 			}
 			
@@ -927,7 +927,7 @@
 		"visible"		"0"
 		"enabled"		"0"
 		"labelText"		"Y"
-		"textAlignment"	"left"
+		"textAlignment"	"west"
 
 		if_mvm
 		{

@@ -33,14 +33,14 @@
 	}
 	"TeamNameBlu"
 	{
-		"ControlName"			"VariableLabel"
+		"ControlName"			"Label"
 		"fieldName"				"TeamNameBlu"
 		"xpos"					"0"
 		"ypos"					"-3"
 		"zpos"					"1"
 		"wide"					"100"
 		"tall"					"18"
-		"font"					"RobotoBold22"
+		"font"					"CustomFontBold22"
 		"labelText"				"%blueteamname%"
 		"textinsetx"			"20"
 		"textAlignment"			"east"
@@ -54,23 +54,20 @@
 	}
 	"TeamNameBluShadow"
 	{
-		"ControlName"			"VariableLabel"
+		"ControlName"			"Label"
 		"fieldName"				"TeamNameBluShadow"
 		"xpos"					"-1"
 		"ypos"					"-1"
 		"wide"					"100"
 		"tall"					"18"
-		"font"					"RobotoBold22"
+		"font"					"CustomFontBold22"
 		"labelText"				"%blueteamname%"
 		"textinsetx"			"20"
 		"textAlignment"			"east"
 		"visible"				"1"
 		"fgcolor_override"		"Black"
 		"auto_wide_tocontents"	"1"
-
 		"pin_to_sibling"		"TeamNameBlu"
-		"pin_corner_to_sibling"	"PIN_TOPLEFT"
-		"pin_to_sibling_corner"	"PIN_TOPLEFT"
 	}
 	"TeamScoreBluBG"
 	{
@@ -89,14 +86,14 @@
 	}
 	"TeamScoreBlu"
 	{
-		"ControlName"			"VariableLabel"
+		"ControlName"			"Label"
 		"fieldName"				"TeamScoreBlu"
 		"xpos"					"0"
 		"ypos"					"0"
 		"zpos"					"1"
 		"wide"					"25"
 		"tall"					"25"
-		"font"					"RobotoBold26"
+		"font"					"CustomFontBold26"
 		"labelText"				"%blueteamscore%"
 		"textAlignment"			"center"
 		"visible"				"1"
@@ -108,21 +105,18 @@
 	}
 	"TeamScoreBluShadow"
 	{
-		"ControlName"			"VariableLabel"
+		"ControlName"			"Label"
 		"fieldName"				"TeamScoreBluShadow"
 		"xpos"					"-1"
 		"ypos"					"-1"
 		"wide"					"25"
 		"tall"					"25"
-		"font"					"RobotoBold26"
+		"font"					"CustomFontBold26"
 		"labelText"				"%blueteamscore%"
 		"textAlignment"			"center"
 		"visible"				"1"
 		"fgcolor_override"		"Black"
-
 		"pin_to_sibling"		"TeamScoreBlu"
-		"pin_corner_to_sibling"	"PIN_TOPLEFT"
-		"pin_to_sibling_corner"	"PIN_TOPLEFT"
 	}
 
 	"CenterAnchor"
@@ -138,14 +132,14 @@
 
 	"TeamScoreRed"
 	{
-		"ControlName"			"VariableLabel"
+		"ControlName"			"Label"
 		"fieldName"				"TeamScoreRed"
 		"xpos"					"0"
 		"ypos"					"0"
 		"zpos"					"2"
 		"wide"					"35"
 		"tall"					"25"
-		"font"					"RobotoBold26"
+		"font"					"CustomFontBold26"
 		"labelText"				"%redteamscore%"
 		"textAlignment"			"center"
 		"visible"				"1"
@@ -155,16 +149,17 @@
 		"pin_corner_to_sibling"	"PIN_CENTER_TOP"
 		"pin_to_sibling_corner"	"PIN_CENTER_TOP"
 	}
+
 	"TeamScoreRedShadow"
 	{
-		"ControlName"			"VariableLabel"
+		"ControlName"			"Label"
 		"fieldName"				"TeamScoreRedShadow"
 		"xpos"					"1"
 		"ypos"					"-1"
 		"zpos"					"1"
 		"wide"					"35"
 		"tall"					"25"
-		"font"					"RobotoBold26"
+		"font"					"CustomFontBold26"
 		"labelText"				"%redteamscore%"
 		"textAlignment"			"center"
 		"visible"				"1"
@@ -174,16 +169,17 @@
 		"pin_corner_to_sibling"	"PIN_CENTER_TOP"
 		"pin_to_sibling_corner"	"PIN_CENTER_TOP"
 	}
+
 	"TeamNameRed"
 	{
-		"ControlName"			"VariableLabel"
+		"ControlName"			"Label"
 		"fieldName"				"TeamNameRed"
 		"xpos"					"0"
 		"ypos"					"-3"
 		"zpos"					"1"
 		"wide"					"100"
 		"tall"					"18"
-		"font"					"RobotoBold22"
+		"font"					"CustomFontBold22"
 		"labelText"				"%redteamname%"
 		"textinsetx"			"20"
 		"textAlignment"			"west"
@@ -195,15 +191,16 @@
 		"pin_corner_to_sibling"	"PIN_TOPLEFT"
 		"pin_to_sibling_corner"	"PIN_TOPRIGHT"
 	}
+
 	"TeamNameRedShadow"
 	{
-		"ControlName"			"VariableLabel"
+		"ControlName"			"Label"
 		"fieldName"				"TeamNameRedShadow"
 		"xpos"					"-1"
 		"ypos"					"-1"
 		"wide"					"100"
 		"tall"					"18"
-		"font"					"RobotoBold22"
+		"font"					"CustomFontBold22"
 		"labelText"				"%redteamname%"
 		"textinsetx"			"20"
 		"textAlignment"			"west"
@@ -215,6 +212,7 @@
 		"pin_corner_to_sibling"	"PIN_TOPLEFT"
 		"pin_to_sibling_corner"	"PIN_TOPLEFT"
 	}
+
 	"TeamScoreRedBG"
 	{
 		"ControlName"			"ImagePanel"
@@ -232,14 +230,14 @@
 	
 	"MessageLabel1"
 	{
-		"ControlName"			"VariableLabel"
+		"ControlName"			"Label"
 		"fieldName"				"MessageLabel1"
 		"xpos"					"-7"
 		"ypos"					"46"
 		"zpos"					"10"
 		"wide"					"85"
 		"tall"					"10"
-		"font"					"Roboto10"
+		"font"					"CustomFont10"
 		"labelText"				"%customtext1%"
 		"textAlignment"			"center"
 		"visible"				"0"
@@ -252,14 +250,14 @@
 	
 	"MessageLabel2"
 	{
-		"ControlName"			"VariableLabel"
+		"ControlName"			"Label"
 		"fieldName"				"MessageLabel2"
 		"xpos"					"-7"
 		"ypos"					"46"
 		"zpos"					"10"
 		"wide"					"85"
 		"tall"					"10"
-		"font"					"Roboto10"
+		"font"					"CustomFont10"
 		"labelText"				"%customtext2%"
 		"textAlignment"			"center"
 		"visible"				"0"
@@ -272,14 +270,14 @@
 	
 	"MessageLabel3"
 	{
-		"ControlName"			"VariableLabel"
+		"ControlName"			"Label"
 		"fieldName"				"MessageLabel3"
 		"xpos"					"-7"
 		"ypos"					"46"
 		"zpos"					"10"
 		"wide"					"85"
 		"tall"					"10"
-		"font"					"Roboto10"
+		"font"					"CustomFont10"
 		"labelText"				"%customtext3%"
 		"textAlignment"			"center"
 		"visible"				"0"
@@ -292,14 +290,14 @@
 	
 	"MessageLabel4"
 	{
-		"ControlName"			"VariableLabel"
+		"ControlName"			"Label"
 		"fieldName"				"MessageLabel4"
 		"xpos"					"-7"
 		"ypos"					"46"
 		"zpos"					"10"
 		"wide"					"85"
 		"tall"					"10"
-		"font"					"Roboto10"
+		"font"					"CustomFont10"
 		"labelText"				"%customtext4%"
 		"textAlignment"			"center"
 		"visible"				"0"

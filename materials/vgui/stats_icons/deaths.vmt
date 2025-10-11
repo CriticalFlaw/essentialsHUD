@@ -1,7 +1,0 @@
-"UnlitGeneric"
-{
-    $basetexture vgui/stats_icons/deaths
-    $translucent 1 
-    $vertexcolor 1 
-    $vertexalpha 1 
-}

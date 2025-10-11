@@ -478,7 +478,7 @@ Scheme
 		// fonts are used in order that they are listed
 		// fonts listed later in the order will only be used if they fulfill a range not already filled
 		// if a font fails to load then the subsequent fonts will replace
-		"RobotoBold55"
+		"CustomFontBold55"
 		{
 			"1"
 			{
@@ -488,7 +488,7 @@ Scheme
 				"antialias" "1"
 			}
 		}
-		"RobotoBold34"
+		"CustomFontBold34"
 		{
 			"1"
 			{
@@ -498,7 +498,7 @@ Scheme
 				"antialias" "1"
 			}
 		}
-		"RobotoBold30"
+		"CustomFontBold30"
 		{
 			"1"
 			{
@@ -508,7 +508,7 @@ Scheme
 				"antialias" "1"
 			}
 		}
-		"RobotoBold28"
+		"CustomFontBold28"
 		{
 			"1"
 			{
@@ -518,7 +518,7 @@ Scheme
 				"antialias" "1"
 			}
 		}
-		"RobotoBold26"
+		"CustomFontBold26"
 		{
 			"1"
 			{
@@ -528,7 +528,7 @@ Scheme
 				"antialias" "1"
 			}
 		}
-		"RobotoBold24"
+		"CustomFontBold24"
 		{
 			"1"
 			{
@@ -538,7 +538,7 @@ Scheme
 				"antialias" "1"
 			}
 		}
-		"RobotoBold22"
+		"CustomFontBold22"
 		{
 			"1"
 			{
@@ -548,7 +548,7 @@ Scheme
 				"antialias" "1"
 			}
 		}
-		"RobotoBold20"
+		"CustomFontBold20"
 		{
 			"1"
 			{
@@ -558,7 +558,7 @@ Scheme
 				"antialias" "1"
 			}
 		}
-		"RobotoBold18"
+		"CustomFontBold18"
 		{
 			"1"
 			{
@@ -568,7 +568,7 @@ Scheme
 				"antialias" "1"
 			}
 		}
-		"RobotoBold16"
+		"CustomFontBold16"
 		{
 			"1"
 			{
@@ -578,7 +578,7 @@ Scheme
 				"antialias" "1"
 			}
 		}
-		"RobotoBold14"
+		"CustomFontBold14"
 		{
 			"1"
 			{
@@ -588,7 +588,7 @@ Scheme
 				"antialias" "1"
 			}
 		}
-		"RobotoBold12"
+		"CustomFontBold12"
 		{
 			"1"
 			{
@@ -598,7 +598,7 @@ Scheme
 				"antialias" "1"
 			}
 		}
-		"RobotoBold11"
+		"CustomFontBold11"
 		{
 			"1"
 			{
@@ -608,7 +608,7 @@ Scheme
 				"antialias" "1"
 			}
 		}
-		"RobotoBold10"
+		"CustomFontBold10"
 		{
 			"1"
 			{
@@ -618,7 +618,7 @@ Scheme
 				"antialias" "1"
 			}
 		}
-		"RobotoBold9"
+		"CustomFontBold9"
 		{
 			"1"
 			{
@@ -628,7 +628,7 @@ Scheme
 				"antialias" "1"
 			}
 		}
-		"RobotoBold8"
+		"CustomFontBold8"
 		{
 			"1"
 			{
@@ -638,7 +638,7 @@ Scheme
 				"antialias" "1"
 			}
 		}
-		"RobotoBold7"
+		"CustomFontBold7"
 		{
 			"1"
 			{
@@ -649,7 +649,7 @@ Scheme
 			}
 		}
 		
-		"Roboto55"
+		"CustomFont55"
 		{
 			"1"
 			{
@@ -659,7 +659,7 @@ Scheme
 				"antialias" "1"
 			}
 		}
-		"Roboto34"
+		"CustomFont34"
 		{
 			"1"
 			{
@@ -669,7 +669,7 @@ Scheme
 				"antialias" "1"
 			}
 		}
-		"Roboto30"
+		"CustomFont30"
 		{
 			"1"
 			{
@@ -679,7 +679,7 @@ Scheme
 				"antialias" "1"
 			}
 		}
-		"Roboto28"
+		"CustomFont28"
 		{
 			"1"
 			{
@@ -689,7 +689,7 @@ Scheme
 				"antialias" "1"
 			}
 		}
-		"Roboto26"
+		"CustomFont26"
 		{
 			"1"
 			{
@@ -699,7 +699,7 @@ Scheme
 				"antialias" "1"
 			}
 		}
-		"Roboto24"
+		"CustomFont24"
 		{
 			"1"
 			{
@@ -709,7 +709,7 @@ Scheme
 				"antialias" "1"
 			}
 		}
-		"Roboto22"
+		"CustomFont22"
 		{
 			"1"
 			{
@@ -719,7 +719,7 @@ Scheme
 				"antialias" "1"
 			}
 		}
-		"Roboto20"
+		"CustomFont20"
 		{
 			"1"
 			{
@@ -729,7 +729,7 @@ Scheme
 				"antialias" "1"
 			}
 		}
-		"Roboto18"
+		"CustomFont18"
 		{
 			"1"
 			{
@@ -739,7 +739,7 @@ Scheme
 				"antialias" "1"
 			}
 		}
-		"Roboto16"
+		"CustomFont16"
 		{
 			"1"
 			{
@@ -749,7 +749,7 @@ Scheme
 				"antialias" "1"
 			}
 		}
-		"Roboto14"
+		"CustomFont14"
 		{
 			"1"
 			{
@@ -759,7 +759,7 @@ Scheme
 				"antialias" "1"
 			}
 		}
-		"Roboto12"
+		"CustomFont12"
 		{
 			"1"
 			{
@@ -769,7 +769,7 @@ Scheme
 				"antialias" "1"
 			}
 		}
-		"Roboto11"
+		"CustomFont11"
 		{
 			"1"
 			{
@@ -779,7 +779,7 @@ Scheme
 				"antialias" "1"
 			}
 		}
-		"Roboto10"
+		"CustomFont10"
 		{
 			"1"
 			{
@@ -789,7 +789,7 @@ Scheme
 				"antialias" "1"
 			}
 		}
-		"Roboto9"
+		"CustomFont9"
 		{
 			"1"
 			{
@@ -799,7 +799,7 @@ Scheme
 				"antialias" "1"
 			}
 		}
-		"Roboto8"
+		"CustomFont8"
 		{
 			"1"
 			{
@@ -880,8 +880,6 @@ Scheme
 				"range" 	"0x0000 0x00FF"
 				"weight"	"800"
 			}
-
-
 		}
 		"DefaultUnderline"
 		{
@@ -6207,16 +6205,6 @@ Scheme
 				"range" "0x0000 0x007E"
 			}
 		}
-		"8"
-		{
-			"font"	"resource/fonts/roboto.ttf"
-			"name"	"Roboto"
-		}
-		"9"
-		{
-			"font"	"resource/fonts/roboto-black.ttf"
-			"name"	"Roboto Black"
-		}
 		"10"		"resource/linux_fonts/DejaVuSans.ttf"
 		"11"		"resource/linux_fonts/DejaVuSans-Bold.ttf"
 		"12"		"resource/linux_fonts/DejaVuSans-BoldOblique.ttf"
@@ -6225,5 +6213,15 @@ Scheme
 		"15"		"resource/linux_fonts/LiberationSans-Bold.ttf"
 		"16"		"resource/linux_fonts/LiberationMono-Regular.ttf"
 		"17"		"resource/linux_fonts/FiraSans-Regular.ttf"
+		"100"
+		{
+			"font"	"resource/fonts/roboto.ttf"
+			"name"	"Roboto"
+		}
+		"101"
+		{
+			"font"	"resource/fonts/roboto-black.ttf"
+			"name"	"Roboto Black"
+		}
 	}
 }
