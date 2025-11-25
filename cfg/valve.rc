@@ -17,3 +17,4 @@ sv_unlockedchapters 99
 
 // Apply custom settings
 exec casting_essentials.cfg
+exec hud_customizations.cfg

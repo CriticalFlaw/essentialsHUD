@@ -14,12 +14,12 @@
 		"enabled"				"1"
 		"tabPosition"			"0"
 
-		"red_base_x"			"r122"
+		"red_base_x"			"r120"
 		"red_base_y"			"0"
 		"red_offset_x"			"0"
 		"red_offset_y"			"0"
 		
-		"blu_base_x"			"-1"
+		"blu_base_x"			"0"
 		"blu_base_y"			"0"
 		"blu_offset_x"			"0"
 		"blu_offset_y"			"0"

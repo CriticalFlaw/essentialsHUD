@@ -16,12 +16,8 @@
 		"fieldName"				"HudWeaponAmmo"
 		"visible"				"1"
 		"enabled"				"1"
-		"xpos"					"r95"	[$WIN32]
-		"xpos_minmode"			"r85"	[$WIN32]
-		"ypos"					"r55"	[$WIN32]
-		"ypos_minmode"			"r36"	[$WIN32]
-		"xpos"					"r131"	[$X360]
-		"ypos"					"r77"	[$X360]
+		"xpos"					"r95"
+		"ypos"					"r55"
 		"wide"					"94"
 		"tall"					"45"
 	}
@@ -32,7 +28,7 @@
 		"visible"				"1"
 		"enabled"				"1"
 		"xpos"					"0"
-		"ypos"					"0" // "0" for standard CP icon placement, "-44" for lower third sponsor placement
+		"ypos"					"-400" // "0" for standard CP icon placement, "-44" for lower third sponsor placement
 		"wide"					"f0"
 		"tall"					"480"
 	}
@@ -42,17 +38,14 @@
 		"fieldName"				"HudKothTimeStatus"
 		"visible"				"1"
 		"enabled"				"1"
-		"xpos"					"c-44"
+		"xpos"					"c-40"
 		"ypos"					"0"
 		"zpos"					"5"
 		"wide"					"200"
 		"tall"					"160"
 		
-		"blue_active_xpos"			"0"
-		"blue_active_xpos_minmode"	"0"
-	
-		"red_active_xpos"			"44"
-		"red_active_xpos_minmode"	"44"
+		"blue_active_xpos"		"0"
+		"red_active_xpos"		"40"
 	}
 	
 	"HudItemEffectMeter"
@@ -60,12 +53,8 @@
 		"fieldName"				"HudItemEffectMeter"
 		"visible"				"1"
 		"enabled"				"1"
-		"xpos"					"r162"	[$WIN32]
-		"xpos_minmode"			"r52"	[$WIN32]
-		"ypos"					"r52"	[$WIN32]
-		"ypos_minmode"			"r50"	[$WIN32]
-		"xpos"					"r194"	[$X360]
-		"ypos"					"r74"	[$X360]
+		"xpos"					"r162"
+		"ypos"					"r52"
 		"wide"					"100"
 		"tall"					"50"
 		"MeterFG"				"White"
@@ -77,12 +66,8 @@
 		"fieldName"				"HudMedicCharge"
 		"visible"				"1"
 		"enabled"				"1"
-		"xpos"					"r138"	[$WIN32]
-		"xpos_minmode"			"r100"	[$WIN32]
-		"ypos"					"r69"	[$WIN32]
-		"ypos_minmode"			"r34"	[$WIN32]
-		"xpos"					"r174"	[$X360]
-		"ypos"					"r90"	[$X360]
+		"xpos"					"r138"
+		"ypos"					"r69"
 		"wide"					"200"
 		"tall"					"100"
 	}
@@ -92,15 +77,10 @@
 		"fieldName"				"HudDemomanCharge"
 		"visible"				"1"
 		"enabled"				"1"
-		"xpos"					"r80"	[$WIN32]
-		"xpos_minmode"			"r110"	[$WIN32]
-		"ypos"					"r21"	[$WIN32]
-		"ypos_minmode"			"r30"	[$WIN32]
-		"xpos"					"r112"	[$X360]
-		"ypos"					"r45"	[$X360]
-		"zpos"					"1"			// draw in front of ammo
+		"xpos"					"r80"
+		"ypos"					"r21"
+		"zpos"					"1"
 		"wide"					"60"
-		"wide_minmode"			"50"
 		"tall"					"8"
 		"MeterFG"				"White"
 		"MeterBG"				"Gray"
@@ -111,15 +91,10 @@
 		"fieldName"				"HudBowCharge"
 		"visible"				"1"
 		"enabled"				"1"
-		"xpos"					"r80"	[$WIN32]
-		"xpos_minmode"			"r52"	[$WIN32]
-		"ypos"					"r21"	[$WIN32]
-		"ypos_minmode"			"r40"	[$WIN32]
-		"xpos"					"r112"	[$X360]
-		"ypos"					"r45"	[$X360]
-		"zpos"					"1"			// draw in front of ammo
+		"xpos"					"r80"
+		"ypos"					"r21"
+		"zpos"					"1"
 		"wide"					"60"
-		"wide_minmode"			"50"
 		"tall"					"8"
 		"MeterFG"				"White"
 		"MeterBG"				"Gray"
@@ -130,15 +105,10 @@
 		"fieldName"				"HudFlameRocketCharge"
 		"visible"				"1"
 		"enabled"				"1"
-		"xpos"					"r80"	[$WIN32]
-		"xpos_minmode"			"r52"	[$WIN32]
-		"ypos"					"r21"	[$WIN32]
-		"ypos_minmode"			"r40"	[$WIN32]
-		"xpos"					"r112"	[$X360]
-		"ypos"					"r45"	[$X360]
-		"zpos"					"1"			// draw in front of ammo
+		"xpos"					"r80"
+		"ypos"					"r21"
+		"zpos"					"1"
 		"wide"					"60"
-		"wide_minmode"			"50"
 		"tall"					"8"
 		"MeterFG"				"White"
 		"MeterBG"				"Gray"
@@ -151,7 +121,7 @@
 		"enabled"				"1"
 		"xpos"					"c-100"
 		"ypos"					"42"
-		"zpos"					"0"			// draw in front of ammo
+		"zpos"					"0"
 		"wide"					"200"
 		"tall"					"50"
 		"MeterFG"				"Red"
@@ -166,8 +136,6 @@
 		"ypos"					"0"
 		"tall"					"480"
 		"RightMargin"			"0"
-		"RightMargin_hidef"		"32"
-		"RightMargin_lodef"		"38"
 		"visible"				"1"
 		"enabled"				"1"
 		"SmallBoxWide"			"72"
@@ -179,14 +147,12 @@
 
 		"LargeBoxWide"			"110"
 		"LargeBoxTall"			"77"
-		"BoxGap"				"4"	[$WIN32]
-		"BoxGap"				"4"	[$X360]
+		"BoxGap"				"4"
 		"SelectionNumberXPos"	"12"
 		"SelectionNumberYPos"	"4"
 		"IconXPos"				"8"
 		"IconYPos"				"0"
-		"TextYPos"				"70"		[$WIN32]
-		"TextYPos"				"65"		[$X360]
+		"TextYPos"				"70"
 		"ErrorYPos"				"48"
 		"TextColor"				"SelectionTextFg"
 		"MaxSlots"				"6"
@@ -202,12 +168,8 @@
 	"CHudAccountPanel"
 	{
 		"fieldName"				"CHudAccountPanel"
-		"xpos"					"r154"	[$WIN32]
-		"ypos"					"r152"	[$WIN32]
-		"xpos_minmode"			"r130"	[$WIN32]
-		"ypos_minmode"			"r134"	[$WIN32]
-		"xpos"					"r194"	[$X360]
-		"ypos"					"r174"	[$X360]
+		"xpos"					"r154"
+		"ypos"					"r152"
 		"wide"					"116"
 		"tall"  				"180"
 		"visible" 				"1"
@@ -219,9 +181,7 @@
 	{
 		"fieldName"				"CHealthAccountPanel"
 		"xpos"					"76"
-		"xpos_minmode"			"61"
 		"ypos"					"r152"
-		"ypos_minmode"			"r134"
 		"wide"					"116"
 		"tall"  				"180"
 		"visible" 				"1"
@@ -246,14 +206,11 @@
 		"fieldName"				"DisguiseStatus"
 		"visible"				"1"
 		"enabled"				"1"
-		"xpos"					"10"	[$WIN32]
-		"ypos"					"r70"	[$WIN32]
-		"xpos"					"50"	[$X360]
-		"ypos"					"330"	[$X360]
+		"xpos"					"10"
+		"ypos"					"r70"
 		"zpos"					"3"
 		"wide"					"500"
 		"tall"					"200"
-		"TextFont"				"Default"	[$X360]
 	}
 	
 	"CMainTargetID"
@@ -274,7 +231,7 @@
 		"visible" 				"0"
 		"enabled" 				"1"
 		"xpos"					"c-126"
-		"ypos"					"360"
+		"ypos"					"r100"
 		"wide"					"252"
 		"tall"					"49"
 		"priority"				"40"
@@ -300,10 +257,8 @@
 		"fieldName"				"BuildingStatus_Spy"
 		"visible"				"1"
 		"enabled"				"1"
-		"xpos"					"0"	[$WIN32]
-		"ypos"					"0"	[$WIN32]
-		"xpos"					"32"	[$X360]
-		"ypos"					"16"	[$X360]
+		"xpos"					"0"
+		"ypos"					"0"
 		"wide"					"640"
 		"tall"					"480"
 		"PaintBackgroundType"	"2"
@@ -315,11 +270,7 @@
 		"visible"				"1"
 		"enabled"				"1"
 		"xpos"					"0"
-		"xpos_hidef"			"32"
-		"xpos_lodef"			"40"
 		"ypos"					"0"
-		"ypos_hidef"			"16"
-		"ypos_lodef"			"25"
 		"wide"					"640"
 		"tall"					"480"
 		"PaintBackgroundType"	"2"
@@ -346,8 +297,6 @@
 		"ypos"					"r100"
 		"wide"					"100"
 		"tall"					"100"
-		"xpos_minmode"			"65"
-		"ypos_minmode"			"r88"
 		"visible" 				"0"
 		"enabled" 				"1"
 		"PaintBackgroundType"	"2"
@@ -487,17 +436,17 @@
 		"IconScale"				"0.35"
 		"LineHeight"			"16"
 		"LineSpacing"			"1"
-		"CornerRadius"	  		"0"
+		"CornerRadius"			"2"
 		"RightJustify"			"1"	// If 1, draw notices from the right
 		
-		"TextFont"				"CustomFontBold11"
+		"TextFont"				"CustomFont14"
 		
 		"TeamBlue"				"BlueTeamBuff"
 		"TeamRed"				"RedTeamBuff"
 		"IconColor"				"HudWhite"
-		"LocalPlayerColor"		"HUDBlack"
+		"LocalPlayerColor"		"HudWhite"
 		
-		"BaseBackgroundColor"	"0 0 0 220"
+		"BaseBackgroundColor"	"BlackBg"
 		"LocalBackgroundColor"	"245 229 196 200"
 	}
 	
@@ -591,11 +540,9 @@
 		"visible"				"1"
 		"enabled"				"1"
 		"xpos"					"c-250"
-		"ypos"					"276"	[$WIN32]
-		"ypos"					"236"	[$X360]
+		"ypos"					"276"
 		"wide"					"500"
-		"tall"					"136"	[$WIN32]
-		"tall"					"176"	[$X360]
+		"tall"					"136"
 		
 		"BgAlpha"				"128"
 		
@@ -717,10 +664,8 @@
 		"fieldName"				"HudVoiceSelfStatus"
 		"visible"				"1"
 		"enabled"				"1"
-		"xpos"					"r42" 	[$WIN32]
-		"ypos"					"355"	[$WIN32]
-		"xpos"					"r75"	[$X360]
-		"ypos"					"375"	[$X360]
+		"xpos"					"r42"
+		"ypos"					"355"
 		"wide"					"32"
 		"tall"					"32"
 	}
@@ -730,10 +675,8 @@
 		"fieldName"				"HudVoiceStatus"
 		"visible"				"0"
 		"enabled"				"0"
-		"xpos"					"r145" [$WIN32]
-		"ypos"					"0" [$WIN32]
-		"xpos"					"r210" [$X360]
-		"ypos"					"0" [$X360]
+		"xpos"					"r145"
+		"ypos"					"0"
 		"wide"					"0"
 		"tall"					"400"
 		
@@ -887,13 +830,9 @@
 		"visible"				"1"
 		"enabled"				"1"
 		"xpos"					"c-133"
-		"xpos_lodef"			"c-190"
 		"ypos"					"270"
-		"ypos_lodef"			"250"
 		"wide"					"266"
-		"wide_lodef"			"400"
 		"tall"					"120"
-		"tall_lodef"			"190"
 	}
 	
 	"FreezePanel"
@@ -962,8 +901,7 @@
 		"fieldName" 			"HudChat"
 		"visible" 				"1"
 		"enabled" 				"1"
-		"xpos"					"10"	[$WIN32]
-		"xpos"					"42"	[$X360]
+		"xpos"					"10"
 		"ypos"					"275"
 		"wide"					"320"
 		"tall"					"120"
@@ -1013,11 +951,8 @@
 		"enabled" 				"1"
 		"xpos"					"c-235"
 		"ypos"					"c-52"
-		"ypos_hidef"			"c-42"
-		"ypos_lodef"			"c-42"
 		"wide"					"470"
-		"tall"					"200"	[$WIN32]
-		"tall"					"180"	[$X360]
+		"tall"					"200"
 		"PaintBackgroundType"	"0"
 	}	
 	
@@ -1026,12 +961,8 @@
 		"fieldName"				"HudDemomanPipes"
 		"visible"				"1"
 		"enabled"				"1"
-		"xpos"					"r158"	[$WIN32]
-		"xpos_minmode"			"r110"	[$WIN32]
-		"ypos"					"r52"	[$WIN32]
-		"ypos_minmode"			"r40"	[$WIN32]
-		"xpos"					"r194"	[$X360]
-		"ypos"					"r74"	[$X360]
+		"xpos"					"r158"
+		"ypos"					"r52"
 		"wide"					"100"
 		"tall"					"50"
 	}
@@ -1043,7 +974,6 @@
 		"enabled"				"1"
 		"xpos"					"c-160"
 		"ypos"					"65"
-		"ypos_lodef"			"75"
 		"wide"					"320"
 		"tall"					"100"
 	}
@@ -1055,7 +985,6 @@
 		"enabled"				"1"
 		"xpos"					"c-160"
 		"ypos"					"15"
-		"ypos_lodef"			"75"
 		"wide"					"320"
 		"tall"					"300"
 	}
@@ -1067,8 +996,6 @@
 		"enabled"				"1"
 		"xpos"					"c-160"
 		"ypos"					"75"
-		"ypos_hidef"			"90"
-		"ypos_lodef"			"90"
 		"wide"					"320"
 		"tall"					"100"
 	}
@@ -1080,8 +1007,6 @@
 		"enabled"				"1"
 		"xpos"					"c-160"
 		"ypos"					"75"
-		"ypos_hidef"			"90"
-		"ypos_lodef"			"90"
 		"wide"					"320"
 		"tall"					"150"
 	}
@@ -1105,7 +1030,6 @@
 		"enabled"				"1"
 		"xpos"					"c-160"
 		"ypos"					"65"
-		"ypos_lodef"			"75"
 		"wide"					"320"
 		"tall"					"100"
 	}
@@ -1117,7 +1041,6 @@
 		"enabled"				"1"
 		"xpos"					"c-125"
 		"ypos"					"5"
-		"ypos_lodef"			"75"
 		"zpos"					"2"
 		"wide"					"250"
 		"tall"					"80"
@@ -1130,7 +1053,6 @@
 		"enabled"				"1"
 		"xpos"					"c-90"
 		"ypos"					"-70"
-		"ypos_lodef"			"75"
 		"wide"					"180"
 		"tall"					"65"
 	}
@@ -1165,8 +1087,7 @@
 		"enabled"				"1"
 		"xpos"					"0"
 		"ypos"					"180"
-		"wide"					"f10"	[$WIN32]
-		"wide"					"f60"	[$X360]
+		"wide"					"f10"
 		"tall"					"100"
 	}
 	
@@ -1391,8 +1312,6 @@
 		"enabled" 				"1"
 		"xpos"					"c-235"
 		"ypos"					"c-52"
-		"ypos_hidef"			"c-42"
-		"ypos_lodef"			"c-42"
 		"wide"					"470"
 		"tall"					"200"
 		"PaintBackgroundType"	"0"

@@ -73,7 +73,7 @@
 	{
 		"ControlName"			"CExLabel"
 		"fieldName"				"BlueTeamName"
-		"font"					"CustomFontBold30"
+		"font"					"CustomFont34"
 		"labelText"				"%blueteamname%"
 		"textAlignment"			"east"
 		"xpos"					"0"
@@ -85,9 +85,37 @@
 		"pinCorner"				"0"
 		"visible"				"1"
 		"enabled"				"1"
-		"fgcolor"				"TanLight"
+		"fgcolor"				"HudWhite"
 		"TextInsetX"			"100"
+		"allcaps"				"1"
 		"pin_to_sibling"		"BlueBG"
+		
+		if_mvm
+		{
+			"visible"			"0"
+		}
+	}
+	
+	"BlueTeamNameShadow"
+	{
+		"ControlName"			"CExLabel"
+		"fieldName"				"BlueTeamNameShadow"
+		"font"					"CustomFont34"
+		"labelText"				"%blueteamname%"
+		"textAlignment"			"east"
+		"xpos"					"-2"
+		"ypos"					"-2"
+		"zpos"					"0"
+		"wide"					"203"
+		"tall"					"35"
+		"autoResize"			"0"
+		"pinCorner"				"0"
+		"visible"				"1"
+		"enabled"				"1"
+		"fgcolor"				"Black"
+		"TextInsetX"			"100"
+		"allcaps"				"1"
+		"pin_to_sibling"		"BlueTeamName"
 		
 		if_mvm
 		{
@@ -99,24 +127,50 @@
 	{
 		"ControlName"			"CExLabel"
 		"fieldName"				"BlueTeamScore"
-		"font"					"CustomFontBold34"
+		"font"					"CustomFont34"
 		"labelText"				"%blueteamscore%"
 		"textAlignment"			"east"
 		"xpos"					"0"
 		"ypos"					"0"
-		"zpos"					"4"
+		"zpos"					"1"
 		"wide"					"50"
 		"tall"					"35"
 		"autoResize"			"0"
 		"pinCorner"				"0"
 		"visible"				"1"
 		"enabled"				"1"
-		"fgcolor"				"TanLight"
+		"fgcolor"				"HudWhite"
 		"TextInsetX"			"20"
 		
 		"pin_to_sibling"		"BlueBG"
 		"pin_corner_to_sibling"	"PIN_TOPRIGHT"
 		"pin_to_sibling_corner"	"PIN_TOPRIGHT"
+		
+		if_mvm
+		{
+			"visible"			"0"
+		}
+	}
+
+	"BlueTeamScoreShadow"
+	{
+		"ControlName"			"CExLabel"
+		"fieldName"				"BlueTeamScoreShadow"
+		"font"					"CustomFont34"
+		"labelText"				"%blueteamscore%"
+		"textAlignment"			"east"
+		"xpos"					"-2"
+		"ypos"					"-2"
+		"zpos"					"0"
+		"wide"					"50"
+		"tall"					"35"
+		"autoResize"			"0"
+		"pinCorner"				"0"
+		"visible"				"1"
+		"enabled"				"1"
+		"fgcolor"				"Black"
+		"TextInsetX"			"20"
+		"pin_to_sibling"		"BlueTeamScore"
 		
 		if_mvm
 		{
@@ -165,6 +219,7 @@
 		"visible"				"1"
 		"enabled"				"1"
 		"bgcolor_override"		"HUDRedTeam"
+		"PaintBackgroundType"	"2"
 		
 		"pin_to_sibling"		"BlueBG"
 		"pin_corner_to_sibling"	"PIN_TOPRIGHT"
@@ -203,7 +258,7 @@
 	{
 		"ControlName"			"CExLabel"
 		"fieldName"				"RedTeamName"
-		"font"					"CustomFontBold30"
+		"font"					"CustomFont34"
 		"labelText"				"%redteamname%"
 		"textAlignment"			"west"
 		"xpos"					"0"
@@ -215,8 +270,9 @@
 		"pinCorner"				"0"
 		"visible"				"1"
 		"enabled"				"1"
-		"fgcolor"				"TanLight"
+		"fgcolor"				"HudWhite"
 		"TextInsetX"			"100"
+		"allcaps"				"1"
 		
 		"pin_to_sibling"		"RedBG"
 		"pin_corner_to_sibling"	"PIN_TOPRIGHT"
@@ -228,25 +284,78 @@
 		}
 	}
 	
+	"RedTeamNameShadow"
+	{
+		"ControlName"			"CExLabel"
+		"fieldName"				"RedTeamNameShadow"
+		"font"					"CustomFont34"
+		"labelText"				"%redteamname%"
+		"textAlignment"			"west"
+		"xpos"					"-2"
+		"ypos"					"-2"
+		"zpos"					"0"
+		"wide"					"203"
+		"tall"					"35"
+		"autoResize"			"0"
+		"pinCorner"				"0"
+		"visible"				"1"
+		"enabled"				"1"
+		"fgcolor"				"Black"
+		"TextInsetX"			"100"
+		"allcaps"				"1"
+		"pin_to_sibling"		"RedTeamName"
+		
+		if_mvm
+		{
+			"visible"			"0"
+		}
+	}
+	
 	"RedTeamScore"
 	{
 		"ControlName"			"CExLabel"
 		"fieldName"				"RedTeamScore"
-		"font"					"CustomFontBold34"
+		"font"					"CustomFont34"
 		"labelText"				"%redteamscore%"
 		"textAlignment"			"west"
 		"xpos"					"0"
 		"ypos"					"0"
-		"zpos"					"4"
+		"zpos"					"1"
 		"wide"					"50"
 		"tall"					"35"
 		"autoResize"			"0"
 		"pinCorner"				"0"
 		"visible"				"1"
 		"enabled"				"1"
-		"fgcolor"				"TanLight"
+		"fgcolor"				"HudWhite"
 		"TextInsetX"			"20"
 		"pin_to_sibling"		"RedBG"
+		
+		if_mvm
+		{
+			"visible"			"0"
+		}
+	}
+	
+	"RedTeamScoreShadow"
+	{
+		"ControlName"			"CExLabel"
+		"fieldName"				"RedTeamScoreShadow"
+		"font"					"CustomFont34"
+		"labelText"				"%redteamscore%"
+		"textAlignment"			"west"
+		"xpos"					"-2"
+		"ypos"					"-2"
+		"zpos"					"0"
+		"wide"					"50"
+		"tall"					"35"
+		"autoResize"			"0"
+		"pinCorner"				"0"
+		"visible"				"1"
+		"enabled"				"1"
+		"fgcolor"				"Black"
+		"TextInsetX"			"20"
+		"pin_to_sibling"		"RedTeamScore"
 		
 		if_mvm
 		{
@@ -357,7 +466,7 @@
 		"ControlName"			"CExLabel"
 		"fieldName"				"ServerTimeLeftLabel"
 		"labelText"				"%servertimeleft%"
-		"font"					"CustomFontBold11"
+		"font"					"CustomFont12"
 		"textAlignment"			"center"
 		"xpos"					"-5"
 		"ypos"					"0"
@@ -368,6 +477,7 @@
 		"pinCorner"				"0"
 		"visible"				"1"
 		"enabled"				"1"
+		"fgcolor_override"		"HudWhite"
 		
 		"pin_to_sibling"		"TimeBackground"
 		"pin_corner_to_sibling"	"PIN_BOTTOMRIGHT"
@@ -574,7 +684,7 @@
 		"pinCorner"				"0"
 		"visible"				"0"
 		"enabled"				"0"
-		"fgcolor"			"TanLight"
+		"fgcolor"				"HudWhite"
 		
 		if_mvm
 		{
@@ -693,7 +803,7 @@
 				"tall"					"36"
 				"visible"				"1"
 				"PaintBackgroundType"	"2"
-				"bgcolor_override"		"TextColor"
+				"bgcolor_override"		"BlackBg"
 			}
 			"AvatarImage"
 			{
@@ -714,7 +824,7 @@
 			{
 				"ControlName"			"CExLabel"
 				"fieldName"				"AvatarTextLabel"
-				"fgcolor"				"TanLight"
+				"fgcolor"				"HudWhite"
 				"xpos"					"50"
 				"ypos"					"7"
 				"zpos"					"2"
@@ -772,7 +882,7 @@
 				"tall"					"36"
 				"visible"				"1"
 				"PaintBackgroundType"	"2"
-				"bgcolor_override"		"TextColor"
+				"bgcolor_override"		"BlackBg"
 			}
 			"AvatarImage"
 			{
@@ -793,7 +903,7 @@
 			{
 				"ControlName"			"CExLabel"
 				"fieldName"				"AvatarTextLabel"
-				"fgcolor"				"TanLight"
+				"fgcolor"				"HudWhite"
 				"xpos"					"50"
 				"ypos"					"7"
 				"zpos"					"2"
@@ -854,7 +964,7 @@
 		{
 			"ControlName"				"CExLabel"
 			"fieldName"					"KillsLabel"
-			"font"						"CustomFontBold30"
+			"font"						"CustomFont34"
 			"labelText"					":"
 			"textAlignment"				"center"
 			"xpos"						"55"
@@ -866,7 +976,7 @@
 			"pinCorner"					"0"
 			"visible"					"1"
 			"enabled"					"1"
-			"fgcolor"					"TanLight"
+			"fgcolor"					"HudWhite"
 		}
 		
 		"DeathsLabel"
@@ -930,7 +1040,7 @@
 		{
 			"ControlName"				"CExLabel"
 			"fieldName"					"Kills"
-			"font"						"CustomFontBold30"
+			"font"						"CustomFont34"
 			"labelText"					"%kills%"
 			"textAlignment"				"east"
 			"xpos"						"-20"
@@ -942,7 +1052,7 @@
 			"pinCorner"					"0"
 			"visible"					"0"
 			"enabled"					"0"
-			"fgcolor"					"TanLight"
+			"fgcolor"					"HudWhite"
 		
 			"pin_to_sibling"			"KillsLabel"
 			"pin_corner_to_sibling"		"PIN_TOPRIGHT"
@@ -952,7 +1062,7 @@
 		{
 			"ControlName"				"CExLabel"
 			"fieldName"					"Deaths"
-			"font"						"CustomFontBold30"
+			"font"						"CustomFont34"
 			"labelText"					"%deaths%"
 			"textAlignment"				"west"
 			"xpos"						"-15"
@@ -964,7 +1074,7 @@
 			"pinCorner"					"0"
 			"visible"					"0"
 			"enabled"					"0"
-			"fgcolor"					"TanLight"
+			"fgcolor"					"HudWhite"
 		
 			"pin_to_sibling"			"KillsLabel"
 			"pin_corner_to_sibling"		"PIN_TOPRIGHT"
@@ -987,7 +1097,7 @@
 			"pinCorner"					"0"
 			"visible"					"0"
 			"enabled"					"0"
-			"fgcolor"					"TanLight"
+			"fgcolor"					"HudWhite"
 		}
 		"Assists"
 		{

@@ -76,8 +76,8 @@
 		"enabled"				"1"
 		"labelText"				"%Health%"
 		"textAlignment"			"center"
-		"font"					"CustomFontBold20"
-		"fgcolor"				"TanLight"
+		"font"					"CustomFont20"
+		"fgcolor"				"HudWhite"
 	}
 
 	"PlayerStatusPlayerLevel"
@@ -110,7 +110,7 @@
 		"visible"				"1"
 		"enabled"				"1"
 		"tabPosition"			"0"
-		"fillcolor"				"32 32 32 255"
+		"fillcolor"				"28 24 48 255"
 		"PaintBackgroundType"	"0"
 	}
 }

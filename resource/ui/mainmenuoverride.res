@@ -1,4 +1,4 @@
-#base "../tools.res"
+#base "customizations/menu.res"
 
 "Resource/UI/MainMenuOverride.res"
 {
@@ -13,7 +13,7 @@
 		"wide"					"f0"
 		"tall"					"480"
 		
-		"bgcolor_override"		"19 23 27 255"
+		"bgcolor_override"		"30 33 50 255"
 		
 		"update_url"			"https://store.steampowered.com/news/?filter=updates&appids=440"
 		"blog_url"				"https://www.teamfortress.com/"

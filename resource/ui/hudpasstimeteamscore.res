@@ -100,7 +100,7 @@
 		"enabled"				"1"
 		"textAlignment"			"west"
 		"labelText"				"%bluescore%"
-		"font"					"CustomFontBold26"
+		"font"					"CustomFont26"
 		"fgcolor"				"TanLight"
 		"pin_to_sibling"		"LeftSideBG2"
 	}
@@ -118,7 +118,7 @@
 		"enabled"				"1"
 		"textAlignment"			"west"
 		"labelText"				"%bluescore%"
-		"font"					"CustomFontBold26"
+		"font"					"CustomFont26"
 		"fgcolor"				"Black"
 		"pin_to_sibling"		"BlueScore"
 	}
@@ -136,7 +136,7 @@
 		"enabled"				"1"
 		"textAlignment"			"east"
 		"labelText"				"%redscore%"
-		"font"					"CustomFontBold26"
+		"font"					"CustomFont26"
 		"fgcolor"				"TanLight"
 		"pin_to_sibling"		"RightSideBG2"
 		"pin_corner_to_sibling"	"PIN_TOPRIGHT"
@@ -156,12 +156,12 @@
 		"enabled"				"1"
 		"textAlignment"			"east"
 		"labelText"				"%redscore%"
-		"font"					"CustomFontBold26"
+		"font"					"CustomFont26"
 		"fgcolor"				"Black"
 		"pin_to_sibling"		"RedScore"
 	}
 
-"PlayingToCluster"
+	"PlayingToCluster"
 	{
 		"ControlName"			"EditablePanel"
 		"fieldName"				"PlayingToCluster"

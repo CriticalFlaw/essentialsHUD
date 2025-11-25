@@ -26,6 +26,8 @@ Scheme
 		"RedTeam"					"157 49 47 255"
 		"BlueTeamBuff"				"87 145 191 255"
 		"RedTeamBuff"				"209 73 71 255"
+		"BlackBg"					"28 34 48 225"
+		"HudOrange"					"255 139 35 255"
 		
 		// base colors
 		"Orange"					"178 82 22 255"
@@ -70,11 +72,11 @@ Scheme
 		"TransparentLightBlack"		"0 0 0 90"
 		"FooterBGBlack"				"52 48 55 255"
 
-		"HUDBlueTeam"				"57 92 120 255"
-		"HUDRedTeam"				"157 49 47 255"
+		"HUDBlueTeam"				"44 167 189 255"
+		"HUDRedTeam"				"189 44 68 255"
 		"HUDSpectator"				"124 124 124 127"
-		"HUDBlueTeamSolid"			"38 55 63 255"
-		"HUDRedTeamSolid"			"89 24 23 255"
+		"HUDBlueTeamSolid"			"5 58 68 255"
+		"HUDRedTeamSolid"			"65 5 15 255"
 		"HUDDeathWarning"			"255 0 0 255"
 		"HudWhite"					"255 255 255 255"
 		"HudOffWhite"				"200 187 161 255"
@@ -478,183 +480,12 @@ Scheme
 		// fonts are used in order that they are listed
 		// fonts listed later in the order will only be used if they fulfill a range not already filled
 		// if a font fails to load then the subsequent fonts will replace
-		"CustomFontBold55"
+		"CustomFont50"
 		{
 			"1"
 			{
-				"name"		"Roboto"
-				"tall"		"55"
-				"additive"	"0"
-				"antialias" "1"
-			}
-		}
-		"CustomFontBold34"
-		{
-			"1"
-			{
-				"name"		"Roboto"
-				"tall"		"34"
-				"additive"	"0"
-				"antialias" "1"
-			}
-		}
-		"CustomFontBold30"
-		{
-			"1"
-			{
-				"name"		"Roboto"
-				"tall"		"30"
-				"additive"	"0"
-				"antialias" "1"
-			}
-		}
-		"CustomFontBold28"
-		{
-			"1"
-			{
-				"name"		"Roboto"
-				"tall"		"28"
-				"additive"	"0"
-				"antialias" "1"
-			}
-		}
-		"CustomFontBold26"
-		{
-			"1"
-			{
-				"name"		"Roboto"
-				"tall"		"26"
-				"additive"	"0"
-				"antialias" "1"
-			}
-		}
-		"CustomFontBold24"
-		{
-			"1"
-			{
-				"name"		"Roboto"
-				"tall"		"24"
-				"additive"	"0"
-				"antialias" "1"
-			}
-		}
-		"CustomFontBold22"
-		{
-			"1"
-			{
-				"name"		"Roboto"
-				"tall"		"22"
-				"additive"	"0"
-				"antialias" "1"
-			}
-		}
-		"CustomFontBold20"
-		{
-			"1"
-			{
-				"name"		"Roboto"
-				"tall"		"20"
-				"additive"	"0"
-				"antialias" "1"
-			}
-		}
-		"CustomFontBold18"
-		{
-			"1"
-			{
-				"name"		"Roboto"
-				"tall"		"18"
-				"additive"	"0"
-				"antialias" "1"
-			}
-		}
-		"CustomFontBold16"
-		{
-			"1"
-			{
-				"name"		"Roboto"
-				"tall"		"16"
-				"additive"	"0"
-				"antialias" "1"
-			}
-		}
-		"CustomFontBold14"
-		{
-			"1"
-			{
-				"name"		"Roboto"
-				"tall"		"14"
-				"additive"	"0"
-				"antialias" "1"
-			}
-		}
-		"CustomFontBold12"
-		{
-			"1"
-			{
-				"name"		"Roboto"
-				"tall"		"12"
-				"additive"	"0"
-				"antialias" "1"
-			}
-		}
-		"CustomFontBold11"
-		{
-			"1"
-			{
-				"name"		"Roboto"
-				"tall"		"11"
-				"additive"	"0"
-				"antialias" "1"
-			}
-		}
-		"CustomFontBold10"
-		{
-			"1"
-			{
-				"name"		"Roboto"
-				"tall"		"10"
-				"additive"	"0"
-				"antialias" "1"
-			}
-		}
-		"CustomFontBold9"
-		{
-			"1"
-			{
-				"name"		"Roboto"
-				"tall"		"9"
-				"additive"	"0"
-				"antialias" "1"
-			}
-		}
-		"CustomFontBold8"
-		{
-			"1"
-			{
-				"name"		"Roboto"
-				"tall"		"8"
-				"additive"	"0"
-				"antialias" "1"
-			}
-		}
-		"CustomFontBold7"
-		{
-			"1"
-			{
-				"name"		"Roboto"
-				"tall"		"7"
-				"additive"	"0"
-				"antialias" "1"
-			}
-		}
-		
-		"CustomFont55"
-		{
-			"1"
-			{
-				"name"		"Roboto Black"
-				"tall"		"55"
+				"name"		"Barlow Semi Condensed"
+				"tall"		"50"
 				"additive"	"0"
 				"antialias" "1"
 			}
@@ -663,18 +494,8 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Roboto Black"
+				"name"		"Barlow Semi Condensed"
 				"tall"		"34"
-				"additive"	"0"
-				"antialias" "1"
-			}
-		}
-		"CustomFont30"
-		{
-			"1"
-			{
-				"name"		"Roboto Black"
-				"tall"		"30"
 				"additive"	"0"
 				"antialias" "1"
 			}
@@ -683,7 +504,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Roboto Black"
+				"name"		"Barlow Semi Condensed"
 				"tall"		"28"
 				"additive"	"0"
 				"antialias" "1"
@@ -693,7 +514,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Roboto Black"
+				"name"		"Barlow Semi Condensed"
 				"tall"		"26"
 				"additive"	"0"
 				"antialias" "1"
@@ -703,7 +524,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Roboto Black"
+				"name"		"Barlow Semi Condensed"
 				"tall"		"24"
 				"additive"	"0"
 				"antialias" "1"
@@ -713,7 +534,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Roboto Black"
+				"name"		"Barlow Semi Condensed"
 				"tall"		"22"
 				"additive"	"0"
 				"antialias" "1"
@@ -723,7 +544,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Roboto Black"
+				"name"		"Barlow Semi Condensed"
 				"tall"		"20"
 				"additive"	"0"
 				"antialias" "1"
@@ -733,7 +554,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Roboto Black"
+				"name"		"Barlow Semi Condensed"
 				"tall"		"18"
 				"additive"	"0"
 				"antialias" "1"
@@ -743,7 +564,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Roboto Black"
+				"name"		"Barlow Semi Condensed"
 				"tall"		"16"
 				"additive"	"0"
 				"antialias" "1"
@@ -753,7 +574,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Roboto Black"
+				"name"		"Barlow Semi Condensed"
 				"tall"		"14"
 				"additive"	"0"
 				"antialias" "1"
@@ -763,18 +584,8 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Roboto Black"
+				"name"		"Barlow Semi Condensed"
 				"tall"		"12"
-				"additive"	"0"
-				"antialias" "1"
-			}
-		}
-		"CustomFont11"
-		{
-			"1"
-			{
-				"name"		"Roboto Black"
-				"tall"		"11"
 				"additive"	"0"
 				"antialias" "1"
 			}
@@ -783,18 +594,8 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Roboto Black"
+				"name"		"Barlow Semi Condensed"
 				"tall"		"10"
-				"additive"	"0"
-				"antialias" "1"
-			}
-		}
-		"CustomFont9"
-		{
-			"1"
-			{
-				"name"		"Roboto Black"
-				"tall"		"9"
 				"additive"	"0"
 				"antialias" "1"
 			}
@@ -803,7 +604,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Roboto Black"
+				"name"		"Barlow Semi Condensed"
 				"tall"		"8"
 				"additive"	"0"
 				"antialias" "1"
@@ -825,16 +626,16 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Roboto Black"
-				"tall"		"14"
+				"name"		"Barlow Semi Condensed"
+				"tall"		"12"
 				"weight"	"900"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
 				"yres"		"480 599"
 			}
 			"2"
 			{
-				"name"		"Roboto Black"
-				"tall"		"15"	[$WIN32]
+				"name"		"Barlow Semi Condensed"
+				"tall"		"13"	[$WIN32]
 				"tall"		"20"	[$X360]
 				"weight"	"900"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
@@ -842,8 +643,8 @@ Scheme
 			}
 			"3"
 			{
-				"name"		"Roboto Black"
-				"tall"		"16"
+				"name"		"Barlow Semi Condensed"
+				"tall"		"14"
 				"weight"	"900"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
 				"yres"		"768 1023"
@@ -851,8 +652,8 @@ Scheme
 			}
 			"4"
 			{
-				"name"		"Roboto Black"
-				"tall"		"22"
+				"name"		"Barlow Semi Condensed"
+				"tall"		"20"
 				"weight"	"900"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
 				"yres"		"1024 1199"
@@ -860,23 +661,23 @@ Scheme
 			}
 			"5" // Misyl: Proportional
 			{
-				"name"		"Roboto Black"
-				"tall"		"11"
+				"name"		"Barlow Semi Condensed"
+				"tall"		"9"
 				"weight"	"900"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
 				"antialias"	"1"
 			}
 			"6"
 			{
-				"name"		"Roboto Black"
-				"tall"		"14"
+				"name"		"Barlow Semi Condensed"
+				"tall"		"12"
 				"range" 	"0x0000 0x00FF"
 				"weight"	"900"
 			}
 			"7"
 			{
-				"name"		"Roboto Black"
-				"tall"		"14"
+				"name"		"Barlow Semi Condensed"
+				"tall"		"12"
 				"range" 	"0x0000 0x00FF"
 				"weight"	"800"
 			}
@@ -6215,13 +6016,8 @@ Scheme
 		"17"		"resource/linux_fonts/FiraSans-Regular.ttf"
 		"100"
 		{
-			"font"	"resource/fonts/roboto.ttf"
-			"name"	"Roboto"
-		}
-		"101"
-		{
-			"font"	"resource/fonts/roboto-black.ttf"
-			"name"	"Roboto Black"
+			"font"	"resource/fonts/barlow-semi-condensed-bold.ttf"
+			"name"	"Barlow Semi Condensed"
 		}
 	}
 }

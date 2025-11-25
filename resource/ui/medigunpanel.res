@@ -4,7 +4,7 @@
 	{
 		"ControlName"			"Frame"
 		"fieldName"				"MedigunPanel"
-		"wide"					"122"
+		"wide"					"125"
 		"tall"					"15"
 		"autoResize"			"0"
 		"pinCorner"				"0"
@@ -30,7 +30,7 @@
 		"pinCorner"				"0"
 		"visible"				"1"
 		"enabled"				"1"
-		"fillcolor"				"0 0 0 220"
+		"fillcolor"				"5 8 15 179"
 
 		"player-dead" {
 			//"visible"			"0"
@@ -79,8 +79,8 @@
 		"zpos"					"2"
 		"wide"					"12"
 		"tall"					"12"
-		"visible"				"1"
-		"enabled"				"1"
+		"visible"				"0"
+		"enabled"				"0"
 		"scaleImage"			"1"
 		"image"					"replay/thumbnails/stats_icons/uber"
 
@@ -104,7 +104,6 @@
 				"ypos"				"0"
 				"wide"				"17"
 				"tall"				"17"
-				"drawcolor_override"	""
 				"team-red"
 				{
 					"resist-bullet" {
@@ -142,7 +141,7 @@
     {
         "ControlName"			"Label"
         "fieldName"				"MedigunPanelChargeLabel"
-        "xpos"					"98"
+        "xpos"					"100"
         "ypos"					"0"
         "zpos"					"2"
         "wide"					"25"
@@ -155,11 +154,11 @@
         "textAlignment"			"center"
         "dulltext"				"0"
         "brighttext"			"0"
-        "font"					"CustomFontBold11"
-        "fgcolor"				"TanLight"
+        "font"					"CustomFont12"
+        "fgcolor_override"		"HudWhite"
 
 		"team-red" {
-			"xpos"				"0"
+			"xpos"				"-2"
 		}
         "medigun-vaccinator" {
             "labelText"			"%charges%"
@@ -179,15 +178,15 @@
         "wide"					"25"
 		"tall"					"15"
         "autoResize"			"1"
-        "visible"				"1"
-        "enabled"				"1"
+        "visible"				"0"
+        "enabled"				"0"
         "labelText"				"%charge%"
         "tabPosition"			"0"
         "textAlignment"			"center"
         "dulltext"				"0"
         "brighttext"			"0"
-        "font"					"CustomFontBold11"
-		"fgcolor_override"		"TransparentBlack"
+        "font"					"CustomFont12"
+		"fgcolor_override"		"Black"
 		"pin_to_sibling" 		"MedigunPanelChargeLabel"
 
 		"player-dead" {
@@ -200,34 +199,32 @@
         "ControlName"			"ContinuousProgressBar"
         "fieldName"				"MedigunPanelChargeMeter"
         "font"					"Default"
-        "xpos"					"21"
-        "ypos"					"0"
+        "xpos"					"25"
+        "ypos"					"2"
         "zpos"					"2"
-		"wide"					"100"
-		"tall"					"f0"
+		"wide"					"80"
+		"tall"					"11"
         "autoResize"			"0"
         "pinCorner"				"0"
         "visible"				"1"
         "enabled"				"1"
-        "textAlignment"			"west"
+        "textAlignment"			"east"
         "dulltext"				"0"
-        "brighttext"			"0"
-		"bgcolor_override"		"BlueTeam"
-		"fgcolor_override"		"BlueTeamBuff"
+        "brighttext"			"0"	
+		"bgcolor_override"		"28 34 48 255"
+		"fgcolor_override"		"255 139 35 255"
         "direction"				"east"
         "variable"				"charge"
 		
         "medigun-vaccinator" {
-            "visible"			"0"
+            "visible"       	"0"
         }
         "player-dead" {
             "visible"       	"0"
         }
 		"team-red" {
-			"xpos"				"0"
+			"xpos"				"20"
 			"direction"			"west"
-			"bgcolor_override"	"RedTeam"
-			"fgcolor_override"	"RedTeamBuff"
 		}
     }
 
@@ -241,32 +238,32 @@
 		"wide"					"f0"
 		"tall"					"15"
 		"autoResize"			"1"
-		"labelText"				"#TF_Weapon_Medigun"
+		"labelText"				"UBER"
 		"visible"				"1"
 		"enabled"				"1"
 		"tabPosition"			"0"
 		"textAlignment"			"west"
 		"dulltext"				"0"
 		"brighttext"			"0"
-		"font"					"CustomFontBold11"
-		"fgcolor_override"		"TanLight"
+		"font"					"CustomFont12"
+		"fgcolor_override"		"HudWhite"
 		"proportionaltoparent"	"1"
 
 		"team-red" {
-			"xpos"				"-26"
+			"xpos"				"-4"
 			"textAlignment"		"east"
 		}
 		"medigun-medigun" {
-			"labelText"			"#TF_Weapon_Medigun"
+			"labelText"			"UBER"
 		}
 		"medigun-kritzkrieg" {
-			"labelText"			"#TF_Unique_Achievement_Medigun1"
+			"labelText"			"KRITZ"
 		}
 		"medigun-quickfix" {
-			"labelText"			"#TF_Unique_MediGun_QuickFix"
+			"labelText"			"QUICK"
 		}
 		"medigun-vaccinator" {
-			"labelText"			"#TF_Weapon_Medigun_Resist"
+			"labelText"			"VACC"
 		}
 		"player-dead" {
 			"visible"			"0"
@@ -283,15 +280,15 @@
 		"wide"					"f0"
 		"tall"					"15"
 		"autoResize"			"1"
-		"labelText"				"#TF_Weapon_Medigun"
-		"visible"				"1"
-		"enabled"				"1"
+		"labelText"				"UBER"
+		"visible"				"0"
+		"enabled"				"0"
 		"tabPosition"			"0"
 		"textAlignment"			"west"
 		"dulltext"				"0"
 		"brighttext"			"0"
-		"font"					"CustomFontBold11"
-		"fgcolor_override"		"TransparentBlack"
+		"font"					"CustomFont12"
+		"fgcolor_override"		"Black"
 		"proportionaltoparent"	"1"
 		"pin_to_sibling" 		"MedigunPanelNameLabel"
 
@@ -299,16 +296,16 @@
 			"textAlignment"		"east"
 		}
 		"medigun-medigun" {
-			"labelText"			"#TF_Weapon_Medigun"
+			"labelText"			"UBER"
 		}
 		"medigun-kritzkrieg" {
-			"labelText"			"#TF_Unique_Achievement_Medigun1"
+			"labelText"			"KRITZ"
 		}
 		"medigun-quickfix" {
-			"labelText"			"#TF_Unique_MediGun_QuickFix"
+			"labelText"			"QUICK"
 		}
 		"medigun-vaccinator" {
-			"labelText"			"#TF_Weapon_Medigun_Resist"
+			"labelText"			"VACC"
 		}
 		"player-dead" {
 			"visible"			"0"
