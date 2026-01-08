@@ -1,5 +1,5 @@
 // CastingEssentials' Pause Panel
-"Resource/UI/FreezeInfo.res"
+"resource/ui/freezeinfo.res"
 {
 	"FreezeInfo"
 	{

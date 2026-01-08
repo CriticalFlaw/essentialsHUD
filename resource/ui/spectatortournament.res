@@ -1,6 +1,6 @@
 //#base "customizations/spectatortournament_stats.res"
 
-"Resource/UI/SpectatorTournament.res"
+"resource/ui/spectatortournament.res"
 {
 	"specgui"
 	{

@@ -1,4 +1,4 @@
-"Resource/UI/TargetID_Stats_Letters.res"
+"resource/ui/targetid_stats_letters.res"
 {
 	"StatsKillsIcon"
 	{
