@@ -77,6 +77,7 @@
 			"actionsignallevel"				"2"
 			"sound_depressed"				"UI/buttonclick.wav"
 			"DefaultBgColor_override"		"76 107 34 255"
+			"allcaps"						"1"
 		}
 		
 		"DemoUiButton"
@@ -91,12 +92,13 @@
 			"enabled"						"1"
 			"proportionaltoparent"			"1"
 			"labelText"						"Demo UI"
-			"font"							"HudFontSmallBold"
+			"font"							"CustomFont20"
 			"textAlignment"					"center"
 			"Command"						"engine demoui; demoui2"
 			"actionsignallevel"				"2"
 			"sound_depressed"				"UI/buttonclick.wav"
 			"DefaultBgColor_override"		"150 120 50 255"
+			"allcaps"						"1"
 
 			"pin_to_sibling"				"ReloadButton"
 			"pin_corner_to_sibling"			"PIN_TOPLEFT"
@@ -115,12 +117,13 @@
 			"enabled"						"1"
 			"proportionaltoparent"			"1"
 			"labelText"						"#GameUI_Console"
-			"font"							"HudFontSmallBold"
+			"font"							"CustomFont20"
 			"textAlignment"					"center"
 			"Command"						"engine toggleconsole"
 			"actionsignallevel"				"2"
 			"sound_depressed"				"UI/buttonclick.wav"
 			"DefaultBgColor_override"		"63 100 127 255"
+			"allcaps"						"1"
 
 			"pin_to_sibling"				"DemoUiButton"
 			"pin_corner_to_sibling"			"PIN_TOPLEFT"
@@ -139,12 +142,13 @@
 			"enabled"						"1"
 			"proportionaltoparent"			"1"
 			"labelText"						"#Vote_RestartGame"
-			"font"							"HudFontSmallBold"
+			"font"							"CustomFont20"
 			"textAlignment"					"center"
 			"Command"						"engine gamemenucommand RestartWithNewLanguage; mat_queue_mode -1"
 			"actionsignallevel"				"2"
 			"sound_depressed"				"UI/buttonclick.wav"
 			"DefaultBgColor_override"		"100 30 30 255"
+			"allcaps"						"1"
 
 			"pin_to_sibling"				"ConsoleButton"
 			"pin_corner_to_sibling"			"PIN_TOPLEFT"
@@ -153,20 +157,19 @@
 		
 		///---
 
-		"HUD_Quick_Settings_Selection"
+		"Customizations_Scroller"
 		{
-			"controlName"					"CScrollableList"
-			"fieldName"						"HUD_Quick_Settings_Selection"
+			"ControlName"					"CScrollableList"
+			"fieldName"						"Customizations_Scroller"
 			"xpos"							"10"
 			"ypos"							"25"
 			"wide"							"f20"
 			"tall"							"f53"
 			"visible"						"1"
 			"enabled"						"1"
-			"proportionalToParent"			"1"
-			"paintBackground"				"1"
-			"paintBackgroundType"			"0"
-			"BGColor_Override"				"Transparent"
+			"proportionaltoparent"			"1"
+			"paintBackground"				"0"
+			"bgcolor_override"				"Gray"
 
 			"Scrollbar"
 			{
@@ -176,14 +179,13 @@
 				"tall"							"f0"
 				"zpos"							"1000"
 				"proportionalToParent"			"1"
+				"nobuttons"						"1"
 
 				"Slider"
 				{
 					"PaintBackgroundType"		"0"
 					"FGColor_Override"			"Gray"
 				}
-
-				"nobuttons"						"1"
 			}
 			
 			///---
