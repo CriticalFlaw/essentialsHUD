@@ -159,7 +159,7 @@
         "fgcolor"				"TanLight"
 
 		"team-red" {
-			"xpos"				"0"
+			"xpos"				"-1"
 		}
         "medigun-vaccinator" {
             "labelText"			"%charges%"
@@ -235,7 +235,7 @@
 	{
 		"ControlName"			"Label"
 		"fieldName"				"MedigunPanelNameLabel"
-		"xpos"					"2"
+		"xpos"					"23"
 		"ypos"					"0"
 		"zpos"					"3"
 		"wide"					"f0"
