@@ -81,7 +81,7 @@
 				"labelText"				"%playername%"
 				"textAlignment"			"west"
 				"textinsetx"			"6"
-				"allcaps"				"1"
+				"allcaps"				"0"
 				"proportionaltoparent"	"1"
 
 				"pin_to_sibling" 		"classimagebg"
@@ -103,7 +103,7 @@
 				"labelText"				"%playername%"
 				"textinsetx"			"6"
 				"textAlignment"			"west"
-				"allcaps"				"1"
+				"allcaps"				"0"
 				"proportionaltoparent"	"1"
 				"pin_to_sibling" 		"BluePlayerName"
 			}
@@ -122,7 +122,7 @@
 				"labelText"				"%playername%"
 				"textAlignment"			"east"
 				"textinsetx"			"6"
-				"allcaps"				"1"
+				"allcaps"				"0"
 				"proportionaltoparent"	"1"
 				"pin_to_sibling" 		"classimagebg"
 				"pin_corner_to_sibling" "PIN_TOPRIGHT"
@@ -143,7 +143,7 @@
 				"labelText"				"%playername%"
 				"textinsetx"			"6"
 				"textAlignment"			"east"
-				"allcaps"				"1"
+				"allcaps"				"0"
 				"proportionaltoparent"	"1"
 				"pin_to_sibling" 		"RedPlayerName"
 			}
@@ -348,19 +348,19 @@
 			{
 				"ControlName"			"ImagePanel"
 				"fieldName"				"LoadoutIconsActiveItemBlue"
-				"xpos"					"-3"
-				"ypos"					"1"
+				"xpos"					"8"
+				"ypos"					"0"
 				"zpos"					"200"
-				"wide"					"26"
-				"tall"					"12"
+				"wide"					"43"
+				"tall"					"20"
 				"visible"				"1"
 				"enabled"				"1"
 				"scaleImage"			"1"
-				"proportionalToParent" "1"
+				"proportionalToParent"	"1"
 				//"fillcolor_override"	"255 0 0 32"
-				"pin_to_sibling"		"PlayerHealthBlue"
-				"pin_corner_to_sibling"	"PIN_TOPLEFT"
-				"pin_to_sibling_corner"	"PIN_BOTTOMLEFT"
+				"pin_to_sibling"		"PanelBottomBlue"
+				"pin_corner_to_sibling"	"PIN_BOTTOMLEFT"
+				"pin_to_sibling_corner"	"PIN_BOTTOMRIGHT"
 			}
 			
 			///------
@@ -369,36 +369,40 @@
 			{
 				"ControlName"			"ImagePanel"
 				"fieldName"				"StatusEffectIconRed"
-				"xpos"					"18"
-				"ypos"					"0"
+				"xpos"					"-3"
+				"ypos"					"-2"
 				"zpos"					"200"
-				"wide"					"14"
-				"tall"					"14"
+				"wide"					"20"
+				"tall"					"20"
 				"visible"				"0"
 				"enabled"				"1"
 				"scaleImage"			"1"
 				"proportionalToParent"	"1"
 				"image"					""
-				"pin_to_sibling"		"LoadoutIconsActiveItemRed"	//TODO: pin to KDA
+
+				"pin_to_sibling" 		"classimagebg"
+				"pin_corner_to_sibling" "PIN_TOPRIGHT"
+				"pin_to_sibling_corner" "PIN_TOPRIGHT"
 			}
 			
 			"StatusEffectIconBlue"
 			{
 				"ControlName"			"ImagePanel"
 				"fieldName"				"StatusEffectIconBlue"
-				"xpos"					"3"
+				"xpos"					"-3"
 				"ypos"					"-2"
 				"zpos"					"200"
-				"wide"					"9"
-				"tall"					"9"
+				"wide"					"20"
+				"tall"					"20"
 				"visible"				"0"
 				"enabled"				"1"
 				"scaleImage"			"1"
 				"proportionalToParent" 	"1"
 				"image"					""
-				"pin_to_sibling"		"StatsDeathsBlue"
-				"pin_corner_to_sibling"	"PIN_TOPLEFT"
-				"pin_to_sibling_corner"	"PIN_TOPRIGHT"
+
+				"pin_to_sibling" 		"classimagebg"
+				"pin_corner_to_sibling" "PIN_TOPLEFT"
+				"pin_to_sibling_corner" "PIN_TOPLEFT"
 			}
 			
 			///------
