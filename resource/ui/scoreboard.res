@@ -396,15 +396,15 @@
 	{
 		"ControlName"			"EditablePanel"
 		"fieldName"				"ServerBackground"
-		"xpos"					"257"
-		"ypos"					"0"
+		"xpos"					"276"
+		"ypos"					"10"
 		"zpos"					"-10"
-		"wide"					"88"
-		"tall"					"25"
+		"wide"					"50"
+		"tall"					"30"
 		"visible"				"1"
 		"enabled"				"1"
-		"bgcolor_override"		"0 0 0 230"
-		"PaintBackgroundType"	"0"
+		"bgcolor_override"		"BlackBg"
+		"PaintBackgroundType"	"2"
 		
 		if_mvm
 		{

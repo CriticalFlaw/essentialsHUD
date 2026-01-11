@@ -4,15 +4,15 @@
 	{
 		"ControlName"			"EditablePanel"
 		"fieldName"				"TimePanelBG"
-		"xpos"					"0"
+		"xpos"					"20"
 		"ypos"					"0"
 		"zpos"					"0"
-		"wide"					"f0"
+		"wide"					"50"
 		"tall"					"30"
 		"visible"				"1"
 		"enabled"				"1"
 		"bgcolor_override"		"BlackBg"
-		"PaintBackgroundType"	"0"
+		"PaintBackgroundType"	"2"
 	}
 
 	"TimePanelProgressBar"

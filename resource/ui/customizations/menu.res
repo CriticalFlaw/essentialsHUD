@@ -1157,6 +1157,31 @@
 				"pin_to_sibling_corner"			"PIN_TOPRIGHT"
 			}
 
+
+			"ButtonHUDTest"
+			{
+				"controlName"					"CExButton"
+				"fieldName"						"ButtonHUDTest"
+				"xpos"							"0"
+				"ypos"							"5"
+				"wide"							"120"
+				"tall"							"20"
+				"visible"						"1"
+				"enabled"						"1"
+				"labelText"						"HUD Test"
+				"command"						"engine exec hud_test"
+				"actionsignallevel"				"3"
+				"paintBackground"				"1"
+				"font"							"CustomFont16"
+				"allcaps"						"1"
+				"textAlignment"					"center"
+				"sound_depressed"				"UI/buttonclick.wav"
+				"sound_released"				"UI/buttonclickrelease.wav"
+
+				"pin_to_sibling"				"ButtonCP"
+				"pin_corner_to_sibling"			"PIN_TOPLEFT"
+				"pin_to_sibling_corner"			"PIN_BOTTOMLEFT"
+			}
 			// More presets can be added here in the future...
 		}
 	}

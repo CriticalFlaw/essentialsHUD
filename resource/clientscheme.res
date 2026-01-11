@@ -627,7 +627,7 @@ Scheme
 			"1"
 			{
 				"name"		"Barlow Semi Condensed"
-				"tall"		"12"
+				"tall"		"14"
 				"weight"	"900"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
 				"yres"		"480 599"
@@ -635,7 +635,7 @@ Scheme
 			"2"
 			{
 				"name"		"Barlow Semi Condensed"
-				"tall"		"13"	[$WIN32]
+				"tall"		"15"	[$WIN32]
 				"tall"		"20"	[$X360]
 				"weight"	"900"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
@@ -644,7 +644,7 @@ Scheme
 			"3"
 			{
 				"name"		"Barlow Semi Condensed"
-				"tall"		"14"
+				"tall"		"16"
 				"weight"	"900"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
 				"yres"		"768 1023"
@@ -653,7 +653,7 @@ Scheme
 			"4"
 			{
 				"name"		"Barlow Semi Condensed"
-				"tall"		"20"
+				"tall"		"22"
 				"weight"	"900"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
 				"yres"		"1024 1199"
@@ -662,7 +662,7 @@ Scheme
 			"5" // Misyl: Proportional
 			{
 				"name"		"Barlow Semi Condensed"
-				"tall"		"9"
+				"tall"		"11"
 				"weight"	"900"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
 				"antialias"	"1"
@@ -670,14 +670,14 @@ Scheme
 			"6"
 			{
 				"name"		"Barlow Semi Condensed"
-				"tall"		"12"
+				"tall"		"14"
 				"range" 	"0x0000 0x00FF"
 				"weight"	"900"
 			}
 			"7"
 			{
 				"name"		"Barlow Semi Condensed"
-				"tall"		"12"
+				"tall"		"14"
 				"range" 	"0x0000 0x00FF"
 				"weight"	"800"
 			}
