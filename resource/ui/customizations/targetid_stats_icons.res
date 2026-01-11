@@ -11,7 +11,7 @@
 		"tall"					"8"
 		"visible"				"1"
 		"image"					"replay/thumbnails/stats_icons/kills"
-		"drawcolor"				"58 64 77 255"
+		"drawcolor"				"212 217 222 255"	//Alt "58 64 77 255"
 		"scaleImage"			"1"
 		"proportionalToParent"	"1"
 	}
@@ -51,7 +51,7 @@
 		"tall"					"8"
 		"visible"				"1"
 		"image"					"replay/thumbnails/stats_icons/assists"
-		"drawcolor"				"58 64 77 255"
+		"drawcolor"				"212 217 222 255"	//Alt "58 64 77 255"
 		"scaleImage"			"1"
 		"proportionalToParent"	"1"
 		
@@ -95,7 +95,7 @@
 		"tall"					"8"
 		"visible"				"1"
 		"image"					"replay/thumbnails/stats_icons/deaths"
-		"drawcolor"				"58 64 77 255"
+		"drawcolor"				"212 217 222 255"	//Alt "58 64 77 255"
 		"scaleImage"			"1"
 		"proportionalToParent"	"1"
 		
