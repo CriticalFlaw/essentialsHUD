@@ -28,7 +28,7 @@
 		"visible"				"1"
 		"enabled"				"1"
 		"xpos"					"0"
-		"ypos"					"0" // "0" for standard CP icon placement, "-44" for lower third sponsor placement
+		"ypos"					"0" // "0" for bottom, "-410" for top
 		"wide"					"f0"
 		"tall"					"480"
 	}
@@ -436,7 +436,7 @@
 		"IconScale"				"0.35"
 		"LineHeight"			"16"
 		"LineSpacing"			"1"
-		"CornerRadius"			"2"
+		"CornerRadius"			"4"
 		"RightJustify"			"1"	// If 1, draw notices from the right
 		
 		"TextFont"				"CustomFont14"
@@ -447,7 +447,7 @@
 		"LocalPlayerColor"		"HudWhite"
 		
 		"BaseBackgroundColor"	"BlackBg"
-		"LocalBackgroundColor"	"245 229 196 200"
+		"LocalBackgroundColor"	"BlackBg"
 	}
 	
 	"HudVehicle"

@@ -401,7 +401,7 @@
 		"zpos"					"-10"
 		"wide"					"50"
 		"tall"					"30"
-		"visible"				"1"
+		"visible"				"0"
 		"enabled"				"1"
 		"bgcolor_override"		"BlackBg"
 		"PaintBackgroundType"	"2"

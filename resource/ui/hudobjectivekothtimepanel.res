@@ -8,12 +8,27 @@
 		}
 	}
 	
+	"TimePanelBG"
+	{
+		"ControlName"			"EditablePanel"
+		"fieldName"				"TimePanelBG"
+		"xpos"					"0"
+		"ypos"					"10"
+		"zpos"					"0"
+		"wide"					"80"
+		"tall"					"22"
+		"visible"				"1"
+		"enabled"				"1"
+		"bgcolor_override"		"BlackBg"
+		"PaintBackgroundType"	"2"
+	}
+
 	"BlueTimer"
 	{
 		"ControlName"			"CTFHudTimeStatus"
 		"fieldName"				"BlueTimer"
 		"xpos"					"0"
-		"ypos"					"0"
+		"ypos"					"10"
 		"zpos"					"2"
 		"wide"					"40"
 		"tall"					"30"
@@ -50,7 +65,7 @@
 		"ControlName"			"CTFHudTimeStatus"
 		"fieldName"				"RedTimer"
 		"xpos"					"40"
-		"ypos"					"0"
+		"ypos"					"10"
 		"zpos"					"2"
 		"wide"					"40"
 		"tall"					"30"

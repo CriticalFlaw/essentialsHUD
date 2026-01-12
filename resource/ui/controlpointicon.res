@@ -45,7 +45,7 @@
 	{	
 		"ControlName"			"Label"
 		"fieldName"				"CapNumPlayers"
-		"font"					"CustomFont18"
+		"font"					"CustomFont16"
 		"xpos"					"0"
 		"ypos"					"0"
 		"zpos"					"4"
@@ -56,7 +56,7 @@
 		"visible"				"1"
 		"enabled"				"1"
 		"labelText"				"#ControlPointIconCappers"
-		"textAlignment"			"west"
+		"textAlignment"			"center"
 		"dulltext"				"0"
 		"brighttext"			"0"
 		"fgcolor_override"		"White"
