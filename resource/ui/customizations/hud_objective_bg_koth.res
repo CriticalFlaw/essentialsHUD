@@ -2,7 +2,7 @@
 {	
 	"ControlPointBG"
 	{
-		"xpos"			"c-20"
-		"wide"			"40"
+		"xpos"			"c-10"
+		"wide"			"20"
 	}
 }

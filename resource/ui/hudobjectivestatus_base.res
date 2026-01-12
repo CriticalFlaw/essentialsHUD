@@ -4,14 +4,14 @@
 	{
 		"ControlName"			"EditablePanel"
 		"fieldName"				"ControlPointBG"
-		"xpos"					"c-70"
-		"ypos"					"r35"
+		"xpos"					"c-44"
+		"ypos"					"r25"
 		"zpos"					"-1000"
-		"wide"					"140"
-		"tall"					"32"
+		"wide"					"88"
+		"tall"					"21"
 		"visible"				"1"
 		"enabled"				"1"
-		"bgcolor_override"		"28 34 48 225"
+		"bgcolor_override"		"BlackBg"
 		"PaintBackgroundType"	"2"
 	}
 }

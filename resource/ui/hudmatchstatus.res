@@ -276,7 +276,7 @@
 		"delta_item_end_y"		"30"
 		"PositiveColor"			"HealthBuff"
 		"NegativeColor"			"HealthLow"
-		"delta_lifetime"		"2.0"
+		"delta_lifetime"		"0"
 		"delta_item_font"		"CustomFont14"
 		
 		"TimePanelValue"
