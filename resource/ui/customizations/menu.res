@@ -1063,6 +1063,173 @@
 			
 			///---
 
+			"TitleAlts"
+			{
+				"ControlName"					"CExLabel"
+				"fieldName"						"TitleAlts"
+				"xpos"							"0"
+				"ypos"							"5"
+				"wide"							"f0"
+				"tall"							"20"
+				"visible"						"1"
+				"enabled"						"1"
+				"proportionaltoparent"			"1"
+				"use_proportional_insets"		"1"
+				"labelText"						"Alternatives"
+				"font"							"CustomFont20"
+				"textAlignment"					"west"
+				"allcaps"						"1"
+				"fgcolor"						"TanLight"
+				"paintBackground"				"0"
+
+				"pin_to_sibling"				"ToggleCameraAutoSwitch"
+				"pin_corner_to_sibling"			"PIN_TOPLEFT"
+				"pin_to_sibling_corner"			"PIN_BOTTOMLEFT"
+			}
+
+			"Separator_3"
+			{
+				"controlName"					"EditablePanel"
+				"fieldName"						"Separator_3"
+				"xpos"							"0"
+				"ypos"							"0"
+				"wide"							"f40"
+				"tall"							"2"
+				"visible"						"1"
+				"enabled"						"1"
+				"proportionalToParent"			"1"
+				"paintBackground"				"1"
+				"PaintBackgroundType"			"3"
+				"BGColor_Override"				"HudOrange"
+
+				"pin_to_sibling"				"TitleAlts"
+				"pin_corner_to_sibling"			"PIN_TOPLEFT"
+				"pin_to_sibling_corner"			"PIN_BOTTOMLEFT"
+			}
+
+			"ButtonCPTop"
+			{
+				"controlName"					"CExButton"
+				"fieldName"						"ButtonCPTop"
+				"xpos"							"0"
+				"ypos"							"5"
+				"wide"							"60"
+				"tall"							"20"
+				"visible"						"1"
+				"enabled"						"1"
+				"labelText"						"CP On Top"
+				"command"						"engine hud_controlpoints_large; hud_reloadscheme"
+				"actionsignallevel"				"3"
+				"paintBackground"				"1"
+				"font"							"CustomFont18"
+				"textAlignment"					"center"
+				"auto_wide_tocontents"			"1"
+				"sound_depressed"				"UI/buttonclick.wav"
+				"sound_released"				"UI/buttonclickrelease.wav"
+
+				"pin_to_sibling"				"Separator_3"
+				"pin_corner_to_sibling"			"PIN_TOPLEFT"
+				"pin_to_sibling_corner"			"PIN_BOTTOMLEFT"
+			}
+			"ButtonCPBottom"
+			{
+				"controlName"					"CExButton"
+				"fieldName"						"ButtonCPBottom"
+				"xpos"							"6"
+				"ypos"							"0"
+				"wide"							"60"
+				"tall"							"20"
+				"visible"						"1"
+				"enabled"						"1"
+				"labelText"						"CP On Bottom"
+				"command"						"engine hud_controlpoints_large; hud_reloadscheme"
+				"actionsignallevel"				"3"
+				"paintBackground"				"1"
+				"font"							"CustomFont18"
+				"textAlignment"					"center"
+				"auto_wide_tocontents"			"1"
+				"sound_depressed"				"UI/buttonclick.wav"
+				"sound_released"				"UI/buttonclickrelease.wav"
+
+				"pin_to_sibling"				"ButtonCPTop"
+				"pin_corner_to_sibling"			"PIN_TOPLEFT"
+				"pin_to_sibling_corner"			"PIN_TOPRIGHT"
+			}
+			"ButtonCPLarge"
+			{
+				"controlName"					"CExButton"
+				"fieldName"						"ButtonCPLarge"
+				"xpos"							"6"
+				"ypos"							"0"
+				"wide"							"60"
+				"tall"							"20"
+				"visible"						"1"
+				"enabled"						"1"
+				"labelText"						"CP Large"
+				"command"						"engine hud_controlpoints_large; hud_reloadscheme"
+				"actionsignallevel"				"3"
+				"paintBackground"				"1"
+				"font"							"CustomFont18"
+				"textAlignment"					"center"
+				"auto_wide_tocontents"			"1"
+				"sound_depressed"				"UI/buttonclick.wav"
+				"sound_released"				"UI/buttonclickrelease.wav"
+
+				"pin_to_sibling"				"ButtonCPBottom"
+				"pin_corner_to_sibling"			"PIN_TOPLEFT"
+				"pin_to_sibling_corner"			"PIN_TOPRIGHT"
+			}
+			"ButtonCPSmall"
+			{
+				"controlName"					"CExButton"
+				"fieldName"						"ButtonCPSmall"
+				"xpos"							"6"
+				"ypos"							"0"
+				"wide"							"60"
+				"tall"							"20"
+				"visible"						"1"
+				"enabled"						"1"
+				"labelText"						"CP Small"
+				"command"						"engine hud_controlpoints_large; hud_reloadscheme"
+				"actionsignallevel"				"3"
+				"paintBackground"				"1"
+				"font"							"CustomFont18"
+				"textAlignment"					"center"
+				"auto_wide_tocontents"			"1"
+				"sound_depressed"				"UI/buttonclick.wav"
+				"sound_released"				"UI/buttonclickrelease.wav"
+
+				"pin_to_sibling"				"ButtonCPLarge"
+				"pin_corner_to_sibling"			"PIN_TOPLEFT"
+				"pin_to_sibling_corner"			"PIN_TOPRIGHT"
+			}
+			"ButtonSpectatorStats"
+			{
+				"controlName"					"CExButton"
+				"fieldName"						"ButtonSpectatorStats"
+				"xpos"							"6"
+				"ypos"							"0"
+				"wide"							"60"
+				"tall"							"20"
+				"visible"						"1"
+				"enabled"						"1"
+				"labelText"						"Spectator Stats"
+				"command"						"engine hud_controlpoints_large; hud_reloadscheme"
+				"actionsignallevel"				"3"
+				"paintBackground"				"1"
+				"font"							"CustomFont18"
+				"textAlignment"					"center"
+				"auto_wide_tocontents"			"1"
+				"sound_depressed"				"UI/buttonclick.wav"
+				"sound_released"				"UI/buttonclickrelease.wav"
+
+				"pin_to_sibling"				"ButtonCPSmall"
+				"pin_corner_to_sibling"			"PIN_TOPLEFT"
+				"pin_to_sibling_corner"			"PIN_TOPRIGHT"
+			}
+
+			///---
+
 			"TitlePresets"
 			{
 				"ControlName"					"CExLabel"
@@ -1082,15 +1249,15 @@
 				"fgcolor"						"TanLight"
 				"paintBackground"				"0"
 
-				"pin_to_sibling"				"ToggleCameraAutoSwitch"
+				"pin_to_sibling"				"ButtonCPTop"
 				"pin_corner_to_sibling"			"PIN_TOPLEFT"
 				"pin_to_sibling_corner"			"PIN_BOTTOMLEFT"
 			}
 
-			"Separator_3"
+			"Separator_4"
 			{
 				"controlName"					"EditablePanel"
-				"fieldName"						"Separator_3"
+				"fieldName"						"Separator_4"
 				"xpos"							"0"
 				"ypos"							"0"
 				"wide"							"f40"
@@ -1121,13 +1288,12 @@
 				"command"						"engine hud_objective_bg_clear; hud_reloadscheme"
 				"actionsignallevel"				"3"
 				"paintBackground"				"1"
-				"font"							"CustomFont16"
-				"allcaps"						"1"
+				"font"							"CustomFont18"
 				"textAlignment"					"center"
 				"sound_depressed"				"UI/buttonclick.wav"
 				"sound_released"				"UI/buttonclickrelease.wav"
 
-				"pin_to_sibling"				"Separator_3"
+				"pin_to_sibling"				"Separator_4"
 				"pin_corner_to_sibling"			"PIN_TOPLEFT"
 				"pin_to_sibling_corner"			"PIN_BOTTOMLEFT"
 			}
@@ -1147,7 +1313,6 @@
 				"actionsignallevel"				"3"
 				"paintBackground"				"1"
 				"font"							"CustomFont18"
-				"allcaps"						"1"
 				"textAlignment"					"center"
 				"sound_depressed"				"UI/buttonclick.wav"
 				"sound_released"				"UI/buttonclickrelease.wav"
@@ -1156,14 +1321,13 @@
 				"pin_corner_to_sibling"			"PIN_TOPLEFT"
 				"pin_to_sibling_corner"			"PIN_TOPRIGHT"
 			}
-
-
+			
 			"ButtonHUDTest"
 			{
 				"controlName"					"CExButton"
 				"fieldName"						"ButtonHUDTest"
-				"xpos"							"0"
-				"ypos"							"5"
+				"xpos"							"6"
+				"ypos"							"0"
 				"wide"							"120"
 				"tall"							"20"
 				"visible"						"1"
@@ -1172,16 +1336,16 @@
 				"command"						"engine exec hud_test"
 				"actionsignallevel"				"3"
 				"paintBackground"				"1"
-				"font"							"CustomFont16"
-				"allcaps"						"1"
+				"font"							"CustomFont18"
 				"textAlignment"					"center"
 				"sound_depressed"				"UI/buttonclick.wav"
 				"sound_released"				"UI/buttonclickrelease.wav"
 
-				"pin_to_sibling"				"ButtonCP"
+				"pin_to_sibling"				"ButtonKOTH"
 				"pin_corner_to_sibling"			"PIN_TOPLEFT"
-				"pin_to_sibling_corner"			"PIN_BOTTOMLEFT"
+				"pin_to_sibling_corner"			"PIN_TOPRIGHT"
 			}
+
 			// More presets can be added here in the future...
 		}
 	}

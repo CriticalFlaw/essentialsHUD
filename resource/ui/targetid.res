@@ -1,3 +1,460 @@
-//#base "../../../../cfg/essentialstf/hud_targetid.txt"
-#base "customizations/targetid_stats_icons.res"
-#base "targetid_base.res"
+"resource/ui/targetid.res"
+{
+	"TargetIDBG"
+	{
+		"ControlName"			"CTFImagePanel"
+		"fieldName"				"TargetIDBG"
+		"xpos"					"0"
+		"ypos"					"0"
+		"zpos"					"-1"
+		"wide"					"252"
+		"tall"					"50"
+		"autoResize"			"0"
+		"pinCorner"				"0"
+		"visible"				"1"
+		"enabled"				"1"
+		"image"					"../hud/color_panel_brown"
+		"scaleImage"			"1"
+		"teambg_1"				"../hud/color_panel_brown"
+		"teambg_2"				"../hud/color_panel_red"
+		"teambg_3"				"../hud/color_panel_blu"
+		
+		"src_corner_height"		"23"		// pixels inside the image
+		"src_corner_width"		"23"
+		
+		"draw_corner_width"		"5"			// screen size of the corners ( and sides ), proportional
+		"draw_corner_height" 	"5"
+	}
+	
+	"TargetIDBG_Spec_Blue"
+	{
+		"ControlName"			"ImagePanel"
+		"fieldName"				"TargetIDBG_Spec_Blue"
+		"xpos"					"0"
+		"ypos"					"15"
+		"zpos"					"-1"
+		"wide"					"252"
+		"tall"					"30"
+		"autoResize"			"0"
+		"pinCorner"				"0"
+		"visible"				"0"
+		"enabled"				"1"
+		"fillcolor"				"HUDBlueTeam"
+		
+		"src_corner_height"		"23"		// pixels inside the image
+		"src_corner_width"		"23"
+		
+		"draw_corner_width"		"5"			// screen size of the corners ( and sides ), proportional
+		"draw_corner_height" 	"5"
+	}
+	
+	"TargetIDBG_Spec_Red"
+	{
+		"ControlName"			"ImagePanel"
+		"fieldName"				"TargetIDBG_Spec_Red"
+		"xpos"					"0"
+		"ypos"					"15"
+		"zpos"					"-1"
+		"wide"					"252"
+		"tall"					"30"
+		"autoResize"			"0"
+		"pinCorner"				"0"
+		"visible"				"0"
+		"enabled"				"1"
+		"fillcolor"				"HUDRedTeam"
+		
+		"src_corner_height"		"23"		// pixels inside the image
+		"src_corner_width"		"23"
+		
+		"draw_corner_width"		"5"			// screen size of the corners ( and sides ), proportional
+		"draw_corner_height" 	"5"
+	}
+	
+	"TargetNameLabel"
+	{	
+		"ControlName"			"Label"
+		"fieldName"				"TargetNameLabel"
+		"font"					"CustomFont20"
+		"xpos"					"0"
+		"ypos"					"15"
+		"zpos"					"2"
+		"wide"					"0"	//640
+		"tall"					"30"
+		"autoResize"			"0"
+		"pinCorner"				"0"
+		"visible"				"0"
+		"enabled"				"0"
+		"labelText"				"%targetname%"
+		"textAlignment"			"North-West"
+		"dulltext"				"0"
+		"brighttext"			"1"
+		"allcaps"				"1"
+	}
+	
+	"TargetNameLabel2"
+	{
+		"ControlName"			"Label"
+		"fieldName"				"TargetNameLabel2"
+		"font"					"CustomFont20"
+		"xpos"					"0"
+		"ypos"					"0"
+		"zpos"					"2"
+		"wide"					"640"
+		"tall"					"30"
+		"autoResize"			"0"
+		"pinCorner"				"0"
+		"visible"				"1"
+		"enabled"				"1"
+		"labelText"				"%targetname%"
+		"textAlignment"			"North-West"
+		"dulltext"				"0"
+		"brighttext"			"1"
+		"allcaps"				"1"
+		"fgcolor_override"		"255 255 255 255"
+		"pin_to_sibling" 		"TargetNameLabel"
+	}
+
+	"TargetNameLabelShadow"
+	{
+		"ControlName"			"Label"
+		"fieldName"				"TargetNameLabelShadow"
+		"font"					"CustomFont20"
+		"xpos"					"-1"
+		"ypos"					"-1"
+		"zpos"					"1"
+		"wide"					"640"
+		"tall"					"30"
+		"autoResize"			"0"
+		"pinCorner"				"0"
+		"visible"				"1"
+		"enabled"				"1"
+		"labelText"				"%targetname%"
+		"textAlignment"			"North-West"
+		"dulltext"				"0"
+		"brighttext"			"0"
+		"allcaps"				"1"
+		"fgcolor_override"		"5 8 15 255"
+		"pin_to_sibling" 		"TargetNameLabel"
+	}
+	
+	"TargetDataLabel"
+	{
+		"ControlName"			"Label"
+		"fieldName"				"TargetDataLabel"
+		"font"					"CustomFont14"
+		"xpos"					"0"
+		"ypos"					"0"
+		"zpos"					"2"
+		"wide"					"f0"
+		"tall"					"15"
+		"autoResize"			"0"
+		"pinCorner"				"0"
+		"visible"				"1"
+		"enabled"				"1"
+		"labelText"				"%targetdata%"
+		"textAlignment"			"west"
+		"dulltext"				"0"
+		"brighttext"			"0"
+	}
+	
+	"SpectatorGUIHealth"
+	{
+		"ControlName"			"EditablePanel"
+		"fieldName"				"SpectatorGUIHealth"
+		"xpos"					"0"
+		"ypos"					"15"
+		"zpos"					"5"
+		"wide"					"35"
+		"tall"					"30"
+		"visible"				"0"
+		"enabled"				"0"
+		"HealthBonusPosAdj"		"10"
+		"HealthDeathWarning"	"0.49"
+		"TFFont"				"HudFontSmall"
+		"TextColor"				"HudWhite"
+		"HealthDeathWarningColor"	"HUDDeathWarning"
+	}
+	
+	"AmmoIcon"
+	{
+		"ControlName"			"ImagePanel"
+		"fieldName"				"AmmoIcon"
+		"xpos"					"40"
+		"ypos"					"20"
+		"zpos"					"12"
+		"wide"					"8"
+		"tall"					"8"
+		"visible"				"0"
+		"enabled"				"1"
+		"image"					"../hud/leaderboard_class_heavy"
+		"scaleImage"			"1"
+	}
+	
+	"KillstreakIconAnchor"
+	{
+		"ControlName" 			"EditablePanel"
+		"fieldName" 			"KillstreakIconAnchor"
+		"xpos" 					"5"
+		"ypos"					"0"
+		"wide"					"0"
+		"tall" 					"0"
+		"visible"				"1"
+		"enabled" 				"1"
+	}
+	
+	"KillStreakIcon"
+	{
+		"ControlName"			"ImagePanel"
+		"fieldName"				"KillStreakIcon"
+		"xpos"					"0"
+		"ypos"					"0"
+		"zpos"					"12"
+		"wide"					"16"
+		"tall"					"16"
+		"visible"				"0"
+		"enabled"				"1"
+		"image"					"../hud/leaderboard_streak"
+		"scaleImage"			"1"
+		
+		"pin_to_sibling" 		"KillstreakIconAnchor"
+		"pin_corner_to_sibling" "PIN_TOPRIGHT"
+		"pin_to_sibling_corner" "PIN_TOPRIGHT"
+	}
+	
+	"PanelBottom"
+	{
+		"ControlName"			"ImagePanel"
+		"fieldName"				"PanelBottom"
+		"xpos"					"0"
+		"ypos"					"35"
+		"zpos"					"9"
+		"wide"					"252"
+		"tall"					"16"
+		"fillcolor"				"5 8 15 255"
+		"proportionaltoparent"	"1"
+	}
+	
+	"MoveableSubPanel"
+	{
+		"ControlName"			"EditablePanel"
+		"fieldName"				"MoveableSubPanel"
+		"xpos"					"0"
+		"ypos"					"0"
+		"zpos"					"-5"
+		"wide"					"32"
+		"tall"					"36"
+		"visible"				"1"
+		"enabled"				"1"
+		
+		"MoveableIconBG"
+		{
+			"ControlName"			"CIconPanel"
+			"fieldName"				"MoveableIconBG"
+			"xpos"					"0"
+			"ypos"					"0"
+			"zpos"					"0"
+			"wide"					"10"
+			"tall"					"36"
+			"visible"				"1"
+			"enabled"				"1"
+			"icon"					"obj_status_alert_background_tall_nocolor"
+			"iconColor"				"HudBlack"
+			"scaleImage"			"1"
+		}
+		
+		"MoveableIcon"
+		{
+			"ControlName"			"CIconPanel"
+			"fieldName"				"MoveableIcon"
+			"xpos"					"5"
+			"ypos"					"7"
+			"zpos"					"11"
+			"wide"					"14"
+			"tall"					"14"
+			"visible"				"1"
+			"enabled"				"1"
+			"icon"					"obj_status_sentrygun_1"
+			"drawcolor"				"ProgressOffWhite"
+			"scaleImage"			"1"
+		}
+		
+		"MoveableSymbolIcon"
+		{
+			"ControlName"			"ImagePanel"
+			"fieldName"				"MoveableSymbolIcon"
+			"xpos"					"16"
+			"ypos"					"-2"
+			"zpos"					"12"
+			"wide"					"16"
+			"tall"					"8"
+			"visible"				"1"
+			"enabled"				"1"
+			"image"					"../hud/eng_sel_item_movable"
+			"drawcolor"				"ProgressOffWhite"
+			"scaleImage"			"1"
+		}
+		
+		"MoveableKeyLabel"
+		{
+			"ControlName"			"Label"
+			"fieldName"				"MoveableKeyLabel"
+			"font"					"TFFontMedium"
+			"xpos"					"0"
+			"ypos"					"22"
+			"zpos"					"1"
+			"wide"					"640"
+			"tall"					"24"
+			"autoResize"			"0"
+			"pinCorner"				"0"
+			"visible"				"1"
+			"enabled"				"1"
+			"labelText"				"%movekey%"
+			"textAlignment"			"North"
+			"dulltext"				"0"
+			"brighttext"			"0"
+		}
+	}
+	
+	"AvatarImage"
+	{
+		"ControlName"			"CAvatarImagePanel"
+		"fieldName"				"AvatarImage"
+		"xpos"					"6"
+		"ypos"					"6"
+		"zpos"					"99"
+		"wide"					"11"
+		"tall"					"11"
+		"visible"				"0"
+		"enabled"				"0"
+		"image"					""
+		"scaleImage"			"1"
+		"color_outline"			"52 48 45 255"
+	}
+	"StatsKillsIcon"
+	{
+		"ControlName"			"ImagePanel"
+		"fieldName"				"StatsKillsIcon"
+		"xpos"					"4"
+		"ypos"					"38"
+		"zpos"					"10"
+		"wide"					"8"
+		"tall"					"8"
+		"visible"				"1"
+		"image"					"replay/thumbnails/stats_icons/kills"
+		"drawcolor"				"212 217 222 255"	//Alt "58 64 77 255"
+		"scaleImage"			"1"
+		"proportionalToParent"	"1"
+	}
+	
+	"StatsKills"
+	{
+		"ControlName"			"Label"
+		"fieldName"				"StatsKills"
+		"xpos"					"0"
+		"ypos"					"21"
+		"zpos"					"10"
+		"wide"					"28"
+		"tall"					"f0"
+		"visible"				"1"
+		"font"					"CustomFont12"
+		"fgcolor_override"		"212 217 222 255"
+		"labelText"				"%statskills%"
+		"textAlignment"			"west"
+		"textinsetx"			"6"
+		"proportionaltoparent"	"1"
+		"auto_wide_tocontents"	"1"
+		"autoResize"			"0"
+		
+		"pin_to_sibling" 		"StatsKillsIcon"
+		"pin_corner_to_sibling" "PIN_BOTTOMLEFT"
+		"pin_to_sibling_corner" "PIN_BOTTOMRIGHT"
+	}
+	
+	"StatsAssistsIcon"
+	{
+		"ControlName"			"ImagePanel"
+		"fieldName"				"StatsAssistsIcon"
+		"xpos"					"4"
+		"ypos"					"-21"
+		"zpos"					"10"
+		"wide"					"8"
+		"tall"					"8"
+		"visible"				"1"
+		"image"					"replay/thumbnails/stats_icons/assists"
+		"drawcolor"				"212 217 222 255"	//Alt "58 64 77 255"
+		"scaleImage"			"1"
+		"proportionalToParent"	"1"
+		
+		"pin_to_sibling"		"StatsKills"
+		"pin_corner_to_sibling"	"PIN_BOTTOMLEFT"
+		"pin_to_sibling_corner"	"PIN_BOTTOMRIGHT"
+	}
+	
+	"StatsAssists"
+	{
+		"ControlName"			"Label"
+		"fieldName"				"StatsAssists"
+		"xpos"					"0"
+		"ypos"					"21"
+		"zpos"					"10"
+		"wide"					"28"
+		"tall"					"f0"
+		"visible"				"1"
+		"font"					"CustomFont12"
+		"fgcolor_override"		"212 217 222 255"
+		"labelText"				"%statsassists%"
+		"textAlignment"			"west"
+		"textinsetx"			"6"
+		"proportionaltoparent"	"1"
+		"auto_wide_tocontents"	"1"
+		"autoResize"			"0"
+		
+		"pin_to_sibling" 		"StatsAssistsIcon"
+		"pin_corner_to_sibling" "PIN_BOTTOMLEFT"
+		"pin_to_sibling_corner" "PIN_BOTTOMRIGHT"
+	}
+	
+	"StatsDeathsIcon"
+	{
+		"ControlName"			"ImagePanel"
+		"fieldName"				"StatsDeathsIcon"
+		"xpos"					"4"
+		"ypos"					"-21"
+		"zpos"					"10"
+		"wide"					"8"
+		"tall"					"8"
+		"visible"				"1"
+		"image"					"replay/thumbnails/stats_icons/deaths"
+		"drawcolor"				"212 217 222 255"	//Alt "58 64 77 255"
+		"scaleImage"			"1"
+		"proportionalToParent"	"1"
+		
+		"pin_to_sibling" 		"StatsAssists"
+		"pin_corner_to_sibling" "PIN_BOTTOMLEFT"
+		"pin_to_sibling_corner" "PIN_BOTTOMRIGHT"
+	}
+	
+	"StatsDeaths"
+	{
+		"ControlName"			"Label"
+		"fieldName"				"StatsDeaths"
+		"xpos"					"0"
+		"ypos"					"21"
+		"zpos"					"10"
+		"wide"					"28"
+		"tall"					"f0"
+		"visible"				"1"
+		"font"					"CustomFont12"
+		"fgcolor_override"		"212 217 222 255"
+		"labelText"				"%statsdeaths%"
+		"textAlignment"			"west"
+		"textinsetx"			"6"
+		"proportionaltoparent"	"1"
+		"auto_wide_tocontents"	"1"
+		"autoResize"			"0"
+		
+		"pin_to_sibling" 		"StatsDeathsIcon"
+		"pin_corner_to_sibling" "PIN_BOTTOMLEFT"
+		"pin_to_sibling_corner" "PIN_BOTTOMRIGHT"
+	}
+}
