@@ -141,7 +141,7 @@
     {
         "ControlName"			"Label"
         "fieldName"				"MedigunPanelChargeLabel"
-        "xpos"					"100"
+        "xpos"					"102"
         "ypos"					"0"
         "zpos"					"2"
         "wide"					"25"

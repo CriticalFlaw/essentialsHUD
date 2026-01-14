@@ -1156,7 +1156,7 @@
 				"pin_to_sibling_corner"			"PIN_TOPRIGHT"
 			}
 
-			"ButtonSpectatorStatsON"
+			"ButtonSpectatorStatsON"	// Unused
 			{
 				"controlName"					"CExButton"
 				"fieldName"						"ButtonSpectatorStatsON"
@@ -1164,8 +1164,8 @@
 				"ypos"							"0"
 				"wide"							"60"
 				"tall"							"20"
-				"visible"						"1"
-				"enabled"						"1"
+				"visible"						"0"
+				"enabled"						"0"
 				"labelText"						"Spectator Stats ON"
 				"command"						"engine hud_alt_spec_stats; hud_reloadscheme"
 				"actionsignallevel"				"3"
@@ -1181,7 +1181,7 @@
 				"pin_to_sibling_corner"			"PIN_TOPRIGHT"
 			}
 
-			"ButtonSpectatorStatsOFF"
+			"ButtonSpectatorStatsOFF"	// Unused
 			{
 				"controlName"					"CExButton"
 				"fieldName"						"ButtonSpectatorStatsOFF"
@@ -1189,8 +1189,8 @@
 				"ypos"							"0"
 				"wide"							"60"
 				"tall"							"20"
-				"visible"						"1"
-				"enabled"						"1"
+				"visible"						"0"
+				"enabled"						"0"
 				"labelText"						"Spectator Stats OFF"
 				"command"						"engine hud_alt_spec_stats_clear; hud_reloadscheme"
 				"actionsignallevel"				"3"
