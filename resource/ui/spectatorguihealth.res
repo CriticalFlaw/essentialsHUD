@@ -72,7 +72,7 @@
 		"enabled"		"1"
 		"labelText"		"%Health%"
 		"textAlignment"	"center"	
-		"font"			"RobotoBold18"
+		"font"			"RobotoBold22"
 		"fgcolor"		"White"
 	}
 	"PlayerStatusPlayerLevel"

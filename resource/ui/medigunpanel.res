@@ -143,7 +143,7 @@
     {
         "ControlName"	"VariableLabel"
         "fieldName"		"MedigunPanelChargeLabel"
-        "xpos"			"95"
+        "xpos"			"93"
         "ypos"			"3"
         "zpos"			"2"
         "wide"			"28"
@@ -156,13 +156,12 @@
         "textAlignment"	"center"
         "dulltext"		"0"
         "brighttext"	"0"
-        "font"			"RobotoBold14"
+        "font"			"RobotoBold18"
         "fgcolor"		"White"
 		
 		"team-red" {
 			"xpos" 				"0"
 		}
-
         "medigun-vaccinator" {
             "labelText"	"%charges%"
         }
@@ -174,20 +173,20 @@
 	{
 		"ControlName"	"VariableLabel"
 		"fieldName"		"MedigunPanelChargeLabelShadow"
-		"xpos"			"-2"
-        "ypos"			"-2"
+		"xpos"			"-1"
+        "ypos"			"-1"
         "zpos"			"2"
-        "wide"			"25"
-		"tall"			"15"
+        "wide"			"28"
+		"tall"			"16"
         "autoResize"	"1"
-        "visible"		"0"
-        "enabled"		"0"
+        "visible"		"1"
+        "enabled"		"1"
         "labelText"		"%charge%"
         "tabPosition"	"0"
         "textAlignment"	"center"
         "dulltext"		"0"
         "brighttext"	"0"
-        "font"			"RobotoBold14"
+        "font"			"RobotoBold18"
 		"fgcolor_override"	"Black"
 
 		"pin_to_sibling" 		"MedigunPanelChargeLabel"
@@ -239,7 +238,7 @@
 	{
 		"ControlName"	"VariableLabel"
 		"fieldName"		"MedigunPanelNameLabel"
-		"xpos"			"20"
+		"xpos"			"18"
 		"ypos"			"3"
 		"zpos"			"3"
 		"wide"			"70"
@@ -253,12 +252,12 @@
 		"dulltext"		"0"
 		"brighttext"	"0"
 		"textinsetx"	"10"
-		"font"			"RobotoBold14"
+		"font"			"RobotoBold18"
 		"fgcolor_override"		"White"
 		"proportionaltoparent"	"1"
 		
 		"team-red" {
-			"xpos"			"30"
+			"xpos"			"32"
 			"textAlignment"	"east"
 		}
 
@@ -283,21 +282,21 @@
 	{
 		"ControlName"	"VariableLabel"
 		"fieldName"		"MedigunPanelNameLabelShadow"
-		"xpos"			"-2"
-		"ypos"			"-2"
+		"xpos"			"-1"
+		"ypos"			"-1"
 		"zpos"			"3"
 		"wide"			"70"
 		"tall"			"16"
 		"autoResize"	"1"
 		"labelText"		"#TF_Weapon_Medigun"
-		"visible"		"0"
-		"enabled"		"0"
+		"visible"		"1"
+		"enabled"		"1"
 		"tabPosition"	"0"
 		"textAlignment"	"west"
 		"dulltext"		"0"
 		"brighttext"	"0"
-		"textinsetx"	"6"
-		"font"			"RobotoBold14"
+		"textinsetx"	"10"
+		"font"			"RobotoBold18"
 		"fgcolor_override"		"Black"
 		"proportionaltoparent"	"1"
 

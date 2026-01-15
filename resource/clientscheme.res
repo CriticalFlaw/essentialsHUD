@@ -482,7 +482,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"DAGGERSQUARE"
+				"name"		"Oswald Medium"
 				"tall"		"55"
 				"additive"	"0"
 				"antialias" "1"
@@ -492,7 +492,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"DAGGERSQUARE"
+				"name"		"Oswald Medium"
 				"tall"		"34"
 				"additive"	"0"
 				"antialias" "1"
@@ -502,7 +502,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"DAGGERSQUARE"
+				"name"		"Oswald Medium"
 				"tall"		"30"
 				"additive"	"0"
 				"antialias" "1"
@@ -512,7 +512,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"DAGGERSQUARE"
+				"name"		"Oswald Medium"
 				"tall"		"28"
 				"additive"	"0"
 				"antialias" "1"
@@ -522,7 +522,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"DAGGERSQUARE"
+				"name"		"Oswald Medium"
 				"tall"		"26"
 				"additive"	"0"
 				"antialias" "1"
@@ -532,7 +532,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"DAGGERSQUARE"
+				"name"		"Oswald Medium"
 				"tall"		"24"
 				"additive"	"0"
 				"antialias" "1"
@@ -542,7 +542,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"DAGGERSQUARE"
+				"name"		"Oswald Medium"
 				"tall"		"22"
 				"additive"	"0"
 				"antialias" "1"
@@ -552,7 +552,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"DAGGERSQUARE"
+				"name"		"Oswald Medium"
 				"tall"		"20"
 				"additive"	"0"
 				"antialias" "1"
@@ -562,7 +562,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"DAGGERSQUARE"
+				"name"		"Oswald Medium"
 				"tall"		"18"
 				"additive"	"0"
 				"antialias" "1"
@@ -572,7 +572,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"DAGGERSQUARE"
+				"name"		"Oswald Medium"
 				"tall"		"16"
 				"additive"	"0"
 				"antialias" "1"
@@ -582,7 +582,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"DAGGERSQUARE"
+				"name"		"Oswald Medium"
 				"tall"		"14"
 				"additive"	"0"
 				"antialias" "1"
@@ -592,7 +592,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"DAGGERSQUARE"
+				"name"		"Oswald Medium"
 				"tall"		"12"
 				"additive"	"0"
 				"antialias" "1"
@@ -602,7 +602,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"DAGGERSQUARE"
+				"name"		"Oswald Medium"
 				"tall"		"11"
 				"additive"	"0"
 				"antialias" "1"
@@ -612,7 +612,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"DAGGERSQUARE"
+				"name"		"Oswald Medium"
 				"tall"		"10"
 				"additive"	"0"
 				"antialias" "1"
@@ -622,7 +622,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"DAGGERSQUARE"
+				"name"		"Oswald Medium"
 				"tall"		"9"
 				"additive"	"0"
 				"antialias" "1"
@@ -632,7 +632,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"DAGGERSQUARE"
+				"name"		"Oswald Medium"
 				"tall"		"8"
 				"additive"	"0"
 				"antialias" "1"
@@ -642,7 +642,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"DAGGERSQUARE"
+				"name"		"Oswald Medium"
 				"tall"		"7"
 				"additive"	"0"
 				"antialias" "1"
@@ -653,7 +653,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"DAGGERSQUARE OBLIQUE"
+				"name"		"Oswald Medium"
 				"tall"		"55"
 				"additive"	"0"
 				"antialias" "1"
@@ -663,7 +663,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"DAGGERSQUARE OBLIQUE"
+				"name"		"Oswald Medium"
 				"tall"		"34"
 				"additive"	"0"
 				"antialias" "1"
@@ -673,7 +673,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"DAGGERSQUARE OBLIQUE"
+				"name"		"Oswald Medium"
 				"tall"		"30"
 				"additive"	"0"
 				"antialias" "1"
@@ -683,7 +683,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"DAGGERSQUARE OBLIQUE"
+				"name"		"Oswald Medium"
 				"tall"		"28"
 				"additive"	"0"
 				"antialias" "1"
@@ -693,7 +693,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"DAGGERSQUARE OBLIQUE"
+				"name"		"Oswald Medium"
 				"tall"		"26"
 				"additive"	"0"
 				"antialias" "1"
@@ -703,7 +703,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"DAGGERSQUARE OBLIQUE"
+				"name"		"Oswald Medium"
 				"tall"		"24"
 				"additive"	"0"
 				"antialias" "1"
@@ -713,7 +713,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"DAGGERSQUARE OBLIQUE"
+				"name"		"Oswald Medium"
 				"tall"		"22"
 				"additive"	"0"
 				"antialias" "1"
@@ -723,7 +723,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"DAGGERSQUARE OBLIQUE"
+				"name"		"Oswald Medium"
 				"tall"		"20"
 				"additive"	"0"
 				"antialias" "1"
@@ -733,7 +733,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"DAGGERSQUARE OBLIQUE"
+				"name"		"Oswald Medium"
 				"tall"		"18"
 				"additive"	"0"
 				"antialias" "1"
@@ -743,7 +743,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"DAGGERSQUARE OBLIQUE"
+				"name"		"Oswald Medium"
 				"tall"		"16"
 				"additive"	"0"
 				"antialias" "1"
@@ -753,7 +753,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"DAGGERSQUARE OBLIQUE"
+				"name"		"Oswald Medium"
 				"tall"		"14"
 				"additive"	"0"
 				"antialias" "1"
@@ -763,7 +763,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"DAGGERSQUARE OBLIQUE"
+				"name"		"Oswald Medium"
 				"tall"		"12"
 				"additive"	"0"
 				"antialias" "1"
@@ -773,7 +773,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"DAGGERSQUARE OBLIQUE"
+				"name"		"Oswald Medium"
 				"tall"		"11"
 				"additive"	"0"
 				"antialias" "1"
@@ -783,7 +783,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"DAGGERSQUARE OBLIQUE"
+				"name"		"Oswald Medium"
 				"tall"		"10"
 				"additive"	"0"
 				"antialias" "1"
@@ -793,7 +793,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"DAGGERSQUARE OBLIQUE"
+				"name"		"Oswald Medium"
 				"tall"		"9"
 				"additive"	"0"
 				"antialias" "1"
@@ -803,7 +803,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"DAGGERSQUARE OBLIQUE"
+				"name"		"Oswald Medium"
 				"tall"		"8"
 				"additive"	"0"
 				"antialias" "1"
@@ -814,7 +814,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"DAGGERSQUARE OBLIQUE"
+				"name"		"Oswald Medium"
 				"tall"		"14"
 				"weight"	"900"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
@@ -822,7 +822,7 @@ Scheme
 			}
 			"2"
 			{
-				"name"		"DAGGERSQUARE OBLIQUE"
+				"name"		"Oswald Medium"
 				"tall"		"15"	[$WIN32]
 				"tall"		"20"	[$X360]
 				"weight"	"900"
@@ -831,7 +831,7 @@ Scheme
 			}
 			"3"
 			{
-				"name"		"DAGGERSQUARE OBLIQUE"
+				"name"		"Oswald Medium"
 				"tall"		"16"
 				"weight"	"900"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
@@ -840,7 +840,7 @@ Scheme
 			}
 			"4"
 			{
-				"name"		"DAGGERSQUARE OBLIQUE"
+				"name"		"Oswald Medium"
 				"tall"		"22"
 				"weight"	"900"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
@@ -849,7 +849,7 @@ Scheme
 			}
 			"5"
 			{
-				"name"		"DAGGERSQUARE OBLIQUE"
+				"name"		"Oswald Medium"
 				"tall"		"26"
 				"weight"	"900"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
@@ -858,14 +858,14 @@ Scheme
 			}
 			"6"
 			{
-				"name"		"DAGGERSQUARE OBLIQUE"
+				"name"		"Oswald Medium"
 				"tall"		"14"
 				"range" 	"0x0000 0x00FF"
 				"weight"	"900"
 			}
 			"7"
 			{
-				"name"		"DAGGERSQUARE OBLIQUE"
+				"name"		"Oswald Medium"
 				"tall"		"14"
 				"range" 	"0x0000 0x00FF"
 				"weight"	"800"
@@ -6265,7 +6265,12 @@ Scheme
 		"9"
 		{
 			"font"	"resource/fonts/DAGGERSQUARE_OBLIQUE.otf"
-			"name"	"DAGGERSQUARE OBLIQUE"
+			"name"	"DAGGERSQUARE_OBLIQUE"
+		}
+		"10"
+		{
+			"font"	"resource/fonts/Oswald-Medium.ttf"
+			"name"	"Oswald Medium"
 		}
 	}
 }
